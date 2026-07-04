@@ -191,22 +191,3 @@ def create_msg_delete():
 
 
         
-
-
-def digest_report(report: str, max_chars: int = 1400) -> str:
-    """Compact digest of an analyst report for the debate stage.
-
-    Keeps the opening (which carries the headline read and key figures) plus any
-    explicit transaction line, and drops the long prose body. This cuts the cost
-    of re-injecting the four full analyst reports into every debator on every turn.
-    Tune max_chars to trade detail against tokens.
-    """
-    import re as _re
-    if not report:
-        return report
-    text = str(report).strip()
-    head = text[:max_chars]
-    suffix = "" if len(text) <= max_chars else " [...]"
-    m = _re.search(r"FINAL TRANSACTION PROPOSAL:.*", text)
-    tail = "\n" + m.group(0).strip() if (m and m.start() >= max_chars) else ""
-    return head + suffix + tail

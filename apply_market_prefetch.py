@@ -1,4 +1,39 @@
-"""Market analyst - technical analysis for a target ticker.
+"""
+Method 3 implementation: convert the market analyst from a multi-call tool
+loop into a single pre-fetched call, mirroring the sentiment analyst pattern.
+
+WHAT IT DOES
+  - Backs up the current market_analyst.py to market_analyst.py.bak
+  - Replaces it with a version that:
+      1. Calls get_stock_data, get_indicators (x7 fixed indicators), and
+         get_verified_market_snapshot directly in Python (no LLM involved,
+         no token cost per call).
+      2. Builds ONE prompt with all that data already embedded.
+      3. Makes a SINGLE LLM call with no bound tools.
+  - No other file is touched. setup.py / conditional_logic.py do not need
+    to change: with no tool_calls on the response, the existing
+    should_continue_market check already routes straight to "Msg Clear
+    Market" on the first pass.
+
+FIXED INDICATOR SET (matches what past NVDA reports actually used):
+  close_10_ema, close_50_sma, close_200_sma, rsi, macd, macds, atr
+
+HOW TO USE
+  python apply_market_prefetch.py
+
+HOW TO REVERT
+  python apply_market_prefetch.py --revert
+
+SAFE TO RE-RUN: skips if already patched.
+"""
+
+import os
+import sys
+
+ROOT = "tradingagents"
+TARGET_NAME = "market_analyst.py"
+
+NEW_CONTENT = '''"""Market analyst - technical analysis for a target ticker.
 
 Converted from a multi-call tool-loop pattern to a single pre-fetched call,
 mirroring the sentiment analyst redesign. The old version let the LLM choose
@@ -55,8 +90,8 @@ def create_market_analyst(llm):
                 value = get_indicators.func(ticker, name, current_date, look_back_days=30)
             except Exception as exc:  # fail open - don't block the run on one indicator
                 value = f"<unavailable: {exc}>"
-            indicator_blocks.append(f"### {name} ({description})\n{value}")
-        indicators_text = "\n\n".join(indicator_blocks)
+            indicator_blocks.append(f"### {name} ({description})\\n{value}")
+        indicators_text = "\\n\\n".join(indicator_blocks)
 
         snapshot = get_verified_market_snapshot.func(ticker, current_date)
 
@@ -87,7 +122,7 @@ Write a detailed and nuanced report of the trends you observe, covering trend di
                     "You are a helpful AI assistant, collaborating with other assistants."
                     " If you or any other assistant has the FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** or deliverable,"
                     " prefix your response with FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** so the team knows to stop."
-                    "\n{system_message}\n"
+                    "\\n{system_message}\\n"
                     "For your reference, the current date is {current_date}. {instrument_context}",
                 ),
                 MessagesPlaceholder(variable_name="messages"),
@@ -108,3 +143,60 @@ Write a detailed and nuanced report of the trends you observe, covering trend di
         }
 
     return market_analyst_node
+'''
+
+
+def find(basename):
+    for dirpath, _, files in os.walk(ROOT):
+        if basename in files:
+            return os.path.join(dirpath, basename)
+    return None
+
+
+def backup(path):
+    bak = path + ".bak"
+    if not os.path.exists(bak):
+        with open(path) as f:
+            open(bak, "w").write(f.read())
+
+
+def revert():
+    path = find(TARGET_NAME)
+    bak = (path + ".bak") if path else None
+    if not bak or not os.path.exists(bak):
+        print("No backup found - nothing to revert.")
+        return
+    open(path, "w").write(open(bak).read())
+    os.remove(bak)
+    print("Reverted", path)
+
+
+def main():
+    if not os.path.isdir(ROOT):
+        print(f"ERROR: run this from the TradingAgents project root (no {ROOT}/ here)")
+        sys.exit(1)
+
+    if "--revert" in sys.argv:
+        revert()
+        return
+
+    path = find(TARGET_NAME)
+    if not path:
+        print(f"ERROR: {TARGET_NAME} not found")
+        sys.exit(1)
+
+    current = open(path).read()
+    if "Converted from a multi-call tool-loop pattern" in current:
+        print("Already patched, skipping:", path)
+        return
+
+    backup(path)
+    open(path, "w").write(NEW_CONTENT)
+    print("Patched", path)
+    print("\\nNow run:  python token_count.py")
+    print("Compare the Market Analyst row to its old range (17,306 - 30,876) and call count (was 3-4, should now be 1).")
+    print("To undo:  python apply_market_prefetch.py --revert")
+
+
+if __name__ == "__main__":
+    main()

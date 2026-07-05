@@ -163,3 +163,32 @@ class StockstatsUtils:
             return indicator_value
         else:
             return "N/A: Not a trading day (weekend or holiday)"
+        
+def compute_max_drawdown(symbol: str, curr_date: str, lookback_days: int = 90) -> dict:
+    """Realized maximum drawdown over the lookback window ending at curr_date.
+
+    Uses load_ohlcv, so it inherits the cache and the look-ahead filter
+    (never sees prices after curr_date). Drawdown is the largest peak-to-trough
+    drop in closing price over the window, as a negative percentage.
+    """
+    data = load_ohlcv(symbol, curr_date)          # already filtered to <= curr_date
+    window = data[data["Date"] > (pd.to_datetime(curr_date) - pd.Timedelta(days=lookback_days))]
+    if window.empty or "Close" not in window.columns:
+        return {"max_drawdown_pct": None, "note": "no data in window"}
+
+    closes = window["Close"].astype(float)
+    running_peak = closes.cummax()
+    drawdowns = (closes - running_peak) / running_peak
+    max_dd = float(drawdowns.min()) * 100
+
+    trough_idx = drawdowns.idxmin()
+    peak_price = float(running_peak.loc[trough_idx])
+    trough_price = float(closes.loc[trough_idx])
+
+    return {
+        "max_drawdown_pct": round(max_dd, 2),
+        "peak_price": round(peak_price, 2),
+        "trough_price": round(trough_price, 2),
+        "window_days": lookback_days,
+        "as_of": curr_date,
+    }

@@ -202,7 +202,10 @@ class PortfolioDecision(BaseModel):
     )
     time_horizon: Optional[str] = Field(
         default=None,
-        description="Optional recommended holding period, e.g. '3-6 months'.",
+        description="The evaluation horizon for this rating. Always exactly "
+            "'3 months'. Assess the position over a 3-month forward window "
+            "and do not substitute a different horizon or a catalyst-based "
+            "one such as 'next earnings'.",
     )
 
 

@@ -46,6 +46,7 @@ def generate(model_tag, start, num_weeks):
         run_cfg = copy.deepcopy(base_cfg)
         mem_path = (out_dir / ".mem" / f"{TICKER}_{date}.md")
         mem_path.parent.mkdir(parents=True, exist_ok=True)
+        mem_path.unlink(missing_ok=True)   # guarantee empty memory even on rerun
         run_cfg["memory_log_path"] = str(mem_path.resolve())
 
         graph = TradingAgentsGraph(config=run_cfg)   # rebuilt per run so the mem path takes effect
@@ -67,4 +68,5 @@ def generate(model_tag, start, num_weeks):
 
 if __name__ == "__main__":
     # generate("openai", start="2025-01-06", num_weeks=10)          # 3b - already done
-    generate("deepseek", start="2025-01-06", num_weeks=10)           # 3c - test 1 week first
+    # generate("deepseek", start="2025-01-06", num_weeks=10)           # 3c - test 1 week first
+    generate("openai", start="2025-03-17", num_weeks=1)

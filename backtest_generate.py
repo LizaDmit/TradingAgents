@@ -48,6 +48,7 @@ def generate(model_tag, start, num_weeks):
         mem_path.parent.mkdir(parents=True, exist_ok=True)
         mem_path.unlink(missing_ok=True)   # guarantee empty memory even on rerun
         run_cfg["memory_log_path"] = str(mem_path.resolve())
+        run_cfg["use_drift"] = False
 
         graph = TradingAgentsGraph(config=run_cfg)   # rebuilt per run so the mem path takes effect
         try:

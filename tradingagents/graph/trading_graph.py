@@ -411,7 +411,10 @@ class TradingAgentsGraph:
             )
 
         # Attach the forward drawdown forecast (deterministic, no LLM).
-        final_state["drawdown_forecast"] = forecast_max_drawdown(company_name, trade_date)
+        final_state["drawdown_forecast"] = forecast_max_drawdown(
+            company_name, trade_date,
+            use_drift=self.config.get("use_drift", False),
+        )
         
         return final_state, self.process_signal(final_state["final_trade_decision"])
 

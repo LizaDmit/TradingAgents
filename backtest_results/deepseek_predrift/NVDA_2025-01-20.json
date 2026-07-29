@@ -1,0 +1,21 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-01-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-01-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": true,
+    "expected_max_drawdown_pct": -17.23,
+    "mean_max_drawdown_pct": -18.62,
+    "p95_worst_drawdown_pct": -33.14,
+    "p99_worst_drawdown_pct": -41.41,
+    "est_annualized_vol_pct": 52.7,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current NVDA position at existing weight. Do not initiate new buys at the current price of ~$140. The plan targets a conditional, phased entry near the 200-day SMA ($120-125 zone) if price action confirms with above-average volume. Do not trim the position either, as the long-term AI thesis and forward valuation (16.22x P/E, 0.57 PEG) provide a reasonable floor. Monitor hyperscaler earnings calls for AI capex language shifts and Strait of Hormuz developments\u2014those are the two highest-conviction swing factors over the 3-month horizon.\n\n**Investment Thesis**: The evidence from all three analysts is genuinely balanced, which itself argues against a conviction overweight or underweight call. The Bull case rests on irrefutable fundamentals: forward P/E of 16.22x, PEG of 0.57, 125% YoY revenue growth, 72.7% gross margins, and $26.9B operating cash flow\u2014a world-class franchise. The Blackwell product cycle is a real catalyst. However, the Bear case has substantive counter-evidence: revenue growth is sequentially decelerating, margin pressure is emerging from AMD and custom ASICs (Google TPU, Amazon Trainium), hyperscaler capex sensitivity is a documented risk (CFO commentary from major cloud providers), and the Strait of Hormuz geopolitical exposure directly threatens semiconductor supply chains for advanced packaging and substrates. Technically, the bounce from $131.56 came on declining volume\u2014a warning, not a confirmation. The price is only 14% above the 200-day SMA versus 45% in October, indicating momentum compression. The put/call ratio spike to 1.8x signals institutional hedging. The Neutral Analyst's proposed graduated scaling plan (2.5% at $125, 2.5% at $120, only on volume confirmation >20% above the 20-day average) is the most disciplined synthesis of both sides. It captures the asymmetric upside the Aggressive Analyst wants while honoring the Conservative Analyst's need for clear confirmation and macro risk buffers. A flat Hold with conditional, phased entry at structural support is the correct risk-adjusted decision for the 3-month forward window.\n\n**Time Horizon**: 3 months"
+}

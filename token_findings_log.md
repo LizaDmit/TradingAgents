@@ -1099,3 +1099,70 @@ invariance was "largely an artefact" was established on a 10-week window only.
    windows (§34c), full weekly series as descriptive.
 5. Three of the six independent windows (2025-10-06, 2026-01-05, 2026-04-06) are currently in
    the failed set, so the calibration subset is unusable until the rerun completes.
+## 35. Multi-ticker extension: rationale, selection, and sizing (PLANNED, not yet run)
+
+### 35a. Why more tickers rather than more weeks
+§34c established that 90-day scoring windows stepping 7 days overlap by ~83 days, so 78
+weekly dates on one ticker yield only ~6 independent observations. Lengthening the window
+does not fix this: independence requires 13 weeks of separation, so any 18-month span on any
+single ticker gives ~6. Additional tickers are the only route to more independent
+observations. This matters for both open results - the drawdown calibration (0/69 p95
+breaches is uninformative at n_eff=6) and the signal test (§34: spread -0.0 pp, underpowered
+to detect a modest edge even if one exists).
+
+### 35b. The constraint that drives selection: cross-correlation
+Pooling tickers only adds independent observations to the extent the tickers move
+independently. Approximate effective sample size:
+    N_eff ~= (tickers x windows) / (1 + (tickers-1) x avg_correlation)
+Worked at 4 tickers x 6 windows = 24 raw observations:
+  - NVDA + QQQ + AMD + TSM   (avg corr ~0.75) -> N_eff ~7
+  - NVDA + MSFT + AAPL + AMD (avg corr ~0.6)  -> N_eff ~9
+  - NVDA + XOM + UNH + JPM   (avg corr ~0.3)  -> N_eff ~13
+A correlated basket is close to worthless here. Sector diversity is not cosmetic - it is the
+entire mechanism by which the sample grows.
+
+### 35c. Ranking
+| Rank | Ticker | Sector | Est. corr vs NVDA | Rationale |
+|---|---|---|---|---|
+| 1 | XOM | Energy | ~0.2-0.3 | Oil-driven; genuinely different risk source. Vol ~25-30%, so real drawdowns exist to test. Full financial statements. |
+| 2 | UNH | Healthcare | ~0.2 | Large idiosyncratic decline inside this window - a real tail event unrelated to the AI cycle. Directly stresses p95. |
+| 3 | JPM | Financials | ~0.35-0.45 | Rate/credit driven. Moderate vol, deep coverage, full fundamentals. |
+| 4 | KO / PG | Staples | ~0.15-0.25 | Best independence, but ~15% vol leaves almost no drawdowns to score against. |
+| - | MSFT / AAPL | Tech | ~0.5-0.65 | Too correlated to add much. |
+| - | AMD / TSM / AVGO | Semis | ~0.7+ | Near-redundant with NVDA. |
+| - | QQQ / XLE / GDX | ETFs | high / n.a. | REJECTED. NVDA is ~8-9% of QQQ by weight, so it is partly the same asset. ETFs also have no financial statements, so the fundamentals analyst degrades. |
+
+QQQ was the initial candidate and was rejected on both counts above. Recording that here so
+the reasoning is not repeated.
+
+### 35d. Selection-bias disclosure on UNH
+UNH is chosen partly BECAUSE its decline in this window is already known. That is
+forward-looking information applied to ticker selection and must be stated in any writeup.
+Defensible framing: a known stress case was deliberately included to test whether the p95
+band catches a real tail event. This makes the test harder, not easier - but only if declared.
+
+### 35e. How many: 3 additional, 4 total
+- 6 -> ~13 effective observations, roughly doubling statistical power.
+- Binding cost is runtime, not money. At ~90s per run plus the 20s sleep (§34e), each ticker
+  is ~2.5 hours for 78 weeks. Three additional tickers is a full day; six would be a weekend.
+- Diminishing returns: 8 tickers gives ~20 effective observations, still only enough to detect
+  a LARGE effect. No feasible ticker count turns this into a precise measurement. State that
+  limitation rather than implying more tickers would settle it.
+
+### 35f. Prerequisite before spending the runtime
+The correlations in 35c are estimates, not measured. Verify first:
+    import yfinance as yf
+    d = yf.download(["NVDA","XOM","UNH","JPM","QQQ","AMD"],
+                    start="2025-01-01", end="2026-07-01")["Close"]
+    print(d.pct_change().corr().round(2))
+Proceed if XOM/UNH/JPM are each below ~0.4 vs NVDA. Swap out anything above ~0.6.
+Fix the ticker list BEFORE running. Adding tickers to widen the test is sound; adding tickers
+until one shows an edge is not. Report every ticker run, not a subset.
+
+### 35g. Code changes required
+- backtest_generate.py: TICKER is a module constant; needs to become a loop parameter, with
+  results written per ticker (backtest_results/<model>/<ticker>/...).
+- backtest_score.py: same hardcoded TICKER.
+- Signal test needs a real change, not just a loop: pool each ticker's excess return over ITS
+  OWN buy-and-hold, not raw returns. Pooling raw returns would measure which ticker rose most,
+  not whether the signals carried information.

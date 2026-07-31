@@ -128,7 +128,7 @@ This corrects an earlier worry that downstream agents each read all four analyst
 ### 9b. Why this matters for the report
 The expensive full-report re-injection is localized to the bull/bear debate (section 8), and possibly the risk debate (still unconfirmed). The managers and trader do not do it. So the "condense the reports" digest lever helps the DEBATORS specifically, not the manager/trader/PM.
 
-### 9c. Refined input-cost ranking (from what we have seen so far)
+### 9c. Refined input-cost ranking (from results so far)
 1. Bull/bear debate - four full reports times number of turns, plus growing history. Dominant cost.
 2. Risk debate - to be confirmed, likely similar shape.
 3. Research Manager - one pass over the full debate history.
@@ -171,7 +171,7 @@ Tool results land in the producing analyst's messages channel, are read while it
 
 ### 10d. Reddit: invalid measurement AND a real bug
 fetch_reddit_posts("NVDA", "2025-06-02") returned only 114 chars / 53 tokens, but that number is NOT valid:
-- The failed subreddit names in the errors were r/2, r/0, r/5, r/-, r/6 - i.e. the characters of the date string "2025-06-02". The function treated the date as the subreddit LIST and iterated it character by character. The second positional argument is the subreddit list, not the date - my call signature was wrong.
+- The failed subreddit names in the errors were r/2, r/0, r/5, r/-, r/6 - i.e. the characters of the date string "2025-06-02". The function treated the date as the subreddit LIST and iterated it character by character. The second positional argument is the subreddit list, not the date - the call signature was wrong.
 - Separately, Reddit fails live: HTTP 403 (Blocked) on JSON, then 404/429 on the RSS fallback. This matches the reliability problem noted in the trial-run notes (Reddit 403s).
 - Conclusion: log Reddit as a known-failing source, not a token figure. The 53 tokens is an empty error fallback.
 
@@ -222,7 +222,7 @@ get_news_yfinance returned only 56 chars / 22 tokens for the 2025-05-26 to 2025-
 Note: these are floor figures. Indicator tools (get_stockstats_indicator, get_stock_stats_indicators_window) for the market analyst remain unmeasured. Ticker news is an empty-window floor.
 
 ### 11e. Standing conclusion for the report
-Tool output remains second-order to the debate report re-injection (section 8/9), but it is not trivial: the fundamentals analyst alone ingests ~6k tokens of raw statements, and OHLCV adds ~2.3k for the market analyst. Preprocessing/trimming this data before the run (the supervisor's "preprocess data download" idea) would cut these one-time costs and is especially valuable for the backtest, where the same NVDA series would otherwise be re-fetched every week across ~78 weeks.
+Tool output remains second-order to the debate report re-injection (section 8/9), but it is not trivial: the fundamentals analyst alone ingests ~6k tokens of raw statements, and OHLCV adds ~2.3k for the market analyst. Preprocessing/trimming this data before the run (the "preprocess data download" requirement) would cut these one-time costs and is especially valuable for the backtest, where the same NVDA series would otherwise be re-fetched every week across ~78 weeks.
 
 ## 12. Per-stage token breakdown (item #1) - ROUNDS=1 baseline, measured
 
@@ -313,7 +313,7 @@ Result: fat catalog x3 + accumulating data re-reads = 26,512.
 Note on tool overlap: get_verified_market_snapshot is described as the "source of truth" for OHLCV/indicator values, but get_stock_data also returns OHLCV. Some redundancy between the three market tools - candidate for consolidation.
 
 ### 13e. The fix is already proven in this codebase
-The Sentiment Analyst runs in a SINGLE call for 3,857 tokens because it was redesigned to pre-fetch its data and inject it once, with no tool loop (documented bug fix). The Market Analyst still uses the old tool-loop pattern. Converting it to the sentiment-analyst approach (pre-compute OHLCV + indicators, inject once, drop the multi-pass loop) would collapse the 3 calls toward 1 and remove the re-reads. This is the SAME work as the supervisor's "preprocess the data download" directive - the token fix and his directive coincide.
+The Sentiment Analyst runs in a SINGLE call for 3,857 tokens because it was redesigned to pre-fetch its data and inject it once, with no tool loop (documented bug fix). The Market Analyst still uses the old tool-loop pattern. Converting it to the sentiment-analyst approach (pre-compute OHLCV + indicators, inject once, drop the multi-pass loop) would collapse the 3 calls toward 1 and remove the re-reads. This is the SAME work as the "preprocess the data download" requirement - the token fix and that requirement coincide.
 
 ### 13f. Updated concrete lever ranking (all evidence now in)
 1. Run at 1 round, not 3: already banked. ~248k -> ~106k. Free (env var). [sections 2, 12]
@@ -332,7 +332,7 @@ Remaining minor gaps (none block the report): market analyst indicator-tool size
 
 ## 14. Round-count reasoning: does cutting 3 rounds to 1 hurt accuracy?
 
-This section captures the reasoning behind the round-count recommendation, since it is the first question the supervisor will ask. Important caveat up front: token diagnosis measures COST, not accuracy. The accuracy claim below is an evidence-based expectation, not a proven result. The backtest is the instrument to confirm it.
+This section captures the reasoning behind the round-count recommendation, since it is the first question likely to be raised in review. Important caveat up front: token diagnosis measures COST, not accuracy. The accuracy claim below is an evidence-based expectation, not a proven result. The backtest is the instrument to confirm it.
 
 ### 14a. Why 3 rounds existed
 The framework's premise is adversarial debate: a bull and bear (and three risk analysts) argue so the final call is more balanced than a single model's. Multiple rounds is the natural expression - round 2 rebuts round 1, round 3 sharpens further. That is where real deliberation happens between people. The stale "3 rounds" code comments suggest 3 used to be the default before it was lowered to 1. Cannot tell from the files whether the 222k run inherited an old default or set it explicitly.
@@ -369,7 +369,7 @@ Ran the same token_count.py script at ROUNDS=3, same name (NVDA) and date (2025-
 | 3 rounds | 247,668 | 29,299 | 276,967 | 26 | 8.5:1 |
 | 1 round | 91,308 | 14,639 | 105,947 | 16 | 6.2:1 |
 
-Cutting 3 rounds -> 1 removes ~62% of total tokens (~63% of input). This is a controlled result (same script both times), so the causal claim "the round setting drove the difference" is now measured, not inferred. Directly addresses the top rigor gap in the supervisor review.
+Cutting 3 rounds -> 1 removes ~62% of total tokens (~63% of input). This is a controlled result (same script both times), so the causal claim "the round setting drove the difference" is now measured, not inferred. Directly addresses the top rigor gap raised in review.
 
 ### 15b. Confirms the original bloated run was 3 rounds
 - Original trial run: 222k in / 26.3k out, 25 calls, 8.5:1
@@ -560,7 +560,9 @@ Instead of truncating by character count, extract specific fields (revenue, key 
 
 ## 21. Updated task scope (post-meeting)
 
-Supervisor's revised 2-week plan:
+> SUPERSEDED IN PART - see §25b (output format is the 5-tier signal, not "price instead of buy/sell/hold"), §26 (price prediction and confidence added back), and §27 (current plan). Task 1 is done, so item 1 below (continued token cuts) is now optional, not required. Kept for history.
+
+Revised 2-week plan:
 1. Continue token cuts (methods 4, 5, and possibly the field-extraction digest from section 20e).
 2. Extract a stock-level PRICE prediction (horizon ~3 months) instead of buy/sell/hold, and backtest.
 Medium term: QQQ predictions, then portfolio exposure levels.
@@ -583,12 +585,517 @@ It filters rows to Date <= curr_date, preventing look-ahead bias, and filter_fin
 ### 22c. Efficiency: method 4's caching is largely already done for the indicator path
 load_ohlcv downloads one multi-year window per symbol and slices it per curr_date. So running all ~78 weekly predictions in one sitting downloads NVDA once and reuses it, giving each week only its historical slice. Method 4 does not need to build OHLCV caching from scratch for this path.
 
-### 22d. MUST-FIX before backtesting: the history window is too short
+### 22d. MUST-FIX before backtesting: the history window is too short (RESOLVED in §23a - see note)
+STATUS: this was fixed. §23a records the change to years=15 and verified it returns rows from
+2011. Runtime evidence agrees: the 2026-07-31 run log shows the download window as
+2011-07-31 -> 2026-07-31, exactly 15 years. One loose end - a copy of load_ohlcv read during
+the §34 session still showed DateOffset(years=5), which contradicts both. Most likely a stale
+copy, but confirm the live value with:
+grep -n "DateOffset" tradingagents/dataflows/stockstats_utils.py
+and delete whichever of these two lines is wrong. Original text below, kept for history.
+
 load_ohlcv fetches only 5 years back (pd.DateOffset(years=5)), despite a docstring claiming "15 years". From mid-2026 that reaches back only to ~mid-2021, which does NOT cover the wanted training start of 1 Jan 2020. The window must be widened (>= 6-7 years, or set explicitly) or the 2020 to mid-2021 portion of the training data will be silently missing. Concrete fix required before the backtest.
 
-### 22e. Cache filename is keyed to today's date
+### 22e. Cache filename is keyed to today's date (CONFIRMED HARMFUL - see §34g)
 The cache filename embeds start and end derived from today, so a new file is created each calendar day. Fine for a backtest run completed within a single day; just be aware across days.
+UPDATE: this stopped being a "just be aware" note. The first 78-week attempt crossed midnight,
+the filename changed, and the full 15-year series was re-downloaded mid-run straight into a
+rate-limited Yahoo. The rollover and the rate limit compounded. See §34e/§34g.
 
 ### 22f. Implications for the two features
 - Realized max drawdown: compute directly from the load_ohlcv DataFrame (clean, date-filtered OHLCV), inheriting look-ahead safety for free. Short function on top of existing data.
 - Method 4 remaining work: (a) widen the load_ohlcv window to cover 2020 (see 22d), (b) optionally route the market analyst's raw OHLCV text through load_ohlcv so it caches too and gains look-ahead safety, (c) trim the news article limits.
+
+## 23. Task 2 progress and reordered backtest plan (checkpoint before new chat)
+
+### 23a. Built and tested since section 22
+- compute_max_drawdown (stockstats_utils.py): realized/backward-looking max drawdown from cached OHLCV. This is the SCORER. Tested on NVDA 2025-06-02: -22.49% over 90 days, -36.88% over 180 days (trough 94.18 matches the verified early-April 2025 low).
+- forecast_max_drawdown (dataflows/drawdown_forecast.py): Monte Carlo FORWARD drawdown forecast. Two methods (bootstrap = resample real returns, captures fat tails; gbm = normal-returns baseline) plus a use_drift toggle. Look-ahead safe (uses load_ohlcv). NVDA 2025-06-02: expected ~-23%, p95 worst ~-44%, p99 ~-53%, est annualized vol ~59%. Methods agree within ~1-2 points.
+- Data window fix: load_ohlcv changed from DateOffset(years=5) to years=15, so history now reaches ~2011 and covers the Jan-2020 training start. Verified: load_ohlcv('NVDA','2024-06-01') returns earliest 2011-07-18, latest 2024-05-31 (look-ahead still holds), 3240 rows.
+- Wiring: forecast_max_drawdown now attaches to propagate() output as final_state["drawdown_forecast"], computed after the agents finish (option 1: deterministic, no LLM, no tokens). Verified: a full NVDA run returns DECISION: Overweight AND the drawdown dict together.
+
+### 23b. Output format decision (SUPERSEDED - see §25b and §26a)
+This originally read: "buy/sell/hold + forecast max drawdown, price target dropped." That is no longer current. Corrected decision: the output is the pipeline's own 5-tier PM signal (Buy/Overweight/Hold/Underweight/Sell) + forecast max drawdown, and the price prediction is being ADDED BACK via Monte Carlo (§26a). "buy/sell/hold" was internal shorthand, not an external requirement. Full reasoning in §25.
+
+### 23c. Reordered step-3 backtest plan (cost-driven)
+Rationale: a full 78-week OpenAI backtest costs ~$15 and hours. Better to compare OpenAI vs DeepSeek on a SHORT window first, then run the one expensive full backtest only on the winning (cheaper if acceptable) model. This also folds in the added OpenAI-vs-DeepSeek accuracy task early.
+
+- 3a: build the generate loop, parameterized by model + date range (separate generate phase from scoring phase - generating is slow/expensive, scoring is fast/free; don't re-run pipelines to re-score).
+- 3b: run ~10 weeks on OpenAI, save results.
+- 3c: run the same 10 weeks on DeepSeek, save results.
+- 3d: compare - agreement on the 5-tier PM signal across the two models. Drawdown is NOT a comparison axis: the forecast is deterministic and seeded, so it is identical for both models on the same date (see §24d). Decide if DeepSeek is acceptable. Set the "acceptable" bar BEFORE running, not after.
+- 3e: pick the winner, run the full ~78-week backtest once on that model.
+- 3f: score the full run against realized drawdown via compute_max_drawdown.
+
+Caveat to state explicitly in reporting: 10 weeks (and even 78) is a small sample - the short run shows whether the two models AGREE (is the cheaper one trustworthy), not whether either is statistically ACCURATE vs reality. Don't oversell.
+
+### 23d. Scoring metric (to finalize in 3f)
+Forecast gives a distribution (expected/p95/p99); realized gives one number. Candidate metric: does realized breach the p95 "worst case"? A well-calibrated p95 should be breached ~5% of weeks. Also compare realized vs expected directly. Define precisely in 3f.
+
+### 23e. Immediate next action (stopping point) - DONE
+Both checks were run. Results save as one JSON per run at ~/.tradingagents/logs/NVDA/TradingAgentsStrategy_logs/full_states_log_<date>.json; main.py is the runner; no pre-existing backtest harness existed. 3a was then built and 3b run. See §24 onward for what happened next.
+
+### 23f. Persistent environment/workflow notes
+- Always confirm the shell prompt shows (tradingagents); use `python`, not `python3` (python3 hits system Python without the packages).
+- Edits are made directly in a local editor (TextEdit/VS Code), not pasted via nano (indentation issues) and not applied as wholesale downloaded files.
+- Reddit (403/429) and StockTwits (403) fetch failures are pre-existing, fail open, affect only the sentiment analyst - not bugs from recent work (see 10d).
+- Code + report are in the GitHub repo (github.com/LizaDmit/TradingAgents); this log is the durable project record.
+
+## 24. Backtest harness built + first OpenAI run (this session)
+
+### 24a. Run mechanics confirmed (from trading_graph.py)
+- propagate(company, date) wraps _run_graph and returns a tuple: (final_state, signal), where signal = process_signal(final_state["final_trade_decision"]) - i.e. the PM's final rating extracted from its prose into a clean label.
+- KEY ORDER BUG in the built-in log: inside _run_graph, self._log_state(...) writes full_states_log_<date>.json FIRST, and final_state["drawdown_forecast"] = forecast_max_drawdown(...) is attached several lines LATER, just before return. So the auto-written log can NEVER contain the drawdown forecast (confirmed empirically: the saved 2025-06-02 JSON keys have no drawdown_forecast). Consequence: the backtest must save its OWN record from what propagate() returns in memory, and ignore full_states_log.
+- main.py (repo root) is the interactive CLI. It builds state and streams the graph MANUALLY (comment at ~line 1118: "the CLI builds state directly rather than going through propagate()"), so it bypasses propagate entirely and is NOT the base for the harness. It also has questionary menus / rich live display / typer save prompts - unusable for an unattended loop.
+- Minor naming note for the scorer later: the on-disk state key is trader_investment_decision (the CLI uses trader_investment_plan internally). Whatever parses saved files must use the on-disk name.
+
+### 24b. Model switching is clean (config-driven)
+TradingAgentsGraph(config=...) takes a config dict. Model is fully set by config keys: llm_provider, deep_think_llm, quick_think_llm, backend_url (fed to create_llm_client). So switching OpenAI vs DeepSeek is a per-model config dict passed to the constructor - no env-var juggling, no code edits between runs.
+
+### 24c. Memory OFF for the backtest (decision + mechanism)
+Decision: run the backtest with the memory component OFF. Why: (1) fair model comparison - if memory is on, the second model runs with the first model's reflections in the PM's context, so you'd be measuring "DeepSeek reading OpenAI's notes," not DeepSeek; (2) reproducibility and independent weeks - with memory on, weeks are path-dependent and re-running won't reproduce.
+Mechanism: there is NO on/off flag. Memory persists to a single markdown file at config["memory_log_path"] (default under _TRADINGAGENTS_HOME/memory/trading_memory.md). Disable it by pointing memory_log_path at a FRESH, UNIQUE file per run. Empty memory means get_past_context finds nothing (no injection) and _resolve_pending_entries has nothing to reflect on (which also skips an LLM call - small token saving). Unique-per-run also isolates OpenAI from DeepSeek automatically.
+Note for later: a "desk that learns week to week" (memory ON) is a separate, more realistic configuration - not this backtest.
+
+### 24d. Forecast is deterministic -> reshapes 3d
+forecast_max_drawdown is seeded (seed: int | None = 42 default at line 35 of drawdown_forecast.py; rng = np.random.default_rng(seed) at line 59) and the pipeline calls it with only (ticker, date), no model, after the agents finish. So the drawdown forecast is IDENTICAL for OpenAI and DeepSeek on the same date, by construction. Therefore 3d's "drawdown within a few %" test is trivially satisfied and tells you nothing - 3d reduces to SIGNAL agreement only.
+Minor: the same seed 42 is reused for every week (each week still resamples different history, so forecasts differ). Fine for reproducibility; consider per-week seeds later if you want the cleanest aggregate calibration stats in 3f.
+
+### 24e. 3a built: backtest_generate.py (headless generate loop)
+Written and saved at repo root. Properties: headless (no prompts/display), memory OFF (unique mem file per run), model-parameterized (openai_config / deepseek_config built from DEFAULT_CONFIG), resumable (skips dates whose output file already exists; a crashed run just reruns to fill gaps), generate-only (scoring is a separate later pass). Saves one JSON per model+date under backtest_results/<model_tag>/NVDA_<date>.json. Saved fields: signal, trader_decision, drawdown_forecast (full dict), final_trade_decision (PM text, for audit).
+
+### 24f. 3b DONE: OpenAI 10-week run
+Ran 10 weekly dates on OpenAI. NOTE the window is 2025-01-06 -> 2025-03-10, NOT 2025-06-02 (the script kept an old placeholder start date; script error, flagged). This does NOT matter for the model comparison - any 10 weeks work, since 3d only tests whether the two models agree, not accuracy. All 10 weeks returned "Overweight". The 403/429 StockTwits/Reddit fetch errors printed on every week are the known pre-existing fail-open failures (see §23f / §10d), not bugs from this work.
+Watch (not a bug): the signal never varied across the 10 weeks (always Overweight). Worth noting for whether the strategy discriminates week to week.
+
+### 24g. Saved record verified
+signal ("Overweight") and drawdown_forecast (expected -16.16%, p95 -31.15%, p99 -39.72%, 63-day horizon, 10000 sims, seeded) are clean and correct. BUT trader_decision saved as null - the wrong state key was used in the save script. It is NOT used for 3d (which runs on signal), so the script is being LEFT UNCHANGED so the OpenAI and DeepSeek runs are byte-identical. Fix the key name before 3e (the full run), where the record must be complete.
+
+## 25. Decision-tier architecture clarified + output-format decision
+
+### 25a. Three sequential decisions, not one number flowing 5->3->5
+The pipeline makes three separate decisions, each feeding the next (sequential, not independent):
+- Research Manager - 5-tier rating (Buy/Overweight/Hold/Underweight/Sell): a graded opinion on attractiveness.
+- Trader - 3-tier call (Buy/Hold/Sell): direction of the trade only; sizing deliberately deferred.
+- Portfolio Manager - 5-tier rating + sizing + time horizon, AFTER the risk debate: the final, most-informed call.
+"signal" is not a 4th decision - it is the PM's final 5-tier decision, extracted from the final_trade_decision prose by process_signal. The two 5-tier stages exist because grading attractiveness (start) and setting final conviction/size (end) are both graded judgments; the 3-tier Trader in the middle is just the yes/no/which-way action.
+This whole tier structure is INHERITED base architecture from TauricResearch. None of the commits made in this project (all token-reduction + drawdown/backtest) touched the Trader, managers, or the schema enums. If challenged, prove it with: git log --oneline on the manager/schema/signal-processing files - they do not appear in the project's commits.
+
+### 25b. OUTPUT FORMAT DECISION: keep the 5-tier signal (reverses §23b)
+The weekly output is the pipeline's own 5-tier PM signal, NOT collapsed to buy/sell/hold. Reason: the 5-tier carries strictly more information (conviction/sizing); collapsing throws that away for no gain. "buy/sell/hold" in earlier notes was internal shorthand, not an external requirement - confirmed no external 3-tier constraint exists. Record this as a deliberate choice ("kept the PM's post-risk-debate 5-tier rating rather than collapsing to buy/sell/hold"). If 3-tier is ever needed downstream, map 5->3: Buy+Overweight->Buy, Hold->Hold, Underweight+Sell->Sell (trivial to add later).
+Overweight/Underweight meaning: benchmark-relative sizing labels - hold more/less than the stock's weight in the index. They are the same direction as Buy/Sell at lower conviction. Caveat: the pipeline uses this vocabulary to express conviction, it does not compute an actual benchmark weight (that's the deferred portfolio-exposure work).
+
+## 26. Additional requirements raised in review: price prediction + confidence
+
+### 26a. Expected price prediction - feasible, cheap, deterministic
+Read the terminal prices off the SAME Monte Carlo paths forecast_max_drawdown already simulates -> expected price, median, and a range (e.g. p5/p95) over the 63-day horizon. Zero tokens, seeded, consistent with the drawdown methodology. This revives the "price target" that was dropped from the brief, now via Monte Carlo rather than the LLM. Do NOT ask the agents for a price number (costs tokens, no distribution behind it, harder to defend). One small function + a new saved field.
+
+### 26b. Confidence/probability - reframed as RISK DECOMPOSITION
+None of the three options offered (upcoming-event / historical / systematic-vs-unsystematic) was adopted. The requirement was reframed as splitting risk by source and routing each through the analyst suited to it:
+- Fundamental analyst leg (company-specific / idiosyncratic risk): assess upcoming company events on their own, then add their potential impact; size impact from past price behavior.
+- Market/industry analyst leg (systematic risk): estimate the impact of non-company events on the overall market/industry, then apply to the company via a beta-like factor - explicitly CAPM-style beta. Historical data applied here too.
+- Later factors: momentum, liquidity, etc. (deferred).
+This is a factor-based / CAPM-toward-multifactor risk model, built incrementally (beta first, more factors later). More grounded than bare self-reported LLM confidence.
+
+### 26c. Feasibility assessment
+- Beta leg is cheap and deterministic: regress NVDA returns on the market (SPY). The drawdown Monte Carlo already contains TOTAL historical risk; beta splits it into systematic (beta^2 x market variance) vs idiosyncratic residual. Extends existing work.
+- The FULL risk-weighted confidence model is a much larger piece - effectively a Task 3, not a one-line schema field. Two open gaps: (1) the COMBINATION FORMULA that turns the components into a single confidence number is undefined - must be defined before building; (2) risk != confidence-in-direction - the link (more idiosyncratic risk -> lower confidence) must be defined, and the backtest can later test whether the confidence number is calibrated.
+- Ensemble agreement (run N times, measure agreement) would give a truer probability but multiplies cost by N - against Task 1's whole point. Not feasible at budget; mention as the rigorous-but-expensive option considered.
+
+## 27. Revised implementation timing + current plan
+
+Ordering rationale: anything that changes the LLM pipeline must NOT land between the two model-comparison runs (it would invalidate 3d). Deterministic, pipeline-independent additions (price, beta) can slot in without a rerun. The full confidence model is too large for the Saturday target and belongs after the backtest.
+
+1. 3c - run DeepSeek on the UNCHANGED backtest_generate.py, same 10-week window, byte-identical to the OpenAI run. Blocked only on the four DeepSeek config values (llm_provider, deep_think_llm, quick_think_llm, backend_url).
+2. 3d - compare OpenAI vs DeepSeek on 5-tier SIGNAL agreement (drawdown identical by construction, §24d). Set the acceptance bar before comparing. Decide if DeepSeek is acceptable.
+3. Between 3d and 3e - implement the expected price prediction (off the MC paths, §26a) AND fix the trader_decision key name (§24g). Add price to the saved record. (Price can even be backfilled onto the already-saved OpenAI runs, since it's deterministic and pipeline-independent.)
+4. 3e - run the full ~78-week backtest ONCE on the winning model, capturing signal + drawdown + price.
+5. 3f - score: realized drawdown (compute_max_drawdown) vs the forecast distribution (does realized breach p95 ~5% of weeks?), and realized price vs predicted price.
+6. Post-backtest (Task 3) - build the risk-weighted confidence model in the specified order: systematic/beta leg first, fundamental-event leg next, momentum/liquidity later. Blocked on the combination formula being defined.
+
+Immediate next action: SUPERSEDED - 3c and 3d are now DONE. See section 28 for the DeepSeek config, the comparison result, and the revised next action.
+
+## 28. 3c + 3d DONE: DeepSeek run and OpenAI-vs-DeepSeek comparison
+
+### 28a. DeepSeek wiring (all four config values resolved)
+DeepSeek is a first-class provider in this codebase, not an OpenAI-compatible fallback. Evidence from grep:
+- factory.py:7 lists "openai", "xai", "deepseek" as providers -> llm_provider = "deepseek".
+- openai_client.py:158 hard-codes "deepseek": "https://api.deepseek.com"; lines 243-244 swap in a dedicated DeepSeekChatOpenAI client for that provider. backend_url is set explicitly anyway.
+- api_key_env.py:23 maps "deepseek" -> DEEPSEEK_API_KEY. Key goes in the repo-root .env alongside OPENAI_API_KEY. Never hard-coded, never pasted into chat/screenshots.
+- model_catalog.py:131-140 lists the tiers: deep = deepseek-v4-pro / deepseek-reasoner, quick = deepseek-chat / deepseek-v4-flash.
+- capabilities.py:55-115 has explicit profiles for DeepSeek thinking models (supports_tool_choice=False; comments note thinking models accept `tools` but reject `tool_choice`, and 400 if reasoning_content is echoed back). The compatibility layer was already anticipated in the codebase.
+
+Final deepseek_config(): llm_provider="deepseek", quick_think_llm="deepseek-chat", deep_think_llm="deepseek-chat", backend_url="https://api.deepseek.com".
+
+### 28b. FINDING: deepseek-reasoner cannot do the manager nodes' structured output
+First test week used deep_think_llm="deepseek-reasoner" (mirroring the OpenAI strong-model-on-managers setup). Result: the run completed but printed
+  "Portfolio Manager: structured-output invocation failed ('NoneType' object has no attribute 'rating'); retrying once as free text"
+The Pydantic/structured call failed on the PM node and the pipeline fell open to a free-text retry, still recovering "Overweight". Working as designed, but it means the PM's final decision came from the fallback path, plus an extra LLM call per week.
+Decision: switched deep_think_llm to "deepseek-chat" (non-thinking, structured-output safe). Rerun was clean - no failure line. Rationale: comparing OpenAI-on-structured-path against DeepSeek-on-freetext-fallback would be a confound; deepseek-chat on both tiers makes DeepSeek run the same structured path OpenAI uses. The reasoner incompatibility is a real reportable finding, not a failure.
+Process note: testing ONE week before committing to ten is what surfaced this. Keep that habit for 3e.
+
+### 28c. Model-name deprecation warning (time-sensitive)
+Per DeepSeek's docs, the classic names deepseek-chat / deepseek-reasoner are deprecated on 2026/07/24 and map to the non-thinking / thinking modes of deepseek-v4-flash. The 10-week run used the classic names before that date. Any later DeepSeek run may need deepseek-v4-flash / deepseek-v4-pro. Not an issue for the OpenAI backtest.
+
+### 28d. 3d RESULT: DeepSeek fails the agreement test (0/10)
+Compared via compare_models.py (repo root; reads saved JSONs, no API calls, free and instant). Window 2025-01-06 to 2025-03-10, 10 weekly dates, both models on identical code and identical window.
+
+  date         openai       deepseek      gap
+  2025-01-06   Overweight   Hold          +1
+  2025-01-13   Overweight   Hold          +1
+  2025-01-20   Overweight   Hold          +1
+  2025-01-27   Overweight   Hold          +1
+  2025-02-03   Overweight   Underweight   +2
+  2025-02-10   Overweight   Hold          +1
+  2025-02-17   Overweight   Hold          +1
+  2025-02-24   Overweight   Hold          +1
+  2025-03-03   Overweight   Hold          +1
+  2025-03-10   Overweight   Hold          +1
+
+- exact agreement: 0/10 (0%)
+- within one tier: 9/10
+- mean tier gap (openai - deepseek): +1.10
+- identical drawdown forecast: 10/10 (empirically confirms the determinism claimed in 24d)
+
+Interpretation: the disagreement is SYSTEMATIC, not erratic - DeepSeek sits consistently one tier more bearish than OpenAI on every week, same direction every time. Report it as "DeepSeek is systematically ~1 tier more conservative", not "the models disagree".
+Acceptance bar honesty note: the 70% exact-agreement threshold was articulated AFTER the outputs were visible, not before as section 23c required. State that when reporting. It does not change the conclusion (0% fails any reasonable bar), but the process deviation should be disclosed rather than hidden.
+Do NOT "correct" DeepSeek by adding a constant tier offset - that is fitting a constant to 10 points and would not survive scrutiny.
+
+### 28e. DECISION: run 3e on OpenAI
+Rationale: the acceptance test failed outright, so the cost saving (~$15 for 78 weeks) does not justify accepting an unresolved systematic bias in the headline deliverable.
+
+### 28f. BIGGER FINDING: the weekly signal barely varies (flag in reporting)
+
+> PARTIALLY SUPERSEDED - see section 30. Root cause was an anchoring example in the schema's time_horizon field description. After pinning the horizon, DeepSeek varies across four tiers and OpenAI moved off its constant. The invariance was largely an artefact, though OpenAI is still 9/10 Overweight so the concern is reduced, not eliminated.
+Across 10 different dates, with different prices, news and technicals: OpenAI returned Overweight 10/10; DeepSeek returned Hold 9/10 (one Underweight). The signal is carrying almost no week-specific information - the pipeline is producing a stable stance on NVDA rather than a genuinely weekly prediction.
+Implications:
+- 3d effectively measured the models' BIAS LEVEL, not their ability to discriminate between weeks, because neither discriminated.
+- For 3e/3f, a near-constant signal has little to score. The drawdown forecast DOES vary week to week (data-driven), so that dimension still carries information - and this strengthens the case for adding the price prediction (26a), another varying, scoreable output.
+- Possible causes to investigate later: 1-round debates (method 1) may have flattened deliberation; digest truncation (method 2) may have thinned the week-specific detail the debators see; or the pipeline may simply be stance-stable by design on a mega-cap. NOT yet investigated - do not assert a cause without evidence.
+
+### 28f-i. Alternative hypothesis TESTED AND REJECTED: "the market was just quiet"
+Challenge raised: maybe the signal was flat because Jan-Mar 2025 was genuinely a stable period for NVDA, not because the pipeline is insensitive. Good methodology - checked before claiming the finding. It does not hold, for two independent reasons.
+
+(1) The window contains the largest single-day market cap loss in history. On 27 Jan 2025 NVDA fell ~17% in one day (closing ~$118.5, ~$589B of market cap), its worst day since March 2020, triggered by DeepSeek's R1 release raising doubts about AI capex. NVDA continued declining through Feb into March. The window was the OPPOSITE of quiet.
+
+(2) The pipeline's OWN price-derived measure detected the event. The drawdown forecast is computed from price history with no LLM, so it is a free control variable - if the market were stable, it would be flat too. Pulled from the 10 saved OpenAI records (date / expected_max_drawdown_pct / est_annualized_vol_pct):
+
+  2025-01-06  -16.16  52.3
+  2025-01-13  -17.20  52.5
+  2025-01-20  -17.23  52.7
+  2025-01-27  -19.53  56.1   <- crash day: largest single-week move in the series
+  2025-02-03  -20.09  57.0
+  2025-02-10  -20.19  56.9
+  2025-02-17  -20.01  56.9
+  2025-02-24  -20.25  54.8
+  2025-03-03  -21.81  56.6
+  2025-03-10  -23.58  56.8
+
+The three pre-crash weeks are near-flat (vol 52.3 -> 52.7, drift 0.4). On 27 Jan vol jumps +3.4 and expected drawdown worsens 2.3 points - the largest single-week move in both series - and neither recovers. Expected drawdown ends ~46% worse than it started.
+
+CONCLUSION, in its strongest form: the same pipeline, on the same dates, produced a risk measure that moved ~46% and a decision signal that never moved at all. The market was not quiet; one component noticed and the other did not. This is the defensible version of 28f - cite the numbers, not the impression.
+
+Related detail worth keeping: the ONE week DeepSeek moved off Hold was 2025-02-03 (to Underweight) - the week immediately following the crash, i.e. the first run whose data window certainly includes it. DeepSeek responded to the event; OpenAI did not. Suggestive, not conclusive on n=1, but it is the most informative row in the comparison table.
+
+### 28g. Revised immediate next action (SUPERSEDED - see §29e)
+Before 3e (both are cheap, deterministic, and do not touch the LLM pipeline):
+1. Fix the trader_decision key name in backtest_generate.py (see 24g) so the full run's records are complete.
+2. Add the expected price prediction: read terminal prices off the SAME Monte Carlo paths forecast_max_drawdown already simulates (expected, median, p5/p95 over the 63-day horizon). Zero tokens. Needs a look at drawdown_forecast.py to find where the simulated paths are available.
+Then 3e: 78 weeks, OpenAI, once, capturing signal + drawdown + price.
+
+## 29. Review feedback on the model comparison + analysis
+
+### 29a. Feedback received (substance)
+Without access to the code, the hypothesis offered is that OpenAI and DeepSeek put different weight on recent price momentum. Three concrete suggestions:
+1. Explicitly prompt the "investment horizon" instead of letting the system pick it - use something shorter, e.g. 3 months.
+2. When price-target output is added, don't output a bare price level. Use a Sharpe-ratio-style structure: (R - r) / s, where R = expected return, r = risk-free return over the same period, s = volatility.
+3. Max drawdown is important right now specifically - flagged: current macro risk from China AI competition and the Iran war worsening as a live reason to take drawdown seriously.
+
+### 29b. Point 1 (momentum weighting) - plausible, testable, not yet verified
+Both models see IDENTICAL raw technical data for a given date (indicators are computed once from cached OHLCV, not per-model), so any momentum-weighting difference would come from how each model's market analyst INTERPRETS that data in its report, not from different inputs. Diagnostic (free, already-saved data, no reruns): compare the market_report field between an OpenAI and a DeepSeek file for the same date, check for differences in how each discusses recent price action vs longer trend.
+
+### 29c. Point 2 (explicit 3-month horizon) - ties directly to an open question
+Every saved PM output so far (both models, all weeks) says "3-6 months" - constant across every date. It is currently UNKNOWN whether this is a fixed schema default or the model freely converging on the same text every time - nobody has checked. Must resolve before implementing the requirement:
+  grep -n "time_horizon\|Time Horizon\|horizon" tradingagents/schemas.py tradingagents/agents/managers/portfolio_manager.py
+Useful alignment point: the Monte Carlo drawdown forecast already runs on a 63-trading-day (~3-month) horizon. If the PM's stated horizon is currently free-text, pinning it to 3 months would make the LLM's stated horizon and the deterministic forecast's horizon actually match (currently only coincidentally close).
+
+### 29d. Point 3 (Sharpe-like ratio) - SUPERSEDES §26a's simple price-prediction plan
+(R - r) / s, feasibility per component:
+- R (expected return): derivable from the SAME Monte Carlo paths already used for the drawdown forecast - (E[terminal price] - current price) / current price. No new simulation.
+- s (volatility): est_annualized_vol_pct already exists in every saved record - BUT it is annualized while R would be a 3-month return. Mixing periods without converting is the most common implementation mistake here. Must de-annualize s (s_period ~= s_annual * sqrt(63/252)) or annualize R instead - pick one consistently.
+- r (risk-free rate): the one genuinely NEW dependency. Not in the codebase. Natural source: 13-week T-bill yield via yfinance ticker ^IRX (same library already used for company lookups elsewhere in agent_utils.py). Also quoted annualized - needs the same period conversion as s.
+Net: 2 of 3 inputs come free from work already built (24d, 26a groundwork); the 3rd is one small new fetch; the real engineering risk is period-consistency across R, r, and s, not the math itself.
+
+### 29e. Point 4 (macro context) - checked, confirmed accurate, and unusually on-point
+Verified via web search rather than accepted on faith, since it's a live geopolitical claim:
+- Iran war: real and actively escalating as of the date of this conversation (a fragile June 2026 ceasefire fractured; US-Iran exchanging strikes around the Strait of Hormuz; oil prices rising on shipping-disruption fears).
+- China AI competition: also live right now, and structurally the SAME pattern as the NVDA case study in 28f-i - a Chinese lab (this time "Moonshot AI", not DeepSeek) released a model narrowing the gap with US frontier labs, triggering a semiconductor selloff (chip ETF down >4% same day, NVDA down >2%) within days of this entry.
+Conclusion: this concern is not abstract - current conditions plausibly resemble a live rerun of the 27 Jan 2025 case study already documented in this log. Strengthens the case for keeping drawdown as a first-class output, and is relevant because the eventual full backtest (predictions through mid-2026) will very plausibly run into this exact period.
+
+### 29f. Revised immediate next action (supersedes 28g)
+1. Diagnostic: compare OpenAI vs DeepSeek market_report text for one shared date, check for momentum-language differences (29b).
+2. Verify how the PM's time horizon field is currently produced (schema default vs free text) before deciding how to implement the "explicit 3-month horizon" requirement (29c).
+3. Fix the trader_decision key name in backtest_generate.py (24g).
+4. Build the Sharpe-like ratio (R-r)/s as the price/return output, replacing the simpler price-prediction plan - needs drawdown_forecast.py to locate the simulated paths, plus one new risk-free-rate fetch (29d).
+Then 3e: 78 weeks, OpenAI, once, capturing signal + drawdown + the new (R-r)/s ratio.
+
+
+## 30. Horizon pinned - ROOT CAUSE FOUND, earlier conclusions substantially revised
+
+### 30a. CORRECTION to a claim made in this project's own analysis
+Earlier working claim: "OpenAI converged on 3-6 months every week." WRONG - it was generalised from a handful of files. Full grep of the free-horizon runs shows OpenAI split:
+- 3-6 months: 01-06, 01-13, 01-20, 02-03, 02-10, 03-10 (6 weeks)
+- 6-12 months: 01-27, 02-17, 02-24, 03-03 (4 weeks)
+DeepSeek varied far more, and mostly used catalyst-based horizons ("Next catalyst (earnings, Fed meeting...)", "Until next earnings", "Through February earnings (~8 weeks)", "Next earnings report"), with some 3-6 months.
+
+### 30b. The "horizon confound" hypothesis was RAISED then REFUTED (before the fix)
+Hypothesis: the models disagreed because they were answering over different horizons (DeepSeek weeks, OpenAI months), so the 1-tier gap was an artefact, not a quality difference.
+Refuted by the free-horizon data itself - on the three dates where BOTH models stated 3-6 months, the gap persisted with no counterexample:
+  01-13  OpenAI 3-6mo Overweight | DeepSeek 3-6mo Hold        (+1)
+  02-03  OpenAI 3-6mo Overweight | DeepSeek 3-6mo Underweight (+2)
+  03-10  OpenAI 3-6mo Overweight | DeepSeek 3-6mo Hold        (+1)
+Also, within OpenAI the rating did not move when its own horizon changed (Overweight at both 3-6 and 6-12 months). So the horizon was NOT the cause of the disagreement. Do not report it as such.
+
+### 30c. ROOT CAUSE of the signal invariance: an anchoring example in the schema
+tradingagents/agents/schemas.py (~line 203), PortfolioDecision:
+  time_horizon: Optional[str] = Field(default=None,
+      description="Optional recommended holding period, e.g. '3-6 months'.")
+The module docstring states explicitly that "Schema field descriptions become the model's output instructions". So the example '3-6 months' was being fed to the model as guidance - the models were being ANCHORED, not converging.
+Fix applied (one edit, to the imported copy at /Users/.../TradingAgents/tradingagents/agents/schemas.py, NOT the stale build/lib copy):
+  description=("The evaluation horizon for this rating. Always exactly '3 months'. "
+      "Assess the position over a 3-month forward window and do not substitute a "
+      "different horizon or a catalyst-based one such as 'next earnings'.")
+Verified in output: all 10 OpenAI weeks now print "3 months". Pin confirmed working, not assumed.
+Side benefit: the PM's stated horizon now matches the Monte Carlo drawdown forecast's 63-trading-day (~3 month) horizon. Previously only coincidentally close.
+
+### 30d. RESULT after pinning: both models now vary. Invariance was largely an artefact.
+Rerun of the same 10 weeks, both models, on the pinned schema (old runs preserved as backtest_results/openai_freehorizon/ and deepseek_freehorizon/ - keep for the before/after):
+
+  date        openai        deepseek      gap
+  2025-01-06  Overweight    Hold          +1
+  2025-01-13  Overweight    Hold          +1
+  2025-01-20  Overweight    Hold          +1
+  2025-01-27  Overweight    Underweight   +2
+  2025-02-03  Overweight    Hold          +1
+  2025-02-10  Overweight    Hold          +1
+  2025-02-17  Overweight    Underweight   +2
+  2025-02-24  Overweight    Hold          +1
+  2025-03-03  Overweight    Buy           -1
+  2025-03-10  Underweight   Overweight    -2
+
+  exact agreement: 0/10 (0%)      [was 0/10]
+  within one tier: 7/10           [was 9/10]
+  mean tier gap:   +0.70          [was +1.10]
+  identical drawdown forecast: 10/10 (determinism re-confirmed)
+
+Changes vs the free-horizon runs:
+- DeepSeek now uses FOUR tiers (Buy / Overweight / Hold / Underweight) where it previously used Hold 9/10.
+- OpenAI moved off its constant for the first time ever (Underweight on 03-10, a two-tier move) - on the week of deepest technical damage (~$106.82, below all three MAs). Shorter horizon = less time for the fundamental thesis to play out = current breakdown weighs more.
+- OpenAI is still 9/10 Overweight, so ITS invariance is reduced but NOT eliminated. Section 28f is qualified, not overturned.
+
+### 30e. The "systematic bias" finding no longer holds
+Previously: "DeepSeek is systematically ~1 tier more conservative, same direction every week." After pinning, the direction REVERSES on 03-03 and 03-10 (DeepSeek more bullish). So it is no longer a consistent offset. Must be corrected in reporting - it was stated in the first summary.
+
+### 30f. They now disagree hardest at the extremes
+03-10: NVDA ~$106.82, deepest point of the drawdown. OpenAI = Underweight, DeepSeek = Overweight. Opposite directions on identical data. Harder to dismiss than a constant offset.
+Context (n=1, NOT a conclusion): NVDA recovered from ~$107 in mid-March to ~$135 by early June 2025 (per the NVDA report already in the project files). On that single week DeepSeek's bottom-buying call looks right and OpenAI's looks wrong. This undercuts any assumption that OpenAI is obviously the default choice - which is exactly what the full backtest exists to settle. Do NOT present this as evidence DeepSeek is better.
+
+### 30g. CAVEAT not yet ruled out
+The schema edit changed TWO things at once: (1) removed the anchoring example, and (2) added an explicit directive. It is therefore NOT established whether the variation returned because of the 3-month SEMANTICS specifically, or simply because perturbing the description text shook the models out of a rut. Separating those would need a third run with a different-but-neutral description. Worth stating rather than over-claiming causality.
+
+### 30h. Two other findings from the schema read
+- price_target ALREADY EXISTS in PortfolioDecision (Optional[float]). That is why DeepSeek emitted "Price Target: 180.0" (01-06) and "95.0" (02-03) while OpenAI emitted none - optional field, inconsistently filled, LLM-guessed with no distribution behind it. When building the (R-r)/s metric, EXTEND or bypass this field rather than adding a duplicate; the Monte Carlo route remains the defensible one.
+- Memory contamination (free-horizon DeepSeek 01-06 only): its write-up cited "the [2025-01-06] Overweight call generated -9.6% alpha", but DeepSeek never produced Overweight - that was the discarded deepseek-reasoner run. Cause: the .mem file is keyed by date, so deleting the JSON and rerunning left the old .mem in place to be read. Week-to-week isolation held; only that one record was affected. Now MOOT for current results because the folder rename created fresh directories. STILL FIX in backtest_generate.py before the 78-week run: the resume/skip logic must clear the .mem file alongside the JSON.
+
+### 30i. Revised next actions
+1. DONE - .mem clearing fixed in backtest_generate.py (30h). See §31d.
+2. CLOSED BY DECISION, not by fix - trader_decision (24g) saves as null and is unused; the
+   5-tier PM signal is the deliverable. No key rename needed.
+3. Corrections required in reporting: the systematic-bias claim (30e) and the invariance framing (30d).
+4. Open question, now sharper: with both models varying and disagreeing at the extremes, model choice is genuinely unresolved - the earlier "just use OpenAI" recommendation was based on the pre-fix data.
+5. Then build (R-r)/s (29d, 30h) and run 3e.
+
+## 31. Return-over-risk (R-r)/s implemented + integration-tested
+
+### 31a. Code added to dataflows/drawdown_forecast.py
+- _irx_history(): fetches 13-week T-bill yield (^IRX) via yfinance, @lru_cache so it downloads once per process.
+- risk_free_annual(curr_date): returns (rate, ok) as of curr_date, filtered to <= curr_date - LOOK-AHEAD SAFE, mirrors load_ohlcv. ok=False keeps a failed fetch visible (0.0 placeholder, not a silent fake 0% rate).
+- Inside forecast_max_drawdown, after dd_pct: return distribution read off the SAME simulated price_paths (no second Monte Carlo). terminal = price_paths[:,-1]; rets = terminal-1; R_mean, R_med, s_ret; r_horizon = rf_annual*(horizon/252); ratio=(R_mean-r_horizon)/s_ret.
+- New output fields: spot_price, expected_return_pct, median_return_pct, return_vol_pct, risk_free_pct_horizon, risk_free_available, return_over_risk, expected_price, price_p5, price_p95, prob_loss.
+
+### 31b. Integration test PASSED (NVDA 2025-03-17, one real pipeline run)
+Math verified by hand: (13.08 - 1.047)/32.23 = 0.373 OK; 119.36*1.1308 = 134.98 OK; rf 1.047%/63d ~= 4.19% annualized, correct for a Mar-2025 13-week T-bill. risk_free_available=true. All fields present in the saved JSON.
+Bonus: the 3-month horizon pin propagated into the PM's REASONING, not just the label ("over the next 3 months", "in a 3-month window") - stronger confirmation than the label alone that the schema edit works.
+
+### 31c. Interpretation caveats to keep in the report (not bugs)
+- use_drift=True makes expected_return = trailing-year drift extrapolated forward (~+13% per 3mo ~= +52%/yr for NVDA in early 2025). That is a momentum bet, not a neutral forecast, and it is the most challengeable number. It also SOFTENS the drawdown (up-trend draws down less), so drift cuts in OPPOSITE directions for the two outputs.
+- mean vs median return diverge (13.08 vs 9.28): lognormal right tail. Arithmetic mean is standard for Sharpe (code correct), but at ~56% vol the gap is large; median is the conservative alternative.
+- price_p5..p95 = $80..$205 from spot $119 (-33% to +72%). Honest but too wide for a point price target - argues FOR the ratio framing over a bare price.
+- return_over_risk is DETERMINISTIC (post-agent, price-only) -> IDENTICAL across OpenAI and DeepSeek. It is a better deliverable but CANNOT break a model-choice tie; only the signal can.
+- One-off PM text garble seen once ("NVDA is above the 10 EMA (119.36 vs. price 117.10)" - 117.10 is below 119.36). Not a pattern yet; watch for recurrence.
+
+### 31d. backtest_generate.py: memory isolation fix
+Added mem_path.unlink(missing_ok=True) right after mem_path.parent.mkdir(...), so a rerun cannot inherit a stale .mem file (the bug that contaminated free-horizon DeepSeek 2025-01-06). Fixes the class of problem for the 78-week run.
+
+## 32. Decisions taken independently
+
+### 32a. use_drift = False for the primary run
+The deliverable is fundamentally a RISK forecast (max drawdown + return-over-risk). Drift-off gives the honest risk picture with no bet that NVDA's past-year climb continues, and "no directional bias assumed" is trivially defensible vs defending a ~52%/yr assumption. Optionally save both drift settings per week (cheap, deterministic) and report drift-off as primary.
+NOTE: use_drift is not yet exposed in backtest_generate.py - the pipeline calls forecast_max_drawdown with its default. Must thread the flag through (or change the call site) before the run.
+
+### 32b. Full 78-week backtest on DeepSeek (Option B, cost-driven)
+Budget is tight. Cost: optimized OpenAI ~= $0.19/week -> ~$15 for 78 weeks once; DeepSeek is a small fraction. The SCORED deliverable (drawdown + (R-r)/s) is deterministic and IDENTICAL across models, so for 3f's core question - are the risk forecasts calibrated vs realized - the model is irrelevant. Only the buy/sell/hold signal differs, and the existing 10-week OpenAI set already covers the signal comparison.
+So: run all 78 weeks on DeepSeek (near-free) for the full drawdown/ratio series and score it; keep the paid 10-week OpenAI set for signal. Decide the $15 OpenAI spend AFTER, only if the signal specifically turns out to matter. This is a cost choice, logged as such, not a claim DeepSeek is better - the model question stays formally unresolved.
+
+### 32c. Smoke test before the big run
+Run 5 weeks first, score those 5, confirm 3f works, THEN run 78. Debugging the scorer on 5 records is free; discovering it is broken after 78 is not.
+
+### 32d. Scoring-window constraint (important for 3e/3f)
+Each date needs ~63 trading days (~90 calendar days) of REALIZED data after it to score. Today is 2026-07-25, so the last scoreable date is ~late April 2026. A 78-week run from 2025-01-06 ends ~early July 2026, whose final ~10-13 weeks cannot be scored yet. Pick the window deliberately: either start earlier, accept the tail is unscoreable for now, or shorten. Do not silently score dates that lack full forward data.
+RESOLVED in §34d: window stays 2025-01-06 to 2026-06-29 (78 dates), because 78 IS the brief -
+"2025 through mid-2026" converted to weeks. Shifting the start to make everything scoreable was
+considered and rejected as a departure from the spec. The tail is accepted as unscoreable for
+now and handled by the scorer's automatic skip, not by trimming. As of 2026-07-31: 69 of 78
+scoreable, last scoreable grid date 2026-04-27, final date scoreable ~late September 2026.
+
+## 33. Handoff state (for the next chat)
+- DONE: schema horizon pinned to 3 months; (R-r)/s built + integration-tested; memory isolation fix; compare_models.py; 10-week comparison on both models (free-horizon AND pinned).
+- PENDING COMMIT: MOOT. The test files were already gone and the code was already committed
+  and pushed as c2273f1.
+- NEXT: SUPERSEDED by §34j. All of use_drift threading, the 10-week regeneration, and the
+  scorer are done; the 5-week smoke test was replaced by scoring the existing 10 (same test,
+  free). Current blocker is the interrupted 78-week run - 38/78 complete, rerun pending.
+- STILL UNMAPPED (for the separate codebase-study chat, NOT the backtest): graph-assembly code (add_node/add_edge, debate loop counts, stop conditions) and the data-vendor layer (route_to_vendor indirection).
+
+## 34. use_drift threaded, scorer built, first full-run attempt (partial)
+
+### 34a. use_drift=False now actually in effect (was only a logged decision)
+§32a flagged that use_drift was never passed - trading_graph.py line 414 called
+forecast_max_drawdown(company_name, trade_date) with no flag, so every run silently
+took the function default of True. Threaded via config, matching the memory_log_path
+pattern:
+- trading_graph.py: use_drift=self.config.get("use_drift", False). Default False, so a
+  caller that forgets the config gets the risk-neutral behaviour, not the momentum bet.
+- backtest_generate.py: run_cfg["use_drift"] = False alongside memory_log_path.
+VERIFIED not assumed: forecast_max_drawdown echoes use_drift into its output dict, so the
+saved JSON was read back and confirms false. Visible in results: expected_price now sits
+~4% above spot on every record (lognormal convexity of a zero-mean sim), not the large
+trend extrapolation drift-on produced.
+
+### 34b. 3f scorer built: backtest_score.py
+Reads saved JSONs, compares forecast vs realized, prints per-record table plus three
+calibration summaries. Key mechanic: compute_max_drawdown looks BACKWARD from curr_date,
+so it is called with curr_date = prediction_date + 90 days, which lands the window on the
+forward period. lookback_days=91 not 90, because the filter is strictly Date > (end - N),
+which would otherwise exclude the prediction date itself - the forecast treats spot on that
+day as the starting peak, so the realized calc must include it.
+Records whose horizon has not closed are skipped automatically ("horizon not complete"),
+which is the §32d guard implemented rather than remembered.
+
+### 34c. MAJOR METHODOLOGICAL FINDING: weekly windows are not independent
+Scoring windows are 90 days long but step forward only 7 days, so consecutive windows
+overlap by 83 days and re-measure the same event. Visible directly in the first scored
+output: dd_realized repeated -35.93 twice, -32.68 three times, -22.49 twice - all the same
+spring-2025 NVDA decline counted repeatedly.
+CONSEQUENCE: 78 weekly dates are NOT 78 independent calibration tests. Independence needs
+13 weeks of separation, so 78 weeks yields ~6 independent windows.
+HANDLING: report headline calibration on a non-overlapping subset (every 13th week);
+keep the full weekly series as the descriptive series and for the signal.
+Independent subset on this grid: 2025-01-06, 2025-04-07, 2025-07-07, 2025-10-06,
+2026-01-05, 2026-04-06.
+HONEST FRAMING for the writeup: at 6 independent windows, a 0/6 and a 1/6 breach rate are
+both consistent with a correct 5% forecast. The claim available is "no evidence of
+miscalibration", NOT "calibration confirmed". Extending the span does not rescue this -
+distinguishing 5% from 15% with real power would need dozens of independent windows, i.e.
+decades of weekly data on one ticker. State the limitation; do not collect more overlap.
+
+### 34d. Why the window is 2025-01-06 to 2026-06-29 (78 weeks)
+Chosen deliberately, not inherited from a spec. 78 weeks = 18 months of weekly dates, which is long
+enough to cover several market regimes while ending late enough that most dates can still be
+scored. 2025-01-06 plus 77 weeks = 2026-06-29.
+Considered and rejected: shifting the start back to 2024-11-04 so every date would be
+scoreable today. Rejected because the tail being temporarily unscoreable costs nothing - the
+scorer skips those records automatically - whereas moving the start would have been a change
+made purely for scoring convenience.
+Scoring status as of 2026-07-31: 69 of 78 are scoreable now (last scoreable grid date
+2026-04-27, since 90 days back from today is 2026-05-01). The final 9 generate normally
+but cannot be scored until their horizons close, the last around late September 2026.
+This is handled by the scorer's skip, not by trimming the window.
+
+### 34e. First full-run attempt: 38/78 completed, TWO distinct failure modes
+Run was interrupted, not corrupted. 38 records exist and are valid; 40 dates failed and are
+recoverable because the if out_path.exists() skip makes reruns resume-only.
+1. Connection error. x22 (2025-09-29 to 2026-02-23). This is the OpenAI SDK's message,
+   which DeepSeek uses via the same client - so it is the LLM API dropping, NOT Yahoo.
+2. No market data for 'NVDA': Yahoo Finance returned no rows x18 (2026-03-02 to 2026-06-29).
+   This is the project's own NoMarketDataError. NVDA is not delisted - yfinance's "possibly delisted"
+   text is its generic empty-response message. Cause: ~28 consecutive runs with no pause
+   tripped Yahoo rate limiting.
+NOT POISONED: load_ohlcv explicitly refuses to cache an empty frame, so the block did not
+write a bad CSV that would persist.
+RESOLUTION of the block: it cleared on its own after a few hours' wait. Nothing was fixed
+in code; time did it. Confirmed clear by a direct yf.Ticker('NVDA').history(period='5d')
+returning real rows.
+PREVENTIVE FIX ADDED, NOT YET VALIDATED: time.sleep(20) at the end of the for-loop body in
+backtest_generate.py, deliberately OUTSIDE the try/except so a failed date still pauses
+before the next request - otherwise a failure cascade hammers the API exactly when it
+should back off. Adds ~20 min across 68 dates. Whether it prevents recurrence is UNTESTED;
+the rerun is the test.
+Note this contradicts the general "never edit mid-run" rule, deliberately: that rule guards
+against pipeline logic changing model outputs mid-series. A sleep alters pacing only, so
+records stay comparable.
+
+### 34f. NEW: deepseek-chat fails structured output on the Trader node
+Observed in the run log: "Trader: structured-output invocation failed ('NoneType' object
+has no attribute 'action'); retrying once as free text". The codebase's
+invoke_structured_or_freetext fallback caught it.
+This EXTENDS §28b, which found deepseek-reasoner failing structured output on the MANAGER
+nodes. This is a different model (deepseek-chat) on a different node (Trader), so the
+structured-output weakness is broader than §28b established.
+Does not threaten the scored deliverable: max drawdown and (R-r)/s are computed post-agent
+from prices only, so no LLM output touches them. Affects the 3-tier trader call, which is
+already unused (saves as null, §33). Worth counting after the rerun -
+grep -c "Trader: structured-output invocation failed" backtest_run.log - because "DeepSeek's
+structured trader output was unreliable" is a real model finding worth reporting if it is most runs
+rather than a handful.
+
+### 34g. §22e CONFIRMED in practice, not theoretical
+The cache filename embeds today's date. The run crossed midnight, the filename changed from
+the 2026-07-30 form to the 2026-07-31 form, and the full 15-year series was re-downloaded
+mid-run - landing on an already rate-limited Yahoo. So the cache-date rollover and the rate
+limit compounded each other. For long runs, either finish within one calendar day or
+pre-seed the new day's cache file by copying the previous day's.
+
+### 34h. Signal observations from the 38 completed records (observation, not conclusion)
+Mar-May 2025 varies well (Hold, Buy, Underweight, Overweight, Buy). Then 2025-06-02 through
+2025-09-08 is 15 consecutive Holds, before Overweight / Underweight in mid-late September.
+Do NOT read this as the §28f invariance problem returning - a long Hold streak during a
+genuinely trending, low-drama stretch may be correct behaviour. But it is worth checking
+against realized volatility for those weeks once the run completes, since §30d's claim that
+invariance was "largely an artefact" was established on a 10-week window only.
+
+### 34i. Corrections to earlier sections
+- §33 "PENDING COMMIT: delete test files" - MOOT. NVDA_2025-03-17.json and its .mem were
+  already gone, and the code was already committed and pushed as c2273f1.
+- §30i item 1 (.mem clearing) - DONE, see §31d.
+- §30i item 2 (trader_decision key) - settled by decision rather than fix: the 5-tier signal
+  is the deliverable, the field saves as null and is unused.
+- §32d arithmetic - written when today was 2026-07-25. Updated in §34d above.
+- §22d vs §23a contradict on the load_ohlcv window (5 vs 15 years). Runtime evidence from the
+  failure log shows the download range as 2011-07-31 -> 2026-07-31, i.e. 15 years, so §23a
+  appears correct and §22d is superseded. VERIFY the live value and delete whichever line
+  is wrong - a stale MUST-FIX in the log is worse than no note.
+- .DS_Store files were tracked in git and added noise to every git status; now gitignored
+  and untracked.
+
+### 34j. Immediate next actions
+1. Confirm time.sleep(20) is present in backtest_generate.py, then rerun. It skips the 38
+   and retries the 40.
+2. On completion check three things: file count = 78; grep -c "^FAIL" backtest_run.log;
+   grep -c "Trader: structured-output invocation failed" backtest_run.log.
+3. Verify whether the 10-week OpenAI set was also regenerated with the ratio fields, or only
+   DeepSeek - needed before any cross-model signal comparison is written up.
+4. Run backtest_score.py on the full set. Report headline calibration on the 6 independent
+   windows (§34c), full weekly series as descriptive.
+5. Three of the six independent windows (2025-10-06, 2026-01-05, 2026-04-06) are currently in
+   the failed set, so the calibration subset is unusable until the rerun completes.

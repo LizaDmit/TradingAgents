@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-10-27",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-10-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.98,
+    "mean_max_drawdown_pct": -22.59,
+    "p95_worst_drawdown_pct": -40.77,
+    "p99_worst_drawdown_pct": -50.46,
+    "est_annualized_vol_pct": 49.5,
+    "spot_price": 191.25,
+    "expected_return_pct": 3.0,
+    "median_return_pct": 0.36,
+    "return_vol_pct": 25.78,
+    "risk_free_pct_horizon": 0.929,
+    "risk_free_available": true,
+    "return_over_risk": 0.08,
+    "expected_price": 196.98,
+    "price_p5": 125.65,
+    "price_p95": 285.2,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish NVDA exposure in a disciplined, tranched fashion targeting 6-7% of the portfolio (within the neutral's moderated sizing). Deploy the first tranche via limit order at the $184-186 support zone (10-day EMA area at $184.43), scale the second tranche only on a confirmed close above $195 on above-average volume or a pullback to the 50-day SMA, and hold a hard defensive stop at $178 to manage gap risk on the pending Fed leadership transition. Time horizon is 3 months, with the thesis anchored to the AI capex supercycle and a forward P/E of 15.16x with a PEG of 0.52.\n\n**Investment Thesis**: The debate converges on NVDA's exceptional fundamentals\u2014forward P/E of 15.16x, PEG of 0.52, 114% ROE, and 70-90% AI infrastructure market share\u2014which support a constructive stance despite the stock sitting 19% below its $236.54 high. The aggressive analyst is correct that this valuation is not a bubble for a company growing earnings 40% QoQ, and the golden cross structure (50-day SMA $179.58 above 200-day SMA $146.63) with the recent breakout to $191.25 confirms the medium-term trend. However, the conservative and neutral analysts raise binding risk concerns that justify tempered conviction: beta of 2.21 doubles market moves, the unresolved Fed leadership transition is a binary macro event, sentiment data is missing/low-confidence, and the stock is 6.5% extended above its 50-day SMA, creating gap-through risk on a $175 stop. The neutral's refinement is therefore adopted: cap the position at 6-7% (a 2.21-beta stock at 6% moves the portfolio like a 13% position in a beta-1 name), enter the first tranche with a limit at $184-186 rather than chasing at $191, only add further tranches on confirmed strength (close above $195 on volume) or a 50-day pullback, and tighten the stop to $178 to protect against a Fed-oriented breakdown. Every incremental tranche must be conditional on confirmation rather than automatic, honoring the discipline required by the macro regime shift while capturing the AI growth trajectory.\n\n**Price Target**: 212.0\n\n**Time Horizon**: 3 months"
+}

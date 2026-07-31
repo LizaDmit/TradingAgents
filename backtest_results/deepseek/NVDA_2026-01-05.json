@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-01-05",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-01-05",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.17,
+    "mean_max_drawdown_pct": -22.62,
+    "p95_worst_drawdown_pct": -40.51,
+    "p99_worst_drawdown_pct": -49.28,
+    "est_annualized_vol_pct": 49.7,
+    "spot_price": 187.89,
+    "expected_return_pct": 3.1,
+    "median_return_pct": 0.22,
+    "return_vol_pct": 25.74,
+    "risk_free_pct_horizon": 0.879,
+    "risk_free_available": true,
+    "return_over_risk": 0.086,
+    "expected_price": 193.71,
+    "price_p5": 125.51,
+    "price_p95": 280.67,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a scaled-in position in NVDA at current levels (~$187\u2013190) with a disciplined 2\u20133 tranche approach. Start with an initial tranche of ~3\u20135% of portfolio, deploy a second tranche on either a reclaim of $190.30 (December high) or a pullback toward the $175\u2013180 support zone, and maintain a stop-loss discipline below $170 (December low) to cap downside at roughly 8\u201310%. Target the $220\u2013230 zone over a 3-month horizon, trimming into strength while respecting the high-beta rate sensitivity flagged by the conservative analyst.\n\n**Investment Thesis**: The aggressive analyst makes the strongest case on valuation: a forward PE of ~15.16x with a PEG of 0.52 against ~92% consensus EPS growth is objectively cheap for a company of NVDA's quality, and the stock sits ~17% above its 200-day SMA at $160.64, providing structural institutional support. The CUDA moat with 90%+ market share in AI accelerators remains the deepest in semiconductors despite ASIC competition. However, the conservative and neutral analysts correctly flag material near-term risks that prevent a full Buy: the stock trades 21% below its 52-week high, sits just 0.78% above the 50-day SMA at $186.43 (with a 10 EMA/50 SMA death-cross of only 24 bps), carries a high beta of 2.21 that amplifies macro shocks, and faces Fed policy transition uncertainty plus hyperscaler capex scrutiny. The neutral analyst's operational critique is most persuasive: buying into a medium-term downtrend with a stop only 10% below entry is \"hoping\" rather than disciplined trading. The upside to $220\u2013257 (re-rating to 17\u201320x forward earnings) versus downside to the 200-day SMA at ~$160\u2013170 yields a favorable risk-reward, but only if entered with tranche discipline and tight risk management. The consensus across analysts is that this is cheap quality facing real near-term frictions\u2014an Overweight stance captures the constructive long-term view while respecting the market's lack of confirmation. The $4.72T market cap means macro shocks hit harder, reinforcing the need for staged entry rather than a single full allocation.\n\n**Price Target**: 220.0\n\n**Time Horizon**: 3 months"
+}

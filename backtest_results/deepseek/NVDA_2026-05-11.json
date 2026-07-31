@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-05-11",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-05-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -15.55,
+    "mean_max_drawdown_pct": -16.85,
+    "p95_worst_drawdown_pct": -30.1,
+    "p99_worst_drawdown_pct": -36.36,
+    "est_annualized_vol_pct": 34.1,
+    "spot_price": 219.18,
+    "expected_return_pct": 1.44,
+    "median_return_pct": -0.1,
+    "return_vol_pct": 17.38,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.031,
+    "expected_price": 222.33,
+    "price_p5": 165.35,
+    "price_p95": 290.58,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate NVDA exposure gradually at current levels near $219 \u2014 a 40% initial tranche \u2014 with capital reserved for disciplined add-ons on pullbacks toward $205\u2013$210 (technical dip) and $195\u2013$200 (Fed-event dip), plus a breakout-confirmation trigger above $232. Set a closing-basis stop at $182 for the initial tranche (with $175 as the structural backstop), avoid leverage given the 2.21 beta, and target a retest of the $236.54 52-week high over a 3-month horizon with earnings as the next major catalyst.\n\n**Investment Thesis**: The bull and bear cases each capture half of the picture, and the decisive synthesis is a graduated accumulation stance rather than an all-in Buy or a cautious Hold. The structural case is compelling: NVDA trades at a forward PE of ~15.16x with a PEG of 0.52 against $12.87 forward EPS \u2014 a legitimate GARP profile, not a bubble multiple \u2014 underpinned by the sticky, non-discretionary AI capex supercycle and a confirmed Golden Cross with price well above the 200-day SMA ($184.73). The technical momentum (10 EMA accelerating above the 50 and 200 SMAs) and the absence of frothy retail chasing actually support the setup. However, the bear's tactical concerns are valid and must discipline execution: the stock is up 32.8% in 30 days, sits 18.7% above the 200-day SMA, carries a 2.21 beta, and faces a potential Fed-transition volatility spike under incoming chair Kevin Warsh. The Neutral Analyst's framework \u2014 40% initial deployment rather than 50%, dual add-on triggers at $205\u2013$210 and $195\u2013$200, plus a breakout-confirmation buy above $232 \u2014 best respects both the confirmed trend and the imminent binary macro event. A closing-basis stop at $182 (below the 200-day) limits downside on the initial tranche to ~17% while keeping room for normal technical volatility, and the structural $175 backstop protects against a thesis-breaking breakdown. This is not a Hold: the structural earnings power justifies active accumulation, but the timing risk warrants tranche deployment rather than aggressive single-point entry.\n\n**Price Target**: 240.0\n\n**Time Horizon**: 3 months"
+}

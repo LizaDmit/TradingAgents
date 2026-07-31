@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-12-15",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-12-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.07,
+    "mean_max_drawdown_pct": -22.69,
+    "p95_worst_drawdown_pct": -41.09,
+    "p99_worst_drawdown_pct": -49.66,
+    "est_annualized_vol_pct": 49.7,
+    "spot_price": 176.08,
+    "expected_return_pct": 3.09,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 26.19,
+    "risk_free_pct_horizon": 0.885,
+    "risk_free_available": true,
+    "return_over_risk": 0.084,
+    "expected_price": 181.52,
+    "price_p5": 116.53,
+    "price_p95": 263.66,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current NVDA position at existing weights with no new capital deployment. Keep the trailing stop dynamically managed in the $155\u2013160 zone, tightening toward $160 on weakness and ratcheting higher as price reclaims key levels (e.g., stop to ~$175 if $186 is reclaimed). Do not add until either a reclaim of the 50-day SMA (~$186) on sustained closes or an earnings/guidance catalyst confirms the 15.16x forward PE thesis. Trim only if NVDA closes below $156, which would structurally invalidate the long-term uptrend. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on HOLD with refined risk discipline. The bull case is fundamentally compelling: 62.97% profit margin, 65.6% operating margin, 114% ROE, a 0.52 PEG, and a forward PE of 15.16x against consensus EPS of $12.87, all anchored in a secular AI infrastructure buildout with the 200-day SMA ($156) intact \u2014 price at $176.08 is 12.8% above that structural support. The bear case is technically legitimate: price is below both the 10-day EMA ($180.17) and the 50-day SMA ($186.38) with a $30+ moving-average separation gap, a 2.21 beta in a hostile macro environment (new Fed chair Kevin Warsh, potential 4% sticky inflation), and absent/low-confidence sentiment data (two of three sources returned nothing). The key synthesis: forward PE cheapness is conditional on $12.87 EPS materializing, and the 1-to-4 risk-reward asserted by the aggressive analyst presumes a $236 path with no current confirmed catalyst. However, a full Sell is unjustified \u2014 the long-term trend is not broken, selling a 0.52 PEG AI-compute monopoly forfeits structural upside, and the conservative push to tighten to a static $160 stop fails to account for normal 3\u20134% daily volatility in a 2.21-beta name. The neutral analyst's dynamic-trailing-stop framework is the most defensible: preserve the $155\u2013160 zone as catastrophic-risk protection, move the stop up as price recovers, and require evidence (50-day reclaim or fundamental catalyst) rather than either extreme's conviction for additions or trims. Given balanced exceptional fundamentals versus near-term momentum/macro deterioration and unreliable sentiment data, maintaining current exposure with dynamic risk parameters is the appropriate risk-adjusted posture.\n\n**Price Target**: 186.0\n\n**Time Horizon**: 3 months"
+}

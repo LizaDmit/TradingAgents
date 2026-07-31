@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-01-19",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-01-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.69,
+    "mean_max_drawdown_pct": -22.17,
+    "p95_worst_drawdown_pct": -40.3,
+    "p99_worst_drawdown_pct": -49.14,
+    "est_annualized_vol_pct": 48.7,
+    "spot_price": 186.0,
+    "expected_return_pct": 3.18,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 25.53,
+    "risk_free_pct_horizon": 0.889,
+    "risk_free_available": true,
+    "return_over_risk": 0.09,
+    "expected_price": 191.92,
+    "price_p5": 124.12,
+    "price_p95": 276.62,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a starter position in NVDA at ~$186 representing 2-3% of portfolio value, with tranche additions triggered by either (a) the Fed transition passing without a drastic hawkish surprise while NVDA holds above $183, or (b) a test of the $164-170 support zone with intact fundamentals. Cap total NVDA exposure at 4-5% (given beta of 2.21), place an informational stop on a daily close below $164 (200-day MA), and implement a time-based stop: exit the full position if NVDA fails to close above the 50-day MA ($207) within four weeks. Time horizon: 3 months.\n\n**Investment Thesis**: Synthesizing the three analysts, the structural bull case is compelling and undisputed: forward P/E of ~15.2x, PEG of 0.52, 65.6% operating margins, 63% profit margins, 114% ROE, and a durable CUDA ecosystem moat position NVDA as the primary beneficiary of the AI infrastructure buildout. However, the near-term timing risk is real and balanced the debate. The stock trades at $186, only ~0.9% above the 50-day SMA ($184.33) and 13.5% below the 52-week high of $236.54, creating overhead supply. The Fed transition with Chair-designate Warsh is a binary, unpredictable catalyst within the evaluation window, and NVDA's beta of 2.21 means outsized downside on any hawkish surprise. The Conservative analyst's point is valid \u2014 an 11% upside to the $207 50-day resistance versus a 12% downside to the $164 stop is roughly a 1-to-1 reward-to-risk at current levels, not the aggressive 6-to-1 claimed. The Neutral analyst provides the correct synthesis: don't build a full position ahead of a binary policy outcome, but don't sit out entirely given the objectively strong fundamentals and the risk of a dovish surprise repricing the stock higher 15-20% off the lows. Per the Research Manager's plan and the Trader's tranche proposal, disciplined scaling with strict stops respects both the structural thesis and the near-term macro uncertainty. The sentiment data is unusable (empty reports, dated Reddit data), so reliance on price action and macro fundamentals is warranted. This Overweight stance with a lean-by-tranche execution balances the Aggressive analyst's correct long-term conviction against the Conservative analyst's correct near-term caution, incorporating the Neutral analyst's discipline on sizing and exit triggers.\n\n**Price Target**: 207.0\n\n**Time Horizon**: 3 months"
+}

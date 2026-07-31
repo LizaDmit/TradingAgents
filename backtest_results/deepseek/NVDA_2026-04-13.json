@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-04-13",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-04-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -15.81,
+    "mean_max_drawdown_pct": -17.08,
+    "p95_worst_drawdown_pct": -30.2,
+    "p99_worst_drawdown_pct": -36.58,
+    "est_annualized_vol_pct": 34.8,
+    "spot_price": 189.09,
+    "expected_return_pct": 1.54,
+    "median_return_pct": 0.18,
+    "return_vol_pct": 17.68,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": 0.036,
+    "expected_price": 192.0,
+    "price_p5": 142.95,
+    "price_p95": 249.96,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a position in NVDA at current levels (~$189) with a disciplined tranche structure, deploying no more than 5-7% of portfolio total. Enter the first tranche of 1/3 of intended position now, budget for the second tranche on either a retest of $175-180 support or a confirmed reclaim of the $193-195 (200-day) zone, and reserve the final tranche for a weekly close above the 200-day on volume or a breakout above the 50-day (~$207). Tighten the initial stop to $175 rather than the trader's $165 to better respect gap risk on a 2.2-beta name, with the March low (~$165) as the hard invalidation for the full thesis. Primary target: retest of the 52-week high near $236 over the next 6-12 months; take ~25% partial profits above $220. Horizon: 3 months for evaluation.\n\n**Investment Thesis**: The debate resolves decisively toward a constructive, staged accumulation rather than full Buy or passive Hold. The bull case rests on genuine valuation asymmetry\u2014forward P/E of ~15.16x with a PEG of 0.52 for a company with NVIDIA's dominant position in data center GPUs, CUDA ecosystem lock-in, and multi-year sovereign AI visibility. The technical picture has meaningfully improved: the stock is up 14.6% off the March low, has reclaimed both the 50-day and 200-day moving averages on rising volume, and shows five consecutive green closes suggesting institutional accumulation rather than a dead-cat bounce. The global chip-led rally (KOSPI +16%) confirms the secular demand tailwind. However, the bear's cautions are equally legitimate and prevent a full Buy: the stock remains ~$5 below the 200-day at $192.99, the medium-term trend is \"recovering rather than firmly established,\" and the macro backdrop (4% inflation double target, hawkish Fed transition to Warsh, price-to-book of 24x) argues against aggressive all-in entry. The neutral analyst's refinement is the key synthesis: the tranche structure is inherently conservative (a full stop-out at $165 costs only ~2-3% of the book given the 5-7% cap), but tightening the initial stop to $175 cuts first-tranche downside to ~7.4% while still allowing the trade room to breathe. This captures the valuation-driven upside while respecting the genuine macro and technical risk regime\u2014a measured, evidence-based Overweight.\n\n**Price Target**: 220.0\n\n**Time Horizon**: 3 months"
+}

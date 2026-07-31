@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-12-29",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-12-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.27,
+    "mean_max_drawdown_pct": -22.79,
+    "p95_worst_drawdown_pct": -41.33,
+    "p99_worst_drawdown_pct": -49.67,
+    "est_annualized_vol_pct": 49.8,
+    "spot_price": 187.99,
+    "expected_return_pct": 2.8,
+    "median_return_pct": -0.26,
+    "return_vol_pct": 25.85,
+    "risk_free_pct_horizon": 0.885,
+    "risk_free_available": true,
+    "return_over_risk": 0.074,
+    "expected_price": 193.25,
+    "price_p5": 123.78,
+    "price_p95": 280.99,
+    "prob_loss": 0.504,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate/add to NVDA in a staged tranche approach given exceptional fundamentals but high 2.21 beta and macro/execution risk. Deploy roughly 25-30% of the target position immediately near $186, with a tight initial stop at $172 for the first tranche. Scale in the remaining exposure on either a confirmed hold above the 50-day SMA (~$186) or a volume breakout above $192, with a catastrophic full-position stop at $165. Target portfolio weight of 4-6% of equity exposure over a 3-month horizon, trimming toward neutral toward $220-230 or if forward P/E exceeds 20.\n\n**Investment Thesis**: The bull case is anchored in genuinely exceptional fundamentals: TTM revenue of $253.5B (up ~8x from $27B three years ago), a 63% net margin, $159.6B in TTM net income, quarterly operating cash flow of $23.75B, and $12.5B in quarterly buybacks. A forward P/E of 15.16 with a PEG of 0.52 is attractive for this growth trajectory, and the technical structure (price above the 10 EMA, 50 SMA, and 200 SMA 18% below, with a fresh golden cross) is constructive. However, the bears' risks are legitimate and warrant disciplined execution rather than a full-throated chase: a 2.21 beta means a 10% market drawdown could translate to a ~22% NVDA drop with gap risk that can make stops unreliable; inventory ($19.8B) and receivables ($33.4B) rising together warrant monitoring against demand digestion and hyperscaler in-sourcing (Google TPUs, Amazon Trainium, Microsoft Maia, Broadcom/Marvell ASICs); China export controls remain a recurring, escalable regulatory variable; and a potentially hawkish Fed transition (Warsh) could compress long-duration multiples even with intact earnings. The entry at $186 is essentially at the 50 SMA ($185.96), offering no margin of safety and making an aggressive single-shot deployment poor risk/reward. The decisive synthesis: own NVDA in size because the core CUDA moat and cash generation overwhelm the structural risks (they are slow-down/derating risks, not existential threats), but execute via a staged 25-30% initial tranche with a $172 first-tranche stop, and scale in only on confirmation\u2014either a push above $192 on volume or a defended hold of the 50-day. This captures the upside of the aggressive thesis while respecting the capital-preservation discipline the conservative analyst demands and the timing data (low sentiment confidence, no news catalyst, untested golden cross) that the neutral analyst highlighted.\n\n**Price Target**: 220.0\n\n**Time Horizon**: 3 months"
+}

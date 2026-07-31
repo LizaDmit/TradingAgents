@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-04-07",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-04-07",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -24.89,
+    "mean_max_drawdown_pct": -26.52,
+    "p95_worst_drawdown_pct": -46.41,
+    "p99_worst_drawdown_pct": -54.74,
+    "est_annualized_vol_pct": 58.0,
+    "spot_price": 97.5,
+    "expected_return_pct": 3.99,
+    "median_return_pct": 0.12,
+    "return_vol_pct": 30.5,
+    "risk_free_pct_horizon": 1.038,
+    "risk_free_available": true,
+    "return_over_risk": 0.097,
+    "expected_price": 101.4,
+    "price_p5": 60.03,
+    "price_p95": 155.43,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce NVDA exposure by 15-20% immediately at the current $97.50 level rather than waiting for a bounce, and set a hard stop-loss at $85 on the remainder. Do not initiate new positions. This captures the bearish structural trend (53% off high, declining 200 SMA, death cross) while preserving asymmetric upside given elite fundamentals (PEG 0.54, 63% margins, 114% ROE). Reassess after the May earnings catalyst or when a confirmed technical bottom forms (higher low + 50 SMA stop declining).\n\n**Investment Thesis**: The debate converges on Underweight as the correct rating, but the execution timing requires a modification from the original trader plan. The Aggressive Analyst correctly identifies that the structural technical damage (53% decline from 52-week high, declining 200 SMA at $126.68, 10 EMA falling from $117.54 to $105.81 in two weeks) and the absence of insider buying, buybacks, or analyst upgrades constitute a bearish consensus of silence from those closest to the business. The forward EPS of $12.87 is at risk of downward revision, and a 14.76x P/E on potentially peak-cycle earnings risks being a value trap, not a value.\n\nHowever, the Conservative Analyst correctly counters that selling at 53% off the high\u2014when PEG is 0.54, profit margins are 63%, and ROE is 114%\u2014risks locking in a panic-driven loss. Even a 30% EPS cut to $9.00 still supports $180 at 20x, nearly double the current price. The death cross is a lagging indicator of what has already occurred, not a predictive signal. The neutral social media sentiment (5/10, low confidence) and absence of retail noise are historically contrarian bottom-forming signals, not smart-money-exit signals.\n\nThe Neutral Analyst provides the optimal synthesis: reduce 15-20% now (not wait for the $105-$110 bounce), keep the $85 hard stop on the remainder, and avoid new entries. This balances three realities: (1) the technical downtrend is intact with no catalyst to reverse it, (2) the fundamental compression is extreme enough that full liquidation risks missing a violent snap-back, and (3) the macro backdrop (rising oil, persistent inflation, risk-off rotation out of AI) argues against full exposure. The 1:7 risk-reward the Conservative cites relies on mean reversion that may take months, during which a hard stop at $85 limits downside to ~12% on the remaining position. Partial reduction now provides cash cushion without abandoning the recovery potential.\n\n**Price Target**: 85.0\n\n**Time Horizon**: 3 months"
+}

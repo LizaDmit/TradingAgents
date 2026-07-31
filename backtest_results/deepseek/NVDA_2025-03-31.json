@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-03-31",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-03-31",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -24.29,
+    "mean_max_drawdown_pct": -25.9,
+    "p95_worst_drawdown_pct": -45.48,
+    "p99_worst_drawdown_pct": -53.83,
+    "est_annualized_vol_pct": 56.9,
+    "spot_price": 108.23,
+    "expected_return_pct": 4.27,
+    "median_return_pct": 0.65,
+    "return_vol_pct": 29.81,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.108,
+    "expected_price": 112.85,
+    "price_p5": 67.81,
+    "price_p95": 171.94,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Initiate a Buy on NVDA at ~$108 with a 3-5% portfolio allocation. Deploy 25% immediately and reserve 75% for a dip to $95-100 or a confirmed breakout above $120. Set a hard stop-loss at $85. The risk-reward is asymmetric: a forward P/E of 14.76x and PEG ratio of 0.54 for the dominant AI semiconductor franchise outweigh the technical damage of the death cross and broken moving averages. Reclaiming the 200-day SMA (~$193) is the 3-month recovery target.\n\n**Investment Thesis**: The Aggressive Analyst correctly identifies the core value proposition: a forward P/E of 14.76x and PEG of 0.54 on the undisputed leader in AI compute is a structural anomaly. EPS growth from $1.70 (FY2023) to $6.29 (FY2025) and forward estimates of ~$12.87 demonstrate a compounding machine that the market is discounting. The CUDA moat remains defensible against hyperscaler in-house chips, which are complementary rather than immediately substitutive. The stock has declined 54% from its high and trades 44% below the 200-day SMA\u2014an extreme deviation that history suggests is an overshoot, not a structural breakdown, given $130B+ in revenue and dominant market share.\n\nHowever, the Conservative Analyst's technical concerns are valid and cannot be dismissed: the death cross, broken moving averages, RSI in bearish territory, and the stock making new lows below its previous 52-week floor ($164) are real red flags. There is no immediate positive catalyst in the news feed and social media sentiment is neutral with low confidence.\n\nThe Neutral Analyst offers the sharpest synthesis: the trader's framework (3-5% position, phased entry, $85 stop) is sound, but deploying 50% immediately is premature given no signs of stabilization. The compromise of 25% immediate deployment with 75% reserved captures the Aggressive Analyst's upside thesis while respecting the Conservative Analyst's risk concerns. The $85 stop-loss (21% from entry) is appropriate for a high-beta (2.21) position of this size in a diversified portfolio. The April earnings report is the pivotal catalyst\u2014if guidance confirms the forward EPS trajectory, the thesis is validated and the remainder can be deployed.\n\n**Price Target**: 193.0\n\n**Time Horizon**: 3 months"
+}

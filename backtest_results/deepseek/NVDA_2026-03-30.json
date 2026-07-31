@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-03-30",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-03-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -17.68,
+    "mean_max_drawdown_pct": -18.95,
+    "p95_worst_drawdown_pct": -33.48,
+    "p99_worst_drawdown_pct": -41.27,
+    "est_annualized_vol_pct": 40.6,
+    "spot_price": 164.98,
+    "expected_return_pct": 1.95,
+    "median_return_pct": -0.15,
+    "return_vol_pct": 20.8,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.051,
+    "expected_price": 168.2,
+    "price_p5": 119.37,
+    "price_p95": 228.68,
+    "prob_loss": 0.503,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current NVDA positions at current levels without adding new capital or exiting existing exposure. The stock sits at $164.98, five cents above the critical $164.07 52-week low, below all three major moving averages (10-day EMA $173.40, 50-day SMA $182.83, 200-day SMA $179.11). Deploy a defensive put hedge (strike ~$160, ~30 days) to cap downside given the 0.5% distance to support and beta of 2.2, while preserving full upside optionality. Set explicit triggers: add 10% on a close above $173.40, add another 10% on a close above $182.83, and trim to Underweight on a confirmed break below $164.07.\n\n**Investment Thesis**: The three-way debate converges on a genuinely balanced risk-reward profile, and the evidence supports neither a forced Buy nor a forced Sell. The bull case is anchored in exceptional, verifiable fundamentals: NVIDIA's revenue trajectory from $27B (FY2023) to a projected $215.9B (FY2026) represents ~65% YoY growth, the 71% gross margin is software-like, and the CUDA ecosystem moat covers roughly 90% of AI training infrastructure. Macro-driven drawdowns (Fed leadership transition to Warsh, inflation concerns, Middle East geopolitical risk) are not company-specific deterioration, and the stock has already repriced 30% from the $236 high, suggesting much of the macro fear is discounted.\n\nThe bear case is anchored in equally real technicals: price sits below the 10-day EMA, 50-day SMA, and 200-day SMA simultaneously\u2014a bearish configuration with negative momentum\u2014and at a $4.72T market cap there is limited margin of safety. With a beta of 2.2, any hawkish Fed surprise or oil shock would amplify downside by more than twice the market's move, and the 52-week low at $164.07 is only five cents below current prices. Custom silicon from Amazon (Trainium), Google (TPU), and Microsoft (Maia) plus massive IPO supply (OpenAI, Anthropic, SpaceX) represent legitimate medium-term margin and capital-flow pressures.\n\nThe neutral analyst correctly reframes the decision: the HOLD is not passivity but a fully armed, disciplined stance. The aggressive analyst's claim that ambiguity resolves \"this week\" is hope without a catalyst, while the conservative analyst's 70% probability of a $164 break is an unsupported guess. However, the conservative's risk discipline and the neutral's hedging insight both merit action. The most defensible position is a Hold with a protective put (strike ~$160) to insure against a confirmed breakdown that could trigger a 15-20% further drawdown given the bearish MA configuration, while retaining 100% upside if the AI capex cycle snaps the stock back toward the $200 zone. Defined triggers resolve the directional ambiguity without forcing a binary bet on incomplete information.\n\n**Price Target**: 200.0\n\n**Time Horizon**: 3 months"
+}

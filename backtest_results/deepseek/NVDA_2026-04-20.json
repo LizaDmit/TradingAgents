@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-04-20",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-04-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -15.75,
+    "mean_max_drawdown_pct": -16.81,
+    "p95_worst_drawdown_pct": -29.84,
+    "p99_worst_drawdown_pct": -36.22,
+    "est_annualized_vol_pct": 33.9,
+    "spot_price": 201.82,
+    "expected_return_pct": 1.43,
+    "median_return_pct": 0.04,
+    "return_vol_pct": 17.36,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.03,
+    "expected_price": 204.7,
+    "price_p5": 152.48,
+    "price_p95": 266.94,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a phased accumulation in NVDA rather than a single full-size entry. Deploy the first tranche (2.5% of portfolio) on a pullback toward the 10 EMA at ~$193 or the 50 SMA zone near $183\u2013$185 rather than chasing the current $201.82 price with RSI at 71.4. Set a realistic stop at $175 (below the 200 SMA at $181.77), scale toward a maximum 4\u20135% position, and reassess after earnings confirms continued EPS acceleration. Time horizon: 3 months.\n\n**Investment Thesis**: NVDA's fundamental case is compelling but warrants measured entry rather than aggressive full-size buying. The forward P/E of ~15x against forward EPS of $12.87 (roughly double the TTM EPS of $6.71) and a PEG of 0.52 give objective valuation support, while >80% AI accelerator market share and the CUDA software moat provide durable competitive advantages that hyperscaler custom silicon will take years to erode. The aggressive analyst correctly notes that the golden cross structure (price above the 10 EMA at $193.11, 50 SMA at $183.68, and 200 SMA at $181.77) supports the trend and that the 15x forward multiple already prices in much of the macro risk. However, the bear and neutral analysts raise legitimate concerns that prevent a full Buy conviction: RSI at 71.4 signals short-term overbought conditions in a beta-2.21 stock, the stock sits 11% above its 50-day SMA, customer concentration risk from hyperscaler custom silicon is structural, the forward EPS estimate of $12.87 is the most volatile input in the thesis, and sentiment data is incomplete (5.2/10, low confidence). The neutral analyst's middle path is the strongest synthesis: maintain a favorable outlook and scale in on technical pullbacks, size the first tranche at 2.5% rather than 5\u20136%, and give the position room with a wider stop. This captures the upside of the earnings velocity while respecting the elevated near-term technical risk and the hawkish Fed transition to Kevin Warsh, which creates genuine discount-rate pressure on long-duration growth assets. Should hyperscaler capex commentary signal AI infrastructure deceleration, or the 200 SMA break, the thesis warrants immediate downgrade to Underweight.\n\n**Price Target**: 231.0\n\n**Time Horizon**: 3 months"
+}

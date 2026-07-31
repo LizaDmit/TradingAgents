@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-06-15",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-06-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -16.08,
+    "mean_max_drawdown_pct": -17.31,
+    "p95_worst_drawdown_pct": -30.88,
+    "p99_worst_drawdown_pct": -37.19,
+    "est_annualized_vol_pct": 35.1,
+    "spot_price": 212.45,
+    "expected_return_pct": 1.35,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 17.69,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": 0.025,
+    "expected_price": 215.31,
+    "price_p5": 158.74,
+    "price_p95": 281.65,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a structured accumulation of NVDA in three tranches over 4-6 weeks, capping total exposure at ~115% of the tech sector benchmark weight rather than the original 125-150%. Enter the first tranche at current levels (~$212) with a disciplined stop at $198 for the initial position, then require price to hold above the 50-SMA ($207.41) on a closing basis before deploying subsequent tranches. Raise the stop to $205 after the second tranche and trail toward the 50-SMA after the third. Reassess the thesis if NVDA decisively breaks the 200-SMA on elevated volume, and monitor the Fed transition and hyperscaler capex guidance as primary catalysts over the 3-month horizon.\n\n**Investment Thesis**: The balance of evidence across the three risk analysts supports a constructive but disciplined overweight rather than full conviction. The Aggressive analyst correctly highlights NVDA's dominant fundamentals \u2014 $253B TTM revenue, PEG of 0.52, and forward P/E of 15.16x \u2014 which materially de-risk the upside case. The technical structure confirms the thesis: price at $212.45 sits above both the 50-SMA ($207.41) and 200-SMA ($189.19), with the 10-EMA ($209.53) already crossed, and the stock recovered 6% off its $200.42 low. However, the Conservative analyst raises legitimate risks that cannot be ignored: the 92% forward EPS growth assumption leaves little room for error, the 2.21 beta amplifies any Fed-transition shock (Kevin Warsh's first meeting carries real tail risk), and stops at the 200-SMA become theoretical on gap-down opens. The Neutral analyst's synthesis is the most balanced: cap exposure at 110-120% of benchmark to temper the 2.21 beta, keep the tranche structure but gate tranches 2 and 3 on confirmed technical strength (holding above the 50-SMA), and tighten the initial stop to $198 rather than the distant $189.19. The Bear probability is only 25% versus a 75% combined bull/base case, and at forward P/E of 15.16x a material amount of growth normalization is already priced in. This structure captures the constructive opportunity while respecting the real volatility risks of a 2.21-beta name entering a Fed regime change. Time horizon is 3 months.\n\n**Price Target**: 236.54\n\n**Time Horizon**: 3 months"
+}

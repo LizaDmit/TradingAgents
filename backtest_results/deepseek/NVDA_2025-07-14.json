@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-07-14",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-07-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -24.38,
+    "mean_max_drawdown_pct": -25.88,
+    "p95_worst_drawdown_pct": -45.4,
+    "p99_worst_drawdown_pct": -54.81,
+    "est_annualized_vol_pct": 57.2,
+    "spot_price": 163.85,
+    "expected_return_pct": 4.03,
+    "median_return_pct": 0.27,
+    "return_vol_pct": 30.21,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": 0.098,
+    "expected_price": 170.46,
+    "price_p5": 102.19,
+    "price_p95": 259.89,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current NVDA position at $163.85 with no additions or trims. The stock sits near the bottom of its 52-week range with a forward P/E of 14.76x and PEG of 0.54, yet faces macro headwinds (tech selloff in Asia, rising oil prices, Fed transition) and an overbought RSI of 72.95. The 200-day SMA stop-loss at $131.23 remains in place. Let the upcoming catalyst cycle \u2014 Blackwell ramp, next earnings, hyperscaler CapEx announcements \u2014 resolve the debate directionally before re-rating.\n\n**Investment Thesis**: The Hold rating is anchored in specific, contradictory evidence from all three analysts that collectively prevents conviction in either direction. The Aggressive Analyst correctly identifies that NVDA's forward P/E of 14.76x and PEG ratio of 0.54 represent a statistically anomalous discount for a company with this growth profile, and the Golden Cross with price 24.8% above the 200-day SMA supports a structurally bullish technical posture. However, the Conservative Analyst's counterpoints are equally data-driven: the stock is at the bottom of its 52-week range yet already overbought (RSI 72.95), indicating a fragile bounce rather than confirmed breakout. The beta of 2.21 exposes the position to amplified macro risk from rising oil prices, Iran-Israel tensions, and Fed leadership transition \u2014 risks the news report confirms as active. The Neutral Analyst correctly reconciles both views: the CUDA ecosystem moat and Blackwell ramp are real catalysts that justify holding, but the low-confidence neutral sentiment score (5.0/10 with missing Yahoo Finance and StockTwits data) means a contrarian buy signal cannot be validated. The stop-loss at $131.23 (200-day SMA) is 20% below current price \u2014 a moderate but necessary buffer given the beta-2 volatility. Conviction in either direction is premature when the macro headwinds are live, the technical setup is ambiguous (ATR compression can precede breakdown as easily as breakout), and the fundamental thesis depends on catalyst outcomes (Blackwell ramp, hyperscaler CapEx) that have not yet materialized. Hold preserves optionality to add on a pullback to $140-145 (near the 50-day SMA) or to cut if $131.23 breaks on volume.\n\n**Time Horizon**: 3 months"
+}

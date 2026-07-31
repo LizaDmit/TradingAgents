@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-12-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-12-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.18,
+    "mean_max_drawdown_pct": -22.79,
+    "p95_worst_drawdown_pct": -41.26,
+    "p99_worst_drawdown_pct": -49.95,
+    "est_annualized_vol_pct": 49.9,
+    "spot_price": 179.69,
+    "expected_return_pct": 3.25,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 26.33,
+    "risk_free_pct_horizon": 0.923,
+    "risk_free_available": true,
+    "return_over_risk": 0.088,
+    "expected_price": 185.54,
+    "price_p5": 118.45,
+    "price_p95": 270.61,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing NVDA position at current weight (5-8% of portfolio) with no additions and no trims. Hold through the near-term technical softness anchored by the rising 200 SMA at $153.69, with a hard reassessment trigger on a decisive close below that level. Re-entry only on a reclaim of the 50 SMA (~$186-187) on strong volume with a fresh fundamental catalyst, or a deeper pullback into the $153-160 zone. Horizon: 3 months.\n\n**Investment Thesis**: The three-analyst debate converges on Hold, and the evidence supports maintaining the position rather than abandoning or aggressively accumulating. The bull case is anchored in exceptional fundamentals: $57B quarterly revenue with 22% sequential growth, a CUDA ecosystem moat with network effects, a Blackwell pipeline, and a secular AI capex supercycle among hyperscalers and sovereign buyers. These are durable competitive advantages that justify continued ownership. The technical picture tempers enthusiasm: price at $179.69 sits below the 10 EMA ($181.52) and 50 SMA ($186.66), with the 10 EMA in persistent decline since mid-November \u2014 a genuine shift in short-term order flow, not noise. However, the 200 SMA at $153.69 is rising (from $148.38), providing a substantial and intact long-term structural support that supports the \"pullback within a secular uptrend\" framing rather than a trend break. The bear's scenario table (40% probability of -20% to -35% downside vs. 35% probability of +15% to +25% upside) is a legitimate asymmetric risk assessment, reinforced by $4.72T market cap concentration risk from hyperscalers building custom silicon, macro uncertainty under incoming Fed chair Kevin Warsh, and consensus positioning that includes notable shorts (Burry). The Neutral analyst's synthesis is persuasive: the 5-8% position cap limits catastrophic loss while preserving upside optionality; the 200 SMA stop at $153.69 is a principled hard line, not a loose one; and tightening to $168 (per the Conservative analyst) would risk locking in a 6% loss on a stock still above its long-term trend amid a data vacuum that favors neither bull nor bear narrative. The trader's re-entry framework \u2014 reclaim of 50 SMA on strong volume, or a $153-160 value zone \u2014 provides disciplined triggers that neither chase nor capitulate. Holding at current sizing, with the defined stop and re-entry discipline, respects both the extraordinary fundamental quality and the genuine technical and macro risks. This is an active hold with eyes wide open, not passive complacency.\n\n**Price Target**: 186.66\n\n**Time Horizon**: 3 months"
+}

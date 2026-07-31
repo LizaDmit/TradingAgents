@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-03-02",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-03-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.86,
+    "mean_max_drawdown_pct": -20.19,
+    "p95_worst_drawdown_pct": -35.66,
+    "p99_worst_drawdown_pct": -43.24,
+    "est_annualized_vol_pct": 43.2,
+    "spot_price": 182.26,
+    "expected_return_pct": 2.2,
+    "median_return_pct": -0.47,
+    "return_vol_pct": 22.34,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": 0.058,
+    "expected_price": 186.27,
+    "price_p5": 128.75,
+    "price_p95": 260.24,
+    "prob_loss": 0.51,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish an NVDA position now at ~25% of the intended full size near $182.26, with a stop at $172 (below the 200-day SMA to survive high-beta volatility), and add 25% only on confirmation: two consecutive closes above the 50-day SMA AND a benign Fed outcome from Warsh's first meeting. Remainder deploys on strength/breakout or on a defended dip to the 200-day SMA, targeting a total position ~1.5x benchmark weight. Three-month horizon.\n\n**Investment Thesis**: The analyst debate converges on a constructive-but-disciplined stance. The bull case is quantitatively compelling: a forward P/E of 15.16x against ~92% projected EPS growth yields a PEG of 0.52, the 200-day SMA at $175 remains in an uptrend with price at $182 only ~4% above that structural floor, and the CUDA moat plus multi-year secular AI infrastructure build-out justify more than a cyclical semiconductor multiple. The 52-week high of $236.54 leaves ~30% upside versus a defined downside if risk is controlled. However, the bear's objections cannot be dismissed: price trades below both the 10-day and 50-day moving averages, the stock is ~23% off its high (a real correction, not consolidation), and the 2.21 beta amplifies market risk heading into the Warsh Fed transition, where a hawkish surprise could gap price through a naive $175 stop. A HOLD would forfeit the valuation edge; a full aggressive BUY ignores the technical and macro timing risk. The midpoint is a measured entry now (at the low end of the plan's range, ~25%), a volatility-buffered stop at $172 rather than $175, and clear two-condition triggers for adds (technical reclaim of the 50-day SMA plus a benign Fed outcome). This captures the secular upside and the cheap forward multiple while respecting capital preservation into a known macro catalyst.\n\n**Price Target**: 205.0\n\n**Time Horizon**: 3 months"
+}

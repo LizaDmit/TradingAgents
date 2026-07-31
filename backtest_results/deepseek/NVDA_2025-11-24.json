@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-11-24",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-11-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.54,
+    "mean_max_drawdown_pct": -23.04,
+    "p95_worst_drawdown_pct": -42.25,
+    "p99_worst_drawdown_pct": -50.86,
+    "est_annualized_vol_pct": 50.1,
+    "spot_price": 182.32,
+    "expected_return_pct": 2.7,
+    "median_return_pct": 0.1,
+    "return_vol_pct": 25.97,
+    "risk_free_pct_horizon": 0.933,
+    "risk_free_available": true,
+    "return_over_risk": 0.068,
+    "expected_price": 187.24,
+    "price_p5": 119.68,
+    "price_p95": 273.23,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Initiate NVDA with a reduced first tranche of ~1.5% of portfolio at current levels near $182-185, with a stop at $168 to manage gap risk above the 52-week low. Add a second 1.5% tranche only on confirmed support (holds above $170 for five sessions with a higher low), and a final 1.5% tranche on a reclaim of the 50-day SMA near $186-187 on above-average volume. This staged approach targets a total ~4.5-6% overweight position over a 3-month horizon, capturing the compelling GARP setup (PEG 0.52, forward PE ~15x) while respecting the high beta (2.21) and macro uncertainty around a new Fed chair.\n\n**Investment Thesis**: The fundamental case decisively outweighs the short-term technical concerns. NVIDIA trades at a PEG of 0.52 with a forward PE near 15x against projected EPS growth from $6.71 to $12.87 (a 91.8% increase) \u2014 a classic GARP setup for the dominant AI infrastructure provider. The 19% premium to the 200-day SMA at $152.77 confirms the structural uptrend remains intact, and the 12% pullback from the October 29 high represents consolidation rather than reversal. However, the bear's concerns are valid and temper conviction: beta of 2.21 amplifies losses in a tech slump; the new Fed chair (Kevin Warsh) with inflation at 4% is an unquantified hawkish risk; and hyperscaler in-house silicon (Google, Amazon, Microsoft, OpenAI) poses a long-term moat-erosion risk. The technical picture is mixed \u2014 price closed below both the 10-day EMA ($185.11) and 50-day SMA ($186.32), with RSI at 45 and negative MACD histogram \u2014 confirming this is not yet a confirmed breakout. Therefore: Buy with a staged entry, a logical (not knife-edged) stop at $168 just above the 52-week low of $164.07, and position sizing limited to ~4.5-6% of portfolio to account for high beta. The reward-to-risk on the full staged position is favorable, but entry timing demands discipline given active short-term deterioration.\n\n**Price Target**: 207.0\n\n**Time Horizon**: 3 months"
+}

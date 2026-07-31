@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-06-22",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-06-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -16.09,
+    "mean_max_drawdown_pct": -17.34,
+    "p95_worst_drawdown_pct": -31.04,
+    "p99_worst_drawdown_pct": -37.58,
+    "est_annualized_vol_pct": 35.2,
+    "spot_price": 208.65,
+    "expected_return_pct": 1.66,
+    "median_return_pct": -0.05,
+    "return_vol_pct": 18.25,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": 0.04,
+    "expected_price": 212.11,
+    "price_p5": 155.67,
+    "price_p95": 280.65,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current NVDA position at existing size with no addition or trimming at $208.65. Set an upside trigger at the 50-day SMA (~$209.62) \u2014 add 10-15% in increments only if reclaimed with above-average volume and held for multiple sessions. Set a downside trigger at the 200-day SMA (~$192.99) \u2014 if price closes below this level, act immediately. Time horizon: 3 months, with the next earnings report serving as the key catalyst to resolve forward EPS estimates ($12.87).\n\n**Investment Thesis**: The debate resolves to Hold, and the evidence genuinely supports it. The bull's fundamentals are compelling and not disputed: a forward P/E of 15.16 with a PEG of 0.52, 62.97% profit margin, 65.6% operating margin, and 114% ROE make NVDA inexpensive for its growth trajectory, and the stock remains well above its rising 200-day SMA at $192.99. However, the bear's technical and macro concerns carry equal weight. NVDA broke below its 50-day SMA for the first time in the data window, the 10 EMA is flat at $208.74, and a lower-low structure signals short-term deterioration. Critically, the forward EPS of $12.87 that underpins the valuation depends on hyperscaler capex, which is directly sensitive to the cost of capital under a potentially hawkish Fed transition to Kevin Warsh \u2014 a transmission mechanism the bull hand-waved with \"velocity of money\" but never refuted with fundamentals. The sentiment picture is genuinely ambiguous (a data-failure artifact), not cleanly bullish or bearish. The conservative's proposal to tighten the stop to $199 is rejected in favor of the $192.99 structural support, because a minor intraday wick below $200 would invite a whipsaw in a stock this volatile. But the aggressive's eagerness to add on a 1% reclaim is also rejected. The disciplined path: hold current sizing, respect the $192.99 close-below stop without delay, and add only on a multi-session, above-average-volume reclaim of the 50-day. This is the only position that survives both the parabolic upside and the hawkish macro surprise.\n\n**Price Target**: 230.0\n\n**Time Horizon**: 3 months"
+}

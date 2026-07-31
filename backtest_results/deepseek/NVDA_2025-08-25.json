@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-08-25",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-08-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -22.22,
+    "mean_max_drawdown_pct": -23.72,
+    "p95_worst_drawdown_pct": -42.59,
+    "p99_worst_drawdown_pct": -51.28,
+    "est_annualized_vol_pct": 52.1,
+    "spot_price": 179.57,
+    "expected_return_pct": 3.32,
+    "median_return_pct": 0.25,
+    "return_vol_pct": 27.24,
+    "risk_free_pct_horizon": 1.023,
+    "risk_free_available": true,
+    "return_over_risk": 0.084,
+    "expected_price": 185.53,
+    "price_p5": 116.85,
+    "price_p95": 272.91,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain NVDA at 5-7% of the diversified portfolio. No additions, no trims. Tighten the stop-loss monitoring level from $165 to $168 (just below the 50-day SMA of $167.47) to reflect the stock's recent test of $175 support on August 19-20. Key catalysts to monitor: next earnings (revenue deceleration below 50% YoY would break the forward P/E thesis), hyperscaler custom chip deployment announcements, and Fed policy signals around the potential Warsh appointment. Position sizing remains prudent given the 2.21 beta and balanced bull/bear evidence.\n\n**Investment Thesis**: The debate among risk analysts reinforces the Hold stance. The aggressive analyst's case rests on the forward P/E of 14.76x and PEG of 0.54, but those ratios depend on maintaining ~50% earnings growth from a $130.5B revenue base \u2014 requiring ~$65B in incremental revenue, more than AMD, Intel, and Qualcomm combined. This is genuinely heroic. The conservative analyst correctly flags that NVDA's 2.21 beta amplifies macro risk (a hawkish Warsh Fed pivot could trigger a disorderly selloff), and that custom chips from Google (TPU), Amazon (Trainium), and Microsoft (Maia) are production-scale, not niche experiments. However, the conservative overcorrects: the 200-day SMA at $137.88 provides a structural floor, the $43.7B cash position is a fortress, and decelerating from 114% to 50% growth is still hypergrowth by any historical standard. The neutral analyst correctly identifies the critical blind spot: the stock already dipped below the 10-day EMA ($178.26) and 50-day SMA ($167.47) on August 19-20, closing at $175.41 and $175.17, showing momentum deterioration rather than the \"powder keg\" the aggressive analyst claims. Yet reducing to 3-5% as the conservative demands would sacrifice upside for marginal safety when the medium-term trend remains bullish. The social media sentiment (5.8/10 with low confidence) is unreliable and correctly discarded by both the neutral and conservative analysts. The 5-7% position sizing is validated: large enough to capture the 43% bull-case upside to ~$257 if NVDA re-rates to 20x forward earnings on modest 20% EPS growth, but sized to survive a 20-30% drawdown without portfolio destruction. The tighter stop at $168 (vs. the original $165) accounts for the August 19-20 support test while maintaining a sufficient buffer above the rising 200-day SMA.\n\n**Price Target**: 257.0\n\n**Time Horizon**: 3 months"
+}

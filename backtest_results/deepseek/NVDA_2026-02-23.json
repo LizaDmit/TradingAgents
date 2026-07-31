@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2026-02-23",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2026-02-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.18,
+    "mean_max_drawdown_pct": -20.49,
+    "p95_worst_drawdown_pct": -36.32,
+    "p99_worst_drawdown_pct": -43.93,
+    "est_annualized_vol_pct": 44.0,
+    "spot_price": 191.32,
+    "expected_return_pct": 2.17,
+    "median_return_pct": -0.35,
+    "return_vol_pct": 22.45,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": 0.057,
+    "expected_price": 195.47,
+    "price_p5": 134.82,
+    "price_p95": 272.31,
+    "prob_loss": 0.506,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Establish a Buy on NVDA with a tiered entry strategy. Initiate 40% of the intended position now at ~$191, reserving the remaining 60% for accumulation via limit orders at $185 (30% of reserve) and $173.35 (30% of reserve). Cap total position at 5% of portfolio, use a closing-basis stop loss at $164, and evaluate over a 3-month horizon with earnings and hyperscaler capex as key catalysts.\n\n**Investment Thesis**: The fundamental case for NVDA is compelling and quantitatively anchored. The forward P/E of 15.16x with a PEG of 0.52 and 92% expected forward EPS growth represents a genuine mispricing\u2014the market is pricing in a failure scenario that the analyst debate does not substantiate with hard numbers. The technical structure supports the thesis: price sits above the 50-day SMA (~$184.71) and 200-day SMA (~$173.35) in a bullish moving-average stack, providing defined support levels for staged entry. The 2.2 beta is a double-edged sword\u2014it magnifies downside macro risk (Fed leadership transition, inflation scare, geopolitical headlines) but also amplifies upside in an AI capex supercycle where hyperscalers, OpenAI, and Anthropic continue to scale infrastructure. While the Conservative Analyst's concerns about execution risk are valid\u2014given a 24.17x price-to-book and dependence on hyperscaler capex stability\u2014the market is already paying for substantial pessimism at 15x forward earnings. The Neutral Analyst's proposed compromise is the most defensible: it captures upside through core exposure while staggering entry points to manage variance in a wide trading range, capping position size at 5% to keep effective beta exposure near 11% of the portfolio. The stop at $164 on a closing basis defines a hard 14% downside from current levels, translating to roughly a 2.8% portfolio hit if triggered\u2014an acceptable risk for the asymmetric re-rating potential if the forward multiple normalizes even modestly toward 20x.\n\n**Price Target**: 255.0\n\n**Time Horizon**: 3 months"
+}

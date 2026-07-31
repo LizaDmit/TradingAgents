@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-06-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-06-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -24.85,
+    "mean_max_drawdown_pct": -26.37,
+    "p95_worst_drawdown_pct": -45.8,
+    "p99_worst_drawdown_pct": -54.83,
+    "est_annualized_vol_pct": 58.5,
+    "spot_price": 144.5,
+    "expected_return_pct": 4.33,
+    "median_return_pct": -0.22,
+    "return_vol_pct": 31.01,
+    "risk_free_pct_horizon": 1.062,
+    "risk_free_available": true,
+    "return_over_risk": 0.105,
+    "expected_price": 150.76,
+    "price_p5": 89.46,
+    "price_p95": 233.27,
+    "prob_loss": 0.503,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current NVDA positions at current weight. Do not add new capital in a single lump sum, but implement a phased accumulation strategy: allocate 25% of new capital at the current level (~$144.50), set a limit order for another 25% at $135, and keep the remaining 50% in cash. Entry is contingent on risk tolerance matching the 3-month horizon. Monitor the January 2025 earnings report for data center revenue trajectory, gross margin trends, and hyperscaler capex guidance. A reclaim of the 50-day SMA (~$207) would be a bullish re-entry signal; a break below $127 would warrant a reduction.\n\n**Investment Thesis**: The debate among risk analysts confirms a genuinely balanced picture. The Aggressive Analyst correctly identifies that the PEG ratio of 0.54 and forward P/E of ~14.8x represent exceptional value for a company with 80%+ AI GPU market share, 75%+ gross margins, and $40B+ cash. The stock's 38% decline from its 52-week high has compressed the multiple to value territory, and the short-term technical picture is improving\u2014price is 18% above the 50 SMA ($122.42), above the 200 SMA, and the 10 EMA is rising sharply. However, the Conservative Analyst's warnings carry equal weight: the stock remains 30% below the 50-day SMA of $207 and 37% below the 200-day SMA of $193 on a structural basis. Customer concentration risk (top 10 customers likely 70%+ of Data Center revenue) is real, not theoretical\u2014a single hyperscaler pullback could create a double-digit revenue decline. Competition from AMD's MI300X and custom ASICs (Google TPU, Amazon Trainium, Microsoft Maia) is being deployed in production today, not years away. The Neutral Analyst delivers the decisive synthesis: the PEG ratio is backward-looking and built on unsustainable 114% growth; the risk of growth deceleration is mathematically inevitable. Both binary positions (BUY all or HOLD nothing) are flawed. A phased accumulation strategy\u201425% now, 25% at $135, 50% in cash awaiting catalysts\u2014respects the upside potential while maintaining capital preservation. The Hold rating with tactical scaling captures the asymmetry the Neutral Analyst identified: upside to $207 is 44%, downside to $127 is 12%, but the path is nonlinear and requires patience. The 3-month horizon favors waiting for either a technical breakout above the 50-day SMA or a better entry below $127 before committing full capital.\n\n**Price Target**: 207.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-11-10",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-11-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.32,
+    "mean_max_drawdown_pct": -22.87,
+    "p95_worst_drawdown_pct": -41.4,
+    "p99_worst_drawdown_pct": -50.39,
+    "est_annualized_vol_pct": 50.0,
+    "spot_price": 198.8,
+    "expected_return_pct": 2.86,
+    "median_return_pct": 0.02,
+    "return_vol_pct": 26.07,
+    "risk_free_pct_horizon": 0.946,
+    "risk_free_available": true,
+    "return_over_risk": 0.073,
+    "expected_price": 204.48,
+    "price_p5": 131.34,
+    "price_p95": 297.81,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Initiate a long position in NVDA at a 4% portfolio allocation, scaled over two tranches for disciplined entry. Place a limit order for the first tranche (2%) at $187 near the 50 SMA support, and trigger the second tranche (2%) only upon a confirmed daily close above $194.73 (10 EMA) and $196.50 resistance. Set the stop-loss at $180 to give the position room to breathe while containing downside. Target the $236-240 February 2025 high zone over a 3-month horizon, with an upside risk-reward of roughly 3:1 versus the worst-case gap scenario.\n\n**Investment Thesis**: Synthesizing the analysts' debate, the neutral framework offers the cleanest risk-reward. The bull case is anchored in hard numbers: a forward P/E of 15.16 with a PEG of 0.52 against ~87% projected earnings growth ($12.87 forward EPS vs $6.71 TTM), making the valuation genuinely attractive. The technical structure retains the Golden Cross stacking order (10 EMA $194.73 > 50 SMA $183.69 > 200 SMA $149.65), with NVDA closing 32.8% above its 200-day average. Physical-world demand confirmation from the Korean chip index's 16% surge corroborates semiconductor strength that stock-level skepticism cannot dismiss. However, the aggressive analyst's flaw is chasing at $198-200 despite the technical report's explicit \"neutral-to-cautious stance\" and \"short-term momentum weakening.\" With price only 2.1% above the 10 EMA, entry is hair-trigger. The conservative's 2% cap and $185 stop are too tight\u2014the stop would be clipped on routine high-beta noise. The compromised path: 4% allocation, limit-buy first tranche at $187 (50 SMA support), technical-confirmation trigger for tranche two, and a $180 stop that provides genuine room. The beta of 2.21 and Fed-transition macro risk are known, priced-in concerns, not new negatives. The sentiment \"data blackout\" is a feed-quality issue, not a bearish signal\u2014no negative headlines exist. This calibrated approach captures the AI infrastructure upside while respecting elevated volatility and the ~16% drawdown from highs that actually improves entry economics.\n\n**Price Target**: 236.0\n\n**Time Horizon**: 3 months"
+}

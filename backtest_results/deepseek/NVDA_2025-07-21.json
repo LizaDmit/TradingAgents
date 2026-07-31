@@ -1,0 +1,32 @@
+{
+  "ticker": "NVDA",
+  "date": "2025-07-21",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "NVDA",
+    "as_of": "2025-07-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -24.09,
+    "mean_max_drawdown_pct": -25.67,
+    "p95_worst_drawdown_pct": -45.57,
+    "p99_worst_drawdown_pct": -54.32,
+    "est_annualized_vol_pct": 56.8,
+    "spot_price": 171.15,
+    "expected_return_pct": 3.87,
+    "median_return_pct": 0.05,
+    "return_vol_pct": 29.85,
+    "risk_free_pct_horizon": 1.056,
+    "risk_free_available": true,
+    "return_over_risk": 0.094,
+    "expected_price": 177.78,
+    "price_p5": 107.14,
+    "price_p95": 269.43,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current NVDA position at existing sizing with no additions or trims. The stock sits 18% above the entry price of $145, providing a comfortable cushion. Implement a trailing stop loss at 10% below current price (~$154) to protect gains against macro-driven drawdowns, particularly given the hawkish Fed transition risk under Kevin Warsh and NVDA's high beta of 2.21. The next earnings print is the key catalyst to resolve the growth trajectory debate \u2014 a trailing stop preserves upside participation while capping downside. Do not trade on Burry headlines or Reddit sentiment.\n\n**Investment Thesis**: The debate between analysts reveals genuine structural arguments on both sides that cannot be dismissed, confirming a Hold as the appropriate rating. The Aggressive Analyst correctly identifies compelling valuation (Forward P/E of 14.76, PEG ratio of 0.54) and the CUDA moat that entrenches NVIDIA in AI training workloads. However, as the Conservative Analyst counters, that PEG ratio depends entirely on 105% forward EPS growth materializing \u2014 an extraordinary assumption for a $4.6 trillion company. Data center revenue growth has already decelerated from 400% to ~150% YoY, a trajectory change that markets penalize. The Neutral Analyst correctly identifies the core tension: both narratives have merit but neither is proven. The market has already priced a 28% pullback from the 52-week high of $236.54, baking in substantial bear-case risk. The Fed transition under Kevin Warsh introduces genuine multiple-compression risk, and with a beta of 2.21, any hawkish surprise would disproportionately hit NVDA. The technical picture is ambiguous \u2014 above the 50-day SMA ($146.20) and 200-day SMA ($132.46) with a Golden Cross, but $25 below the 52-week high and the 10-day EMA at $167 is only $4 below current price, a break of which could trigger a fast slide. The sentiment signal is weak (5/10 with limited data), and the Burry short is noise. The prudent action is to hold, protect the 18% gain, and let the next earnings print resolve the growth trajectory question before making directional changes.\n\n**Time Horizon**: 3 months"
+}

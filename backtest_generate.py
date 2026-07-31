@@ -6,6 +6,7 @@
 import os, json, copy
 import datetime as dt
 from pathlib import Path
+import time
 
 from tradingagents.default_config import DEFAULT_CONFIG
 from tradingagents.graph.trading_graph import TradingAgentsGraph
@@ -67,7 +68,9 @@ def generate(model_tag, start, num_weeks):
         except Exception as e:
             print(f"FAIL {date}: {e}")   # log and continue; rerun fills the gap
 
+        time.sleep(20)
+
 if __name__ == "__main__":
-    generate("openai", start="2025-01-06", num_weeks=10)          # 3b - already done
-    generate("deepseek", start="2025-01-06", num_weeks=10)           # 3c - test 1 week first
+    # generate("openai", start="2025-01-06", num_weeks=10)          # 3b - already done
+    generate("deepseek", start="2025-01-06", num_weeks=78)           # 3c - test 1 week first
     # generate("openai", start="2025-03-17", num_weeks=1)

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-12-29",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-12-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.01,
+    "mean_max_drawdown_pct": -12.0,
+    "p95_worst_drawdown_pct": -22.31,
+    "p99_worst_drawdown_pct": -28.12,
+    "est_annualized_vol_pct": 23.6,
+    "spot_price": 118.92,
+    "expected_return_pct": 0.67,
+    "median_return_pct": 0.25,
+    "return_vol_pct": 11.79,
+    "risk_free_pct_horizon": 0.885,
+    "risk_free_available": true,
+    "return_over_risk": -0.018,
+    "expected_price": 119.73,
+    "price_p5": 98.04,
+    "price_p95": 143.54,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing sizing with no new capital deployed. Establish a stop-loss at $110 (~7.5% below current) to protect against a breakdown toward the 200-day SMA region, and reassess at the next earnings release. Monitor the defined conditional triggers: upgrade toward Overweight only on a high-volume break above the 50-day SMA ($146.40), and trim 20\u201325% if crude falls below $65/barrel or the 10-year Treasury yield rises above 4.5%. Horizon: 3 months.\n\n**Investment Thesis**: The analysts converge on Hold, and the evidence supports maintaining the position without adding or trimming. The bull case rests on a genuine short-term technical bounce\u2014price at $118.92 sits above the 10-day EMA ($117.01) and a 14.69x forward multiple versus 26.44x trailing\u2014plus tangible geopolitical supply risk from Iran strikes and expanding refining margins (Shell CEO warning on gas/diesel squeezes), all of which favor integrated majors in the near term. However, the bear's structural concerns are equally substantive: XOM remains roughly 29% below its 52-week high ($176.41) and roughly 19% below the 50-day SMA ($146.40), confirming a larger downtrend structure with only a corrective rally. The most decisive risk is the earnings-reliability gap: trailing EPS of $5.88 vs. consensus forward of $10.58 implies a 79% earnings increase that is aggressively dependent on sustained oil prices; if crude drifts toward the $60s, fair value could migrate to the $91\u2013104 range (15\u201325% downside). The 2.62% dividend yield provides a modest floor but sits below the risk-free rate under a hawkish Warsh-led Fed, raising opportunity cost. Notably, the two analysts cite conflicting moving-average data across reports, and social sentiment reflects an absence of XOM-specific catalysts\u2014the stock is moving on oil and macro, not company-specific news. With the defined conditional triggers (break above $146.40 for upgrade; crude below $65 or 10Y above 4.5% for trimming) unmet, no action is justified. The balance between near-term momentum upside and structural/macro downside resolves to inaction\u2014Hold is the lowest-risk, most defensible posture.\n\n**Price Target**: 118.92\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-12-15",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-12-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.82,
+    "mean_max_drawdown_pct": -11.85,
+    "p95_worst_drawdown_pct": -22.09,
+    "p99_worst_drawdown_pct": -27.89,
+    "est_annualized_vol_pct": 23.4,
+    "spot_price": 116.19,
+    "expected_return_pct": 0.83,
+    "median_return_pct": 0.58,
+    "return_vol_pct": 11.7,
+    "risk_free_pct_horizon": 0.885,
+    "risk_free_available": true,
+    "return_over_risk": -0.005,
+    "expected_price": 117.15,
+    "price_p5": 95.72,
+    "price_p95": 140.31,
+    "prob_loss": 0.482,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a staged position in XOM targeting 3-5% of the portfolio, with a first tranche of ~40-60% at current levels (~$115-116). Hold remaining dry powder to add on a dip toward the $113-114 support zone (50-day SMA) or on a confirmed breakout above $118 with volume. Set a hard stop near $111.50 (below the 50-day SMA and recent pullback low) rather than the wider $108, and reassess the thesis if the stock closes below the rising 200-day SMA (~$108). Time horizon is 12-24 months; evaluate over a 3-month forward window for near-term validation.\n\n**Investment Thesis**: The three-way analyst debate converges on a constructive technical setup with legitimate timing concerns. The bull case is anchored in hard evidence: XOM trades at ~14.7x forward earnings with a $644B market cap, price sits above both the 50-day SMA ($113.56) and 200-day SMA ($108.01), and the golden cross (50-day above 200-day) confirms trend momentum. The 2.62% dividend yield provides income support while waiting, and structural catalysts\u2014Guyana low-cost production, Permian post-Pioneer scale, and AI/data-center natural gas demand with XOM as the largest US gas producer\u2014are real, long-duration drivers. The ultra-low beta (0.162) is a portfolio diversifier, though it cuts both ways and argues against expecting rapid breakout torque. The bear's concerns are also legitimate and must temper size: sentiment is silent (5.0/10), RSI at 53.7 is neutral with no momentum confirmation, near-term oil prices are soft with rising US rig counts, refining crack spreads are under pressure, and geopolitical risk (Iran/Hormuz) is binary and unreliable as a primary catalyst. Importantly, the fundamentals report's 50/200-day averages (~$146/$139) appear stale relative to the technical report's fresh SMAs, so they should not overstate overvaluation. The conservative analyst correctly flags that a first tranche at $115.5 with a $108 stop and $118 first target creates poor single-trade risk-reward (~1:0.5-0.7), but the staged-entry framework resolves this by averaging in across price levels. The neutral analyst's refinement\u2014a smaller 40% first tranche, tighter stop at $111.50 just below the 50 SMA and $113.84 pullback low, and adding on the $113-114 dip or a volume-confirmed $118 breakout\u2014strikes the right balance between the aggressive call to act now and the conservative call to wait. This is not a full BUY because near-term catalysts are absent and sentiment/momentum are unconfirmed; it is not a HOLD because the valuation cushion, fortress balance sheet, buybacks, and constructive technical trend create a favorable long-term risk/reward for patient accumulation. The Overweight rating with staged entry and disciplined risk management captures the asymmetric upside while respecting the bear's valid timing concerns.\n\n**Price Target**: 125.0\n\n**Time Horizon**: 3 months"
+}

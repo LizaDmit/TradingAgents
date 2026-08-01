@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-01-05",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-01-05",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.89,
+    "mean_max_drawdown_pct": -11.96,
+    "p95_worst_drawdown_pct": -22.36,
+    "p99_worst_drawdown_pct": -27.88,
+    "est_annualized_vol_pct": 23.7,
+    "spot_price": 123.69,
+    "expected_return_pct": 0.67,
+    "median_return_pct": 0.19,
+    "return_vol_pct": 11.84,
+    "risk_free_pct_horizon": 0.879,
+    "risk_free_available": true,
+    "return_over_risk": -0.018,
+    "expected_price": 124.52,
+    "price_p5": 101.73,
+    "price_p95": 149.37,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing size with no additions or trims. The stock sits between two non-negotiable technical triggers: a downside confirmation at $118.74 (next stop ~$105.53, ~14% lower) and an upside reclaim of the 200-day SMA at ~$139. Manage the position actively by reacting to volume-confirmed breaks of these levels, with a reassessment window of 2-4 weeks tied to oil price direction and quarterly/catalyst evidence on the forward EPS rebound.\n\n**Investment Thesis**: The analyst debate lands decisively on a disciplined HOLD because neither side's case justifies abandoning or aggressively adding to the position at current levels. The Aggressive Analyst's bullish case rests on the forward P/E of ~14.7x (projected EPS of $10.58 vs. trailing $5.88) and the recent +4.2% two-day surge from $118.74 to $123.69, with the 10-day EMA at $119.27 now below the close suggesting a momentum flip. However, this contradicts the reality that XOM trades ~15% below the 50-day SMA ($146.40) and ~11% below the 200-day SMA ($139.16), having fallen sharply from the $176.41 52-week high, and an RSI at 70.80 on a stock below its long-term averages is a breakdown risk, not strength. The Conservative Analyst correctly flags that forward EPS is an unconfirmed projection heavily dependent on oil staying elevated; if it fails, investors hold a stock at 26x trailing earnings with 14% downside to the $105.53 swing low if $118.74 breaks. The Neutral Analyst reconciles both views: the $2.62% dividend yield, low beta of 0.162, and defensive integrated profile provide real downside support that argues against trimming at the bottom of a range, while the market's skeptical pricing below key averages argues against aggressive accumulation on an unconfirmed rebound. Macro factors cut both ways \u2014 Iran conflict spikes oil but also brings recession/demand and downstream disruption risk. With sentiment data nearly absent and conflicting macro signals, the evidence supports maintaining the position with strict volume-confirmed triggers: trim toward Underweight on a break of $118.74, and scale toward Overweight only on a reclaim and hold of ~$139 (200-day SMA) with conviction.\n\n**Price Target**: 139.0\n\n**Time Horizon**: 3 months"
+}

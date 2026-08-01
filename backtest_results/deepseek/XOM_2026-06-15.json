@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-06-15",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-06-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.65,
+    "mean_max_drawdown_pct": -12.66,
+    "p95_worst_drawdown_pct": -23.3,
+    "p99_worst_drawdown_pct": -28.41,
+    "est_annualized_vol_pct": 24.9,
+    "spot_price": 140.92,
+    "expected_return_pct": 0.9,
+    "median_return_pct": 0.11,
+    "return_vol_pct": 12.53,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": -0.0,
+    "expected_price": 142.19,
+    "price_p5": 115.2,
+    "price_p95": 173.01,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing sizing \u2014 no new capital committed, no shares exited. Set a conditional add of +10% on a close above the 10 EMA at $147.80 on volume (extending to the 50 SMA at $150.92 for a further add), and trim 20% only on two consecutive closes below the 200-day SMA at $132.60 with rising volume. Collect the 2.62% dividend while the technical and macro picture resolves over the 3-month horizon.\n\n**Investment Thesis**: The analysts' debate is genuinely balanced and does not justify a directional departure from current sizing. The bull's case rests on a forward P/E of 14.69x, an 80% projected EPS expansion from $5.88 to $10.58, a low beta of 0.16, and price holding above the 200-day SMA at $132.60 \u2014 all supported by a fortress balance sheet and 2.62% dividend yield. However, the bear's counter is equally material: a confirmed and widening death cross (10 EMA at $147.80 below the 50 SMA at $150.92), a 20% drawdown from the peak, a hawkish Fed under incoming chair Kevin Warsh with a strengthening dollar pressuring crude, and the well-documented tendency for forward estimates to be optimistic at cyclical peaks. Critically, the market's own 20% de-rating suggests it does not currently believe the $10.58 forward estimate, which weighs against the aggressive analyst's immediate-add proposal. Conversely, the conservative analyst's requirement of three consecutive closes above $150.92 before adding is too stringent and would force buying after the risk-reward has compressed. The neutral synthesis is the most robust: hold without adding or trimming today, add on a technical confirmation of selling pressure abating (a close above the 10 EMA at $147.80 on volume, then the 50 SMA at $150.92), and trim only on a two-consecutive-close break below $132.60 with rising volume \u2014 not on a single weak test. The fundamental quality of the business is undisputed by all three analysts; the dispute is purely about near-term direction and estimate durability. The 2.62% dividend compensates for waiting, and the low beta of 0.16 limits catastrophic downside in a broad selloff. There is no catalyst currently \u2014 sentiment data is a vacuum with zero news and zero retail signals \u2014 making aggressive accumulation a coin flip rather than a conviction trade. Hold is the disciplined, evidence-grounded position.\n\n**Price Target**: 147.8\n\n**Time Horizon**: 3 months"
+}

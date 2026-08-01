@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-10-06",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-10-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.96,
+    "mean_max_drawdown_pct": -11.99,
+    "p95_worst_drawdown_pct": -22.71,
+    "p99_worst_drawdown_pct": -28.45,
+    "est_annualized_vol_pct": 23.6,
+    "spot_price": 111.7,
+    "expected_return_pct": 0.67,
+    "median_return_pct": 0.09,
+    "return_vol_pct": 11.99,
+    "risk_free_pct_horizon": 0.965,
+    "risk_free_available": true,
+    "return_over_risk": -0.024,
+    "expected_price": 112.45,
+    "price_p5": 91.36,
+    "price_p95": 135.18,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Establish a position in XOM now, entering the first tranche at roughly 1-2% of portfolio at market (near $111.70) with a stop below the 200-day SMA at $104.50 to avoid being shaken out by headline-driven noise. Scale in additional tranches toward the $125-130 target zone on confirmed strength, taking partial profits there while retaining core exposure. Time horizon is 3 months.\n\n**Investment Thesis**: Synthesizing the risk analysts' debate, the strongest actionable evidence supports a Buy. The aggressive analyst correctly identifies the forward P/E of 14.7 versus trailing 26.44 as evidence of an earnings inflection, the bullish technical alignment (price at $111.70 above the 50-day SMA at $108.44 and 200-day SMA at $105.61 in a golden configuration), the integrated business model's natural hedge across upstream/refining/chemicals, and the extremely low beta of 0.162 providing downside protection relative to the broader market. The neutral analyst provides the critical balancing adjustment: the original stop at $107.00 sits only $1.44 below entry at $108.44 and exactly at the 50-day SMA, making it vulnerable to a single geopolitical headline, inventory build, or Middle East de-escalation that could knock oil prices down 5% in one session. The world affairs report flags live Iran strike and Fed policy turmoil risks, meaning the tight stop would likely trigger intraday before the position could recover. The conservative analyst overstates waiting for a pullback to $105.61 (which would likely invalidate the bullish thesis) or a $115 breakout (which would require buying at worse prices with tighter risk-reward), leading to paralysis rather than capital protection. The correct synthesis is to buy partial now with a wider stop at $104.50 (below the 200-day SMA, a genuine structural support), using 1-2% of portfolio on the first tranche so portfolio impact is only ~0.1-0.13% even at a wider 3.6-6.4% dollar risk. The YTD move from the 52-week low of $105.53 shows the stock has tested and held defined support, Oct 2nd's bounce off $108.86 confirms the 50-day level is being respected. RSI at 54.7 leaves room before overbought, and the ~3% dividend yield plus buybacks provides total-return support even in a sideways tape. The macro risk of a hard recession hitting chemical and refining margins is real, but the integrated model smooths earnings across cycles rather than eliminating cyclicality, and the low beta limits crash risk relative to the S&P. Scale in subsequent tranches on confirmed strength toward $115 and take partial profits at $125-130, honoring the thesis invalidation break below $104.\n\n**Price Target**: 125.0\n\n**Time Horizon**: 3 months"
+}

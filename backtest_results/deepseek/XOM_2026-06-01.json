@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-06-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-06-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.58,
+    "mean_max_drawdown_pct": -12.52,
+    "p95_worst_drawdown_pct": -22.92,
+    "p99_worst_drawdown_pct": -28.37,
+    "est_annualized_vol_pct": 24.5,
+    "spot_price": 149.38,
+    "expected_return_pct": 0.66,
+    "median_return_pct": -0.02,
+    "return_vol_pct": 12.42,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": -0.019,
+    "expected_price": 150.37,
+    "price_p5": 121.62,
+    "price_p95": 182.2,
+    "prob_loss": 0.5,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at its existing weight with no new capital deployment at current levels. Do not add until XOM confirms a reclaim of the 50-SMA (~$153.87) on consecutive closes; on the downside, treat $143 as a re-evaluation alert rather than an automatic exit. Keep the 2.62% dividend as carry, and reassess the thesis if the 200-day SMA (~$130) is tested or the forward P/E compresses materially above 16-17. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a Hold despite the aggressive analyst's push for a more offensive stance. The bull case rests on genuine strengths: XOM trades +14.5% above its 200-day SMA ($130.49), carries a reasonable 14.69 forward P/E, has a defensive beta of 0.162, and offers a 2.62% dividend. Geopolitical catalysts (Iran strike risk, Strait of Hormuz/Gulf concerns) and sector consolidation (BP North Sea sale) provide asymmetric upside optionality for the largest integrated player. However, the bear's counterpoints are weighty and grounded in confirmed data: price ($149.38) sits below both the 10-EMA and the 50-SMA ($153.87), which acts as overhead resistance; the trailing P/E of 26.44 is not cheap; the forward EPS of $10.58 assumes oil holds up while oil is actually FALLING on improved Gulf flows (which raises supply and undermines that estimate); there are zero company-specific catalysts; and the 2.62% yield is uncompetitive against ~4-5% risk-free rates in a potentially hawkish Fed under Warsh. The low beta cuts both ways\u2014it protects on the downside but caps upside participation in an oil spike. The neutral analyst correctly synthesizes the situation: neither adding into a short-term downtrend nor exiting a core holding trading well above its 200-day with durable dividend carry is justified. The HOLD is an option on future information: a clear upside trigger (consecutive closes above $153.87 confirming the 50-SMA flips to support) and a clear downside alert ($143). This preserves capital, collects carry, and forces action on confirmation rather than prediction\u2014the professionally disciplined stance given the balanced evidence.\n\n**Price Target**: 154.0\n\n**Time Horizon**: 3 months"
+}

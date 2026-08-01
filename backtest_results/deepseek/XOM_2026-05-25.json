@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-05-25",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-05-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.23,
+    "mean_max_drawdown_pct": -12.27,
+    "p95_worst_drawdown_pct": -22.68,
+    "p99_worst_drawdown_pct": -27.82,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 154.92,
+    "expected_return_pct": 0.86,
+    "median_return_pct": 0.34,
+    "return_vol_pct": 12.01,
+    "risk_free_pct_horizon": 0.896,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 156.25,
+    "price_p5": 127.55,
+    "price_p95": 188.62,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing weight with no aggressive additions or trims. Collect the 2.62% dividend while monitoring the forward EPS inflection ($10.58 vs $5.88 trailing) as the pivotal datapoint. Implement a revised risk framework: widen the stop to $145 to mitigate headline gap risk while setting a conditional add trigger at $165 on above-average volume (below the $176 52-week high) to capture confirmation without chasing. Re-evaluate to Underweight if XOM breaks below $145 or forward EPS estimates are revised sharply lower amid a crude breakdown; upgrade to Overweight if the stock holds above $165 with improving volume and sentiment. Time horizon is 3 months.\n\n**Investment Thesis**: The debate synthesizes into a balanced but disciplined HOLD, and the technical, sentiment, and valuation evidence collectively supports maintaining the position rather than pressing or trimming. The bull case rests on legitimate but forward-looking evidence: a forward P/E of 14.69 with projected forward EPS of $10.58 versus trailing $5.88 implies a genuine earnings inflection tied to current crude strip prices, not pure speculation\u2014the Neutral Analyst correctly notes the forward consensus is a function of the forward curve, not a fairy tale. The low beta (0.162), 2.62% dividend with sub-50% payout ratio, and upward-sloping 200-day SMA at $129.38 (stock at ~$155) provide genuine defensive anchoring amid Fed leadership uncertainty and active Iran-strike risk premium.\n\nHowever, the bear and neutral counterpoints carry decisive weight on risk management. The stock sits 23% off its 52-week high of $176.41, contradicting a pure \"defensive safety\" narrative. The technical setup is a coin-flip, not a springboard: at ~$154.92, the price is only $0.19 above the 50 SMA ($154.73) and hugging the 10 EMA, with sentiment objectively flat (5.0/10, low confidence, no social volume, no meaningful news flow for a mega-cap). The Aggressive Analyst's 4:1 risk-reward math is optimistic on two fronts: the $150 stop can be gapped through on headline volatility (an overnight crude selloff can gap the stock 6%+), and the $10.58 forward EPS has already been revised downward once and could fall 10-15% if crude rolls over, pushing the forward P/E toward 17 and erasing the \"cheap\" narrative.\n\nCritically, neither side establishes a decisive edge. The market has had the Iran-strike news for days and XOM has not broken above $160, signaling skepticism about the duration of any geopolitical rally rather than a sleeping powder keg. Conversely, there is no fundamental deterioration in the business\u2014only valuation skepticism, technical extension, and flat sentiment. The optimal synthesis adopts the Neutral Analyst's quantified corrections: widen the stop to $145 (just above late-April support and respecting the rising 200-day slope, capping realistic downside at ~6.4%) to avoid a false exit on a noise-driven gap, and lower the add trigger to $165 on above-average volume to capture institutional confirmation below the 52-week high. This structure aligns with the Research Manager's re-evaluation framework (upgrade on confirmed breakout or revised-forward-EPS confirmation; trim on crude breakdown or sub-$145 breach) while explicitly accounting for headline gap risk that a rigid $150 stop would not survive.\n\n**Price Target**: 168.0\n\n**Time Horizon**: 3 months"
+}

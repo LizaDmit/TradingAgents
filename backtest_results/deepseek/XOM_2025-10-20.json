@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-10-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-10-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.86,
+    "mean_max_drawdown_pct": -11.82,
+    "p95_worst_drawdown_pct": -21.87,
+    "p99_worst_drawdown_pct": -27.62,
+    "est_annualized_vol_pct": 23.4,
+    "spot_price": 110.23,
+    "expected_return_pct": 0.57,
+    "median_return_pct": -0.04,
+    "return_vol_pct": 11.58,
+    "risk_free_pct_horizon": 0.95,
+    "risk_free_available": true,
+    "return_over_risk": -0.032,
+    "expected_price": 110.87,
+    "price_p5": 90.79,
+    "price_p95": 132.67,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at benchmark weight (2\u20134% of a diversified portfolio) with no adds or trims at current levels. The stock is range-bound between ~$107 and ~$115, trading above both the 50-day ($109.27) and 200-day ($106.04) SMAs with a 2.62% dividend yield providing a floor. Set two hard alerts: a break below $107 on above-average volume triggers a reduction toward 1\u20132%, while a break above $115 on strong volume warrants adding toward the upper end of the band. Reassess at Q3 earnings and as the Fed transition and Middle East geopolitics resolve.\n\n**Investment Thesis**: The analyst debate converges decisively on a Hold, and each analyst independently reinforced this stance despite reaching it through different framings. The bullish case rests on a compelling valuation setup\u2014forward P/E of 14.69x versus trailing 26.44x implying ~43% earnings expansion to $10.58 forward EPS, a fortress balance sheet, low beta of 0.162, and a 2.62% dividend yield\u2014while the position holds above both the 50-day ($109.27) and 200-day ($106.04) SMAs, which is a genuine structural positive. However, the bearish counterpoints carry equal weight: RSI at 50.83 shows no directional conviction, the 10-day EMA ($109.84) sits nearly on the 50-day SMA ($109.27) indicating technical paralysis, the stock is 38% below its 52-week high of $176.41, and the forward multiple banks on uncertain earnings that depend on oil prices staying elevated, refining margins holding, and no operational disruptions. Three macro tail risks cut both ways: a potential Middle East ceasefire stripping the oil risk premium (a structural shift, not a blip), the Fed transition to Kevin Warsh with the 4% versus 2% inflation-target debate, and higher-for-longer rates compressing multiples. The risk/reward is roughly symmetric\u2014about 4% downside to the $105.53 low versus 4% upside to the $114.66 September high\u2014which does not justify conviction in either direction. Neither adding on a speculative forward multiple nor trimming on a hypothetical ceasefire is defensible. The correct action is to hold at benchmark weight, collect the dividend, and react only to confirmed technical breaks: below $107 (reassess/reduce to 1\u20132%) or above $115 (consider adding). Wait for Q3 earnings to validate the forward EPS trajectory before upgrading.\n\n**Price Target**: 115.0\n\n**Time Horizon**: 3 months"
+}

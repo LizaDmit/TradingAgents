@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-06-09",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-06-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.0,
+    "mean_max_drawdown_pct": -11.95,
+    "p95_worst_drawdown_pct": -22.17,
+    "p99_worst_drawdown_pct": -28.0,
+    "est_annualized_vol_pct": 23.8,
+    "spot_price": 101.73,
+    "expected_return_pct": 0.94,
+    "median_return_pct": 0.41,
+    "return_vol_pct": 11.94,
+    "risk_free_pct_horizon": 1.06,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 102.68,
+    "price_p5": 83.97,
+    "price_p95": 123.71,
+    "prob_loss": 0.487,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing sizing (~$101.73) with no additions or trims at this level. Deploy a modest 10% starter tranche only if price closes above the 50-day SMA at $102.41 on any volume, with the remaining 10-15% reserved for a confirmed reclaim on above-average volume or a breakaway gap above $104. Keep the hard stop at $98.68 (June low) and collect the 2.62% dividend as carry while monitoring forward EPS revisions and WTI price trajectory over the 3-month horizon.\n\n**Investment Thesis**: The debate resolves to a genuine Hold, and the evidence across all three analysts supports maintaining current positioning rather than committing aggressively in either direction. The bull case is anchored on real fundamentals: a forward P/E of 14.69x, forward EPS consensus of $10.58, defensive sub-0.2 beta, and the integrated model's downstream hedging. However, the bear case is equally substantive and largely unrefuted: price sits below both the 50-day SMA ($102.41) and 200-day SMA ($106.85), the technical report independently lands on HOLD, and the ~80% implied forward EPS growth depends on an oil-price recovery the market is not confirming\u2014as evidenced by oil falling on improved Gulf flows. The Neutral analyst's most compelling point is that the PEG ratio of 1.33 is a \"yellow light,\" not a green flag: the forward EPS estimate appears overly optimistic given sideways-to-down crude, meaning the \"cheap\" multiple could evaporate on a downward revision. The aggressive proposal to add 20-25% now at $101.73 with a $99 stop asks us to pay for optionality that isn't exercisable until a reclaim confirms\u2014and the downside below $98.68 is genuinely undefined, with next support likely at the psychological $95 level. Conversely, the conservative insistence on a full-volume reclaim before any action risks missing the recovery entirely; the stock is only 68 cents below the 50-day and has already bounced 3.1% off the June low, showing institutional buyers stepped in once before. Rather than favor either extreme, I adopt the Neutral analyst's tightened-trigger framework: hold current sizing now, deploy a partial 10% tranche on a price-based close above $102.41 (proving resistance isn't a brick wall), deploy the remaining 10-15% only on a volume-confirmed reclaim or gap above $104, and hold the $98.68 hard stop. This balances the real valuation opportunity against the unconfirmed technical setup and contingent forward estimates. The 2.62% dividend provides paid carry while waiting, and the sub-0.2 beta limits tail risk for an integrated major. Monitoring triggers: forward EPS revision below ~$9.50 or sustained sub-$65 WTI would weaken the thesis toward Underweight; a volume-confirmed 50-day reclaim and stabilized $70+ WTI would justify upgrading toward Overweight.\n\n**Price Target**: 106.85\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-12-08",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-12-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.76,
+    "mean_max_drawdown_pct": -11.78,
+    "p95_worst_drawdown_pct": -21.9,
+    "p99_worst_drawdown_pct": -27.66,
+    "est_annualized_vol_pct": 23.3,
+    "spot_price": 114.44,
+    "expected_return_pct": 0.74,
+    "median_return_pct": 0.35,
+    "return_vol_pct": 11.76,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": -0.014,
+    "expected_price": 115.28,
+    "price_p5": 94.3,
+    "price_p95": 138.05,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish XOM exposure in a staggered, tranched accumulation over 2-4 weeks, targeting 5-8% of the equity sleeve given its low-beta (0.162) defensive ballast role and 2.62% dividend. Enter the initial tranche (~30%) near the $113-114 area, add on a confirmed break above $117.70 (weekly close basis) or on a hold near the 50-day SMA ($112.86), and place the structural stop below the 200-day SMA (~$107). Hold the 3-month evaluation horizon.\n\n**Investment Thesis**: The Aggressive Analyst correctly flags the strongest signal in the debate: the trailing P/E of 26.4x versus a forward P/E of 14.7x implies forward EPS of ~$10.58 versus trailing $5.88 \u2014 a roughly 44-80% earnings expansion that, if realized, supports a meaningful re-rating. The technical structure is constructive: price ($114.44) sits above both the 50-day SMA ($112.86) and 200-day SMA ($107.73) with a widening Golden Cross. The macro backdrop \u2014 Iran escalation supporting oil, sticky 4% inflation, and a low 0.162 beta in a defensive integrated major \u2014 provides asymmetric downside protection.\n\nHowever, the Conservative Analyst's caution is legitimate and must temper conviction. The stock trades below its 10-day EMA ($114.88), sentiment data was effectively a blackout (HTTPError on StockTwits, zero news headlines), and the market has already heard the bullish narratives without rallying \u2014 suggesting the consensus forward EPS is not yet confirmed. The near-term reward to the November high ($117.70) is roughly $4.70 against a ~$6.00 risk to the $107 stop, a coin-flip initial risk/reward that argues against aggressive front-loading.\n\nThe Neutral Analyst's synthesis is the most sensible: execute a buy but with disciplined staging rather than either the Aggressive's 40% upfront commitment or the Conservative's waiting-for-perfection approach. Initiate ~30% of a 6% sleeve near $113-114, add 30% on a weekly-close break above $117.70 or on a hold at the $112.86 50-day support, and keep the final 40% in reserve for a decisive volume move above $120 that confirms the earnings re-rating story. The structural stop below the $107 200-day SMA is wide enough to survive the 10-day EMA noise while defining the true capital-preservation line. Key risk to monitor: Warsh's hawkish Fed fighting 4% inflation could strengthen the dollar and pressure commodities, and any diplomatic de-escalation in Iran could reverse the oil tailwind \u2014 both argue for keeping total commitment capped until earnings guidance confirms the forward trajectory.\n\n**Price Target**: 120.0\n\n**Time Horizon**: 3 months"
+}

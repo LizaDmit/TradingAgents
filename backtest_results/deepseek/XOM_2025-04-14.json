@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-04-14",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-04-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.98,
+    "mean_max_drawdown_pct": -11.97,
+    "p95_worst_drawdown_pct": -22.55,
+    "p99_worst_drawdown_pct": -27.69,
+    "est_annualized_vol_pct": 23.6,
+    "spot_price": 99.28,
+    "expected_return_pct": 0.58,
+    "median_return_pct": 0.12,
+    "return_vol_pct": 11.75,
+    "risk_free_pct_horizon": 1.049,
+    "risk_free_available": true,
+    "return_over_risk": -0.04,
+    "expected_price": 99.85,
+    "price_p5": 81.71,
+    "price_p95": 120.02,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing weight; do not add or trim aggressively. The stock trades at $99.28, below its 52-week low ($105.53), the 10-day EMA ($101.94), the declining 50-day SMA ($105.95), and the 200-day SMA \u2014 a confirmed technical breakdown with no near-term catalyst. Wait for the predefined triggers: add up to 25% toward Overweight only if XOM reclaims and holds the ~$106\u2013107 zone on increasing volume, and reassess/trim if it breaks lower with sustained selling. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a balanced-but-unconfirmed picture that supports Hold. The Aggressive Analyst's forward-P/E case (14.69) is credible \u2014 XOM offers an 8.2% discount to its 200-day SMA, a 0.162 beta, a fortress balance sheet, $644B market cap, and a geopolitical bid under oil (Iran strikes, Gulf shipping concerns, tightening supply) that could drive repricing. However, the bearish technicals are decisive against buying today: XOM has broken below its 52-week low of $105.53, is trading at $99.28, and sits below the 10-day EMA, a 50-day SMA that is declining week-over-week (106.28 to 105.95), and the 200-day SMA. The trailing P/E of 26.44 \u2014 the only hard earnings data \u2014 shows earnings are still depressed, and the forward recovery is unproven. The 2.62% dividend offers near-zero real return in a high-inflation environment, and the neutral, low-confidence sentiment with a news vacuum provides no catalyst for momentum reversal. The Conservative Analyst's discipline is warranted here because buying at $99.28 with no confirmation risks a 5\u201310% drawdown (to $95\u201392) before any snap-back, destroying the psychological capital needed to stay disciplined. The Neutral Analyst correctly synthesizes both: XOM is a defensive anchor that will not go to zero or halve (0.162 beta, integrated scale), which rules out a Sell, but the lack of a confirmed reversal rules out a Buy. Hold preserves optionality \u2014 the ability to add at $106\u2013107 on volume confirmation (a defined risk entry) or reassess on a downside break \u2014 while avoiding both a falling-knife catch and an unnecessary exit from a quality asset. The corporate fundamental analysis's own HOLD flag reinforces this stance. The appropriate move is to maintain the position, collect the dividend, and act only on the clearly defined triggers rather than speculating on timing.\n\n**Price Target**: 108.17\n\n**Time Horizon**: 3 months"
+}

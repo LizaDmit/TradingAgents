@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-04-21",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-04-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.06,
+    "mean_max_drawdown_pct": -12.08,
+    "p95_worst_drawdown_pct": -22.6,
+    "p99_worst_drawdown_pct": -28.35,
+    "est_annualized_vol_pct": 23.8,
+    "spot_price": 101.16,
+    "expected_return_pct": 0.77,
+    "median_return_pct": 0.5,
+    "return_vol_pct": 12.04,
+    "risk_free_pct_horizon": 1.053,
+    "risk_free_available": true,
+    "return_over_risk": -0.023,
+    "expected_price": 101.94,
+    "price_p5": 82.59,
+    "price_p95": 122.76,
+    "prob_loss": 0.485,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing sizing over the 3-month horizon. Do not add aggressively and do not exit. Implement defined asymmetry: trim 10-15% (or up to 20-25% if on high volume, per the Neutral analyst) on a decisive close below $100, and add/upgrade only on confirmed positive catalysts\u2014either technical confirmation above the 50-day SMA near $105.72 on above-average volume or management guidance supporting the ~$10.58 forward EPS. Collect the 2.62% dividend as carry while waiting for that catalyst.\n\n**Investment Thesis**: The analyst debate converges on Hold, and the specific evidence supports that conclusion. The bull's case rests on XOM trading at 14.69x forward earnings versus 26.44x trailing\u2014implying a market-disbelieved EPS rebound from ~$5.88 to ~$10.58\u2014backed by a 2.62% dividend yield and an ultra-low beta of 0.162. However, the bear and neutral analysts correctly note this forward discount is the norm for integrated oils in a cyclical trough, not a confirmation of a V-shaped recovery: there is no guidance, no pre-announcement, and no news flow supporting the rebound. The technical picture is genuinely deteriorating\u2014price at $101.16 sits 6.8% below the 200-day SMA and near 52-week lows, with the 50-day SMA at $105.72 and 10 EMA at $101.38 both sloping down. The macro backdrop (hawkish Warsh Fed transition, structural oversupply, dollar/oil inverse relationship on geopolitical easing) creates real downside that the 0.162 beta does not capture, since XOM's true driver is crude and refining margins. Yet the stock has already repriced down roughly a third from highs (~$176 to $101), meaning much of the earnings contraction may be priced in. The disciplined synthesis is to hold: selling here locks in losses near lows, buying is premature absent confirmation, but the $100 level must be respected as a hard line in the sand (with the neutral analyst's sensible refinement to ~$99.50 to avoid round-number whipsaw). The asymmetry of action is the key\u2014unlike the conservative's one-sided downside-only plan, we require positive triggers (reclaiming $105.72 on volume, or guidance confirming forward EPS) to add, so the portfolio is prepared to participate in the recovery that the aggressive analyst envisions should management confirm it. This conditional-discipline Hold maximizes expected value while avoiding binary outcomes over the 3-month horizon.\n\n**Price Target**: 108.0\n\n**Time Horizon**: 3 months"
+}

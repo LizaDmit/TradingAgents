@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-02-09",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-02-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.36,
+    "mean_max_drawdown_pct": -12.41,
+    "p95_worst_drawdown_pct": -23.09,
+    "p99_worst_drawdown_pct": -29.27,
+    "est_annualized_vol_pct": 24.6,
+    "spot_price": 149.2,
+    "expected_return_pct": 0.91,
+    "median_return_pct": 0.35,
+    "return_vol_pct": 12.4,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": 0.001,
+    "expected_price": 150.55,
+    "price_p5": 121.7,
+    "price_p95": 182.7,
+    "prob_loss": 0.489,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing sizing near $149. The balanced risk/reward\u2014strong momentum and geopolitical tailwinds versus stretched technicals (RSI ~79, price 33% above the 200-day SMA) and a hawkish Fed transition with no XOM-specific catalyst\u2014does not justify adding or trimming. Tighten the defined risk exit to a break and close below the $140\u2013141 zone (10 EMA/breakout area), and hold a data-driven upgrade trigger requiring two weeks of $145+ consolidation on volume plus a fundamental confirmation. Time horizon: 3 months.\n\n**Investment Thesis**: The three-way debate converges on neither a decisive bull nor bear edge, making Hold the correct stance despite the Aggressive Analyst's case for adding and the Conservative Analyst's call to trim. Aggressive's strongest evidence is the clean moving-average stack (10 EMA $141.87, 50 SMA $124.36, 200 SMA $112.02), expanding MACD histogram at $1.10, and the geopolitical/Iran supply catalyst with Shell's supply-squeeze warnings\u2014yet these are sector-wide tailwinds, not XOM-specific catalysts, and the sentiment window shows no company news, no StockTwits data, and only an irrelevant Reddit futures artifact. Conservative correctly flags the 33% 200-day SMA extension and RSI 79.25 as a mean-reversion risk, and the forward P/E of 14.7x implies a nearly 80% EPS jump from $5.88 to $10.58 that lacks fundamental substantiation\u2014but its proposed 10 EMA/trailing $145 stops are too tight for a stock with $2\u20133 daily ranges and would have stopped out the entire late-January $135\u2013$149 move. Neutral's synthesis is most persuasive: ~50/50 probability distribution with moderate tails, a live Fed transition risk (Kevin Warsh's hawkish inflation stance at 4% vs 2% target strengthening the dollar against XOM's ~50% international revenue), and the 2.62% dividend/low 0.162 beta providing downside cushion. With no fundamental catalyst and the forward EPS estimate likely stale against a moving oil-price assumption, neither confidence in nor fear of the estimate is justified. The correct response is to maintain exposure, tighten the exit to the $140\u2013141 breakout/10-EMA zone (~6% downside) versus the $155\u2013160 realistic upside, and wait for the market to tip its hand before committing more capital.\n\n**Price Target**: 160.0\n\n**Time Horizon**: 3 months"
+}

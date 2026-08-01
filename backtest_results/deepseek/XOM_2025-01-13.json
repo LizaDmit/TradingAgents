@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-01-13",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-01-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.14,
+    "mean_max_drawdown_pct": -9.99,
+    "p95_worst_drawdown_pct": -18.4,
+    "p99_worst_drawdown_pct": -23.05,
+    "est_annualized_vol_pct": 19.2,
+    "spot_price": 104.02,
+    "expected_return_pct": 0.42,
+    "median_return_pct": 0.02,
+    "return_vol_pct": 9.7,
+    "risk_free_pct_horizon": 1.054,
+    "risk_free_available": true,
+    "return_over_risk": -0.065,
+    "expected_price": 104.46,
+    "price_p5": 88.75,
+    "price_p95": 121.87,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim XOM positions by approximately 25-35% at current levels around $104, but do not fully exit. The stock trades below both the 50-SMA ($108.18) and 200-SMA ($109.10), which serve as overhead resistance, while macro headwinds\u2014falling oil prices on improved Gulf flows, 4% inflation vs. 2% target, a hawkish Fed, and a strengthening dollar\u2014continue to pressure the equity. Maintain a widened stop-loss near $97.50 to avoid noise whipsaws on a low-beta (0.16) name with an ATR of 2.08. Re-initiate on a confirmed daily close above the 200-SMA on above-average volume, or re-enter opportunistically on a pullback nearer to 1.5x book value (low-to-mid $90s). Time horizon: 3 months.\n\n**Investment Thesis**: The debate among risk analysts converges on a nuanced but clear conclusion: reduce exposure without abandoning the position entirely. The aggressive analyst's case for outright selling overstates the downside\u2014targeting $95 would require an ATR move of over 4 standard deviations, which is not supported by the data given the stock's beta of 0.16. The conservative analyst correctly notes that the 2.62% dividend is positive in real terms when inflation at 4% makes the nominal 4% risk-free rate approximately zero in real terms, and that the stock has already adjusted significantly from its $176.41 52-week high. However, the neutral analyst's synthesis is most persuasive: the technical setup is genuinely bearish with both the 50-SMA and 200-SMA overhead, macro headwinds from improved Gulf oil flows and a hawkish Fed are real and developing (not fully priced in), and the forward EPS consensus of $10.59 embedded in the 14.82x forward P/E is vulnerable to downward revision if oil slides further. The forward P/E of 14.82x versus a TTM P/E of 26.38x signals the market is pricing in weak near-term earnings, and the 2.62% dividend yield still underperforms the nominal risk-free rate. With no near-term catalyst, neutral sentiment at 5.0/10, and the stock trading at $104 below both moving averages, the risk/reward is roughly 1:1 at best (4% upside to the 50-SMA versus ~3.8% downside to the $100 psychological level). The appropriate action is an Underweight stance: trim 25-35% of existing positions to reduce exposure to a deteriorating macro-technical setup, maintain a disciplined stop-loss widened to $97.50 to avoid whipsaws given the low volatility profile, and preserve capital for a re-entry at more compelling levels\u2014either a confirmed daily close above the 200-SMA near $109 on above-average volume, or a pullback to approximately 1.5x book value in the low-to-mid $90s.\n\n**Price Target**: 95.0\n\n**Time Horizon**: 3 months"
+}

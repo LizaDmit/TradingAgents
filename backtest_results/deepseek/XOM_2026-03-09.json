@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-03-09",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-03-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.68,
+    "mean_max_drawdown_pct": -12.64,
+    "p95_worst_drawdown_pct": -23.43,
+    "p99_worst_drawdown_pct": -28.97,
+    "est_annualized_vol_pct": 24.8,
+    "spot_price": 149.43,
+    "expected_return_pct": 0.62,
+    "median_return_pct": -0.03,
+    "return_vol_pct": 12.51,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": -0.022,
+    "expected_price": 150.35,
+    "price_p5": 121.56,
+    "price_p95": 182.61,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at the existing allocation with the stop loss at $130. Do not add new exposure at $149 given the 28% extension above the 200-day SMA and cooling momentum (RSI down from 82 to 57.81, price flat against the 10 EMA). Scale in gradually in 25% increments only if XOM pulls back to the $135\u2013140 zone with stabilization signals\u2014a close back above the 10 EMA or an RSI recovery. The 3-month window offers a real forward earnings catalyst (consensus $10.58 EPS) but that projection is contingent on a geopolitical premium that historically decays, so disciplined risk management and patience are the correct posture.\n\n**Investment Thesis**: The Hold rating is grounded in the genuinely balanced evidence across the analysts' debate. The bull pillar rests on a compelling forward P/E of 14.69x versus a trailing 26.4x multiple, driven by ~80% projected EPS growth from $5.88 to $10.58. Yet that consensus projection is the crux of the fragility\u2014it depends entirely on a sustained geopolitical premium from the Iran conflict, and the Neutral Analyst correctly cites historical precedent (Gulf War, Iraq War, Russia-Ukraine initial shock) showing energy premiums peak within months and decay as the market re-prices risk into the base case. The forward earnings are a projection, not a reality. The technical picture also argues against chasing at $149: price is 28% above the 200 SMA (a stretched rubber band with mean-reversion history of 8\u201310%), RSI has cooled from an extreme 82 reading to 57.81, and the 10 EMA ($149.57) has been crossed by the close ($149.43)\u2014all signals of fading momentum rather than a launchpad, contradicting the Aggressive Analyst's framing. The conservative concerns about a 26.4x trailing multiple and PEG of 1.33 confirm the stock is fairly valued, not cheap. However, selling or underweighting is equally unjustified. XOM is the world's largest integrated major with fortress-tier cash flows, a 2.62% dividend yield cushion, low beta (0.162) insulating from systemic declines, an enormous $644B market cap for liquidity, and price-to-book of 2.53x that is not stretched. The 52-week range ($105.53\u2013$176.41) shows $149 is not a euphoric high. The Neutral Analyst's refinement of the risk framework is the most defensible: the $130 stop is correct because it sits below the 50 SMA ($137.17) and gives the position room to breathe through geopolitical noise, while the conservative $140 stop would get struck on normal volatility with no structural support and force a poor re-entry. With neutral social sentiment (no Yahoo, StockTwits, or meaningful Reddit positioning) indicating institutional-driven price action rather than froth, the probability of a violent squeeze or cascading selloff is lower. The rational posture is to maintain exposure, respect the $130 stop, and use any pullback to $135\u2013140 with stabilization confirmation to improve cost basis\u2014capturing the legitimate earnings catalyst without paying a premium for a projection that may not materialize.\n\n**Price Target**: 155.0\n\n**Time Horizon**: 3 months"
+}

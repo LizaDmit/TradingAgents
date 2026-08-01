@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-06-08",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-06-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.5,
+    "mean_max_drawdown_pct": -12.52,
+    "p95_worst_drawdown_pct": -23.0,
+    "p99_worst_drawdown_pct": -28.29,
+    "est_annualized_vol_pct": 24.5,
+    "spot_price": 151.75,
+    "expected_return_pct": 0.67,
+    "median_return_pct": 0.03,
+    "return_vol_pct": 12.37,
+    "risk_free_pct_horizon": 0.907,
+    "risk_free_available": true,
+    "return_over_risk": -0.019,
+    "expected_price": 152.77,
+    "price_p5": 123.79,
+    "price_p95": 184.79,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at neutral weight. Do not add capital at $151.75 given the 10-day EMA below the 50-day SMA and unconfirmed 45% forward EPS growth. Set a trigger to upgrade toward Overweight on a confirmed reclaim of the 50-day SMA (~$152.80) on volume, or a held pullback into the $145\u2013$146 support zone. Keep the ~2.62% dividend as carry through the 3-month evaluation window.\n\n**Investment Thesis**: The debate resolves to a balanced stalemate where the strongest arguments on both sides are offsetting, confirming the Hold posture. The Bull's structural case is legitimate \u2014 forward P/E of 14.69x on projected EPS of $10.58, a fortress balance sheet (beta of 0.162), a 2.62% dividend for carry, and a widening moat as BP retreats from the North Sea while XOM concentrates on low-cost, high-margin upstream. Geopolitical optionality from Iran headlines is a real catalyst. However, the Bear's counterpoints are equally compelling and cannot be dismissed: the trailing P/E of 26.44x is elevated for a cyclical major near the top of its margin cycle, and the 45% forward EPS growth assumption is not confirmed by the commodity tape \u2014 oil fell despite geopolitical tension, and improved Gulf flows point to supply returning online. Technically, the 10-day EMA ($150.92) sitting below the 50-day SMA ($152.80) signals momentum rolling over, and the 10.6% reversal after the May 19 spike to $162.55 carries distribution characteristics. The Neutral Analyst correctly synthesizes this: price is neither breaking down nor breaking out, and neither trimming 10\u201315% (as the Conservative suggests, which would lock in losses after the pullback and sacrifice dividend-supported upside) nor aggressively adding at $145 (as the Aggressive suggests, which risks adding into a falling knife at tested support) is warranted. The disciplined path is to hold at neutral weight, keep the stop at $145, and require explicit technical confirmation \u2014 either a 50-day SMA reclaim on volume (~$152.80) to justify building toward Overweight, or a second successful test of the $145\u2013$146 zone for a better risk/reward entry \u2014 before committing fresh capital. The absence of retail/news sentiment is a double-edged sword: it keeps sentiment cheap but provides no organic narrative catalyst. Verify actual forward EPS delivery in upcoming guidance; upgrade if the $10.58 trajectory confirms, trim toward Underweight if oil keeps falling and the growth thesis breaks.\n\n**Price Target**: 152.8\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-03-10",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-03-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.48,
+    "mean_max_drawdown_pct": -10.35,
+    "p95_worst_drawdown_pct": -18.89,
+    "p99_worst_drawdown_pct": -23.3,
+    "est_annualized_vol_pct": 19.9,
+    "spot_price": 107.36,
+    "expected_return_pct": 0.41,
+    "median_return_pct": 0.08,
+    "return_vol_pct": 9.89,
+    "risk_free_pct_horizon": 1.046,
+    "risk_free_available": true,
+    "return_over_risk": -0.064,
+    "expected_price": 107.8,
+    "price_p5": 91.1,
+    "price_p95": 126.2,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at target allocation with no additions or trims until the $104\u2013$108 range resolves. Trigger a 1% add only on a volume-backed close above $108 (ideally with RSI > 60 and expanding MACD), and trim a quarter (not half) on a break below $104 with rising volume while preserving the core position given the tight $105.53 52-week-low floor. Continue collecting the 2.62% dividend as compensation during the catalyst vacuum. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on a Hold, but the neutral analyst sharpens the execution parameters in a way that reduces both whipsaw and downside risk. The aggressive case for early entry at $106.50 is rejected: the stock closed at $107.36, only $0.64 below the 200-day SMA at $108, and there is no volume spike, institutional accumulation data, or news catalyst supporting a pre-breakout add. The 80% forward EPS jump (TTM $5.88 to forward $10.58) is compelling on valuation (forward P/E 14.69x vs TTM 26.44x), but it is an analyst projection that depends on elevated crude prices, wide crack spreads, and no demand destruction from the Fed transition \u2014 a hawkish Warsh outcome would strengthen the dollar and pressure oil, undermining that EPS. The bear's concern about trimming half below $104 is also blunted: a break below $104 would likely re-test the 52-week low at $105.53, only ~$1.50 below the trigger, so a full half-trim risks selling at the bottom of the range into likely support. The constructive signals (10 EMA $104.81 above 50 SMA $104.07, RSI recovering 39\u219257, MACD turning up) tilt short-term momentum slightly positive, but the $108 resistance and macro overhang keep the tactical upside capped. The balanced posture \u2014 hold full allocation, add 1% on a volume-backed close above $108 with RSI>60, trim a quarter only on a rising-volume break below $104 \u2014 preserves optionality both ways while avoiding both over-leverage on hope and capitulation on fear. The 2.62% dividend yield compensates for the wait, and Q1 earnings will be the key catalyst to validate or refute the forward EPS estimates.\n\n**Price Target**: 108.0\n\n**Time Horizon**: 3 months"
+}

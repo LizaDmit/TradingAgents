@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-10-13",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-10-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.88,
+    "mean_max_drawdown_pct": -11.91,
+    "p95_worst_drawdown_pct": -22.2,
+    "p99_worst_drawdown_pct": -28.0,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 109.78,
+    "expected_return_pct": 0.69,
+    "median_return_pct": 0.36,
+    "return_vol_pct": 11.84,
+    "risk_free_pct_horizon": 0.963,
+    "risk_free_available": true,
+    "return_over_risk": -0.023,
+    "expected_price": 110.54,
+    "price_p5": 90.17,
+    "price_p95": 132.9,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim XOM by approximately 20% at current levels ($109\u2013$112) to align with the Underweight mandate, setting a hard stop at $105.50 (just below the 52-week low of $105.53) to cap downside to roughly 4%. Do not exit the position entirely \u2014 XOM's low beta (0.16), 2.62% dividend yield, and fortress balance sheet make it a viable defensive core holding. Re-establish a full position only on a confirmed reclaim of $112 or a sustained crude oil recovery; further reduce if XOM breaks decisively below $105.50.\n\n**Investment Thesis**: The bear case is materially more convincing on price action: XOM trades ~21% below the 50-day SMA ($146.40) and ~28% below the 200-day SMA ($139.16), printing lower highs from $114.66 \u2192 $111.70 \u2192 $109.78, with the price only ~4% above the 52-week low of $105.53. The forward EPS estimate of $10.58 implying a 72% expansion from trailing $5.88 is aggressive and unconfirmed against compressed refining margins, weak chemical margins, and OPEC+ supply additions. The neutral analyst correctly notes the contradictory moving-average readings (trader's supplemental data vs. the official report) \u2014 this data conflict itself argues against high conviction on either side, supporting a moderate reduction rather than a binary full exit or full hold. However, the aggressive analyst's call for a 25%+ trim or full exit overstates conviction: the stock is holding above the 52-week low and 200-day SMA support confluence, the geopolitical tail-risk hedge value of a low-beta inflation asset is real, and the market has already repriced XOM down 38% from its high with a reasonable 14.69x forward P/E. The conservative analyst's staged trim into strength is prudent but risks inaction while momentum deteriorates. The correct balance is a ~20% trim (the neutral analyst's midpoint), a $105.50 hard stop, and a defined re-entry criteria ($112 reclaim or crude stabilization), preserving capital while retaining the asymmetric upside to a geopolitical oil spike.\n\n**Price Target**: 105.5\n\n**Time Horizon**: 3 months"
+}

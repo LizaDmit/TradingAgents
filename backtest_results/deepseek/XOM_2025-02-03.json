@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-02-03",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-02-03",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.17,
+    "mean_max_drawdown_pct": -9.95,
+    "p95_worst_drawdown_pct": -18.36,
+    "p99_worst_drawdown_pct": -22.72,
+    "est_annualized_vol_pct": 19.2,
+    "spot_price": 101.92,
+    "expected_return_pct": 0.43,
+    "median_return_pct": -0.19,
+    "return_vol_pct": 9.67,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.064,
+    "expected_price": 102.36,
+    "price_p5": 86.81,
+    "price_p95": 119.29,
+    "prob_loss": 0.506,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at market weight with no incremental capital deployment. Tighten the risk stop to $100.50 (just below the Bollinger lower band of $100.60) to manage gap risk, and require a dual confirmation\u2014XOM reclaiming its 50-day SMA near $105.78 on elevated volume AND crude holding above $70/bbl for five consecutive sessions\u2014before considering accumulation. The 3-month horizon calls for patience: hold the quality name at a 14.69x forward multiple while awaiting technical stabilization or a macro catalyst, and exit only on a decisive close below the $100 psychological floor.\n\n**Investment Thesis**: The debate converges on a genuine Hold, but with materially tightened risk controls than the initial trader proposal. The bull case is anchored in real valuation support: a 14.69x forward P/E on an estimated $10.58 forward EPS versus $5.93 trailing (implying ~78% earnings expansion if crude recovers), a 2.62% dividend from a $644B fortress balance sheet with a 40+ year dividend growth streak, and a defensive beta of 0.162. However, the bear's counterpoints are equally valid and must temper any aggressive accumulation: the low beta reflects correlated decline rather than true defense (XOM is falling with crude, not decoupling from it), the forward multiple assumes a crude recovery the market explicitly discounts, the dividend yields 200bps below the 10-year Treasury (undersupplying income investors relative to risk-free), and the technicals are broken\u2014price sits at $101.92 below the 10-day EMA, 50-day SMA ($105.78), and 200-day SMA, having already breached the 52-week low of $105.53 with no clear floor until $100. The aggressive analyst's \"coiled spring\" narrative is contradicted by a neutral 5.0/10 sentiment score with low confidence and a complete void of XOM-specific news\u2014there is no bullish or bearish positioning to squeeze. The conservative analyst's push to underweight is too hasty given the valuation cushion at a 40% drawdown from highs; exiting near the 52-week low locks in losses without a catalyst. The balanced path is a disciplined Hold at market weight, with a tightened stop at $100.50 to address the gap-risk the conservative rightly flagged, and a dual fundamental-plus-technical re-entry trigger rather than a single crude-level condition. This protects capital both ways: we avoid catching a falling knife below $100, and we avoid capitulating at the bottom of a range for a quality integrated major trading at a reasonable forward multiple.\n\n**Price Target**: 105.78\n\n**Time Horizon**: 3 months"
+}

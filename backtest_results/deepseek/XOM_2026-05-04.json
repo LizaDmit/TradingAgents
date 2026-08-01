@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-05-04",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-05-04",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.89,
+    "mean_max_drawdown_pct": -11.81,
+    "p95_worst_drawdown_pct": -21.73,
+    "p99_worst_drawdown_pct": -26.49,
+    "est_annualized_vol_pct": 23.1,
+    "spot_price": 152.65,
+    "expected_return_pct": 0.77,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 11.58,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.011,
+    "expected_price": 153.83,
+    "price_p5": 126.45,
+    "price_p95": 184.18,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing XOM position at current size near $152.65\u2014do not add at these levels and do not trim. Execute a two-trigger accumulation framework: add a partial tranche on a confirmed pullback to the $140-145 zone (contingent on the 50-day SMA flattening or price reclaiming the 10 EMA above $140), or on a breakout above $160 on volume. Keep the base stop-loss at $140 and treat a close below the 200-day SMA at $126.12 as a structural breakdown warranting position reduction. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate centers on a genuine divide in time horizon. The Aggressive Analyst's bull case is grounded in real, verifiable fundamentals: a forward PE of 14.69x versus trailing 26.44x signals expected earnings acceleration from $5.88 to $10.58 EPS, supported by a fortress balance sheet ($326B revenue, $25.3B net income), an ultra-low beta of 0.162, and a 2.62% dividend yield. These are structural strengths that justify maintaining a position. However, the Conservative Analyst correctly identifies the tactical risks: the stock is stretched 21% above its still-rising 200-day SMA at $126.12 after a 45% run, price sits below the 50-day SMA at $153.91, a short-term death cross is active, and the forward EPS estimate is contingent on a geopolitical oil premium (Iran strikes) that is historically mean-reverting and could unwind quickly. A hawkish Fed chair (Kevin Warsh) poses additional demand-side risk. The Neutral Analyst offers the most executable synthesis: neither add at $152.65 (3.8% from the 52-week high, buying strength not weakness) nor trim, but instead deploy capital via two conditional triggers\u2014a confirmed retracement to $140-145 or a volume-confirmed breakout above $160. Given the balanced evidence, the asymmetric risk is only favorable at better entry points, and the fundamental moat prevents a trim. A Hold with structured triggers is the appropriate decision: maintain exposure, protect the downside with a $140 stop, and deploy on either confirmed weakness or confirmed strength.\n\n**Price Target**: 168.0\n\n**Time Horizon**: 3 months"
+}

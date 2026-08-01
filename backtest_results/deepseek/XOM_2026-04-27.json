@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-04-27",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-04-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.88,
+    "mean_max_drawdown_pct": -11.83,
+    "p95_worst_drawdown_pct": -21.87,
+    "p99_worst_drawdown_pct": -27.3,
+    "est_annualized_vol_pct": 23.1,
+    "spot_price": 147.19,
+    "expected_return_pct": 0.55,
+    "median_return_pct": 0.08,
+    "return_vol_pct": 11.48,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.03,
+    "expected_price": 148.01,
+    "price_p5": 121.38,
+    "price_p95": 177.19,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at neutral weight. Do not add on hope or sell on fear. Deploy a two-tiered scale-in plan: scale 25% of incremental target on a reclaim of the 10-EMA with a confirmed higher low on daily closes, and the remaining 25% only on a decisive close above the 50-SMA ($153.46). The hard risk line is the 200-day SMA at $125.06\u2014a decisive close below it invalidates the long-term thesis and warrants a reduction review. Collect the 2.62% dividend as a downside cushion over the 3-month horizon while waiting for confirmed technical stabilization or a clearer macro catalyst.\n\n**Investment Thesis**: The debate resolves to a genuine equilibrium. The bull case is anchored in an objectively attractive forward P/E of 14.69x (forward EPS of $10.58 vs. depressed TTM of $5.88), a fortress balance sheet, a $644B market cap, and a structurally intact long-term trend with price ($147.19) sitting 17.6% above the 200-day SMA ($125.06). The 2.62% dividend and 0.162 beta make this one of the most defensive energy majors available. However, the bear's technical and macro concerns carry real weight: price is below both the 10-EMA ($149.16) and 50-SMA ($153.46), the stock is 16.5% off its 52-week high, and the 10-EMA has dropped $13 in three weeks\u2014a trend in motion, not a completed reversal. Macro headwinds (hawkish Fed under Warsh, recovering Gulf supply, OPEC+ spare capacity) tilt against sustained oil upside, and forward earnings estimates in a commodity business are prone to downward revision. The critical insight from the Neutral Analyst is that neither extreme is justified: the valuation is not expensive enough to sell, and the technical trend is not positive enough to aggressively buy. The trader's two-tiered entry framework\u201425% on a confirmed higher low above the 10-EMA plus 25% on a close above the 50-SMA\u2014is the balanced execution. The 200-day SMA at $125.06 is the hard invalidation level: a decisive break below it confirms the bear's distribution thesis and triggers a reduction review. With a symmetric risk/reward and mixed signals, holding at neutral weight with pre-committed triggers is the disciplined, defensible decision for the 3-month horizon.\n\n**Price Target**: 150.0\n\n**Time Horizon**: 3 months"
+}

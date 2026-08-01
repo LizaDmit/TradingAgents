@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-08-18",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-08-18",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.28,
+    "mean_max_drawdown_pct": -12.32,
+    "p95_worst_drawdown_pct": -23.13,
+    "p99_worst_drawdown_pct": -28.48,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 104.39,
+    "expected_return_pct": 0.79,
+    "median_return_pct": 0.34,
+    "return_vol_pct": 12.19,
+    "risk_free_pct_horizon": 1.031,
+    "risk_free_available": true,
+    "return_over_risk": -0.02,
+    "expected_price": 105.21,
+    "price_p5": 85.24,
+    "price_p95": 126.98,
+    "prob_loss": 0.489,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate XOM in tranches rather than a single deployment. Deploy the first tranche (~1% of portfolio) at current levels near $104, then add on technical confirmation: a second tranche on a close above the 200-day SMA ($105.84) and a third on a close above the 50-day SMA ($106.59). Maintain a hard stop at $95 on heavy volume to cap downside, with a total full deployment target of 3% of the portfolio. Monitor Q4 earnings, OPEC supply decisions, and Fed policy signals under the Warsh transition as the primary re-rating catalysts over the 3-month horizon.\n\n**Investment Thesis**: The analysts' debate converges on a genuine valuation asymmetry\u2014forward P/E of 14.7x versus trailing 26.4x with forward EPS of $10.58 versus trailing $5.88\u2014set against a fortress-grade balance sheet (beta of 0.162, $644B market cap, integrated upstream/downstream/chemicals diversification) and a 2.62% dividend yield. The Aggressive Analyst correctly argues the 41% drawdown from the 52-week high has largely priced in macro fear, and the flattening 10-day EMA with price sitting at $104.39 versus the 10-day at $104.22 points to stabilization rather than freefall. However, the Conservative and Neutral Analysts rightly temper conviction: XOM remains below both the 50-day ($106.59) and 200-day ($105.84) SMAs, both averages are rolling over, and the macro backdrop (hawkish Fed transition under a potential Warsh appointment, strengthening dollar pressuring oil, improved Gulf flows, and rising Treasury yields competing with the dividend) provides no near-term catalyst. The Neutral Analyst's synthesis is persuasive: buy a little now, add on confirmation, and respect the stop\u2014avoiding both the recklessness of full deployment into a descending channel and the cowardice of waiting for a confirmation signal that may only arrive after the move. The 2.5:1 to 3:1 risk-reward (accounting for gap risk through the $95 stop) justifies a moderate position but not maximal size; cap deployment at 3% within the research plan's 3-5% range given macro uncertainty. The dividend provides carry while awaiting the re-rating, and the integrated structure mitigates downside versus pure upstream names. Prior-lesson discipline dictates scaling in rather than catching a falling knife with the full position, with a defined stop to protect capital against a macro-driven gap through $95.\n\n**Price Target**: 115.0\n\n**Time Horizon**: 3 months"
+}

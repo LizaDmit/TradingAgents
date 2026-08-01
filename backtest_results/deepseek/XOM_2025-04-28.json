@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-04-28",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-04-28",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.14,
+    "mean_max_drawdown_pct": -12.14,
+    "p95_worst_drawdown_pct": -22.74,
+    "p99_worst_drawdown_pct": -28.72,
+    "est_annualized_vol_pct": 24.0,
+    "spot_price": 104.31,
+    "expected_return_pct": 0.62,
+    "median_return_pct": -0.05,
+    "return_vol_pct": 11.98,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.035,
+    "expected_price": 104.96,
+    "price_p5": 85.4,
+    "price_p95": 126.14,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at approximately benchmark weight. Do not add aggressively at the current $104.31 level given the deteriorating technical structure (price below both the 50-day and 200-day SMAs in a death cross, rising ATR) and the soft-to-declining commodity backdrop. Respect the $90 stop-loss to protect capital. Establish two conditional triggers for re-rating: a confirmed reclaim of the 200-day SMA near $108, or a stabilizing pullback toward the $95\u2013$97 zone with technical confirmation. Time horizon: 3 months.\n\n**Investment Thesis**: The risk debate converges on a genuinely balanced case for XOM, supporting a Hold. The bull case is anchored in strong fundamentals: a 14.69x forward P/E, a fortress balance sheet, Permian and Guyana growth engines, aggressive buybacks, and a secure 2.62% dividend backed by substantial free cash flow. The stock is down roughly 40% from its $176.41 high, and the sub-1% beta (0.162) argues for defensive quality. However, the bear's technical and macro case carries equal weight. The stock trades at $104.31, below both the 50-day SMA ($105.67) and the 200-day SMA ($107.99), in a death cross with ATR roughly doubled and the MACD firmly negative. WTI crude is rolling over on improved Gulf supply flows, and the 2.62% dividend yield sits well below a 10-year Treasury above 4.3%, creating an adverse carry dynamic. Both the aggressive analyst's call to front-run a re-rating with speculative laddered buys and the conservative analyst's push toward ironclad paralysis should be rejected in favor of the neutral analyst's disciplined framework: hold at benchmark, respect the $90 stop, and conditionally add only on confirmed stabilization (a close back above the 10-day EMA with slowing ATR expansion in the $95\u2013$97 zone) or a confirmed 200-day SMA reclaim near $108 with volume. Neither side has a knockout punch\u2014the bull cannot guarantee oil rallies amid improved supply, and the bear cannot ignore the quality of the asset base and buyback support. The balanced path\u2014patience, rule-based triggers, and capital preservation\u2014is the appropriate stance.\n\n**Price Target**: 108.0\n\n**Time Horizon**: 3 months"
+}

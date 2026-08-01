@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-07-07",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-07-07",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.26,
+    "mean_max_drawdown_pct": -12.35,
+    "p95_worst_drawdown_pct": -23.2,
+    "p99_worst_drawdown_pct": -28.78,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 107.68,
+    "expected_return_pct": 0.75,
+    "median_return_pct": 0.34,
+    "return_vol_pct": 12.22,
+    "risk_free_pct_horizon": 1.061,
+    "risk_free_available": true,
+    "return_over_risk": -0.025,
+    "expected_price": 108.49,
+    "price_p5": 87.7,
+    "price_p95": 131.13,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at current sizing with the stop loss at $105.53. The stock trades at $107.68, only ~2% above its 52-week low, with a fragile technical footing (0.8% above the 200-day SMA) and a forward P/E of 14.69x that is heavily dependent on the durability of the $10.58 forward EPS amid oil supply headwinds. The balanced evidence\u2014bullish valuation/momentum vs. bearish oil pullback and a \"young, not deeply established\" trend\u2014supports holding without adding. Upgrade to Overweight only on a decisive break above $111-112 with volume; trim toward Underweight on a closing break below $105.53. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a textbook Hold. The aggressive analyst makes a legitimate case on valuation\u2014forward P/E of 14.69x against forward EPS of $10.58, a 2.62% dividend yield, a fortress balance sheet, and low beta of 0.162\u2014plus genuine technical signals (Golden Cross, price above the 10 EMA, 50 SMA and 200 SMA). However, the conservative analyst correctly exposes the fragility: the stock is 39% below its 52-week high of $176.41 and only ~2% above its low of $105.53; the technician's own report flags the uptrend as \"young and not deeply established\"; and the price sits just 0.8% above the 200 SMA at $106.78, leaving the \"golden cross\" vulnerable to a single bad oil headline. The concrete near-term headwind\u2014oil pulling back on improved Gulf flows\u2014directly pressures the forward EPS estimate that justifies the cheap forward multiple, and the neutral sentiment is low-confidence due to missing data, not a bullish tell. The neutral analyst provides the decisive synthesis: the stop at $105.53 should be maintained (below the 200 SMA and the June swing low around $104.47) rather than tightened to $106.50, which would invite whipsaw; a break above $111-112 with volume is the add trigger; a close below $105.53 is the trim trigger. With the stock already ~3.5% underwater from the $111.50 entry and no volume confirmation of a durable breakout, the risk is not contained enough for aggressive accumulation, while the valuation floor, dividend yield, and defensive profile argue against selling. The position is balanced between the bullish technical/valuation setup and the bearish oil macro headwind, warranting a disciplined Hold with conditional triggers. Time horizon: 3 months.\n\n**Price Target**: 115.0\n\n**Time Horizon**: 3 months"
+}

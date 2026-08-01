@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-01-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-01-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.19,
+    "mean_max_drawdown_pct": -9.99,
+    "p95_worst_drawdown_pct": -18.34,
+    "p99_worst_drawdown_pct": -22.84,
+    "est_annualized_vol_pct": 19.1,
+    "spot_price": 106.9,
+    "expected_return_pct": 0.37,
+    "median_return_pct": -0.02,
+    "return_vol_pct": 9.65,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.07,
+    "expected_price": 107.3,
+    "price_p5": 91.39,
+    "price_p95": 125.45,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing allocation (~$106) with no adds or trims. Set a bidirectional technical framework: upgrade to Overweight if XOM closes above the 200-day SMA (~$109) on above-average volume, and reduce 25-50% if it breaks below the December low of ~$100.42 on rising volume. Time horizon is 3 months, with monthly monitoring of the forward EPS estimate ($10.58) and the 10-year Treasury yield as the two key re-evaluation inputs.\n\n**Investment Thesis**: The analysts' debate converges on a genuinely balanced risk-reward that supports Hold. The bull case rests on a compelling valuation: forward P/E of 14.69x versus trailing 26.44x, implying an ~80% EPS ramp to $10.58, a 6.8% forward earnings yield that clears the 10-year Treasury (~4%) by nearly 280bps, a $644B market cap, a 0.162 beta, and a 40-year dividend growth streak. However, the bear's core objection is equally substantive: that forward P/E is a projection contingent on a cyclical oil price thesis that faces material headwinds\u2014a hawkish Fed in a 4% inflation environment, refining margin compression signaled by Shell's warnings, and basin rig count declines. The technical picture is not decisively bullish: XOM trades below both the 50-day SMA ($107.83) and 200-day SMA ($109.04), with RSI at 59.7 approaching overbought resistance without a confirmed breakout. The neutral analyst correctly identifies that both extremes cherry-pick metrics: the upside to $109 is only ~2.9% while the downside to the $100.42 stop is ~5.3% on a pure technical basis, meaning confirmation is not free. Critically, the sentiment data is essentially noise (score 5.0/10 on zero news and zero StockTwits data), and the Iran geopolitical catalyst remains speculative\u2014elevated risk with no actual supply disruption and oil under pressure. The stock is neither cheap enough to justify an aggressive accumulation into an unproven earnings projection, nor deteriorating enough to justify a Sell. The trader's framework with symmetric triggers is the correct expression: hold at current allocation, upgrade only on confirmed technical confirmation above the 200-day SMA on volume, and reduce only on a confirmed breakdown below $100.42 on rising volume. Monthly monitoring of the forward EPS trajectory and the 10-year yield provides the fundamental guardrails. This is a Hold with a slight constructive tilt given valuation support and a defined, disciplined exit if the thesis breaks.\n\n**Price Target**: 109.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-06-02",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-06-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.0,
+    "mean_max_drawdown_pct": -12.1,
+    "p95_worst_drawdown_pct": -22.73,
+    "p99_worst_drawdown_pct": -28.16,
+    "est_annualized_vol_pct": 24.0,
+    "spot_price": 99.87,
+    "expected_return_pct": 0.66,
+    "median_return_pct": 0.22,
+    "return_vol_pct": 12.04,
+    "risk_free_pct_horizon": 1.058,
+    "risk_free_available": true,
+    "return_over_risk": -0.033,
+    "expected_price": 100.53,
+    "price_p5": 81.82,
+    "price_p95": 121.17,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position without adding new capital. The stock is trading near/below its 52-week low at ~$99.87 with a confirmed death cross and price below all three key moving averages, signaling deteriorating near-term momentum. Do not add until a confirmed reversal trigger appears \u2014 either a break above the 50-day SMA (~$103-104) on volume, a sustained WTI recovery above $75-80, or a test of the $95-97 support zone with signs of stabilization. Continue collecting the 2.62% dividend for carry while awaiting resolution, and reassess after Q1 2025 earnings.\n\n**Investment Thesis**: The debate boils down to a genuinely attractive forward valuation against an unequivocally weak technical picture. The bull case \u2014 a 14.69x forward P/E on projected EPS of $10.58 versus a 26.44x trailing multiple, a fortress balance sheet (~$644B market cap), a 2.62% dividend yield, and a very low beta of 0.162 \u2014 is compelling if the earnings recovery is realized. However, the bear's counterpoints carry decisive weight. Price sits below the 10 EMA, 50 SMA, and 200 SMA with a confirmed death cross, and trades at $99.87 \u2014 actually below the stated 52-week low of $105.53, a level the Conservative Analyst correctly identifies as a slow, orderly institutional reduction rather than a capitulation climax (no volume spike, no reversal signal). The news flow explicitly contradicts the commodity recovery thesis: \"Oil falls on slightly improved flows through Gulf\" indicates the geopolitical risk premium is fading, not building, while OPEC+ supply additions and US shale resilience point to continued oversupply. The Neutral Analyst's balanced view \u2014 that the forward EPS is achievable but not guaranteed within a $65-80 WTI range \u2014 underscores the uncertainty. Given the low beta cushions the downside from broad-market shocks but does not protect against commodity-driven drawdowns (XOM's true risk driver), the prudent path is to hold, collect the dividend, and wait for a technically confirmed reversal before deploying additional capital. The dividend provides carry and structural support but is not a floor; the asymmetric reward only materializes once momentum confirms.\n\n**Price Target**: 110.0\n\n**Time Horizon**: 3 months"
+}

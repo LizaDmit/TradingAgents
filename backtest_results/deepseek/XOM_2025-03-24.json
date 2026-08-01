@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-03-24",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-03-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.67,
+    "mean_max_drawdown_pct": -10.5,
+    "p95_worst_drawdown_pct": -19.3,
+    "p99_worst_drawdown_pct": -23.85,
+    "est_annualized_vol_pct": 20.2,
+    "spot_price": 111.2,
+    "expected_return_pct": 0.42,
+    "median_return_pct": -0.09,
+    "return_vol_pct": 10.16,
+    "risk_free_pct_horizon": 1.046,
+    "risk_free_available": true,
+    "return_over_risk": -0.061,
+    "expected_price": 111.67,
+    "price_p5": 94.14,
+    "price_p95": 131.01,
+    "prob_loss": 0.503,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim XOM exposure by 25-30% into strength over the next 1-2 weeks, targeting the $112-115 resistance zone. Execute the trim in stages: ~15% now around $111, with limit orders for an additional 10-15% into $114-116. Maintain the $105 stop loss on the remaining position \u2014 do not widen to $103. If price breaks below $105, accelerate trimming to 40-50% of the position in a staged exit. Reassess after the next earnings report and monitor crude prices, with a sustained WTI move below $60 validating further defensive action.\n\n**Investment Thesis**: The debate converges on the core tension: XOM's $10.58 forward EPS (implying a 14.7x forward multiple at $111.20) is heavily leveraged to oil prices, while the TTM EPS of $5.88 reflects a trough. The bear's structural concerns carry weight \u2014 accelerating electrification, demand destruction, and improved Gulf flows pressuring crude, which directly threaten the forward EPS assumption. The Neutral analyst correctly notes the market has already priced much of the downside into the 37% drawdown, and at 10.5-11.7x forward earnings (even with a 10% miss), the stock is not a value trap but a reasonably priced cyclical. The \"No News\" sentiment reflects a lack of catalysts, meaning price action is purely technical/macro \u2014 trading between the $105 support (50 SMA) and $112-115 resistance. With low beta of 0.16 offering limited downside participation in rallies, and the structural headwinds being real (not the 20-year false alarm the bull dismisses), the probability-weighted risk assessment favors reducing exposure. However, the fortress balance sheet, 2.62% dividend with 100+ year track record, and price above the 200 SMA ($108.06) prevent a full exit. The balanced approach is a staged 25-30% trim that captures risk reduction without abandoning a best-in-class operator near support.\n\n**Price Target**: 105.0\n\n**Time Horizon**: 3 months"
+}

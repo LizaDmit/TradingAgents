@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-03-17",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-03-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.65,
+    "mean_max_drawdown_pct": -10.43,
+    "p95_worst_drawdown_pct": -18.86,
+    "p99_worst_drawdown_pct": -23.73,
+    "est_annualized_vol_pct": 20.2,
+    "spot_price": 109.24,
+    "expected_return_pct": 0.52,
+    "median_return_pct": 0.24,
+    "return_vol_pct": 9.99,
+    "risk_free_pct_horizon": 1.047,
+    "risk_free_available": true,
+    "return_over_risk": -0.052,
+    "expected_price": 109.81,
+    "price_p5": 92.74,
+    "price_p95": 128.48,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current position in XOM at ~$109 with benchmark weight. Do not add aggressively given the unconfirmed long-term trend, stretched TTM multiple (26.44x), and absence of a demand catalyst; do not trim given healthy short-term momentum above all key moving averages with RSI at 60.6. Set disciplined monitoring triggers at $104.55 (50 SMA) on the downside and $112 on the upside, acting only on confirmed closes. Time horizon: 3 months.\n\n**Investment Thesis**: The debate ultimately yields no decisive edge in either direction, and the balanced Hold rating reflects that reality. On the constructive side, XOM trades above the 10 EMA ($105.95), 50 SMA ($104.55), and 200 SMA ($107.97), with a 4.7% bounce off the $104 low over five sessions and RSI at a healthy 60.6 \u2014 momentum without overbought conditions. The forward P/E of 14.69x and PEG of 1.33 on a $644B cash-generating integrated major (Permian, Guyana, growing LNG) provide a defensible fundamental underpin, and BP's North Sea divestiture reflects rational capital reallocation rather than sector-wide retreat.\n\nHowever, the bear case carries equal weight. The 200 SMA is flat-to-declining ($108.18 two weeks ago to $107.97 now), meaning price sits above a falling long-term average \u2014 a recovery attempt, not a confirmed reversal. The TTM P/E of 26.44x is stretched for a cyclical commodity business, and forward estimates driving the 14.69x multiple are unvalidated and vulnerable to downward revision in a soft commodity environment. Social sentiment is neutral (5.0/10) with LOW confidence and no institutional or retail demand driver, while oil headlines cut both ways (resilient monthly gain vs. improved Gulf flows representing supply increases). The neutral analyst's framing is the most persuasive: the lack of news is neither bullish nor bearish, and forcing a trade when the edge is unclear destroys capital.\n\nThe disciplined path is to hold at benchmark weight with clear, predefined triggers. A confirmed close above $112 on above-average volume would represent a breakout worth adding to (upgrade toward Overweight); a confirmed close below $104 would break the support structure and warrant trimming (downgrade toward Underweight). The stop at $104.50 sits below the 50 SMA and recent swing low, providing a modest ~4% cushion without being so tight as to trigger on normal volatility. Between these levels, the correct action is to do nothing and let the position breathe, reassessing at the next earnings release or when fresh sentiment/catalyst data emerges. As the conservative analyst rightly noted: in a market where a single geopolitical headline can swing crude 5%, the priority is solvency and capital preservation, not heroics.\n\n**Price Target**: 112.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-11-10",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-11-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.85,
+    "mean_max_drawdown_pct": -11.85,
+    "p95_worst_drawdown_pct": -22.16,
+    "p99_worst_drawdown_pct": -27.48,
+    "est_annualized_vol_pct": 23.4,
+    "spot_price": 115.63,
+    "expected_return_pct": 0.52,
+    "median_return_pct": 0.15,
+    "return_vol_pct": 11.58,
+    "risk_free_pct_horizon": 0.946,
+    "risk_free_available": true,
+    "return_over_risk": -0.037,
+    "expected_price": 116.23,
+    "price_p5": 94.94,
+    "price_p95": 139.26,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish or add to XOM with a phased accumulation strategy rather than a single aggressive entry. Initiate a 3-4% position at current levels near $115, deploy additional capital only on confirmed stabilization in the $110-112 support zone (50-day SMA at $111.04), and maintain discipline on the downside. Set an initial tighter stop near $110, widening toward $105 only after support confirms, and scale out partial gains into the $130-146 overhead resistance band. The trade is a value-driven, defensive energy play with embedded geopolitical catalyst risk\u2014manage it as a prudent accumulation, not a momentum chase.\n\n**Investment Thesis**: The analysts' debate converges on a constructive but risk-managed stance for XOM. The bull case is legitimate and anchored in specific data: a forward P/E of 14.7x versus a trailing 26.4x signals expected earnings recovery, price sits above the 10-EMA, 50-SMA ($111.04), and 200-SMA in a multi-week golden alignment (moving averages rising since late October, not a one-week pop), the fortress balance sheet supports buybacks, and the ~4-5% dividend yield plus 0.162 beta provide genuine defensive ballast during a volatile, geopolitically charged tape. However, the conservative/neutral counterpoints are equally grounded: the stock at $115.63 is ~35% below its 52-week high of $176.41, the rally off ~$111 is only 4%\u2014a mid-range technical level, not a confirmed breakout. The Iran conflict is a double-edged sword: it tightens crude supply but also risks Panama Canal disruptions, a hawkish Fed under Kevin Warsh, stagflation, and higher shipping/inflation costs\u2014none of which guarantee higher XOM earnings. Critically, the war premium is fragile: if a ceasefire de-escalates, forward earnings estimates get cut and the story reverts to a ~26x trailing multiple with no institutional catalyst. Social sentiment is neutral with low confidence and no news flow, which cuts both ways but does not support a 5-7% oversized single-name bet. The balanced synthesis: initiate at current levels but at reduced size (3-4%, scaling toward 5-7% only on confirmed support in the $110-112 zone), tighten the stop toward $110 to align with the 50-SMA rather than a wide $105, and lean on the dividend and forward valuation as the core compensation for holding through geopolitical volatility. This captures the upside of earnings recovery and defensive characteristics while explicitly respecting the event risk and the fragile war premium that both the aggressive bull and the over-cautious bear overstate.\n\n**Price Target**: 130.0\n\n**Time Horizon**: 3 months"
+}

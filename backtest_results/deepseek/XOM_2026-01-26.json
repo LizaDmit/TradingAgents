@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-01-26",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-01-26",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.39,
+    "mean_max_drawdown_pct": -12.38,
+    "p95_worst_drawdown_pct": -23.07,
+    "p99_worst_drawdown_pct": -29.03,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 133.04,
+    "expected_return_pct": 0.66,
+    "median_return_pct": 0.16,
+    "return_vol_pct": 12.21,
+    "risk_free_pct_horizon": 0.894,
+    "risk_free_available": true,
+    "return_over_risk": -0.019,
+    "expected_price": 133.93,
+    "price_p5": 108.08,
+    "price_p95": 162.04,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Do not buy at current levels above $133. Instead, maintain a core position (or establish a small starter at 1.0x) and wait for a pullback toward the $125-$128 zone before adding. Place the stop at $117.50 (below the 50 SMA and the $120 psychological level) rather than the too-tight $119.50, and target $140-$146 upside. Reassess immediately if the Iran/Strait of Hormuz situation de-escalates, as the forward EPS premium would unwind.\n\n**Investment Thesis**: The debate reveals a balanced risk profile with no clean edge to chase strength. The bull case (confirmed golden stack, forward P/E of 14.69x, fortress balance sheet, 2.62% dividend, live Iran catalyst) is genuine, but the bear case is equally substantive: RSI pinned above 70 for four sessions, a $23 (21%) extension above the 200-day SMA, a forward EPS projection that assumes near-doubling (+79%) contingent on sustained elevated oil prices, and zero XOM-specific news driving the move\u2014it is purely macro/speculative. The Neutral analyst correctly identifies that both extremes are flawed: the bullish framing ignores gap risk (a de-escalation headline could gap price through a tight stop, inverting the stated 1:2 R/R), while the overly conservative 0.5x sizing with a $115 stop risks missing a structurally uptrending move that has held above the 50 SMA all month. The trader's entry at $126.50 is a disciplined pullback order, not a chase, and the resolution between the two camps is to participate at moderate 1.0x weight (5%), locate the stop defensively at $117.50 rather than $119.50 (which sits only $0.26 below the 50 SMA and is vulnerable to noise stops), and avoid adding beyond 1.0x until the geopolitical binary resolves or a confirmed pullback holds. The time to add is on the dip, not at $133; this is not a clean entry for a full Buy\u2014hence holding current/started positions, increasing only on weakness, and being ready to reduce on de-escalation.\n\n**Price Target**: 143.0\n\n**Time Horizon**: 3 months"
+}

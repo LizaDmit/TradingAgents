@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-09-29",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-09-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.14,
+    "mean_max_drawdown_pct": -12.14,
+    "p95_worst_drawdown_pct": -22.73,
+    "p99_worst_drawdown_pct": -28.54,
+    "est_annualized_vol_pct": 23.8,
+    "spot_price": 111.72,
+    "expected_return_pct": 0.57,
+    "median_return_pct": 0.04,
+    "return_vol_pct": 11.84,
+    "risk_free_pct_horizon": 0.966,
+    "risk_free_available": true,
+    "return_over_risk": -0.034,
+    "expected_price": 112.36,
+    "price_p5": 91.54,
+    "price_p95": 135.09,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM positioning at ~$111 with no new capital committed. The stock trades above both the 50-day and 200-day SMAs with a 2.62% dividend providing carry, but the forward EPS thesis hinges on fragile geopolitical conditions. Define a conditional accumulation trigger at the 200-day SMA (~$105.50) that only activates on declining volume with a confirmed close back above the 10-EMA, and set a hard risk threshold of a decisive break below $105.50 on elevated volume warranting trimming. Reassess after next earnings.\n\n**Investment Thesis**: The evidence across all three analysts genuinely balances to a Hold. The bull case rests on a reasonable forward P/E of ~14.7x, a low beta of 0.162, bullish moving-average alignment (price above both the 50-day and 200-day SMAs), and a 2.62% dividend yield providing positive carry while waiting. However, the bear's concerns carry equal weight: the forward EPS of $10.58 is effectively a bet on sustained Iran-driven geopolitical tension that could reverse quickly on de-escalation, OPEC+ supply response, or U.S. record production; the trailing P/B of 2.53 is rich for an integrated major; and the price sitting just 3 cents above its 52-week low at the 200-day SMA creates a meaningful technical risk zone. The Neutral analyst correctly resolves the debate: current positions should be maintained because selling a cash-generating, low-beta integrated major above all major moving averages is an overreaction, but chasing at $111 is equally unjustified given the short-term corrective phase (price below the 10-EMA after a 2.6% pullback from a monthly high). The disciplined path is conditional: accumulate at ~$105.50 only on declining volume with confirmation of a bounce, trim on a decisive break below that level on heavy volume, and reassess the forward EPS thesis after the next earnings release. Structural headwinds (peak demand, energy transition, windfall tax risk) argue against aggressive accumulation and reinforce the need for a higher margin of safety.\n\n**Price Target**: 120.0\n\n**Time Horizon**: 3 months"
+}

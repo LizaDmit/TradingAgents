@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-09-15",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-09-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.96,
+    "mean_max_drawdown_pct": -11.93,
+    "p95_worst_drawdown_pct": -22.25,
+    "p99_worst_drawdown_pct": -27.4,
+    "est_annualized_vol_pct": 23.8,
+    "spot_price": 109.89,
+    "expected_return_pct": 0.89,
+    "median_return_pct": 0.29,
+    "return_vol_pct": 11.91,
+    "risk_free_pct_horizon": 0.975,
+    "risk_free_available": true,
+    "return_over_risk": -0.007,
+    "expected_price": 110.87,
+    "price_p5": 90.39,
+    "price_p95": 133.39,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at existing sizing with no additions or trims. Set a dual-trigger framework: upgrade toward Overweight only on a confirmed close above $112-115 on volume, and trim toward Underweight on a break below $102-104. The Q3 earnings release is the decisive fundamental catalyst that will validate or invalidate the $10.58 forward EPS estimate. Carry the 2.62% dividend yield while monitoring geopolitical and technical signals over the 3-month horizon.\n\n**Investment Thesis**: The debate converges on Hold for sound, evidence-based reasons rather than indecision. The bull case rests on a reasonable forward P/E of 14.69x ($10.58 forward EPS), a constructive Golden Cross with price ($109.89) above both the 50-SMA ($107.51) and 200-SMA ($105.44), a fortress balance sheet ($453B assets), and a low beta of 0.162 that offers defensive characteristics. However, the bear case is equally weighty: a 26.4x TTM P/E against only $5.88 trailing EPS reveals a nearly 80% gap between trailing reality and forward projection that has not been validated by any market catalyst\u2014no analyst upgrades, no institutional buying, no news flow, and neutral social sentiment with low confidence. The stock trades only ~$4 above its 52-week low and well below prior highs, with support at $102-104 sitting just 4% beneath current levels, creating asymmetric downside risk if that floor breaks. Geopolitical tailwinds from Middle East tensions and Panama Canal disruptions are double-edged: an oil supply shock could spike prices, but a concurrent recession or aggressive Fed (Warsh) tightening under stagflationary conditions could trigger demand destruction that crushes the forward EPS estimate. The balanced conclusion is to maintain position, hold the dividend as carry compensation, and let Q3 earnings and defined technical triggers resolve the valuation debate before committing additional capital.\n\n**Price Target**: 115.0\n\n**Time Horizon**: 3 months"
+}

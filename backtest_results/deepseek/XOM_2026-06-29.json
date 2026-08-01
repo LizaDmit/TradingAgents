@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-06-29",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-06-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.49,
+    "mean_max_drawdown_pct": -12.55,
+    "p95_worst_drawdown_pct": -22.98,
+    "p99_worst_drawdown_pct": -28.32,
+    "est_annualized_vol_pct": 24.7,
+    "spot_price": 136.06,
+    "expected_return_pct": 0.86,
+    "median_return_pct": 0.25,
+    "return_vol_pct": 12.39,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": -0.005,
+    "expected_price": 137.23,
+    "price_p5": 111.5,
+    "price_p95": 166.68,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at a neutral benchmark weight with a hard stop at $133.90 (200-day SMA) on a closing basis. Do not add or trim until one of two triggers resolves the current bimodal setup: a close above $140 with RSI recovering above 40 (initiate a 10% partial add with stop revised to $136.50), or a close above $148 (upgrade to Overweight). Conversely, if $133.90 breaks on sustained volume, reduce position by 25-30% and revisit at the $105-110 support zone. Time horizon: 3 months, with Q3 earnings as the key fundamental catalyst.\n\n**Investment Thesis**: The debate presents a genuinely balanced case that warrants a Hold rating, but with a more refined trigger framework than the simple status-quo posture. The Bull's structural case is compelling: Guyana's sub-$35 breakeven provides a durable cost moat, the 2.62% dividend yield compensates patient capital, forward P/E of 14.69 offers valuation support if the earnings rebound materializes, and the 0.162 beta anchors downside. However, the Bear's technical warnings are equally substantive and observable in present tense: the 10-day EMA has fallen $11.60 from $150.9 to $139.30 in fifteen sessions, the MACD is widening negative indicating accelerating selling pressure, and the 50-day SMA has rolled over\u2014all pointing to distribution, not basing. The descending channel places XOM just 1.6% above the 200-day SMA at $133.90, and a break there opens 22% downside to the $105.53 52-week low. Macro conditions add genuine risk: the Fed transition under Kevin Warsh brings potential rate hikes that compress multiples and pressure commodity demand, even as Iran geopolitical risk cuts both ways (oil spike versus risk-off equity selloff). The Neutral Analyst correctly identifies this as a bimodal outcome where the bull case depends on contingent macro alignment by Q3 earnings and the bear case depends on a technical break that has not yet occurred. The disciplined response is to hold at neutral weight with a defined stop, but the Neutral Analyst's refinement adds actionable middle-path triggers: a closeabove $140 with RSI recovering above 40 signals seller exhaustion and warrants a 10% partial add with a revised $136.50 stop\u2014capturing upside without requiring the full 8.5% premium of the $148 confirmation the Conservative Analyst demands, while still protecting against the 22% gap risk. The prior lesson from balanced debates is clear: when neither side holds a decisive edge and near-term risk asymmetry favors caution, the position should be maintained without conviction-driven adds or capricious trims, with clearly parameterized triggers governing all future capital deployment.\n\n**Price Target**: 148.0\n\n**Time Horizon**: 3 months"
+}

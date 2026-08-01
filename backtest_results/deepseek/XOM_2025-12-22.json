@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-12-22",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-12-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.93,
+    "mean_max_drawdown_pct": -11.94,
+    "p95_worst_drawdown_pct": -22.49,
+    "p99_worst_drawdown_pct": -28.0,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 116.58,
+    "expected_return_pct": 0.77,
+    "median_return_pct": 0.48,
+    "return_vol_pct": 11.79,
+    "risk_free_pct_horizon": 0.882,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 117.47,
+    "price_p5": 95.88,
+    "price_p95": 140.96,
+    "prob_loss": 0.483,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM positioning with no adds or trims. Enforce the $108 stop loss (200-day SMA at $108.30) without exception, and do not reinvest dividend proceeds into XOM \u2014 park them in cash. Use crude oil levels ($65\u201370 support, $90 resistance) and the ~$108 rising 200-day SMA as hard tripwires. Set a 45\u201360 day time-based review: if XOM stays rangebound ($108\u2013$125) with crude below $85, formalize a trimming plan into strength at $120\u2013125. Re-evaluate at next quarterly earnings with focus on upstream production guidance and downstream refining margins.\n\n**Investment Thesis**: The analyst debate converges decisively on HOLD, and the evidence supports maintaining rather than adding or trimming. The Aggressive Analyst's geopolitical tail (Hormuz closure, Iran escalation) is real but unquantified at 20\u201330% probability at best \u2014 and the Conservative rightly notes Hormuz has never closed despite repeated escalations since 2019, making this a lottery-ticket payoff rather than a base case. The Conservative's corrections are compelling: the forward P/E gap of 14.7x vs trailing ~26.4x reflects Wall Street's expectation of earnings normalization (and even pending downward revision risk given weak refining margins and chemicals), not an uncontested bargain, and the 50-day SMA at ~$146 well above the ~$117 price undermines any pristine bullish-stack narrative depending on timeframe. The risk-reward math is closer to 3.9:1 than the claimed 5:1, and at a 20\u201330% event probability the expected value is marginal at best. Critically, the stock is only 2.3% above the 50-day SMA ($114) and 7.6% above the rising 200-day SMA ($108.30), consolidating rather than breaking out \u2014 with $105.53 as the only structural support below the 200-day. The Fed transition under hawkish Warsh adds a dollar-strength headwind to oil through the currency channel, directly contradicting the Aggressive's claim that Warsh risk is tech-only. However, trimming is not justified: the positive technical stack (10 EMA $115.71 > 50 SMA $114.00 > 200 SMA $108.30) is intact, the fortress balance sheet and 2.62% dividend provide downside support, beta of 0.162 confirms defensive character, and sentiment silence reflects a genuinely unresolved macro environment rather than either a bargain or a trap. With downside near-term defined by technical support (~7% to the 200-day) and upside contingent on a macro catalyst that has not confirmed, the disciplined position is HOLD with enforced risk controls and a time-based review criterion, exactly as the trader proposed.\n\n**Price Target**: 125.0\n\n**Time Horizon**: 3 months"
+}

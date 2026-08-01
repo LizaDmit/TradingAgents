@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-09-22",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-09-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.98,
+    "mean_max_drawdown_pct": -12.06,
+    "p95_worst_drawdown_pct": -22.79,
+    "p99_worst_drawdown_pct": -28.39,
+    "est_annualized_vol_pct": 23.8,
+    "spot_price": 109.57,
+    "expected_return_pct": 0.62,
+    "median_return_pct": 0.04,
+    "return_vol_pct": 12.1,
+    "risk_free_pct_horizon": 0.962,
+    "risk_free_available": true,
+    "return_over_risk": -0.028,
+    "expected_price": 110.25,
+    "price_p5": 89.29,
+    "price_p95": 133.08,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at current levels ($109.57) with no adds or trims. The unresolved SMA data discrepancy ($107.60 technical vs. $146.40 fundamental 50-day) plus a binary Iran conflict catalyst makes directional conviction premature. Set a hard stop at $104.50 (below the 200-day SMA) to cap downside to ~4.6%, and define an upside trigger: add 25% on a confirmed close above $112.97 on above-average volume. Reassess within 2 weeks or at next earnings, whichever comes first, prioritizing resolution of the data discrepancy.\n\n**Investment Thesis**: The analysts' debate converges on a conditional HOLD, and I concur. The Aggressive Analyst makes a compelling forward case \u2014 forward P/E of 14.69x vs. trailing 26.44x implies two-fold earnings expansion, the stock sits above the 200-day SMA at $105.41, and the active Iran conflict is a real catalyst. However, his thesis rests on dismissing the $146.40 vs. $107.60 50-day SMA discrepancy as a \"data artifact\" without verification \u2014 an unproven assumption we cannot deploy capital on. The Conservative Analyst correctly flags this as a known unknown and notes the 38% drawdown from the $176.41 high is factual regardless of which SMA set is correct. Yet his unbounded \"do nothing\" approach lacks exit discipline; as the Neutral Analyst points out, holding without a stop or re-entry trigger leaves capital at risk with no defined path. The Neutral Analyst's framework is the most defensible: the technical support at $105.41 is only ~3.7% below price, which is a tripwire rather than a fortress, and a 2.8% weekly decline already exceeds the quarterly dividend cushion. The forward EPS of $10.58 depends heavily on war-elevated crude, a transient premium subject to sudden unwind on any diplomatic resolution. A beta of 0.162 and 2.62% dividend provide defensive characteristics, but they do not justify adding into an unresolved technical picture and a binary geopolitical catalyst. The 14.69x forward multiple is only \"cheap\" if earnings expansion materializes \u2014 a fragile assumption. Maintaining the position with a hard stop at $104.50, an upside confirmation trigger at $112.97 on volume, and a forced data-resolution timeline is the disciplined synthesis: we preserve optionality, cap downside, and avoid speculating on data integrity or geopolitical escalation.\n\n**Price Target**: 112.97\n\n**Time Horizon**: 3 months"
+}

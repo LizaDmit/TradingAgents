@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-05-18",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-05-18",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.04,
+    "mean_max_drawdown_pct": -12.12,
+    "p95_worst_drawdown_pct": -22.57,
+    "p99_worst_drawdown_pct": -28.16,
+    "est_annualized_vol_pct": 23.9,
+    "spot_price": 160.49,
+    "expected_return_pct": 0.87,
+    "median_return_pct": 0.29,
+    "return_vol_pct": 12.1,
+    "risk_free_pct_horizon": 0.892,
+    "risk_free_available": true,
+    "return_over_risk": -0.002,
+    "expected_price": 161.89,
+    "price_p5": 131.24,
+    "price_p95": 194.9,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing 3-4% XOM position at current ~$160 levels; do not add into the $162.80-$176.41 overhead resistance zone. Establish a staged accumulation plan: first tranche in the $150-152 band (near the 50 SMA $154.14), a second at the $143.60 swing low if it holds, and a final tranche at $135-140 only if conditions deteriorate. Trim half on a close below $143.60; add a quarter tranche at $163-165 only on a confirmed breakout above $176.41 on volume with oil above $75. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate lands decisively in favor of a disciplined Hold. The Aggressive Analyst's case rests on a forward P/E of 14.69x (forward EPS $10.58) and the bullish technical reversal off $143.60, calling for a breakout buy. However, as both the Conservative and Neutral analysts correctly note, that forward EPS is an unverified consensus projection\u2014not a realized number\u2014and the only realized figure (26.44x trailing P/E) shows XOM trading at a premium for a cyclical commodity producer. The stock has already run 52% off its low and sits just 9% below its high directly under the $162.80-$176.41 resistance shelf, with the technical report itself flagging 'elevated volatility' and describing a 'tradable up-move' rather than a conviction buy. The Aggressive's 4:1 reward-to-risk assumes a clean breakout, which contradicts the residual risk from a hawkish Warsh Fed, a near-4% inflation backdrop, and the absence of any XOM-specific catalyst in the May 11-18 window. Yet the Conservative Analyst overreaches in the other direction: XOM's 0.162 beta, 2.62% dividend, sub-15x forward earnings, and fortress balance sheet make it a genuine defensive core holding that would likely fall half as much as the broader market in a Fed shock, so a full exit or aggressively capped 3% weight forfeits real portfolio defense. The Neutral Analyst's synthesis\u2014hold at 3-4%, accumulate on pullbacks to $150-152 and $143.60, trim half only on a confirmed close below $143.60, and add a small tranche on a high-volume breakout above $176.41 with oil above $75\u2014best weights the balanced asymmetry: contained downside toward the $130-155 range versus quality upside that requires multiple speculative assumptions. This is neither a compelling buy nor a sell; it is a disciplined Hold with defined levels.\n\n**Price Target**: 176.41\n\n**Time Horizon**: 3 months"
+}

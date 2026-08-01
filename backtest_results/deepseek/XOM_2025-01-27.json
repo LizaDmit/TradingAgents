@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-01-27",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-01-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.07,
+    "mean_max_drawdown_pct": -9.92,
+    "p95_worst_drawdown_pct": -18.42,
+    "p99_worst_drawdown_pct": -22.64,
+    "est_annualized_vol_pct": 19.1,
+    "spot_price": 104.85,
+    "expected_return_pct": 0.53,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 9.58,
+    "risk_free_pct_horizon": 1.047,
+    "risk_free_available": true,
+    "return_over_risk": -0.054,
+    "expected_price": 105.41,
+    "price_p5": 89.35,
+    "price_p95": 122.35,
+    "prob_loss": 0.487,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at its present size\u2014no additions, no trims. Set a watchlist trigger to upgrade toward Overweight if XOM reclaims and holds the 50-day SMA at $106.92 (with the 10-day EMA continuing to rise), and a downside review trigger if it breaks the 52-week low of $105.53 on meaningful volume. Define the stop near $104 and re-evaluate at the next earnings print, as management guidance will be more decisive than consensus forward estimates. The defensive income sleeve (2.62% yield, 0.162 beta) stays within a balanced allocation without drifting overweight.\n\n**Investment Thesis**: The analysts' debate resolves to a balanced picture that justifies holding rather than betting decisively in either direction. The bull/aggressive case rests on genuine, data-backed valuation support: a forward P/E of 14.69x versus trailing 26.21x implies a market pricing in a ~79% forward EPS rebound to $10.58, and even under a conservative haircut of forward EPS to ~$8.00 the valuation would remain historically cheap on the neutral analyst's math. The 2.62% dividend and 0.162 beta provide a defensive floor and diversify against market volatility. However, the bear case is equally grounded: the stock at $104.85 sits ~0.7% above its 52-week low of $105.53, below both the 50-day SMA ($106.92, still trending lower) and the 200-day SMA ($108.86), with a confirmed death-cross configuration. The sentiment tape is empty\u2014no news, no retail buzz, no institutional signals\u2014so there is no confirmed near-term catalyst, and the world affairs report notes oil actually fell on improved Gulf flows, indicating the market is currently discounting rather than pricing geopolitical upside. The aggressive analyst's \"coiled spring\" thesis (10-day EMA up ~2% from $102.20 to $104.54 over three weeks) is speculative, not confirmed; the conservative analyst's caution against treating consensus estimates (sticky to downward revision in a cyclical commodity business) as certainty is well-taken. Critically, the risk/reward is not asymmetric enough to justify either adding (aggressive) or trimming (conservative): valuation provides a floor, but the technical/momentum backdrop is weak and catalyst-free, and a stop at $104 is only ~1% below price, so downside is defined. This genuinely balanced evidence\u2014strong valuation support against a weak, catalyst-free technical picture\u2014is the textbook case for maintaining current positioning while setting explicit triggers (upgrade on reclaiming $106.92; downgrade on a volume break of $105.53) and re-evaluating at the earnings print, consistent with the trader's Hold proposal and the neutral analyst's disciplined trigger framework.\n\n**Price Target**: 106.92\n\n**Time Horizon**: 3 months"
+}

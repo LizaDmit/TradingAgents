@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-11-24",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-11-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.88,
+    "mean_max_drawdown_pct": -11.84,
+    "p95_worst_drawdown_pct": -22.12,
+    "p99_worst_drawdown_pct": -27.97,
+    "est_annualized_vol_pct": 23.4,
+    "spot_price": 114.43,
+    "expected_return_pct": 0.74,
+    "median_return_pct": 0.16,
+    "return_vol_pct": 11.7,
+    "risk_free_pct_horizon": 0.933,
+    "risk_free_available": true,
+    "return_over_risk": -0.016,
+    "expected_price": 115.28,
+    "price_p5": 93.99,
+    "price_p95": 138.04,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish or add to XOM positions on a phased basis, targeting first-tranche accumulation in the $112\u2013$113 support zone (rising 50 SMA at $112.40) rather than chasing the $114.43 close. Cap the initial entry at 50\u201360% of the intended position with a defined stop near $109.50 (just below the $109 psychological level), and trigger the second tranche only if price reclaims and holds above the 10-day EMA at $115.39 for two consecutive closes. Total position should be capped near 100\u2013125% of benchmark weight given the macro-sensitive earnings profile. Horizon: 3 months.\n\n**Investment Thesis**: The balance of the debate tilts constructive but warrants discipline rather than full conviction. The bull case rests on a forward P/E of 14.69x versus trailing 26.44x, with forward EPS of $10.58 implying a meaningful earnings step-up from $5.88 \u2014 supported by best-in-class Permian and Guyana assets with structurally lower lifting costs that let XOM thrive at $60 oil and print at $80+. The technical structure is genuinely constructive: price sits 6.6% above the 200 SMA and 1.8% above the 50 SMA with proper bullish 10>50>200 alignment, and both the 50 SMA ($112.40) and 200 SMA ($107.31) are rising. The 2.62% dividend and low beta (0.162) provide a defensive floor. However, the bear's objections are legitimate enough to prevent a full BUY: the stock is 35% off its 52-week high, revenue contracted from $398B (2022) to $339B (2024), gross profit fell from $103B to $76.7B, the stock closed below its 10-day EMA ($115.39), and the sentiment data is a degraded/absent void rather than confirmation. The Iran conflict is a two-sided geopolitical risk \u2014 a near-term tailwind for crude but a source of demand destruction and headline volatility that can evaporate quickly. The neutral analyst correctly notes both extremes are cherry-picking the same data: the forward EPS is a consensus estimate exposed to downward revision, and the phasing plan embeds an entry below the close. The right answer is disciplined accumulation at the $112\u2013$113 support zone with a defined stop near $109.50, a second tranche conditioned on reclaiming the 10 EMA with two consecutive holds, and total sizing capped around benchmark weight rather than 125\u2013150% \u2014 capturing the structural upside while respecting the macro sensitivity and the absence of sentiment confirmation.\n\n**Price Target**: 117.5\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-06-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-06-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.18,
+    "mean_max_drawdown_pct": -12.25,
+    "p95_worst_drawdown_pct": -22.87,
+    "p99_worst_drawdown_pct": -28.67,
+    "est_annualized_vol_pct": 24.0,
+    "spot_price": 109.01,
+    "expected_return_pct": 0.48,
+    "median_return_pct": -0.18,
+    "return_vol_pct": 12.19,
+    "risk_free_pct_horizon": 1.062,
+    "risk_free_available": true,
+    "return_over_risk": -0.048,
+    "expected_price": 109.53,
+    "price_p5": 88.79,
+    "price_p95": 132.61,
+    "prob_loss": 0.507,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing sizing without adding at the current ~$109 level. The risk-reward is roughly symmetric here: the stock is up 10% in seven sessions with RSI at 69.8 (stretched), only ~$2 above the 200-day SMA at $106.78, and 38% below its 52-week high. Set a buy limit in the $100\u2013104 accumulation zone (near the 50-day SMA at $101.81) for incremental adds, and protect the position with a stop near $104.50\u2014a decisive close below the 200-day SMA would invalidate the breakout and signal a retest of $98. Upgrade to Overweight only on confirmation of a golden cross with volume above the 20-day average or a clean pullback to the accumulation zone; trim to Underweight if forward EPS estimates ($10.58) are revised lower alongside dropping crude. Evaluation horizon: 3 months.\n\n**Investment Thesis**: The debate converged on HOLD despite divergent routes to that conclusion, and the evidence supports that the position should be maintained without incremental exposure. The Aggressive Analyst's case rests on a fresh (five-session) break above the 200-day SMA at $106.78, a forward P/E of 14.69 versus trailing 26.44, and geopolitical tailwinds from Iran-related supply disruptions with oil set for a monthly gain. These are legitimate positives but are undermined by the absence of confirmed volume on the breakout\u2014the Neutral Analyst correctly identifies that the entry cannot be both \"now\" and \"after the golden cross with rising volume\"; those are contradictory signals. The Conservative Analyst's read on the RSI at 69.8 and the 10% seven-session run signaling a crowded, stretched oscillator is statistically sound, and the fact that XOM remains 38% below its $176.41 52-week high with both the 50-day ($146) and 200-day ($139) averages well above price confirms this is a recovery trade, not a confirmed breakout regime. The realistic near-term resistance is $112\u2013115, making the risk-reward from $109 roughly 1:1 to first resistance\u2014not asymmetric as the Aggressive Analyst claims when projecting to the $146 average. The forward EPS estimate of $10.58 depends on sustained crude above $70\u201375 and robust refining margins, both directly challenged by recent headlines on improved Gulf flows pressuring oil. The low beta (0.162) is a double-edged sword: it insulates from broad equity selloffs but concentrates exposure on oil-price and geopolitical binary events. The disciplined path is to hold current sizing, respect the $104.50 stop just below the 200-day SMA (defensible technical level), and add only on either a controlled pullback to $100\u2013104 (near the 50-day SMA at $101.81, above the $98.68 low) or a confirmed golden cross with volume above the 20-day average. Dividend reinvestment continues to be supported by the 2.62% yield and aristocrat status, providing a reasonable floor while the thesis develops over the 3-month horizon.\n\n**Price Target**: 115.0\n\n**Time Horizon**: 3 months"
+}

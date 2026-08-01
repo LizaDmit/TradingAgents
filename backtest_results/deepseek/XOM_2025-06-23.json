@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-06-23",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-06-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.25,
+    "mean_max_drawdown_pct": -12.28,
+    "p95_worst_drawdown_pct": -23.11,
+    "p99_worst_drawdown_pct": -28.9,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 108.29,
+    "expected_return_pct": 0.57,
+    "median_return_pct": 0.21,
+    "return_vol_pct": 12.21,
+    "risk_free_pct_horizon": 1.039,
+    "risk_free_available": true,
+    "return_over_risk": -0.038,
+    "expected_price": 108.91,
+    "price_p5": 88.11,
+    "price_p95": 131.58,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim XOM exposure by roughly 25% in the first tranche, executed conditionally rather than immediately. Reduce only upon either a rally above $111.16 (selling into genuine geopolitical-driven strength) or a decisive close below the 200-day SMA at ~$106.76 (confirming technical breakdown). Hold subsequent tranches until earnings-revision signals or technical confirmation materialize. Maintain a modest core position with downside protection via the covered ~2.6% dividend and fortress balance sheet. Time horizon: 3 months.\n\n**Investment Thesis**: The balance of the analysts' debate supports a cautious reduction, not a full exit and not a passive hold. The bear case is anchored in three pillars that hold up under scrutiny: (1) the forward EPS estimate of $10.58 is fragile \u2014 cyclical energy estimates are historically prone to rapid downward revision, and the market's own behavior corroborates this skepticism, with XOM trading 34% below its 52-week high of $176.41 despite the \"cheap\" 14.7x forward P/E; (2) the geopolitical Iran risk premium is transitory, as demonstrated by the October 2023 precedent where oil spiked above $90 and collapsed below $70 within two months \u2014 selling into that artificial strength is the correct trade direction, not buying it; and (3) structural demand erosion from EV adoption and renewables justifies a persistent market-assigned discount that the aggressive analyst correctly refuses to ignore. The conservative analyst's technical floor argument has merit \u2014 price is above the 10 EMA ($107.52), 50 SMA ($102.66), and has reclaimed the 200 SMA ($106.76), with a remarkably low beta of 0.16 and a covered ~2.6% dividend \u2014 which argues against a full Sell. The neutral analyst's refinement is the most disciplined synthesis: the 10 EMA remains below the 200 SMA, the 50 SMA is declining, and the stock sits only ~$2.76 above the 52-week low, so immediate aggressive selling into a fragile bounce risks locking in losses before a durable top is confirmed. The optimal path is a staged conditional trim \u2014 starting at the lower end of the 25-40% range \u2014 triggered by a rally above the recent $111.16 high (banking geopolitical strength) or a decisive close below $106.76 (confirming breakdown). A tightened stop near $104 sits just under the consolidation zone, improving risk/reward versus the $98 proposed level.\n\n**Price Target**: 102.0\n\n**Time Horizon**: 3 months"
+}

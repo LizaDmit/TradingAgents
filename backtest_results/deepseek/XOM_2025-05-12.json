@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-05-12",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-05-12",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.07,
+    "mean_max_drawdown_pct": -12.13,
+    "p95_worst_drawdown_pct": -22.67,
+    "p99_worst_drawdown_pct": -28.43,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 104.82,
+    "expected_return_pct": 0.84,
+    "median_return_pct": 0.38,
+    "return_vol_pct": 11.99,
+    "risk_free_pct_horizon": 1.07,
+    "risk_free_available": true,
+    "return_over_risk": -0.019,
+    "expected_price": 105.71,
+    "price_p5": 85.89,
+    "price_p95": 127.14,
+    "prob_loss": 0.486,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at a neutral weight relative to sector benchmarks. No new capital deployment or aggressive trimming at this time. Convert the position into an active strategy with pre-committed triggers: add 1-2% on a two-session close above the 200-day SMA ($107.69) on above-average volume, and trim 1-2% on a break below the $103 swing low. Reassess at the next earnings report against forward EPS guidance of ~$10.58 and realized margin trends. Any additions should be incremental (DCA-style), not lump-sum, given the genuine two-sided uncertainty.\n\n**Investment Thesis**: The debate on XOM is genuinely balanced, and the evidence supports a disciplined Hold rather than conviction in either direction. The bull case rests on forward valuation\u2014the 14.69 forward P/E versus 26.44 trailing implies a market-embedded cyclical recovery, and the projected forward EPS of $10.58 versus $5.88 TTM suggests significant earnings uplift if margins recover. The low beta of 0.162, 2.62% dividend yield, $11.63B FCF, and $61.37 book value do provide genuine downside cushioning. However, these are forward estimates awaiting confirmation, not realized performance. The bear case is anchored in current realities: the 7.76% TTM profit margin is thin for an integrated major, the stock at $104.82 sits below the 200-day SMA of $107.69 and just ~$0.70 above the 52-week low, and the bond-proxy argument weakens if the 10-year Treasury pushes above 4.5% under uncertain Fed leadership. Notably, the dividend coverage is actually adequate (net income of $25.3B against a ~$16B annual payout, a 1.6x ratio), and FCF does not fully cover distributions, which is a minor flag but not a crisis. The trade-off is asymmetrical in the right way at the margin: downside from a break below $105 could reach the $85-90 zone (roughly 15-18%), while the upside case moves toward $130-140 (roughly 24-34%) if margin expansion confirms. The path forward is not passive inaction but active management with explicit, pre-committed triggers\u2014technical confirmation above $107.69 for adds, a $103 break for trims, and earnings/margin and Fed/rate data for narrative confirmation\u2014so the position adapts to whichever way the range resolves without gambling on hope or capitulating on fear.\n\n**Price Target**: 115.0\n\n**Time Horizon**: 3 months"
+}

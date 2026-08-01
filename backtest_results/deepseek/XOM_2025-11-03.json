@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-11-03",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-11-03",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.9,
+    "mean_max_drawdown_pct": -11.92,
+    "p95_worst_drawdown_pct": -22.15,
+    "p99_worst_drawdown_pct": -27.98,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 111.27,
+    "expected_return_pct": 0.64,
+    "median_return_pct": 0.11,
+    "return_vol_pct": 11.69,
+    "risk_free_pct_horizon": 0.946,
+    "risk_free_available": true,
+    "return_over_risk": -0.026,
+    "expected_price": 111.98,
+    "price_p5": 91.52,
+    "price_p95": 134.52,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at current sizing with no meaningful additions or trims. Set flexible entry parameters rather than rigid levels: add a small tranche (1\u20132% of portfolio) only on a confirmed reversal at or below the 50-day SMA ($110.76) with RSI in the 40\u201345 zone AND a daily close above the 10-day EMA ($111.97) for confirmation. Adjust the downside alert to below $105 (approximately $103.50) to avoid being shaken out by geopolitical headline wicks; only trim 25% of the position if $105.53 breaks on volume (50%+ above the 20-day average). Time horizon: 3 months.\n\n**Investment Thesis**: The analyst debate converges on HOLD, and I concur \u2014 not from indecision, but because the evidence is genuinely balanced with no directional edge at current levels. The bull case rests on a technically intact Golden Cross, a rising 50-day SMA (from $108.44 to $110.76), a fortress balance sheet, a low beta of 0.16 that provides genuine downside protection, and geopolitical upside from the Iran conflict that could spike crude. However, the bear correctly identifies that the forward PE of 14.69x versus 26.44x trailing embeds aggressive Street earnings expectations that are vulnerable to downward revision if refining margins stay compressed or rates-driven demand destruction materializes. The negative real yield (-1.38% at 4% inflation) weakens the income-defense narrative, and RSI at 50.07 with price below the 10-day EMA ($111.27 vs $111.97) confirms momentum is stalling, not accelerating. Critically, the technical and fundamental reports both conclude HOLD, and the news feed is dead silent \u2014 a low-information environment where rigid catalysts are unreliable. The neutral analyst's refinement is the most actionable: avoid buying at a 0.5% \"dip\" to the 50 SMA (that's a rounding error, not a margin of safety), tighten the confirmation criteria, and widen the stop to avoid geopolitical headline whipsaws. I adopt these sharper parameters. The position remains HOLD: we neither chase the coiling-spring narrative nor capitulate to the 5% drawdown fear. We hold, collect the 2.62% dividend as compensation for waiting, and only deploy capital when technicals and macro align with a true margin of safety.\n\n**Price Target**: 118.0\n\n**Time Horizon**: 3 months"
+}

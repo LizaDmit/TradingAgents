@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-06-22",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-06-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.78,
+    "mean_max_drawdown_pct": -12.79,
+    "p95_worst_drawdown_pct": -23.5,
+    "p99_worst_drawdown_pct": -28.65,
+    "est_annualized_vol_pct": 25.0,
+    "spot_price": 138.47,
+    "expected_return_pct": 0.65,
+    "median_return_pct": -0.07,
+    "return_vol_pct": 12.61,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": -0.021,
+    "expected_price": 139.37,
+    "price_p5": 112.36,
+    "price_p95": 169.33,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position with no additions or trims. Treat the 200-day SMA at $133.18 as the critical decision trigger, but require a decisive close below on above-average volume to act. Set a hard stop at $125.00 and add a time-based checkpoint: if XOM fails to reclaim the 10-day EMA at $143.17 within four to six weeks, reduce exposure even without a $133.18 breakdown. Re-evaluate on a data-driven basis in four weeks, watching for net income and free-cash-flow stabilization and oil price direction.\n\n**Investment Thesis**: The debate produces a genuinely balanced case that does not support directional conviction. The bull case rests on a fortress balance sheet \u2014 $52-55B annual operating cash flow, $23.6B free cash flow, sequential revenue growth from $80.04B to $83.16B in Q1 2026, and a 26x PE reflecting re-rating as a cash-generating energy major \u2014 plus the 200-day SMA at $133.18 as potential long-term support and a 14.8% pullback that has already absorbed much macro shock. However, the bear case is equally data-backed and cannot be dismissed: Q1 2026 net income fell 35.7% sequentially to $4.18B, free cash flow has declined ~60% from $58.4B (2022) to $23.6B (2025), the 50-day SMA is in freefall (down 3.4% in under a month) with price 7.3% below it, and the 200-day support remains untested \u2014 it could be the next stop rather than a floor. Macro headwinds are real: a Warsh Fed with inflation at 4% implies higher-for-longer rates that compress multiples on capital-intensive businesses, and softening oil prices pressure upstream margins given ~60% of earnings tied to crude. Neither a preemptive trim below $133.18 (per the conservative analyst) nor aggressive accumulation (per the aggressive analyst) is justified: the technical view has no volume confirmation of institutional accumulation, yet the company is not distressed with $23.6B in discretionary cash flow. The disciplined path is to hold with pre-committed, conditional triggers that remove emotion \u2014 hold at current levels, exit half on a decisive $133.18 breakdown on volume, stop the remainder at $125, and time-check the 10-day EMA at $143.17 within four to six weeks to prevent indefinite hope-based holding. Downgrade to Underweight only on confirmed breakdown; upgrade to Overweight only on demonstrated stabilization in net income and free cash flow with support holding and oil stabilizing.\n\n**Price Target**: 149.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-07-21",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-07-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.4,
+    "mean_max_drawdown_pct": -12.48,
+    "p95_worst_drawdown_pct": -23.09,
+    "p99_worst_drawdown_pct": -28.85,
+    "est_annualized_vol_pct": 24.6,
+    "spot_price": 104.71,
+    "expected_return_pct": 0.75,
+    "median_return_pct": 0.14,
+    "return_vol_pct": 12.35,
+    "risk_free_pct_horizon": 1.056,
+    "risk_free_available": true,
+    "return_over_risk": -0.025,
+    "expected_price": 105.5,
+    "price_p5": 85.53,
+    "price_p95": 127.65,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position without committing new capital at this level. The unresolved price discrepancy ($104.71 technical vs. ~$151 fundamental) and the first-ever close below the 200-day SMA create genuine uncertainty that warrants discipline. Do not deploy the proposed 50% tranche into a confirmed technical breakdown; instead, hold and establish rule-based add triggers: reclaim of the 200-day SMA (~$106.78) on above-average volume, or a capitulation into the $99.50\u2013$101 zone with stabilization. Stop discipline at $97.50 if the medium-term thesis is to remain valid, with a 3-month horizon.\n\n**Investment Thesis**: The Aggressive Analyst correctly identifies the fundamental tailwinds: forward P/E compression (14.69 vs. 26.44 trailing) implies meaningful earnings growth expectations, Iran tensions directly support upstream cash flows, and the ~2.6% dividend yield provides carry. However, the Conservative and Neutral Analysts expose the critical flaw in the Buy thesis: the stock closed below the 200-day SMA (~$106.78) for the first time in the dataset, sits below its 52-week low of $105.53, and has not recovered its 10-day EMA since July 14 \u2014 a confirmed technical breakdown, not a dip. The $151 fundamental implied price is a static calculation (market cap \u00f7 diluted shares) that does not reflect the real-time re-rating underway. The Conservative's point that the low beta (0.16) may signal a repricing event tied to the unresolved Fed leadership transition and dollar volatility is persuasive, as is the Neutral's warning that a sentiment vacuum provides no bid underneath a falling stock. The discrepancy itself \u2014 31% below implied value with a broken technical floor \u2014 is unresolved and cannot justify deploying 50% of target capital immediately. However, the Conservative's pure hold risks missing a violent upside re-rating if the Iran catalyst fires overnight. The middle path prevails: hold the existing position, use rules-based adds on confirmation (reclaim of $106.78 on volume, or capitulation/stabilization in the $99.50\u2013$101 zone), and keep a widened stop at $97.50 for the initial tranche. This captures participation if the catalyst fires while avoiding the confirmed-breakdown entry the Aggressive Analyst champions.\n\n**Price Target**: 139.0\n\n**Time Horizon**: 3 months"
+}

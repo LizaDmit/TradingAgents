@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-08-11",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-08-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.31,
+    "mean_max_drawdown_pct": -12.35,
+    "p95_worst_drawdown_pct": -22.85,
+    "p99_worst_drawdown_pct": -28.85,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 102.56,
+    "expected_return_pct": 0.57,
+    "median_return_pct": 0.16,
+    "return_vol_pct": 12.06,
+    "risk_free_pct_horizon": 1.036,
+    "risk_free_available": true,
+    "return_over_risk": -0.039,
+    "expected_price": 103.14,
+    "price_p5": 83.83,
+    "price_p95": 124.38,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim XOM exposure immediately \u2014 sell roughly 15% of the position at current levels (~$102.56) and an additional 15-20% into any bounce toward the $105-107 zone, retaining a core position of 65-70% supported by the 2.62% dividend and fortress balance sheet. Tighten the hard stop-loss to $98 (rather than $97) to protect against round-number wicks, and reassess if XOM reclaims and holds $106-107 on above-average volume for 3+ sessions. Time horizon: 3 months.\n\n**Investment Thesis**: The bearish technical and valuation case dominates the near-term picture, but a full Sell is not justified. XOM closed at $102.56, roughly 8% below its mid-July peak and below all three key moving averages (10 EMA $104.49, 50 SMA $106.14, 200 SMA $106.07), with the 10 EMA cascading downward and RSI grinding from 59 down to 37.8 \u2014 evidence of distribution rather than consolidation. The bull's core pillar, a forward P/E of 14.69, rests on a forward EPS estimate of $10.58 that implies nearly a doubling from trailing EPS of $5.88; that assumption is aggressive and vulnerable to downward revision if oil stays range-bound (as the improved Gulf supply normalization suggests). Without oil price support, the \"cheap\" valuation becomes expensive on a trailing P/E of 26.4. However, the 42% drawdown from the 52-week high of $176.41 suggests the market has already de-rated XOM to trough earnings, and the low beta (0.162), fortress balance sheet, 2.62% dividend yield, and low production costs argue against a full exit. The proper response \u2014 supported most clearly by the Neutral analyst's two-tranche approach \u2014 is to act now with a disciplined trim rather than wait for a bounce that may not arrive, while preserving a core for the defensive income and potential mean-reversion. The $105-107 zone (the clustered moving averages) is the re-entry/upgrade trigger: if XOM reclaims and holds it on strong volume, the view should be upgraded toward Overweight.\n\n**Price Target**: 99.0\n\n**Time Horizon**: 3 months"
+}

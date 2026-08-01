@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-03-23",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-03-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.4,
+    "mean_max_drawdown_pct": -12.44,
+    "p95_worst_drawdown_pct": -23.38,
+    "p99_worst_drawdown_pct": -29.12,
+    "est_annualized_vol_pct": 24.6,
+    "spot_price": 160.04,
+    "expected_return_pct": 0.54,
+    "median_return_pct": 0.03,
+    "return_vol_pct": 12.27,
+    "risk_free_pct_horizon": 0.903,
+    "risk_free_available": true,
+    "return_over_risk": -0.029,
+    "expected_price": 160.91,
+    "price_p5": 130.26,
+    "price_p95": 194.94,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM core position without adding at current levels near $160. The stock carries a rich 26x trailing multiple, symmetric risk/reward (~10% to the 52-week high vs. ~10% to the 50-day stop), and a forward EPS inflection that lacks a verifiable organic catalyst. Establish a disciplined buy zone at $145\u2013$150 (50-day SMA support), with a stop at $144.31. Collect the 2.62% covered dividend while awaiting either confirmed earnings acceleration (upgrade path) or a technical breakdown on volume (trim path).\n\n**Investment Thesis**: The risk analysts' debate converges on a balanced Hold, and the evidence supports this. The bull case rests on real strengths\u2014$326B revenue base, fortress balance sheet, 42-year dividend growth streak, a reasonable 14.69x forward PE, and bullish moving-average alignment (10 EMA $155.92 above 50 SMA $144.31 above 200 SMA $119.20). However, the bear and neutral analysts land decisive blows that anchor the decision: the trailing PE of ~26x is rich, and the forward EPS jump from $5.88 to $10.58 depends on geopolitical escalation (Iran tensions) rather than a verifiable organic catalyst\u2014the World Affairs Report itself is bifurcated, noting improved Gulf flows alongside ongoing tensions, making the premium unstable in both directions. The technical risk/reward is genuinely symmetric (10% upside to $176.41 vs. 10% downside to the $144.31 stop), not favorable. Sentiment data corroborate indecision: neutral 5.0/10 with low confidence and an empty news feed provide no fresh momentum fuel or fundamental confirmation. Critically, the neutral analyst correctly exposes the aggressive analyst's contradiction\u2014one cannot claim the market has priced in the earnings ramp (justifying 26x trailing) while simultaneously calling 14.69x forward a \"gift.\" Neutral analysis also confirms this is not a broken thesis: even a pullback to $150 would leave XOM ~26% above the 200-day SMA, still an intact uptrend\u2014so no basis for Sell or Underweight. The dividend is safe (71% trailing payout, covered by earnings) and provides income support while holding. Given the genuine uncertainty around the EPS inflection, the unstable geopolitical premium, and the hawkish Fed/macro headwinds (Kevin Warsh tightening could strengthen the dollar and pressure commodity multiples), neither aggressive accumulation at $160 nor premature trimming is justified. Maintain position, respect entry discipline, and let earnings data\u2014not headline risk\u2014determine the next move. Catalyst-based reassessment: upgrade path requires two consecutive quarters validating the forward EPS trajectory; downgrade path requires a break of the 50-day SMA on volume or a decisive oil breakdown.\n\n**Price Target**: 150.0\n\n**Time Horizon**: 3 months"
+}

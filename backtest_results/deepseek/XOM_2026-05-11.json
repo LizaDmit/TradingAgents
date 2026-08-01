@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-05-11",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-05-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.94,
+    "mean_max_drawdown_pct": -11.97,
+    "p95_worst_drawdown_pct": -21.86,
+    "p99_worst_drawdown_pct": -27.16,
+    "est_annualized_vol_pct": 23.6,
+    "spot_price": 148.67,
+    "expected_return_pct": 0.83,
+    "median_return_pct": 0.2,
+    "return_vol_pct": 11.88,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": -0.006,
+    "expected_price": 149.91,
+    "price_p5": 122.51,
+    "price_p95": 180.64,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at a 4\u20135% portfolio weight as a defensive, income-generating core holding. Do not add at current levels (~$148.67) given flat revenue growth of 2.6% over eight quarters, the unsubstantiated forward EPS of $10.58, and price trading below the 50-day SMA ($153.79). Set two clear triggers to act: add 1% on a volume-backed reclaim of the 50-day SMA, or add 1% on a pullback to the $135\u2013$140 zone, with a hard stop at $127 below both the 200-day SMA and identified support. Reassess at next quarterly earnings.\n\n**Investment Thesis**: The debate triangulates to a Hold based on three converging strands of evidence. First, the bear/neutral case against the Aggressive Analyst hinges on the forward earnings estimate: revenue has been essentially flat at ~$80\u201383B across eight quarters (2.6% cumulative growth), yet the forward EPS of $10.58 implies an 80% earnings jump. Both the Conservative and Neutral analysts correctly identify this as a sell-side assumption rather than a data-backed trajectory, undermining the aggressive \"buy the stall\" thesis at $148.67 with a $144 stop (3.1% risk for speculative reward). Second, the Aggressive Analyst's macro catalysts\u2014Iran supply shock, Warsh-led Fed defending 4% inflation, BP North Sea divestitures\u2014have not materialized in oil price action; Gulf flows have actually improved and oil is falling on that news, meaning the market is pricing easing tensions, not a supply shock. The conservative point that higher rates strengthen the dollar and pressure commodities is a legitimate counterweight. Third, the 3\u20135% defensive core is justified: XOM still trades above its rising 200-day SMA ($127.17), carries a 2.62% dividend yield, fortress balance sheet, and an extremely low beta of 0.162, which supports retaining (not expanding) exposure. The chart shows genuine medium-term softness (below 50-day SMA, ~15.7% off the 52-week high, flat short-term EMA), but the long-term uptrend above the rising 200-day argues against the bear's \"avoid entirely\" overreach. The Neutral Analyst's synthesis is most actionable: don't wait for a fantasy $127 print that may never come given the rising support, but don't buy into a stalling medium-term trend either. The correct posture is Hold today with two conditional accumulation triggers and a disciplined stop. Position sizing at 4\u20135% balances the Aggressive Analyst's call for conviction against the Conservative Analyst's concentration-risk warning that 7% is excessive for a single integrated major.\n\n**Price Target**: 153.79\n\n**Time Horizon**: 3 months"
+}

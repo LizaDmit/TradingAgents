@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-03-31",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-03-31",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.52,
+    "mean_max_drawdown_pct": -10.4,
+    "p95_worst_drawdown_pct": -19.02,
+    "p99_worst_drawdown_pct": -23.8,
+    "est_annualized_vol_pct": 20.2,
+    "spot_price": 114.2,
+    "expected_return_pct": 0.59,
+    "median_return_pct": 0.11,
+    "return_vol_pct": 10.13,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.045,
+    "expected_price": 114.88,
+    "price_p5": 96.91,
+    "price_p95": 134.89,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish XOM as a core but not full position, initiating a first tranche of 40-60% of intended sizing at current levels (~$114), with capital reserved to add on a pullback toward the $105-108 support zone (200-day SMA area). Set a hard stop/re-evaluation trigger at $105 on a closing basis and monitor Q2 earnings, AI/natural gas catalysts, and Fed policy signals. Time horizon: 3 months.\n\n**Investment Thesis**: The three analysts converge on a constructive but measured view. The aggressive case rests on durable structural advantages: Guyana and Permian assets are among the lowest-cost barrels globally, providing a margin cushion that caps downside even if oil softens; the forward P/E compression from 26.44x trailing to 14.69x forward signals an expected earnings recovery; and the AI-driven power demand for natural gas\u2014explicitly flagged by Goldman Sachs\u2014is a genuine secular catalyst not fully priced in, given XOM's position as the largest U.S. gas producer. The neutral analyst correctly identifies the sweet spot: a 0.162 beta and 2.62% dividend make XOM a defensive, low-volatility core holding, not a momentum lottery ticket. The conservative analyst's warnings are legitimate and must be respected: the stock sits 7.96% above its 50-day SMA and 5.96% above its 200-day SMA (overbought), the 50 SMA ($106.24) remains below the 200 SMA ($108.24) meaning the medium-term trend is not fully confirmed, the silent sentiment/headline data is a genuine lack of institutional catalyst rather than a guaranteed contrarian signal, and the higher-for-longer Fed rate backdrop (with leadership change and the 4% vs 2% inflation debate) suppresses multiples for capital-intensive energy names. The 35% drawdown from $176 down to the low $105s requires a resolution of whether this is a new uptrend or a bear-market rally\u2014we have recovered only half of that collapse. Given forward earnings of ~$7.80 per share are estimates subject to revision and the overbought technicals argue against a full commitment, the appropriate stance is Overweight: build exposure in tranches, initiate at current levels so we do not miss a gap-up driven by geopolitical headlines or an AI data-center deal, but reserve capital to add at $105-108 where risk-reward is superior. The $105 closing stop caps downside at roughly 8% on the initial capital at risk, which is acceptable for a low-beta, dividend-paying energy major with genuine structural catalysts ahead.\n\n**Price Target**: 128.0\n\n**Time Horizon**: 3 months"
+}

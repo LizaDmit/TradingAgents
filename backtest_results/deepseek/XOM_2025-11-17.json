@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-11-17",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-11-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.89,
+    "mean_max_drawdown_pct": -11.87,
+    "p95_worst_drawdown_pct": -22.32,
+    "p99_worst_drawdown_pct": -27.58,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 116.11,
+    "expected_return_pct": 0.76,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 11.71,
+    "risk_free_pct_horizon": 0.943,
+    "risk_free_available": true,
+    "return_over_risk": -0.015,
+    "expected_price": 117.0,
+    "price_p5": 95.12,
+    "price_p95": 140.25,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at benchmark/neutral allocation with no additions or trims. Keep the stop-loss at the 200-day SMA ($107) and monitor weekly for a resolution between two scenarios: either oil/refining margin recovery validates the ~$10.58 forward EPS thesis (warranting an upgrade toward $120\u2013$125 near-term), or a pullback to the $107\u2013$111 support zone improves risk-reward for entry. Horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a Hold because neither the bull nor bear case wins decisively on the evidence. The technical setup is genuinely constructive\u2014perfect order alignment (close $116.11 > 10 EMA $115.22 > 50 SMA $111.77 > 200 SMA $107.01) and a breakout above the $108\u2013$114 consolidation range support accumulation, with RSI at 59.6 leaving room before overbought. The low beta (0.162) and 2.62% dividend yield provide real defensive characteristics, and the $107\u2013$111 support zone (200-to-50 SMA) forms a credible floor.\n\nHowever, the bull's aggressive framing overreaches. The forward EPS of $10.58 implies a 79% expansion over trailing EPS of $5.88 that requires simultaneous recovery in oil prices, refining spreads, and chemicals margins\u2014yet the macro data opposes this: rising Permian rig counts against falling prices signal supply glut risk rather than the aggressive analyst's \"geopolitical premium,\" and the \"no news is bullish\" argument rests on a LOW-confidence social media report with two of three sources returning nothing. The geopolitical Iran premise cuts both ways and can reverse violently on de-escalation. The stock remains 34% below its $176.41 high\u2014this is a partial recovery within a larger downtrend, not a fresh breakout to new highs.\n\nThe conservative case overstates downside: the 200 SMA at $107.01 and 50 SMA at $111.77 provide technical support, the trailing PE of 26.44 is distorted by depressed earnings, and XOM's $644B market cap, integrated value-chain operations, and stable cash generation preclude a collapse to zero. No compelling evidence supports trimming (stock above all MAs, real dividend, defensive beta) nor adding (forward EPS unvalidated, no catalyst flow). The balanced evidence\u2014constructive momentum with unsupported forward assumptions at a price above the consolidation range\u2014warrants patience. Maintain the position, hold the stop at $107, and wait for either fundamental validation of the earnings run-rate or an improved entry near $107\u2013$111 before acting.\n\n**Price Target**: 125.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-03-02",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-03-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.65,
+    "mean_max_drawdown_pct": -12.69,
+    "p95_worst_drawdown_pct": -23.52,
+    "p99_worst_drawdown_pct": -28.96,
+    "est_annualized_vol_pct": 25.2,
+    "spot_price": 153.18,
+    "expected_return_pct": 0.69,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 12.35,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.017,
+    "expected_price": 154.24,
+    "price_p5": 124.9,
+    "price_p95": 186.25,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at existing sizing with a defined stop at $133 (50-day SMA support). Do not add at $153 given the extended technicals (price 33% above the 200-day SMA) and the forward P/E of 14.69 that already prices in an aggressive 80% EPS expansion. Add incrementally only on a pullback to the $133\u2013$138 zone, or upgrade on a confirmed breakout above $176.41 on strong volume. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges decisively on a Hold, and the evidence supports this intermediate stance. The bull case rests on genuine fundamentals: a forward P/E of 14.69 on projected EPS of $10.58, a textbook bullish technical alignment (price 2.6% above the 10 EMA, 14.5% above the 50 SMA, 32.9% above the 200 SMA), a real Iran supply-disruption geopolitical tailwind, a 2.62% dividend yield with fortress balance sheet (P/B 2.53). However, the bear's warnings are equally substantive: the forward EPS estimate implies roughly 80% earnings expansion requiring a \"triple coincidence\" of elevated crude, stout refining margins, and resilient demand\u2014conditions that have historically broken down in each of the last two cycles. The TTM P/E of 26.44 is genuinely elevated for a cyclical, price sits a vulnerable 13% below the $176.41 high, and a 33% premium to the 200-day SMA leaves little margin for error on the downside. Critically, the sentiment data is degraded (\"no news,\" low conviction), meaning there is no overwhelming institutional or retail catalyst to break the symmetry. As the neutral analyst correctly notes, the $133\u2013$138 support zone (50-day SMA) is a defensible accumulation area that materially improves entry economics, while a breakout above $176.41 on confirmed volume would restart the accumulation phase. At $153, the forward multiple already prices in near-perfect execution of a strong 2026, so paying up here offers a roughly symmetric risk/reward with a 13% downside to the stop. Maintaining current exposure captures the dividend and any geopolitical crude spike while the defined $133 stop ensures any downside is contained. The position is a staged, catalyst-driven hold\u2014not passive\u2014preserving optionality until either the support zone offers better entry economics or a breakout provides confirmation of the next leg.\n\n**Price Target**: 158.0\n\n**Time Horizon**: 3 months"
+}

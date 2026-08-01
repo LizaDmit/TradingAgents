@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-02-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-02-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.43,
+    "mean_max_drawdown_pct": -12.45,
+    "p95_worst_drawdown_pct": -22.96,
+    "p99_worst_drawdown_pct": -28.63,
+    "est_annualized_vol_pct": 24.7,
+    "spot_price": 147.45,
+    "expected_return_pct": 0.85,
+    "median_return_pct": 0.24,
+    "return_vol_pct": 12.3,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": -0.004,
+    "expected_price": 148.71,
+    "price_p5": 120.56,
+    "price_p95": 179.72,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at existing weightings with no new adds at $147, given the balanced risk/reward. Implement a two-tier conditional accumulation strategy: add 1-2% on a confirmed breakout and hold above $153 on volume, or add 1-2% on a pullback to the $136-140 support zone (where the rising 50 SMA will converge). Keep a $127 stop-loss floor on the full position as the trend-structure break point. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a Hold with disciplined, adaptive conditional entries\u2014neither the aggressive nor the conservative extreme wins. The bull case (Aggressive) rests on forward EPS of $10.58 versus trailing $5.88, supported by a live Iran-conflict oil tailwind, a \"golden stack\" with positive MACD at 0.43, RSI cooling to ~67 from overbought spikes above 80, and defensive attributes (beta 0.162, 2.62% dividend). However, that forward EPS is a projection requiring elevated oil, stable refining margins, and benign macro to all hold; the trailing P/E of 26.4x means the market is pricing in significant perfection. The Conservative analyst validly highlights that waiting-for-$127 is not required (stock bounced at $136.56 on Feb 2), the 50 SMA is rising toward ~$130-132, and the same Iran conflict is a double-edged sword\u2014escalation supports oil, but a ceasefire could crush it, while a hawkish Fed transition (Kevin Warsh) compresses multiples. The Neutral analyst's synthesis is the most persuasive: neither chasing at $147 near two failed attempts at $153 resistance, nor rigidly waiting for a 13% pullback to $127 that may not come. A two-tier adaptive approach\u2014add on a confirmed breakout above $153 with volume, or add on a pullback to $136-140\u2014positions for both scenarios while capping damage. The trailing P/E of 26.4x and 30%+ run off the 200 SMA argue against fresh accumulation at current levels; the low beta and dividend provide ballast justifying no trims. The $127 stop is the trend-structure break, not merely a trade stop, so it remains the correct floor for the full position.\n\n**Price Target**: 153.0\n\n**Time Horizon**: 3 months"
+}

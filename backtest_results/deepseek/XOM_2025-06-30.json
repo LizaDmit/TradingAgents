@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-06-30",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-06-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.2,
+    "mean_max_drawdown_pct": -12.27,
+    "p95_worst_drawdown_pct": -22.98,
+    "p99_worst_drawdown_pct": -28.45,
+    "est_annualized_vol_pct": 24.2,
+    "spot_price": 104.47,
+    "expected_return_pct": 0.71,
+    "median_return_pct": 0.31,
+    "return_vol_pct": 12.14,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.027,
+    "expected_price": 105.22,
+    "price_p5": 85.05,
+    "price_p95": 127.07,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at neutral weight. If establishing a new position, initiate a pilot at 25% of intended full size near $104.00 with a stop at $101.00 (below the rising 50-day SMA at $103.33). Scale up to full size only on a decisive daily close above the 200-day SMA ($106.73) with volume confirmation; downgrade to Underweight on a break below $101\u2013102 with the 50-day rolling over. Continue collecting the dividend while awaiting the technical trigger. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves cleanly to Hold, and the traders' proposal of a 25% pilot with a $106.73 scaling trigger is the disciplined sweet spot. The bull case rests on real strengths: a forward P/E of 14.69 implying an earnings recovery, low-cost Permian/Guyana production, an integrated-model hedge, and a $644B market cap with a structural buyback floor. The $104 pullback from $111 sits above the rising 50-day SMA ($103.33), and the World Affairs Report's geopolitical oil bid adds a potential catalyst. However, the bear's technical and valuation concerns are equally valid and decisive against aggressive sizing: the TTM P/E of 26.44 reflects cyclical trough earnings that the forward multiple requires to be executed flawlessly; price trades below both the 10 EMA ($106.17) and a flat 200-day SMA ($106.73); a complete seven-day news vacuum provides no company-specific catalyst; and the June 23 failure at 108.29\u2014followed by a fall to 104.99\u2014proves overhead resistance is real. The Aggressive Analyst's 50% position is unjustified because neutral 5.0/10 sentiment with zero institutional flow is absence of conviction, not a contrarian buy signal, and a flat 200-day produces chop rather than breakouts. The Conservative Analyst's push to 0% overcorrects into paralysis: price is above a rising 50-day, the stock rallied 12% from the low-98s, and a breakout could gap past the trigger, forfeiting the favorable risk-reward entirely. The 25% pilot captures the buyback floor and oil tailwind while the $101 stop (at the 50-day) caps damage at ~3%; scaling only on a confirmed close above $106.73 respects overhead resistance. This conditional approach avoids predicting whether Iran escalates or a ceasefire breaks out, making Hold with a pilot the only position that prices every data point correctly.\n\n**Price Target**: 111.0\n\n**Time Horizon**: 3 months"
+}

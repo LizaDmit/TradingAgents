@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-02-23",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-02-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.56,
+    "mean_max_drawdown_pct": -12.64,
+    "p95_worst_drawdown_pct": -23.67,
+    "p99_worst_drawdown_pct": -29.23,
+    "est_annualized_vol_pct": 25.1,
+    "spot_price": 149.74,
+    "expected_return_pct": 0.86,
+    "median_return_pct": 0.17,
+    "return_vol_pct": 12.56,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 151.03,
+    "price_p5": 121.78,
+    "price_p95": 183.28,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain a neutral/benchmark-weight position in XOM at current levels (~$149-150) with no new additions or trimmings. Tighten the stop to approximately $145\u2014just below the recent $145.20 pullback low but above the 10 EMA at $147.55\u2014to reduce downside risk to roughly 3%. Do NOT add aggressively at $153; instead, trigger a 25% position add only on a volume-confirmed close above $153.50, with the remainder contingent on a two-session hold above $155. Reassess toward Underweight if Iran de-escalates or a hawkish Fed regime shift compresses the forward multiple.\n\n**Investment Thesis**: The debate genuinely balances conflicting evidence, and neither the aggressive nor conservative extreme carries a decisive edge. The bull's case rests on legitimate strength: forward EPS of $10.58 versus trailing $5.88 implies ~80% earnings growth, compressing the forward P/E to 14.69x; price sits above all key moving averages (10 EMA 147.55 / 50 SMA 130.48 / 200 SMA 114.11) in a structural uptrend; and the 2.62% dividend plus beta of 0.162 provides a defensive floor. However, the bear correctly identifies that the forward EPS projection is entirely hostage to sustained elevated crude prices driven by the Iran conflict\u2014one ceasefire or OPEC production headline can mark that $10.58 figure down violently. The stock already failed at the $153.49 resistance on February 11, the MACD has crossed bearishly after RSI cooled from 82 to 64, and the stock sits 2.5% below that resistance with no volume or sentiment confirmation. The neutral analyst's key contribution is the risk-adjusted refinement: rather than blind HOLD or aggressive overweight, tighten the stop to ~$145 (below the $145.20 recent low, above the 10 EMA), reducing quantifiable downside to ~3.2%, and wait for a volume-confirmed breakout above $153.50 before adding. This captures the structural uptrend while protecting against the asymmetric gap risk of geopolitical de-escalation\u2014precisely the disciplined approach warranted when reward-to-risk is only favorable under a specific, fragile geopolitical assumption. The 10:1 ratio cited by the aggressive analyst is a fiction because it ignores the probability of a single-headline de-escalation gapping through the $140 stop.\n\n**Price Target**: 153.5\n\n**Time Horizon**: 3 months"
+}

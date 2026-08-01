@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-02-24",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-02-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.17,
+    "mean_max_drawdown_pct": -9.98,
+    "p95_worst_drawdown_pct": -18.48,
+    "p99_worst_drawdown_pct": -23.25,
+    "est_annualized_vol_pct": 19.3,
+    "spot_price": 106.85,
+    "expected_return_pct": 0.6,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 9.77,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.046,
+    "expected_price": 107.49,
+    "price_p5": 91.03,
+    "price_p95": 125.19,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate an Overweight position in XOM now at ~$106.85 with a smaller first tranche (target ~1\u20131.5% above energy benchmark weight), set the initial stop below the 50 SMA at ~$103.85 rather than the bare 52-week low to avoid noise-based stop-outs, and add subsequent tranches only on a confirmed daily close above the 200-day SMA at ~$108.27. Maintain a 3-month horizon, monitoring oil-price direction and OPEC+ commentary since the forward EPS of $10.58 is commodity-dependent.\n\n**Investment Thesis**: The bull case carries the day on valuation and defensive quality: XOM trades at a forward P/E of 14.69x against expected EPS nearly doubling from $5.88 to $10.58, supported by a fortress balance sheet ($644B market cap) and a low beta of 0.162 that provides genuine portfolio ballast amid Fed transition turmoil, 4% inflation, and tech valuation concerns. Momentum is improving\u2014Golden Cross on the 10 EMA/50 SMA, price above the 50-day since Feb 5, and RSI at 56.69 rising 38% off the January trough. The conservative's caution is legitimate but not disqualifying: the stock remains $1.42 below the 200-day SMA ($108.27) with no confirmed reclaim, oil flows are improving (near-term bearish for crude), and the 52-week-low stop at $105.53 carries real gap risk with no structural support beneath it. The neutral analyst's hybrid framework is the correct synthesis: enter now at reduced tranche size using a stop at $103.85 (where the short-term momentum signal breaks) rather than the 52-week low, then scale in on confirmed 200-day reclaim. This captures the fundamentally cheap, defensive upside while respecting the unresolved technical confirmation and commodity dependency the bears rightly identified. The 2.62% yield lags 4% inflation, so the position is justified on total-return upside from EPS recovery, not income. Asymmetric risk/reward: downside to a $103.85 stop on a small first tranche is modest, while a confirmed reclaim of the 200-day unlocks a re-rating toward the $113+ November trajectory.\n\n**Price Target**: 113.0\n\n**Time Horizon**: 3 months"
+}

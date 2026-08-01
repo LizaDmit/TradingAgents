@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-01-12",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-01-12",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.37,
+    "mean_max_drawdown_pct": -12.34,
+    "p95_worst_drawdown_pct": -22.97,
+    "p99_worst_drawdown_pct": -28.64,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 122.38,
+    "expected_return_pct": 0.84,
+    "median_return_pct": 0.27,
+    "return_vol_pct": 12.13,
+    "risk_free_pct_horizon": 0.883,
+    "risk_free_available": true,
+    "return_over_risk": -0.004,
+    "expected_price": 123.41,
+    "price_p5": 100.07,
+    "price_p95": 148.77,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at benchmark weight (~$122.38) with no new entries at current levels. The stock sits in a confirmed long-term uptrend (golden moving average alignment, beta 0.162, price above all key SMAs) but faces near-term resistance at $124 with ATR expansion (1.9 to 2.43) and zero institutional catalyst. Employ a disciplined two-tranche add-on strategy: half at the 50-day SMA ($116.24) and half only on confirmed stabilization/reclaim of the 10-day EMA ($120.40). Set a hard downside watch at the 200-day SMA ($109.01) as the line in the sand; a break and hold below that level warrants downgrade to Underweight. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges decisively on Hold, anchored in balanced but non-decisive evidence on both sides. The bull case rests on a genuine valuation gap\u2014forward P/E of 14.69x versus TTM 26.44x implies forward EPS of $10.58 (roughly 80% above the TTM $5.88 trough) reflecting a known cyclical earnings recovery, not fantasy. The golden moving average structure (price above 10-day EMA $120.40, 50-day SMA $116.24, and 200-day SMA $109.01) and defensive beta of 0.162 support the long-term constructive thesis. However, the bear side correctly identifies real near-term risk: rejection at $124 with ATR doubling to 2.43 signals seller pressure and directional indecision, not a coiled spring. The macro backdrop is genuinely two-sided\u2014Iran tensions and potential supply disruption in the Strait of Hormuz argue for an oil spike, but a hawkish Fed under Warsh, 4% inflation normalization, and a strengthening dollar create demand-destruction and earnings-translation headwinds for an integrated major. The near-zero institutional chatter is best read as a data-confidence limitation (mega-cap pre-earnings quiet) rather than a bullish accumulation signal or a bearish warning. The Neutral Analyst's refinements are the most constructive: split the add-on into two tranches to avoid catching a falling knife given ATR expansion (limit buy at $116.24 risks momentum through that level into the $109.01 test), and implement a trailing stop mechanism on the existing position so gains are locked in if the stock rallies without filling buy orders. Given the 10.9% downside distance to the 200-day stop versus an unconfirmed 44% upside to the 52-week high (reached under a different geopolitical/rate regime), the risk-reward asymmetry is not as compelling as the bull claims and not as alarming as the bear fears. The prudent position is to hold through near-term volatility, add only on disciplined confirmed-strength or defined-support entries, and let the market show its hand through either an actual earnings recovery or a sustained oil price catalyst.\n\n**Price Target**: 130.0\n\n**Time Horizon**: 3 months"
+}

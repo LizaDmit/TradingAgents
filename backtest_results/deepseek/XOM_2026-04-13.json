@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-04-13",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-04-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.84,
+    "mean_max_drawdown_pct": -11.85,
+    "p95_worst_drawdown_pct": -21.72,
+    "p99_worst_drawdown_pct": -27.05,
+    "est_annualized_vol_pct": 23.1,
+    "spot_price": 151.61,
+    "expected_return_pct": 0.6,
+    "median_return_pct": -0.06,
+    "return_vol_pct": 11.55,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": -0.026,
+    "expected_price": 152.52,
+    "price_p5": 125.57,
+    "price_p95": 183.13,
+    "prob_loss": 0.503,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing XOM position at current levels without adding or trimming. Keep the hard risk exit at a weekly close below the 200-SMA ($123.05), and establish a staged re-entry trigger \u2014 a decisive close above the 10-EMA ($157.13) with volume, built in 1% increments rather than a single 5% jump. Monitor the next earnings release and Fed/oil-price commentary as the primary directional catalysts over the 3-month horizon.\n\ntime_horizon: 3 months\n\n**Investment Thesis**: The analysts' debate converges on a genuine stalemate between a compelling long-term bull case and a legitimate short-term bear case. The bull side rests on real fundamentals: a forward P/E of 14.7x versus a trailing 26.4x reflects the market pricing cyclical trough earnings, with a potential $10.58 forward EPS that would make the stock meaningfully undervalued at $151.61. The 23% cushion above the 200-SMA ($123.05) confirms the long-term uptrend is structurally intact, and the fortress BBB+ balance sheet, 2.62% dividend, sub-0.2 beta, and scale as the world's largest integrated major support the \"best-in-class during geopolitical stress\" narrative. The bear side also carries genuine weight: price has broken below both the 50-SMA ($152.98) and 10-EMA ($157.13) \u2014 the first confirmed short-term breakdown since late January \u2014 and the trailing P/E of 26.4x is rich for a mature integrated major. Rising leverage during earnings compression from 2022 peaks is a real yellow flag, and macro uncertainty around a new Fed chair (Kevin Warsh) floating a 4% inflation target raises higher-for-longer rate risk and potential demand destruction. Critically, the geopolitical argument cuts both ways: oil prices actually fell on improved Gulf flows, indicating the market is pricing de-escalation, not escalation. Neither the forward earnings recovery thesis nor the demand-destruction scenario has been confirmed by a decisive catalyst. Given the balanced evidence, the risk-adjusted decision is to hold \u2014 not buy into technical weakness below both short-term moving averages, and not trim into a still-intact long-term trend with a 23% buffer and a safe, covered dividend. Execution discipline matters: any additions should be staged in 1% increments only on a confirmed close above the 10-EMA ($157.13) on volume, rather than the aggressive 5% push the aggressive analyst advocated, which the conservative analyst correctly rejected as catching a falling knife. The hard exit remains a weekly close below the 200-SMA ($123.05), which would invalidate the long-term uptrend thesis.\n\n**Price Target**: 157.13\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-05-26",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-05-26",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.21,
+    "mean_max_drawdown_pct": -12.18,
+    "p95_worst_drawdown_pct": -22.68,
+    "p99_worst_drawdown_pct": -27.69,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 99.85,
+    "expected_return_pct": 0.76,
+    "median_return_pct": 0.2,
+    "return_vol_pct": 12.11,
+    "risk_free_pct_horizon": 1.058,
+    "risk_free_available": true,
+    "return_over_risk": -0.025,
+    "expected_price": 100.6,
+    "price_p5": 81.57,
+    "price_p95": 121.0,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM exposure at existing weight with no additions or trims. Hold the line until either a technical reclaim of the $105-$110 resistance zone on above-average volume (signaling the downtrend is being challenged) or next-quarter earnings validates the ~$10.58 forward EPS consensus. Avoid the aggressive accumulation thesis given the broken technical tape and macro supply overhang; avoid trimming given the fortress balance sheet and sustainable 2.62% dividend. Watch for a $90-$92 accumulation zone only if fundamentals confirm no deterioration.\n\n**Investment Thesis**: The debate converges on Hold, and the evidence supports it. Aggressive and Conservative analysts both make legitimate points that offset each other. The bull correctly highlights XOM's structural low-cost position, fortress balance sheet, sustainable 2.62% dividend, and that the stock is down 38% from its $176.41 high with a reasonable forward P/E of 14.69x. However, the bull's claim that forward EPS of $10.58 (implying ~80% earnings growth) is a safe base is contradicted by the macro picture: OPEC+ supply additions, decelerating demand growth, and the ambiguous nature of the Iran geopolitical catalyst (which could trigger either an oil spike or a broad risk-off selloff). The bear correctly notes that trading below the $105.53 52-week low is a repricing signal, not a misprint, and that beta of 0.162 does not protect against idiosyncratic commodity crash risk. The technical tape is uniformly bearish \u2014 price below the 10, 50, and 200-day moving averages with a confirmed death cross. The neutral analyst synthesizes this best: the setup has asymmetric risks that lean slightly bearish near term and fundamentally neutral-to-positive over a 12-month horizon. XOM at $99.85 doesn't offer a compelling enough entry to add given the technical weakness and macro headwinds, but selling a company with Q1 revenue of $81B, a P/B of 2.53, a PEG of 1.33, and a sound balance sheet into a news vacuum would be giving away a quality position. The disciplined call is to hold, set conditions for adjustment (technical reclaim of $105-$110 or earnings confirmation), and avoid both an arbitrary hard stop and aggressive accumulation until the direction clarifies.\n\n**Price Target**: 110.0\n\n**Time Horizon**: 3 months"
+}

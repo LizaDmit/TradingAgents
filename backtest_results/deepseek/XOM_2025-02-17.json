@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-02-17",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-02-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.32,
+    "mean_max_drawdown_pct": -10.17,
+    "p95_worst_drawdown_pct": -18.72,
+    "p99_worst_drawdown_pct": -23.16,
+    "est_annualized_vol_pct": 19.5,
+    "spot_price": 103.94,
+    "expected_return_pct": 0.32,
+    "median_return_pct": -0.07,
+    "return_vol_pct": 9.7,
+    "risk_free_pct_horizon": 1.053,
+    "risk_free_available": true,
+    "return_over_risk": -0.075,
+    "expected_price": 104.28,
+    "price_p5": 88.28,
+    "price_p95": 121.48,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at current sizing with no adds or trims while the critical ~30% reference-price discrepancy (fundamentals-implied ~$149 vs. technical snapshot 2025-02-14 at $103.94) is resolved. Establish a five-business-day verification protocol: if live market data confirms ~$149 with price above the 50-day/200-day, prepare to upgrade toward Overweight; if the ~$104 death-cross scenario is confirmed, prepare to trim. Set a hard technical trigger\u2014a close below $103.00 on volume warrants a de-risking trim regardless of the data conflict.\n\n**Investment Thesis**: The debate's central finding is a material, unresolved data conflict that prevents reliable risk-reward assessment. The fundamentals report implies XOM trades near $149 (above both its 50-day at $146.40 and 200-day at $139.16, beta 0.162, 2.62% dividend, $644B market cap), while the verified technical snapshot dated 2025-02-14 shows a close at $103.94\u2014below the 200-day SMA ($108.32) and 50-day SMA ($104.11), with a confirmed death cross and RSI at 49.15. This ~30% discrepancy is not an interpretive disagreement but a factual dispute over the reference price itself.\n\nThe Aggressive Analyst's reversion thesis (\"spring being coiled,\" 15\u201320% gap higher) rests on the assumption that the $149 price is correct and the technical snapshot is an error\u2014unverified confirmation bias, and the stock is already at/below the level the analyst claims \"held\" at $103.80. The Conservative Analyst's trim call is directionally betting on further breakdown (below the 52-week low of $105.53) using the same unverified data it criticizes, making a trim just as speculative as a buy. The Neutral Analyst correctly identifies both: the Aggressive side cherry-picks fundamentals, the Conservative side exhibits risk paralysis, and both make directional calls on unverifiable inputs.\n\nThe franchise quality is real\u2014Guyana's sub-$30 breakeven production, 0.162 beta (genuinely rare for an energy name, cushioning commodity shocks), 2.62% dividend, and fortress balance sheet\u2014but so is the commodity-cycle risk: OPEC+ supply growth, record U.S. production, declining 200-day SMA, and a fresh break below the 52-week low. Neither bull nor bear definitively wins on fundamentals, and the technical structure (price below all major MAs, death cross) leans cautious while the short-term convergence of the 10 EMA and 50 SMA within two cents signals an inflection rather than a confirmed waterfall.\n\nThe disciplined action is to hold at current sizing with a defined verification protocol and conditional triggers\u2014not passive inaction, but a structured stance that respects the genuine ambiguity of the evidence while protecting against both tail outcomes. If verification fails within five business days, systematically de-risk by a defined amount; if XOM closes below $103.00 on volume, trim regardless of data conflicts; if it closes above the 50 SMA at $104.11, hold and reassess. This acknowledges what we know (fortress franchise, defensive characteristics) without pretending we know the direction we cannot yet verify.\n\n**Time Horizon**: 3 months"
+}

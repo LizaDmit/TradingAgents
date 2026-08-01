@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-02-10",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-02-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.24,
+    "mean_max_drawdown_pct": -10.13,
+    "p95_worst_drawdown_pct": -18.74,
+    "p99_worst_drawdown_pct": -23.46,
+    "est_annualized_vol_pct": 19.4,
+    "spot_price": 105.62,
+    "expected_return_pct": 0.41,
+    "median_return_pct": -0.03,
+    "return_vol_pct": 9.77,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": -0.066,
+    "expected_price": 106.05,
+    "price_p5": 89.75,
+    "price_p95": 123.56,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at benchmark-neutral weight with no new action. Do not add at current levels near the 52-week low ($105.53) and below the 200-day SMA ($108.46), which has capped price since mid-December 2024. Establish defined triggers: add 25\u201350 bps on a confirmed close-and-hold above $108.46 on above-average volume for 2 consecutive sessions, or on a pullback into the $100\u2013103 support zone. Maintain a disciplined stop near $100, just below the 52-week low. Horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate is genuinely balanced, and the evidence supports a Hold rather than a directional bet. The Aggressive bull makes a valid case: XOM's Guyana Stabroek block with sub-$35 breakevens, the Permian growth strategy, a fortress balance sheet ($644B market cap), a forward P/E of ~14.7x, and a ~3.3% dividend yield create real downside protection and a compelling long-term asset base. Price reclaiming the 10 EMA (104.02) and 50 SMA (104.75) plus RSI at ~54.9 shows building momentum. However, the Conservative bear's counterpoints carry equal weight: price has remained below the 200-day SMA ($108.46) since mid-December 2024\u2014a structural condition, not a blip; the trailing P/E of 26.44x and PEG of 1.33 undercut the \"deep value\" narrative; the BP North Sea divestiture reflects sector-wide retreat from mature basins rather than a specific XOM catalyst; sentiment is genuinely silent with no news, no institutional narrative, and low-confidence social data; and OPEC+ spare capacity plus softening global demand are genuine macro headwinds that no breakeven advantage can offset. The Neutral analyst correctly synthesizes these: the asymmetry from current levels is roughly 1.5:1, not the 3:1 the Aggressive claims, because the realistic near-term ceiling is $108.46 (the 200-day SMA) rather than the 52-week high of $176 set in a different macro regime. There is no decisive edge today\u2014no catalyst to drive re-rating, and no confirmed technical breakout to justify entry. A fortress balance sheet argues against selling into weakness, but the unconfirmed technical picture and absent macro tailwinds argue against adding. The correct posture is to maintain existing exposure, preserve capital, and act only on defined triggers: a confirmed volume-backed close-and-hold above $108.46 for 2\u20133 sessions (upgrade path), or a disciplined pullback into the $100\u2013103 support zone that offers better entry economics. A stop near $100 is justified not as overreaction but as a measured exit if oil cracks and support fails, with downside to $95 if OPEC+ unwinds cuts. This is disciplined risk management, not inaction.\n\n**Price Target**: 108.46\n\n**Time Horizon**: 3 months"
+}

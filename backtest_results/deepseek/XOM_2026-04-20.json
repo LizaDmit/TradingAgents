@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-04-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-04-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.89,
+    "mean_max_drawdown_pct": -11.84,
+    "p95_worst_drawdown_pct": -21.79,
+    "p99_worst_drawdown_pct": -26.66,
+    "est_annualized_vol_pct": 23.3,
+    "spot_price": 146.68,
+    "expected_return_pct": 0.87,
+    "median_return_pct": 0.25,
+    "return_vol_pct": 11.68,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 147.95,
+    "price_p5": 121.25,
+    "price_p95": 177.72,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at target weight. Adopt the neutral analyst's refinements to the trader's plan: tighten the stop-loss from $135 to $140 (capping downside at ~4.6% from $146.68), and place a limit order to add 10-15% at $138 to improve cost basis. Avoid trimming to 75% or setting a $142 stop, which risks whipsaw given the 50-day SMA sits at $153.62 and normal volatility could trigger a premature exit. Evaluate over a 3-month horizon, watching for oil price stabilization, the 50-day reclaim, or a decisive break of $140.\n\n**Investment Thesis**: The debate resolves to Hold because both the bull and bear cases are genuine but not decisive. The bullish structural case is anchored in real fundamentals: the 200-day SMA at $124.10 is rising and price sits 18% above it, forward PE of 14.69x versus 26.4x trailing reflects a market-priced earnings upcycle ($10.58 forward EPS vs $5.88 trailing), and the low-cost Guyana/Permian assets generate $11.63B in FCF with a safe 2.62% dividend. However, the bear's technical concerns are equally valid: price is below the 10 EMA (declining from 163.95 to 151.11, or ~$13/month), below the 50-day SMA ($153.62), down 17% from $176.41, and crude is falling on improved Gulf supply flows\u2014the most telling negative signal given geopolitical supply-side headlines failed to lift oil. The neutral analyst's critique is decisive: both moving averages are equally lagging, so the aggressive analyst cannot cherry-pick the 200-day; and forward EPS is a projection vulnerable to oil-linked downward revisions. However, the conservative analyst over-corrects with a $142 stop (only 3.2% below price, likely whipsawed by noise given 50-day at $153.62) and unrealistic trim-and-reentry spread costs. The balanced execution\u2014full target weight, $140 stop, and a limit order at $138\u2014respects the falling short-term momentum while preserving participation in the earnings upcycle and the 67% rally the stock produced off its $105.53 low. The low beta (0.162) measures S&P correlation, not oil sensitivity, so both sides misused it; energy beta to crude is the true exposure. Given the data vacuum in sentiment (no headlines, no StockTwits, one irrelevant Reddit post), the market is prone to sharp moves either way, arguing for defined risk over directional conviction.\n\n**Price Target**: 160.0\n\n**Time Horizon**: 3 months"
+}

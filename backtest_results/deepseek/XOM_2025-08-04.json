@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-08-04",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-08-04",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.15,
+    "mean_max_drawdown_pct": -12.24,
+    "p95_worst_drawdown_pct": -23.12,
+    "p99_worst_drawdown_pct": -28.71,
+    "est_annualized_vol_pct": 24.4,
+    "spot_price": 104.05,
+    "expected_return_pct": 0.87,
+    "median_return_pct": 0.36,
+    "return_vol_pct": 12.26,
+    "risk_free_pct_horizon": 1.038,
+    "risk_free_available": true,
+    "return_over_risk": -0.013,
+    "expected_price": 104.96,
+    "price_p5": 84.89,
+    "price_p95": 126.71,
+    "prob_loss": 0.489,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain existing XOM positions with no new capital deployment. Set a watch trigger to add 12-15% of the target position only on a closing reclaim of the $106.50\u2013107.00 zone with volume confirmation (\u226510% above the 30-day average for two consecutive sessions) and oil not making new lows. Set a downside alert to trim 25% on a decisive close below $103.50 with expanding volume and sliding oil. Keep the original position's stop at $103.90; if adding near the trigger, use a blended stop around $104.50. Reassess after next earnings for a fundamental catalyst. Horizon: 3 months.\n\n**Investment Thesis**: This is a genuinely balanced contest, and the evidence supports maintaining a neutral-to-constructive posture rather than aggressive action in either direction. The bull case is anchored in strong fundamentals: XOM trades at a forward P/E of 14.69 versus a trailing 26.44, reflecting trough-priced earnings with a fully free-cash-flow-covered 2.62% dividend and a $644B fortress balance sheet. The absence of company-specific negative headlines during a risk-off week (\"When Fear Came to the Stock Market\") is a sign of resilience, and Gulf oil flow improvements and BP's North Sea divestitures suggest supply-side dynamics are not deteriorating for a scale player like XOM.\n\nHowever, the bear's technical argument is equally valid and cannot be dismissed. XOM is trading below all three key moving averages (10 EMA ~$106.93, 50 SMA ~$105.79, 200 SMA ~$106.33), having already violated its 52-week low of $105.53 intraday (tagging $104.05). The 10 EMA has rolled over from $109.49, and the 200 SMA has flattened or slightly declined\u2014signaling the long-term trend is losing its bid. Critically, there is zero volume data confirming capitulation, meaning the first breach of a 52-week low may not be the final one. The sentiment score of 5.0 is based on effectively no data, so it cannot be treated as validation of either side.\n\nThe risk/reward math from the current close is roughly 1:2 adverse: near-term upside to the 200 SMA is ~2.2%, while downside to $100 psychological support is ~4%. The aggressive analyst's 60%-upside-to-$176 framing is a tail-event fantasy contingent on an unforecastable oil spike. The conservative analyst's demand for too many confirmation gates (three sessions above the 200 SMA, volume 20% above average, oil above its 50-day MA) would make the trigger untradeable and force chasing at $110. The balanced path\u2014the neutral analyst's proposal\u2014is the correct synthesis: require a closing reclaim of $106.50\u2013107.00 with two sessions of volume \u226510% above the 30-day average and oil not making new lows before adding, and trim only 25% (not 35\u201350%) on a close below $103.50 with volume and sliding oil, preserving upside participation given the fundamental floor. With no identifiable near-term catalyst and an unreliable sentiment vacuum, the appropriate stance is to hold, defend, and act only on confirmed price/volume confirmation in either direction.\n\n**Price Target**: 106.33\n\n**Time Horizon**: 3 months"
+}

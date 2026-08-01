@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-08-25",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-08-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.13,
+    "mean_max_drawdown_pct": -12.17,
+    "p95_worst_drawdown_pct": -22.78,
+    "p99_worst_drawdown_pct": -28.53,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 109.3,
+    "expected_return_pct": 0.89,
+    "median_return_pct": 0.5,
+    "return_vol_pct": 12.08,
+    "risk_free_pct_horizon": 1.023,
+    "risk_free_available": true,
+    "return_over_risk": -0.011,
+    "expected_price": 110.27,
+    "price_p5": 89.42,
+    "price_p95": 132.89,
+    "prob_loss": 0.483,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM positions at existing sizing with no new capital added and no exits at current levels. The stock trades at $109.30, a mere 3% above the 200-day SMA ($105.76) and 50-day SMA ($106.93), after a 38% drawdown from its 52-week high. Do not chase the two-week golden cross, and do not cut on a technical bounce. Reassess after the quarterly earnings print confirms or invalidates the forward EPS trajectory.\n\n**Investment Thesis**: The debate is genuinely balanced with no decisive edge favoring either direction. The Aggressive Analyst's bull case rests on forward-looking signals: price above the 10-day, 50-day, and 200-day moving averages, a golden cross formed on August 21-22, a forward P/E of 14.69x versus TTM P/E of 26.4x, and forward EPS of $10.58 versus $5.88 TTM (an 80% jump). However, the Conservative Analyst correctly counters that this forward EPS depends entirely on speculative oil price assumptions flagged by the World Affairs Report, the golden cross formed while the 200-day is still nearly flat/declining after a long downtrend (historically a higher-failure setup), and the 3.3% buffer above support can evaporate in a single macro shock. The negative pre-tax income of -$2.02B in the most recent quarter and -$1.16B for full-year 2024 reflect genuine operational challenges, not a smoothly recovering business. The dividend yield of 2.62% offers only modest cushion over ~4% risk-free Treasuries, and the low beta (0.162) provides downside protection but signals limited upside catalyst participation. The Neutral Analyst correctly synthesizes both: the position has stopped deteriorating technically, and selling near $109.30 would lock in losses near the bottom of the range, but adding exposure rests on hope, not data. The quarterly earnings print is the decisive catalyst\u2014it will confirm or invalidate the forward EPS trajectory and the oil-price-dependent recovery thesis. Until then, holding at current sizing is the disciplined risk-management choice that protects against the Conservative's downside fears while preserving the Aggressive's upside optionality.\n\n**Price Target**: 109.3\n\n**Time Horizon**: 3 months"
+}

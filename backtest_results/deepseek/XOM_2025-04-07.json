@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-04-07",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-04-07",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.28,
+    "mean_max_drawdown_pct": -11.27,
+    "p95_worst_drawdown_pct": -21.11,
+    "p99_worst_drawdown_pct": -26.13,
+    "est_annualized_vol_pct": 22.1,
+    "spot_price": 98.85,
+    "expected_return_pct": 0.6,
+    "median_return_pct": 0.0,
+    "return_vol_pct": 11.08,
+    "risk_free_pct_horizon": 1.038,
+    "risk_free_available": true,
+    "return_over_risk": -0.04,
+    "expected_price": 99.44,
+    "price_p5": 82.26,
+    "price_p95": 118.13,
+    "prob_loss": 0.5,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim XOM exposure by 25-35% via a tiered execution: sell ~20% immediately, place limit orders for another 10-15% into the $103-108 resistance zone, and if no bounce materializes within five trading days, sell the balance of the trim at market. Maintain a hard stop at $90 on retained exposure. Do not initiate new longs until a fundamental catalyst (Q2 earnings confirming forward EPS) or technical stabilization (sustained move above the 50-day SMA) appears. Time horizon: 3 months.\n\n**Investment Thesis**: The risk analysts' debate converges on a reduction rather than full liquidation or complacent holding. The aggressive analyst correctly identifies the core bearish tell: a 13.5% three-session drop with zero company-specific news signals structural, macro-driven selling with no obvious bid, reinforced by the absence of institutional buying, insider purchases, or analyst upgrades. The 1.8x gap between trailing (26.44) and forward (14.69) P/E reflects justified market skepticism of the $10.58 forward EPS estimate, and the macro backdrop (Fed transition uncertainty, tariff wars, potential recession, OPEC+ discipline breakdown) remains unambiguously negative for oil demand. However, the conservative analyst's pushback is equally valid: low beta (0.162), a 2.62% covered dividend, a $644B integrated franchise, and RSI of 29.5 after an abrupt dislocation argue against panic-selling at the bottom of a sharp move. The neutral analyst's synthesis is most balanced and actionable: sell 20% immediately to cut tail risk, tier the remaining 10-15% into the $103-108 resistance zone (prior support that now caps bounces, with the 10-day EMA at $107.66), and hold the remainder with a $90 hard stop. This respects the bearish trend and absence of catalysts while avoiding the worst execution error of selling everything into peak fear. The position cannot be upgraded to Buy because forward EPS assumptions were built under more favorable macro conditions, and the absence of any buying catalyst\u2014no upgrades, no insider accumulation, no news\u2014means the path of least resistance remains down until either earnings validate the forward trajectory or oil stabilizes above $70 WTI with no Fed rate-hike signal.\n\n**Price Target**: 90.0\n\n**Time Horizon**: 3 months"
+}

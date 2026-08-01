@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-02-02",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-02-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.35,
+    "mean_max_drawdown_pct": -12.42,
+    "p95_worst_drawdown_pct": -23.38,
+    "p99_worst_drawdown_pct": -29.31,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 136.56,
+    "expected_return_pct": 0.58,
+    "median_return_pct": 0.11,
+    "return_vol_pct": 12.36,
+    "risk_free_pct_horizon": 0.895,
+    "risk_free_available": true,
+    "return_over_risk": -0.025,
+    "expected_price": 137.35,
+    "price_p5": 110.82,
+    "price_p95": 166.05,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM positions at 5-6% sizing. Do not add on the strength of a geopolitical spike that has pushed RSI to 80.63, but do not exit a fundamentally strong, cycle-resilient integrated major with a covered 2.62% dividend. Set the stop just below the 10 EMA at $133.00 (slightly wider than the trader's $133.50 to avoid noise whipsaw on a low-beta 0.16 name), and execute on two consecutive closes below that level. Re-assess toward Overweight if price reclaims the $139.52 January high on volume or pulls back to the $121-$125 zone near the 50 SMA.\n\n**Investment Thesis**: This debate genuinely splits along the aggressor/conservative axis, and neither side cleanly wins at current levels\u2014which is precisely why Hold is the disciplined answer.\n\nThe bull case is real: XOM is a diversified, low-cost producer across the Permian, Guyana, and Gulf of Mexico, with a forward P/E of 14.69x versus a 26.44x trailing multiple, a fortress balance sheet, and a dividend covered multiple times over even in a normalized $70 Brent environment. The 2021-2024 net income progression demonstrates profitability through the cycle. The medium-term technical structure is also bullish\u2014price sits above the 10 EMA, 50 SMA ($121.29), and 200 SMA ($110.94).\n\nBut the Aggressive Analyst's strongest points contain embedded flaws that the Conservative and Neutral analysts correctly exposed. The 52-week high of $176.41 is cited as a target while the stock trades below both its 50-day ($146.40) and 200-day ($139.16) averages, meaning the $146-$176 zone is massive overhead supply from bag holders seeking to break even. The RSI at 80.63 is a genuine statistical outlier for a low-beta large-cap, and price already faded from $139.52 to $136.56\u2014distribution behavior at the highs. The 10 EMA support at $134 is only ~1.6% below price, a razor-thin buffer before the 50 SMA at $121 (a 10% drawdown). Most critically, the forward EPS of $10.58 depends on sustained elevated oil prices; a geopolitical de-escalation would crush that assumption and compress fair value toward the $110-$120 range.\n\nThe Aggressive Analyst's call to size up to 8% with a $120 stop is reckless\u2014it risks a 12% drawdown on a position already showing exhaustion, and a gap scenario in a geopolitical unwind could fill well below that stop. The Conservative Analyst's call to pre-emptively trim 1-2% sells into a confirmed medium-term uptrend with a functioning stop already in place, and would force buying back higher if escalation continues.\n\nThe right synthesis: hold at 5-6% sizing, stop at $133.00 (below the 10 EMA, slightly wider than the trader's $133.50 to avoid whipsaw on a stock that doesn't move on a dime), and execute only on two consecutive closes below that level. This respects both the quality of the franchise and the fragility of the current price spike. It is not aggressive\u2014we do not add at an overbought extreme at the top of a geopolitical spike\u2014but it is not defensive surrender either; we capture continued upside if the conflict deepens while protecting against tail risk if it de-escalates. The binary outcome demands a monitored hold, not conviction in either direction.\n\n**Price Target**: 150.0\n\n**Time Horizon**: 3 months"
+}

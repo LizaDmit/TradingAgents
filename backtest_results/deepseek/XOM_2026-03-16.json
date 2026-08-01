@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-03-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-03-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.37,
+    "mean_max_drawdown_pct": -12.47,
+    "p95_worst_drawdown_pct": -23.42,
+    "p99_worst_drawdown_pct": -29.24,
+    "est_annualized_vol_pct": 24.7,
+    "spot_price": 156.17,
+    "expected_return_pct": 0.88,
+    "median_return_pct": 0.37,
+    "return_vol_pct": 12.32,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": -0.002,
+    "expected_price": 157.55,
+    "price_p5": 127.4,
+    "price_p95": 190.55,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at target weight near $156. Do not add new capital at current levels given the stock trades ~33% above its 200-day SMA with binary macro risk from a hawkish Fed Chair transition (Kevin Warsh) and forward EPS of $10.58 implying an 80% surge that hinges on sustained commodity prices. Establish a conditional re-entry zone at $140-$145 near the rising 50-day SMA, but only execute with verification that oil prices (WTI above ~$65-70) and the 10-day EMA confirm stabilization rather than breakdown. Trim toward Underweight only if price breaks below the 50-day SMA on elevated volume accompanied by a slide in crude. Time horizon: 3 months.\n\n**Investment Thesis**: The three risk analysts converge on HOLD despite divergent reasoning, and the balanced evidence supports this. The bull case is legitimate: forward P/E of 14.69x versus trailing 26.44x, a defensive beta of 0.162, a 2.62% dividend yield with a 144-year dividend history, a perfectly aligned golden cross (10-day EMA 151.84, 50-day SMA 140.55, 200-day SMA), and an attractive ~7% forward earnings yield. However, these tailwinds are conditional. The forward EPS of $10.58 requires roughly an 80% surge from trailing EPS of $5.88, an assumption that depends entirely on oil staying elevated through four quarters. The bear's warnings are equally compelling: Kevin Warsh's hawkish Fed transition threatens a stronger dollar, which directly pressures dollar-denominated oil, undermining the forward earnings thesis; the 52-week range of $105.53-$176.41 confirms this remains a cyclical commodity stock; and at $156, the stock is 32.6% above its 200-day SMA and up nearly 48% off its low\u2014the easy money has been made. The conservative analyst correctly notes the real downside is not $140 but the 200-day SMA at $117 (~25% drawdown) if the commodity thesis breaks, making the current risk/reward less asymmetric to the upside than the aggressive analyst claims. The neutral analyst provides the decisive synthesis: the 50-day SMA is a dynamic floor rising from $127.80 to $140.55, not a trap door\u2014a pullback there on stable oil and a clarified Fed narrative improves risk/reward. The correct posture is to hold the high-quality, low-beta dividend payer through the upcycle, respect the conditional re-entry zone at $140-$145 only with oil price confirmation, and honor the trim trigger below the 50-day SMA on high volume with crude sliding. Neither adding aggressively at $156 nor exiting a structurally strong business during a cyclical upcycle is justified until the Fed transition and oil price trajectory clarify over the 3-month horizon.\n\n**Price Target**: 156.0\n\n**Time Horizon**: 3 months"
+}

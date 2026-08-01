@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-01-19",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-01-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.27,
+    "mean_max_drawdown_pct": -12.34,
+    "p95_worst_drawdown_pct": -22.95,
+    "p99_worst_drawdown_pct": -28.97,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 128.16,
+    "expected_return_pct": 0.85,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 12.33,
+    "risk_free_pct_horizon": 0.889,
+    "risk_free_available": true,
+    "return_over_risk": -0.004,
+    "expected_price": 129.24,
+    "price_p5": 104.41,
+    "price_p95": 156.53,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing XOM position at current levels (entry $128.16) with position sizing capped at 3-4% of the portfolio. Tighten the stop to $117 (the 50-day SMA), not the conservative $105 or aggressive $118. Watch for a confirmed breakout above $132 on strong volume as the add trigger, and use the next 1-2 quarterly earnings reports as the decisive catalyst to confirm or deny the $10.58 forward EPS recovery narrative. Time horizon: 3 months.\n\n**Investment Thesis**: The debate between the aggressive, conservative, and neutral analysts resolves to a balanced Hold, and the evidence supports this conclusion on both sides. The bull case rests on genuine short-term momentum\u2014price is up 8.7% from the $113\u2013$118 range, sits 3.1% above the 10-day EMA ($124.28), and 9.1% above the 50-day SMA ($117.48)\u2014plus a forward P/E of 14.69x, a low beta of 0.16, a 2.62% dividend on a fortress $644B balance sheet, and the Iran conflict as the highest-impact geopolitical variable. However, these bullish catalysts face real counterweights: revenue has declined for three consecutive years (FY2022 $398.7B \u2192 FY2025 $323.9B), the stock remains ~14% below its declining 50-day average ($146.40) and 8% below the 200-day average ($139.16), and the forward EPS of $10.58 is a forecast, not a fact\u2014it assumes a margin recovery that has not yet appeared in any actual financial statement. The neutral analyst's synthesis is the most defensible: neither a 30% upside bet on war headlines nor an 18% stop-loss at $105 is appropriate. The correct posture is to maintain the position, cap it at 3-4%, tighten the stop to $117 (the structural 50-SMA support, not the $105 structural-breakdown level nor the $118 headline-driven stop), and await the two decisive confirmations: (1) a break above $132 on strong volume confirming the intermediate-term uptrend, and (2) the next 1-2 quarterly earnings reports confirming or denying the EPS recovery. A decisive entry at current levels is premature given the genuine uncertainty on both sides\u2014the geopolitical premium can evaporate in a single diplomatic announcement, while the forward valuation only looks cheap if the recovery materializes. Wait for evidence before increasing exposure; the 2.62% dividend and low beta make patience a low-cost option.\n\n**Price Target**: 132.0\n\n**Time Horizon**: 3 months"
+}

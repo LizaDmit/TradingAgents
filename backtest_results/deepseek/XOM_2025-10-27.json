@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-10-27",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-10-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.91,
+    "mean_max_drawdown_pct": -11.91,
+    "p95_worst_drawdown_pct": -22.58,
+    "p99_worst_drawdown_pct": -27.83,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 113.4,
+    "expected_return_pct": 0.62,
+    "median_return_pct": 0.07,
+    "return_vol_pct": 11.78,
+    "risk_free_pct_horizon": 0.929,
+    "risk_free_available": true,
+    "return_over_risk": -0.026,
+    "expected_price": 114.11,
+    "price_p5": 92.73,
+    "price_p95": 136.94,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at approximately market weight. Do not add on strength; instead, consider gradual accumulation only on pullbacks toward the 50-day SMA (~$110) with a technical stop below the 200-day SMA (~$106\u2013$107) to protect the long-term trend. Monitor Middle East developments and the next earnings report closely \u2014 a ceasefire or a forward EPS guidance miss would invalidate the valuation thesis and trigger a trim.\n\n**Investment Thesis**: The debate across all three risk analysts converges on a Hold, and the evidence supports that conclusion. The Aggressive Analyst's case for a more aggressive stance is undermined by the fragility of its own assumptions: the forward PE of 14.69x depends on a near-doubling of forward EPS ($10.58 vs. $5.88 trailing), which hinges entirely on sustained elevated crude prices amid an active Iran war and 4% inflation. The low beta of 0.162 is a backward-looking measure, not a shield against event-driven gap-down risk, as the Conservative Analyst correctly notes. The Conservative Analyst's discipline is well-placed, but the stock sits above all three key moving averages with a confirmed golden cross and positive momentum, which the Neutral Analyst rightly identifies as genuine institutional return \u2014 not noise. The sentiment data (5.0/10 neutral, low confidence) reflects an absence of a strong institutional narrative, which cuts both ways: no negative catalyst is pressing, but no committed buyer base is building either. The stock's 36% drawdown from its 52-week high, combined with a trailing 26.4x PE for a commodity business, caps the enthusiasm warranted here. The balanced framework \u2014 hold at market weight, accumulate only on pullbacks toward the $110 area, stop below the $106\u2013$107 zone, and watch for two key catalysts (Middle East de-escalation and forward EPS guidance) \u2014 is the correct posture. The Risk Manager's plan and the consensus of the analyst debate all align: this is a hold until either the technical structure breaks or the forward earnings thesis is validated or invalidated by actual results.\n\n**Price Target**: 130.0\n\n**Time Horizon**: 3 months"
+}

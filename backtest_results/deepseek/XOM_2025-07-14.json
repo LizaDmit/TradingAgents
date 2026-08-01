@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-07-14",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-07-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.34,
+    "mean_max_drawdown_pct": -12.37,
+    "p95_worst_drawdown_pct": -23.09,
+    "p99_worst_drawdown_pct": -29.38,
+    "est_annualized_vol_pct": 24.4,
+    "spot_price": 110.4,
+    "expected_return_pct": 0.81,
+    "median_return_pct": 0.36,
+    "return_vol_pct": 12.37,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": -0.02,
+    "expected_price": 111.29,
+    "price_p5": 89.87,
+    "price_p95": 134.57,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current XOM position at $110.40 with no aggressive additions or trims. The technical uptrend (price above 50-day SMA at $104.44 and 200-day SMA at $106.83, golden cross intact, accelerating momentum) is constructive, but is offset by unresolved macro headwinds (multi-year-high bond yields, hawkish Fed transition under Warsh, stronger dollar) and an unconfirmed forward EPS recovery of $10.58 that hinges entirely on oil price stability. Set a volume-confirmed breakout above the 200-day SMA as the upgrade trigger to Overweight, and a daily close below $105.53 (near 52-week low) as the hard downside exit. Position sizing stays at current allocation given the 37% drawdown from the 52-week high and the neutral-to-empty sentiment picture. Time horizon: 3 months.\n\n**Investment Thesis**: The evidence is genuinely split and neither the bull nor bear case delivers a knockout blow, justifying a Hold. The aggressive analyst's bullish case is anchored in a legitimate technical structure: XOM trades at $110.40 above both the 50-day SMA ($104.44) and 200-day SMA ($106.83) with the 50-day above the 200-day, the gap between the 10-day EMA ($109.49) and 50-day SMA widening (accelerating momentum), and constructive RSI/MACD readings. His valuation argument\u2014trailing EPS of $5.88 versus forward EPS of $10.58 implies an 80% recovery with a forward PE of 14.69\u2014is compelling, but the neutral analyst correctly exposed the flaw: that $10.58 estimate is the single weakest link in the bull thesis, being a consensus guess layered on top of oil prices that must hold firm against rising spare capacity (Saudi Arabia), improving Gulf flows, and a hawkish Fed transition that strengthens the dollar and pressures commodities. If oil slips 10-15%, that forward EPS gets revised down and the \"cheap\" 14.69 forward PE quickly becomes 18-20x a declining base, collapsing the aggressive analyst's 10-to-1 reward-to-risk ratio.\n\nThe conservative analyst's macro warnings are similarly legitimate and not \"lazy takes\": bond yields at multi-year highs make XOM's 2.62% dividend competitively inferior to a ~4% risk-free rate, and the beta of 0.162 offers no insulation from sector-specific oil price shocks (low beta vs. the S&P 500 does not equal low commodity correlation). The 37% drawdown from the 52-week high ($176.41) and proximity to the $105.53 near-52-week low temper the \"strong uptrend\" narrative. However, the conservative analyst overreaches by dismissing the golden cross as a \"bull trap\" without citing a single bearish momentum divergence, and by framing the drawdown as proof of deterioration when it more plausibly reflects mid-cycle oil pricing rather than peak-oil pricing.\n\nThe sentiment picture is genuinely unhelpful\u2014Yahoo News returned zero XOM-specific items, StockTwits unavailable, Reddit silent\u2014offering no institutional confirmation for either side. The immediate catalyst risk is asymmetric: a hold costs only a few points if the stock breaks out on volume, whereas an aggressive full add risks a 10-15% drawdown if oil softens and the forward EPS narrative evaporates. The disciplined path is to hold at current allocation, let the market provide the next confirmation signal, and react mechanically: add on a volume-confirmed breakout above the 200-day SMA (upgrade to Overweight), and exit hard on a daily close below $105.53 (downgrade to Underweight) as that would invalidate the bull's technical thesis and confirm the conservative's mean-reversion risk.\n\n**Price Target**: 118.0\n\n**Time Horizon**: 3 months"
+}

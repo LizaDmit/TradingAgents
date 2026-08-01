@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2026-03-30",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2026-03-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.47,
+    "mean_max_drawdown_pct": -12.51,
+    "p95_worst_drawdown_pct": -23.39,
+    "p99_worst_drawdown_pct": -28.97,
+    "est_annualized_vol_pct": 25.0,
+    "spot_price": 170.31,
+    "expected_return_pct": 1.04,
+    "median_return_pct": 0.41,
+    "return_vol_pct": 12.64,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.011,
+    "expected_price": 172.08,
+    "price_p5": 138.42,
+    "price_p95": 209.12,
+    "prob_loss": 0.487,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position without adding new exposure at the $170 level. The stock sits 3.5% below its 52-week high of $176.41 with only ~5% realistic upside to $180, versus a 13% downside path to the 50-day SMA at $148.40, creating unfavorable risk/reward at current entry. Do not chase; instead, implement a staged buy plan near $148-152 (or a first tranche near the 10-day EMA at $163 on the neutral analyst's suggestion), and revisit the call on a sustained breakout above $176.41 or confirmation that the geopolitical premium has fully deflated. Time horizon: 3 months.\n\n**Investment Thesis**: The debate crystallizes into three distinct positions, and the strongest synthesis is a disciplined Hold rather than either extreme. The Aggressive Analyst correctly identifies XOM's transformation toward high-margin Guyana/Permian assets and the remarkably low beta of 0.162 as genuine structural support, but over-relies on a geopolitical premium that the World Affairs Report explicitly flags as leaking, with Gulf of Mexico flow improvements already easing supply tightness. The bear's math is compelling: a 26.44x P/E versus the historical 10-12x range for oil majors, an RSI at 76.74 in deeply overbought territory, and a 2.6:1 risk/reward skewed to the downside (13% to $148 versus ~5% to $180). However, the Conservative Analyst's call to simply wait for $148 while holding a full position is internally contradictory \u2014 as the Neutral Analyst astutely points out, if the downside is truly 13%, capital preservation demands either trimming or raising the stop. The Neutral Analyst's middle-ground proposal offers the most coherent risk-managed execution: hold the core position, trim 10-15% into strength near $176.41 resistance to fund a discounted re-entry, raise the stop below the 10-day EMA at $162.93 rather than $148, and ladder into the pullback. The technical report itself calls HOLD, and the sentiment data is unreliable (a Reddit post timestamped four months in the future). With the 50-day SMA at $148.40 and the stock 17% above it, mean reversion risk is elevated, yet the long-term golden cross and defensive cash-flow profile justify maintaining a core position. The balanced evidence supports maintaining current weightings with disciplined risk management: no new adds at stretched valuation, staged buys on pullback, and a clear signal to reduce to Underweight if price breaks $148 with rising ATR, confirming premium deflation.\n\n**Price Target**: 176.41\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-09-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-09-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.12,
+    "mean_max_drawdown_pct": -12.14,
+    "p95_worst_drawdown_pct": -22.91,
+    "p99_worst_drawdown_pct": -28.25,
+    "est_annualized_vol_pct": 24.0,
+    "spot_price": 111.79,
+    "expected_return_pct": 0.75,
+    "median_return_pct": 0.27,
+    "return_vol_pct": 12.19,
+    "risk_free_pct_horizon": 1.011,
+    "risk_free_available": true,
+    "return_over_risk": -0.021,
+    "expected_price": 112.63,
+    "price_p5": 91.07,
+    "price_p95": 136.15,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at target weights; no adds or trims. Keep the hard technical invalidation at the 200-day SMA (~$105.70) while setting a two-session review trigger: if price closes below $107 twice, trim 25% and reassess. Add only on a confirmed volume-backed break above $115-118. Collect the 2.62% dividend as carry over a 3-month horizon while awaiting either a confirmed breakout or a fundamental breakdown.\n\n**Investment Thesis**: The debate lands with neither the aggressive nor the conservative case winning decisively, supporting an active hold. The bull's case is legitimate on valuation and income: a 14.69x forward P/E with a PEG of 1.33, a $644B balance sheet, a 2.62% dividend yield, and forward EPS of $10.58 versus $5.88 trailing are not demanding for an integrated energy leader. Price ($111.79) sits above rising moving averages (200 SMA $105.70, 50 SMA $107.02, 10 EMA $108.79), which the technical report calls a long-term bullish structure.\n\nHowever, the conservative risks are real and limit accumulation conviction. XOM is down ~36.6% from its 52-week high and only ~5.9% above its low, a thin cushion given the modest 7.76% profit margin reflecting commodity cyclicality and structural energy-transition headwinds. The sentiment data is a void rather than a positive signal, and the macro backdrop is genuinely two-sided\u2014oil is falling on improved Gulf supply flows while Iran strike risk could spike volatility in either direction. The forward EPS inflection is a forecast, not yet a fact, and would take multiple quarters to confirm, making the aggressive analyst's 6-week momentum window misaligned with the earnings story. Conversely, the conservative analyst's tighter stop ($108.50) risks whipsaw on normal oil-market noise.\n\nThe decisive middle path is an active hold: keep the position, protect downside with the hard $105.70 stop (200 SMA), set a $107 two-session close review trigger to trim 25% if weakness persists, and add only on a confirmed volume break above $115-118. This preserves the $25.3B net income franchise's income support while respecting the thin technical cushion and unresolved macro risks.\n\n**Price Target**: 118.0\n\n**Time Horizon**: 3 months"
+}

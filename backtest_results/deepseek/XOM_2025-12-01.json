@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-12-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-12-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.8,
+    "mean_max_drawdown_pct": -11.8,
+    "p95_worst_drawdown_pct": -22.19,
+    "p99_worst_drawdown_pct": -27.83,
+    "est_annualized_vol_pct": 23.4,
+    "spot_price": 115.08,
+    "expected_return_pct": 0.71,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 11.67,
+    "risk_free_pct_horizon": 0.923,
+    "risk_free_available": true,
+    "return_over_risk": -0.019,
+    "expected_price": 115.89,
+    "price_p5": 94.61,
+    "price_p95": 138.66,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current XOM position at current weight as a core defensive holding. Do not add or trim; respect the $112.50 stop below the 50 SMA. Add toward overweight only on a decisive close above $117.70 with strong volume, and trim toward underweight only on a close below ~$112.58 or on downward revisions to the $10.58 forward EPS estimate. Time horizon: 3 months.\n\n**Investment Thesis**: The debate is genuinely balanced, with neither the bull nor bear holding decisive, confirmed evidence. The bull's case rests on a compelling forward P/E of 14.69 versus trailing 26.44, projected forward EPS of $10.58 (~80% growth from TTM $5.88), and a technically constructive golden configuration\u2014price above the 10 EMA ($114.68), 50 SMA ($112.58, rising from $110.76), and 200 SMA ($107.50). However, the Aggressive Analyst overstates the case by assigning high probability to an unconfirmed breakout above $117.70 and to a speculative geopolitical catalyst that is binary and could resolve either way. The bear's case correctly flags the 22% drawdown from the $176.41 high, the unverified nature of forward estimates (which get slashed if crude stalls), thin sentiment data (neutral 5.0/10, sparse Reddit, no StockTwits), and absence of near-term catalysts. But the Conservative Analyst overcorrects by proposing a pre-emptive 10-15% trim at $115\u2014which introduces friction for no benefit, since the defined 2.2% stop already manages downside, and the risk-reward at this tight range ($112\u2013$117.70) is roughly a coin flip. The Neutral Analyst correctly identifies that both extremes impose a directional view on a market that is explicitly undecided. Holding at current weight, respecting the $112.50 stop, and waiting for either a decisive volume-confirmed break above $117.70 (scale toward overweight) or a loss of the 50 SMA below $112.58 (trim toward underweight) represents the optimal risk-adjusted posture. XOM remains a valuable low-beta (0.162) defensive core holding with a 2.62% dividend while awaiting the market to resolve direction via crude prices, geopolitical outcomes, and forward-EPS revisions.\n\n**Price Target**: 117.7\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-05-19",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-05-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.09,
+    "mean_max_drawdown_pct": -12.11,
+    "p95_worst_drawdown_pct": -22.64,
+    "p99_worst_drawdown_pct": -28.36,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 103.18,
+    "expected_return_pct": 0.94,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 12.15,
+    "risk_free_pct_horizon": 1.06,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 104.15,
+    "price_p5": 84.69,
+    "price_p95": 126.06,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim 30% of the XOM position into current strength near the $103-105 resistance zone over the next 1-2 weeks, and tighten the stop loss on the remaining position to $97 (just below the $95.96 recent low). Add a technical trigger: if XOM breaks below $100 on above-average volume, reduce a further 20%; if it reclaims the 50-day SMA ($104.99) on volume, pause sales and re-evaluate. Maintain a 3-month evaluation horizon with the $93-95 structural invalidation level as the ultimate floor.\n\n**Investment Thesis**: The debate converges on a clear but measured bearish posture. The technical structure is objectively deteriorating: the 50-day SMA ($104.99) sits below the 200-day SMA ($107.55) forming a Death Cross, the stock is roughly 41% below its 52-week high of $176.41, and price is basing in the $102-105 range after a breakdown\u2014a pattern that statistically resolves lower. The risk/reward is genuinely unfavorable: roughly $2-4 of upside to the $105 resistance versus $7-10 of downside to the mid-$90s support, a poor 1:2 ratio. The forward P/E of 14.69x versus trailing 26.44x implies meaningful earnings growth, but the PEG of 1.33 indicates that growth is substantially priced in, not a discount. The $10.58 forward EPS is contingent on oil prices holding or rising\u2014a best-case assumption, not a base case\u2014particularly with Fed leadership transition (Kevin Warsh) and a live 4% inflation target debate creating policy uncertainty.\n\nHowever, the Aggressive Analyst's call to exit entirely or trim 50% is overreaching. XOM has already declined 41%; the Death Cross is a lagging indicator, and selling aggressively at this point risks locking in losses near maximum pessimism. The fortress balance sheet, 2.62% dividend yield, and low 0.162 beta provide genuine downside cushion and portfolio diversification value. The Conservative Analyst is correct that a 20-30% trim preserves income and balance-sheet protection while reducing exposure. The Neutral Analyst provides the best synthesis: trim 30% (not just 20%), tighten the stop to $97 rather than the overly generous $93, and implement a pre-committed decision tree. This combination reduces exposure to the unfavorable asymmetry while retaining enough of the position to capture recovery if oil finds support or the stock reclaims its moving averages. A full Sell is unjustified for a $644B integrated major with resilient cash flows, but a Hold is complacent given the bearish technicals and poor near-term odds. Underweight\u2014reduce, don't abandon.\n\n**Price Target**: 97.0\n\n**Time Horizon**: 3 months"
+}

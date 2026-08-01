@@ -1,0 +1,32 @@
+{
+  "ticker": "XOM",
+  "date": "2025-01-06",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "XOM",
+    "as_of": "2025-01-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.11,
+    "mean_max_drawdown_pct": -9.96,
+    "p95_worst_drawdown_pct": -18.38,
+    "p99_worst_drawdown_pct": -22.72,
+    "est_annualized_vol_pct": 19.1,
+    "spot_price": 102.54,
+    "expected_return_pct": 0.41,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 9.61,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.067,
+    "expected_price": 102.96,
+    "price_p5": 87.48,
+    "price_p95": 119.78,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain XOM at neutral weight with no fresh capital deployment. The stock trades at $102.54, 42% below its 52-week high of $176.41, with a 14.82x forward P/E (forward EPS $10.59 vs trailing $5.95) and a 2.62% dividend floor. However, price sits below the 10-day EMA ($102.31), 50-day SMA ($108.94), and 200-day SMA ($109.16), with falling oil due to easing Gulf-of-Hormuz flow fears. Set a hard stop at $98.50 and an upside re-evaluation trigger at $109 (50-day SMA) on strong volume. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to Hold because the opposing cases neutralize each other and neither side definitively wins on evidence. The bull's forward-looking case is real but rests on an unverified assumption: the $10.59 forward EPS vs $5.95 trailing EPS implies a projected 78% earnings recovery that analysts have repeatedly promised and the market has punished by keeping the stock below every key moving average. The 42% discount from the $176.41 high is a trailing artifact from a different oil environment, not a reliable floor anchor. The bear's technical case is unambiguously accurate\u2014price below the 10-day EMA, 50-day SMA ($108.94), and 200-day SMA ($109.16), a stalled December rebound at $102.66 fading to $102.54 (a failed bounce, not a confirmed base), and the Reuters headline showing oil falling as Gulf-of-Hormuz flow fears ease directly pressure upstream revenue. However, the bear overcorrects: XOM's $650B market cap, full vertical integration across upstream/refining/chemicals, and a 2.62% dividend yield sustained by substantial free cash flow provide a genuine fundamental floor that does not vanish if oil drifts lower, making outright underweight or trim-below-neutral capitulation rather than prudence. The 0.162 beta is a trap as a stability signal\u2014it means steady bleed risk rather than panic protection\u2014but it also means the alpha is asymmetric to the upside if the recovery confirms. In a genuine information vacuum (sparse sentiment, no firm-specific news, macro-dependent catalysts that cut both ways on Fed pivot and dollar-oil interplay), the correct stance is a neutral hold with explicit guardrails: hard stop at $98.50 (below the prior low and psychological $100 barrier, wider than the Conservative's too-tight $100.42 to avoid whipsaw), upside re-evaluation at $109 on strong volume, and no add-on-the-dip below $100 without a confirmed reversal candle. Watch the forward EPS estimate integrity as the key fundamental tell\u2014a downward revision would undermine the entire discount thesis and trigger a more cautious stance.\n\n**Price Target**: 109.0\n\n**Time Horizon**: 3 months"
+}

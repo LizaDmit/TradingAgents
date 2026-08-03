@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-10-06",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-10-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.6,
+    "mean_max_drawdown_pct": -22.46,
+    "p95_worst_drawdown_pct": -43.88,
+    "p99_worst_drawdown_pct": -53.36,
+    "est_annualized_vol_pct": 51.0,
+    "spot_price": 351.62,
+    "expected_return_pct": 2.76,
+    "median_return_pct": 1.1,
+    "return_vol_pct": 25.54,
+    "risk_free_pct_horizon": 0.965,
+    "risk_free_available": true,
+    "return_over_risk": 0.07,
+    "expected_price": 361.31,
+    "price_p5": 224.74,
+    "price_p95": 514.41,
+    "prob_loss": 0.481,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by 20-30% in a disciplined, technically-conditioned manner. Sell roughly 10-15% immediately at current levels (~$352) near the $353-360 resistance zone, then execute the remainder only if price fails to break $360 and rolls below the 10 EMA (~$343). Maintain a hard stop at $335 (daily close basis). Time horizon: 3 months, with re-entry considered on a break-and-hold above the $388 200-day SMA or on a successful defense of the $300 support.\n\n**Investment Thesis**: The research manager's Underweight stance is the correct synthesis of this debate. The bear/aggressive case hinges on a critical asymmetry: trailing EPS of $13.26 versus a forward projection of $22.44 implies a 69% earnings ramp that the market is not crediting \u2014 evidenced by the stock sitting 24% below its 52-week high and 9% below the 200-day SMA (~$388), with the 50-day SMA (~$301) still $86 beneath it. The recent 17% bounce off September lows lacks a confirmed fundamental catalyst and is occurring directly beneath $353-360 resistance, skewing risk/reward to the downside over the 3-month horizon. Structural PBM regulatory pressure, while not \"existential\" as the aggressive analyst frames it, remains a recurring overhang that caps multiple expansion and threatens the timing of the $22+ EPS ramp \u2014 the single most important catalyst.\n\nHowever, this is not a full Sell, per the conservative analyst's valid points. UNH retains genuine defensive qualities \u2014 beta of 0.633, a 2.24% dividend yielding downside support, a rising 50-day SMA (from $280 to $301 in three weeks), and price trading above the 10 EMA ($343) since mid-September. The 18.47x forward multiple is reasonable IF the ramp materializes, and the low beta makes it a natural hedge in a macro environment characterized by Fed transition, inflation flare-ups, and geopolitical oil risk. The neutral analyst's conditional framework is the most disciplined execution: sell a partial slice into strength now rather than pre-empting the resistance test, keep the core position working, and let price action at $360 and the $343 10 EMA determine the final trim. Set a portfolio-level stop at $335 (daily close basis, corresponding to the mid-September lows) below which the rally is confirmed as a bear-market bounce with further downside toward $300. Avoid initiating new longs until either a break-and-hold above $388 on strong volume signals genuine trend reversal, or a successful defense of $300 provides superior risk-reward.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

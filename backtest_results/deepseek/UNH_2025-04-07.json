@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-04-07",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-04-07",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.09,
+    "mean_max_drawdown_pct": -14.33,
+    "p95_worst_drawdown_pct": -26.76,
+    "p99_worst_drawdown_pct": -33.93,
+    "est_annualized_vol_pct": 29.1,
+    "spot_price": 507.41,
+    "expected_return_pct": 1.06,
+    "median_return_pct": 0.2,
+    "return_vol_pct": 14.77,
+    "risk_free_pct_horizon": 1.038,
+    "risk_free_available": true,
+    "return_over_risk": 0.001,
+    "expected_price": 512.78,
+    "price_p5": 397.7,
+    "price_p95": 644.12,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing UNH position at current weightings near $507. Do not add pre-emptively despite the aggressive analyst's case\u2014the stock remains 3.4% below its 200-day SMA (~$524.62) and there is no confirmed technical or fundamental catalyst. Set the primary upgrade trigger at a daily close above the 200-day SMA on above-average volume (add 3-5% in increments), and implement a two-sided risk framework: a $495 review line (close below triggers a 25% trim) and a hard stop near $478. Time horizon: 3 months.\n\n**Investment Thesis**: The debate settles on Hold, and the evidence supports this. The bull's case for accumulation rests on reasonable headline valuation (18.5x forward P/E, PEG 1.34, 2.24% yield, beta 0.633), but the 69% jump from trailing EPS ($13.26) to forward EPS ($22.44) is not yet backed by a concrete operational catalyst\u2014it is likely a normalization artifact from the Change Healthcare cyber incident and DOJ/Medicare Advantage reserves. The neutral analyst correctly notes this is neither a \"gift\" nor a \"trap,\" but a fair price that already discounts known regulatory overhangs. Technically, the stock has reclaimed the 50-day SMA ($491.25) and 10-day EMA ($504.67), but remains below the 200-day SMA\u2014the institutional line in the sand. The conservative analyst is right that the 200-day level represents aggregate institutional cost basis; losing 5.5% to the stop is meaningful for a steady compounder, and the low 0.633 beta mutes upside velocity, undermining any \"short squeeze\" thesis. Sentiment is neutral (5.0/10) with low confidence, and the news vacuum cuts both ways\u2014a negative CMS 2026 rate announcement or DOJ filing could gap the stock through support before stops execute. The neutral analyst's balanced operational framework is the most defensible: add only on confirmed 200-day reclaim, trim 25% on a close below $495, hard stop at $478, and use the 2.24% dividend for carry while awaiting the next earnings catalyst that either validates the $22-23 forward EPS path or triggers a downgrade toward Underweight.\n\n**Price Target**: 524.62\n\n**Time Horizon**: 3 months"
+}

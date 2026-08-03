@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-05-19",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-05-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.2,
+    "mean_max_drawdown_pct": -20.12,
+    "p95_worst_drawdown_pct": -41.39,
+    "p99_worst_drawdown_pct": -52.12,
+    "est_annualized_vol_pct": 46.6,
+    "spot_price": 305.48,
+    "expected_return_pct": 2.35,
+    "median_return_pct": 1.79,
+    "return_vol_pct": 22.92,
+    "risk_free_pct_horizon": 1.06,
+    "risk_free_available": true,
+    "return_over_risk": 0.056,
+    "expected_price": 312.65,
+    "price_p5": 200.93,
+    "price_p95": 430.6,
+    "prob_loss": 0.47,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by roughly 25-40% in staged increments over the next 2-4 weeks, selling the first tranche (~15%) into the current bounce near $305 rather than chasing the downside. Retain a small defensive core (0.5-1%) given the 0.633 beta, 2.24% dividend yield, and franchise quality, with a hard stop-loss at $265. Re-evaluate toward Overweight only if the stock reclaims meaningful ground toward the 50-day SMA (~$449) with confirmed regulatory/earnings catalysts, or underweight further if $265 breaks decisively.\n\n**Investment Thesis**: The debate resolves to a staged Underweight rather than a full Sell or Hold. The bear's core objection is unanswered and structurally sound: the staircase decline ($574\u2192$439\u2192$368\u2192$265) represents a systematic repricing, not noise, and PBM reform plus medical loss ratio scrutiny are structural, not cyclical, threats to an insurance intermediary and pharmacy benefit manager's earnings power. The 52-week range ($236-$461) signals genuine market uncertainty about fair value under the current regulatory regime, and the stock remains 32% below its 50-day SMA ($449) and 40% below its 200-day SMA ($512.69). However, the conservative analyst is correct that selling now\u2014after a 40% crash\u2014into a 15% relief rally locks in losses at the bottom of a short-term range, and the $265 zone was just tested and held, capping near-term downside to ~13% while a recovery back toward $450 offers ~47% upside over a multi-quarter horizon. The neutral analyst's incremental trim framework is the disciplined resolution: it captures the aggressive analyst's capital-preservation instinct, respects the conservative analyst's quality-franchise and defensive-beta argument, and honestly acknowledges that no one knows fair value within a $236-$461 band. The fundamentals \"BUY\" tag is stale (computed near $410, not $305) and cannot override the market's prolonged repricing signal. A staged reduction\u2014first ~15% now into strength, then more upon stabilization or a break below $265\u2014is the only response faithful to both the structural uncertainty and the franchise's defensive merits. The time horizon for any re-rating back to fair value is 12-18 months, not weeks, which justifies trimming now rather than waiting for full clarity.\n\n**Price Target**: 305.0\n\n**Time Horizon**: 3 months"
+}

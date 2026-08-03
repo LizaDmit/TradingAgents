@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-04-13",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-04-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.89,
+    "mean_max_drawdown_pct": -22.93,
+    "p95_worst_drawdown_pct": -45.7,
+    "p99_worst_drawdown_pct": -56.03,
+    "est_annualized_vol_pct": 54.1,
+    "spot_price": 311.22,
+    "expected_return_pct": 3.77,
+    "median_return_pct": 2.18,
+    "return_vol_pct": 26.99,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": 0.106,
+    "expected_price": 322.94,
+    "price_p5": 194.59,
+    "price_p95": 467.78,
+    "prob_loss": 0.468,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at ~$311 with a mid-weight allocation and a defined stop at $270. Do not add or trim at current levels. Set a confirmation trigger: upgrade and add 20\u201330% only if UNH breaks above $340 with volume and constructive catalysts (delayed/softened Medicare rate cuts, no hawkish Fed surprise), or trim ~50% below $270 with reassessment at $250. Time horizon: 3 months.\n\n**Investment Thesis**: This debate presents a genuinely balanced risk profile that does not justify conviction in either direction. The bull case is supported by concrete technical evidence: UNH has reclaimed its 10-day (EMA $293.84), 50-day ($280.90), and 200-day ($306.93) moving averages, staged an 11% weekly rally from $279 to $311, and trades at a reasonable forward P/E of 18.47x with a PEG of 1.28 and a 2.24% dividend floor from the dominant U.S. healthcare franchise (150M members). The low beta of 0.633 supports defensive positioning during the Fed transition. However, the bear case is equally compelling: the trailing P/E of 31x reflects peak multiples, the $22.44 forward EPS consensus depends on the most optimistic estimates in a sector facing structural Medicare Advantage rate cuts and MLR compression, the $311 recovery reclaims only ~30% of a 48.7% drawdown, and the 50-day SMA at $410.16 represents substantial overhead supply of trapped buyers. The CME single-stock futures launch on July 27th and the hawkish Fed transition under Kevin Warsh add directional uncertainty in both directions. The neutral sentiment data (low confidence, no news flow, no institutional or retail corroboration) confirms the market has not decided. The rational posture is to hold at current levels, preserving upside participation without committing new capital to an unconfirmed recovery, and to act decisively only on a volume-backed technical trigger\u2014add 20\u201330% above $340 with catalyst confirmation, or trim ~50% below $270 with the option to re-enter near $250 given the intact 200-week trend. The stop at $270 provides a standard 13% risk buffer while keeping the position sized appropriately for the balanced risk-reward.\n\n**Price Target**: 340.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-04-14",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-04-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.54,
+    "mean_max_drawdown_pct": -14.7,
+    "p95_worst_drawdown_pct": -27.18,
+    "p99_worst_drawdown_pct": -33.43,
+    "est_annualized_vol_pct": 29.9,
+    "spot_price": 567.72,
+    "expected_return_pct": 1.0,
+    "median_return_pct": -0.05,
+    "return_vol_pct": 14.96,
+    "risk_free_pct_horizon": 1.049,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 573.41,
+    "price_p5": 443.05,
+    "price_p95": 721.23,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by 15-25% in tranches over the next two weeks at current levels ($567.72), locking in gains from the 26% six-week and 140% off-the-low moves. Set a tighter stop/trim trigger near the $520 breakout zone (just above the 200-day SMA at $527) rather than the wider $495 level, and maintain a core position at 60-75% of normal benchmark weight. Bias remains to reduce into strength, with a re-entry zone at $500-520 or upon confirmation of forward EPS trajectory; re-evaluate on a sustained close above $547. Time horizon: 3 months.\n\n**Investment Thesis**: The risk-reward asymmetry has shifted against the buyer after UNH surged to $567.72. The valuation is stretched: TTM P/E of 31.25 and forward P/E of 18.47 require a ~70% EPS jump to $22.44, a projection the PEG of 1.34 shows the market is already paying a premium for \u2014 buying today at a cyclical high offers no margin of safety if medical cost inflation or Medicare Advantage rate cuts cause a miss. The technical structure is contradictory but skewed bearish long-term: price stands well above the 50-day ($495.35) and 200-day ($527.11) SMAs, yet the 50 remains below the 200 in a death-cross configuration, and the 26% six-week move following a 140% off-the-low rally on a low-beta (0.63) defensive name invites mean reversion. The unresolved FTC/Optum PBM probe is a live overhang that the neutral sentiment (5.0/10, low confidence, no institutional conviction, failed StockTwits feed) does not dispel; headline risk could trigger a violent reprice. However, this remains a $376B diversified healthcare leader with a fortress balance sheet, 2.24% dividend, and genuine Optum moat \u2014 a bad price does not make a bad company, so full Sell is unwarranted. The disciplined response is to realize gains on a 15-25% trim while retaining upside participation, keeping a tighter stop at ~$520 (above the 200-day and the breakout support) rather than the unconvincing $495 flash-crash level, per the neutral analyst's asymmetry argument: at $567 the downside to $527 is 7% vs. a more limited upside to $600.\n\n**Price Target**: 520.0\n\n**Time Horizon**: 3 months"
+}

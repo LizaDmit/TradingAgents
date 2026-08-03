@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-05-25",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-05-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -15.98,
+    "mean_max_drawdown_pct": -18.14,
+    "p95_worst_drawdown_pct": -35.51,
+    "p99_worst_drawdown_pct": -44.64,
+    "est_annualized_vol_pct": 40.6,
+    "spot_price": 386.26,
+    "expected_return_pct": 1.98,
+    "median_return_pct": 0.62,
+    "return_vol_pct": 20.4,
+    "risk_free_pct_horizon": 0.896,
+    "risk_free_available": true,
+    "return_over_risk": 0.053,
+    "expected_price": 393.9,
+    "price_p5": 274.37,
+    "price_p95": 532.29,
+    "prob_loss": 0.486,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain existing UNH positions at current weightings with no new capital deployment at $386. The forward P/E of 18.5x and PEG of 1.28 confirm the stock is not egregiously overvalued, while franchise quality and a 0.633 beta provide defensive ballast. However, the technical overextension (RSI >70, 17.5% premium to 50-day SMA), unresolved regulatory overhangs (DOJ scrutiny, PBM reform targeting Optum), and a sentiment/news vacuum argue against adding at current levels. Implement tiered action thresholds: trim toward 4% on a close below $360, add back toward 5% on a pullback to ~$350 backed by support, with a hard stop below the 200-day SMA near $320.\n\n**Investment Thesis**: The debate is genuinely balanced, and the evidence supports maintaining rather than adding or exiting. The bull's valuation case holds on fundamentals: UNH trades at 18.5x forward earnings versus 31.25x trailing (distorted by one-time March-crisis charges suppressing TTM EPS to $13.26), a PEG of 1.28, and forward EPS of $22.44 representing 10%+ growth. The defensive profile\u20140.633 beta and 2.24% dividend\u2014makes it a portfolio anchor in a macro environment defined by Fed leadership transition and inflation uncertainty. However, the bear's risk case is equally compelling: the stock sits 17.5% above the 50-day SMA and 21% above the 200-day SMA with RSI above 70, leaving it vulnerable to mean reversion of 15-17% toward the $320-329 support zone. The asymmetry from $386 is roughly balanced (downside ~17% to $320 vs. upside ~6-8% to $410-420), which does not justify fresh capital. Critically, the news vacuum suggests the rally lacks fresh institutional sponsorship, and the regulatory overhangs\u2014DOJ scrutiny, PBM reform targeting Optum's pharmacy operations, Medicare Advantage reimbursement pressure\u2014remain unresolved. The March gap-down from $300 to $254 demonstrates that negative regulatory headlines can trigger gap-throughs that bypass intermediate stops. Given roughly even upside-downside asymmetry, extended technicals, unresolved regulatory risk, and absence of a positive catalyst, the disciplined action is to hold current positions without adding, using tiered trigger levels to manage the uncertainty rather than static price targets.\n\n**Price Target**: 410.0\n\n**Time Horizon**: 3 months"
+}

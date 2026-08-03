@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-07-07",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-07-07",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.28,
+    "mean_max_drawdown_pct": -20.27,
+    "p95_worst_drawdown_pct": -41.05,
+    "p99_worst_drawdown_pct": -50.76,
+    "est_annualized_vol_pct": 47.2,
+    "spot_price": 295.79,
+    "expected_return_pct": 2.8,
+    "median_return_pct": 2.09,
+    "return_vol_pct": 23.1,
+    "risk_free_pct_horizon": 1.061,
+    "risk_free_available": true,
+    "return_over_risk": 0.075,
+    "expected_price": 304.07,
+    "price_p5": 196.14,
+    "price_p95": 420.71,
+    "prob_loss": 0.462,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at roughly benchmark weighting with no new capital deployment and no trimming. The forward P/E of 18.47x and 2.24% dividend yield provide a reasonable valuation floor for a durable compounder, while the broken technical picture (37% below the 200-day SMA), repeated forward-estimate downgrades, and absent catalyst argue against adding exposure. Use the next earnings report as the primary decision gate, with the Neutral Analyst's defined triggers: trim below $280 support, accumulate on a reclaim of the 50-day SMA at $319. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on HOLD, and my synthesis confirms that is the correct \u2014 and genuinely active \u2014 posture. The Aggressive Analyst's \"6:1 setup\" and 58% target at the $470 200-day SMA overstate conviction: the $8.31B cyberattack charge is non-recurring, but forward EPS of $22.44 has been revised down multiple times, indicating the market is pricing in ongoing margin pressure at UnitedHealthcare and Optum, not just a one-off charge. The Conservative Analyst correctly flags that a flattened 10-day EMA amid a 37% drawdown below the 200-day SMA signals a pause in a downtrend, not a reversal, and that a 20-30% downside is not symmetric to the upside. However, neither Sell nor Underweight is justified: the forward multiple is reasonable for a compounder with Optum's vertical-integration moat, defensive beta of 0.633, and a 2.24% dividend yield that exceeds the 10-year Treasury and attracts income demand. The balancing evidence \u2014 reasonable but not cheap valuation, broken but stabilized technicals, neutral sentiment with no catalyst \u2014 warrants maintaining benchmark weight. Critically, I adopt the Neutral Analyst's active-hold framework: pre-commit to trimming to underweight on a close below the $280 consolidation base (protecting against a 20-35% tail-risk drawdown), and accumulate toward overweight on a reclaim of the 50-day SMA at $319 or an earnings print confirming medical cost ratio stabilization. Given the ATR of $9.62 and the binary nature of the next earnings gate, patience with defined risk parameters \u2014 not hope in a 58% rally \u2014 is the disciplined decision.\n\n**Price Target**: 319.0\n\n**Time Horizon**: 3 months"
+}

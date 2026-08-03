@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-01-06",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-01-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.24,
+    "mean_max_drawdown_pct": -13.34,
+    "p95_worst_drawdown_pct": -25.14,
+    "p99_worst_drawdown_pct": -31.14,
+    "est_annualized_vol_pct": 27.4,
+    "spot_price": 494.63,
+    "expected_return_pct": 1.21,
+    "median_return_pct": 0.32,
+    "return_vol_pct": 13.91,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.012,
+    "expected_price": 500.63,
+    "price_p5": 393.91,
+    "price_p95": 619.55,
+    "prob_loss": 0.489,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by 25\u201330% immediately (in measured tranches across the next few sessions, not one panic block), capping the position at roughly 0.75x benchmark weight. Set a protective stop at $478\u2014tighter than the $467.52 December low\u2014to cap downside while preserving a core defensive position given the 2.24% dividend and 0.63 beta. Rebuild toward Overweight only after price reclaims and holds the 200-day SMA ($516\u2013$520) for two consecutive weekly closes. Evaluate over a 3-month horizon.\n\n**Investment Thesis**: The three analysts converge on reducing exposure despite differing rationales, and the weight of evidence supports an Underweight over a full Sell. The technical picture is genuinely broken: UNH sits 8.1% below its 50-day SMA and 4.2% below its 200-day SMA with a death cross imminent, and the stock has been falling on its own weight in a news vacuum\u2014a structural tell that institutions are quietly rotating out. Regulatory headwinds (PBM reform targeting OptumRx's rebate model, site-neutral payment policies, and insurance-denial scrutiny that forces higher approval rates) directly pressure UNH's most profitable segments, while rising utilization and normalizing MLRs make the consensus forward EPS of $22.44 (implying ~69% growth) more likely to revise down than up. The Aggressive Analyst correctly warns that the 18.47x forward P/E is a trap built on optimistic assumptions, and that a hold locks in slow attrition. However, a full Sell is rejected: the Conservative Analyst rightly notes UNH is a low-beta (0.63) defensive anchor with a 2.24% dividend, substantial cash generation, and a diversified Optum segment that hedges insurance volatility\u2014the 18.47x forward multiple, even with revision risk, still floors catastrophic downside. The Neutral Analyst's synthesis is the most actionable: trim 30% decisively, tighten the stop to $478 (below the short-term consolidation range rather than the distant $467.52 low), and reorganize capital into less policy-pressured healthcare names. This positions defensively against the skew toward testing the December low while preserving franchise-quality upside if policy clarity or technical stabilization emerges within the 3-month window.\n\n**Price Target**: 478.0\n\n**Time Horizon**: 3 months"
+}

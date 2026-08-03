@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-05-26",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-05-26",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.64,
+    "mean_max_drawdown_pct": -20.38,
+    "p95_worst_drawdown_pct": -41.2,
+    "p99_worst_drawdown_pct": -51.57,
+    "est_annualized_vol_pct": 47.0,
+    "spot_price": 285.83,
+    "expected_return_pct": 2.32,
+    "median_return_pct": 1.22,
+    "return_vol_pct": 22.83,
+    "risk_free_pct_horizon": 1.058,
+    "risk_free_available": true,
+    "return_over_risk": 0.055,
+    "expected_price": 292.46,
+    "price_p5": 188.64,
+    "price_p95": 403.29,
+    "prob_loss": 0.476,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at current levels without exiting or adding aggressively. Stage any additions only at predefined technical levels\u2014a small initial tranche (25% or less of intended size) near the $260\u2013$265 support zone, or upon a reclaim of the 10-day EMA at $307 on above-average volume. Set a hard reassessment trigger at $240\u2013$250, and treat a cut to the $22.44 forward EPS estimate as the fundamental tripwire that invalidates the thesis. Time horizon: 3 months.\n\n**Investment Thesis**: A HOLD is the correct synthesis of this genuinely balanced debate. The Aggressive Analyst makes a legitimate case that this is a capitulation event rather than fundamental deterioration: forward P/E of 18.47x versus a 31.25x trailing multiple distorted by cyberattack and legal charges, a defensive beta of 0.633, a 2.24% dividend yield, and an oversold RSI of 27. The franchise (Optum, care delivery, massive free cash flow) appears intact, and the stock is already down 50.7% from its April peak, partially de-risking the downside.\n\nHowever, the Bear's structural concerns cannot be dismissed. The forward EPS of $22.44 represents a ~70% surge that has not been validated by a single quarter of delivery, and the trailing reality of $13.26 reflects actual charges and settlements. Critically, the sentiment data shows no institutional headlines, no analyst upgrades, and no regulatory resolution in the past week\u2014a vacuum of catalysts. The 50-day SMA is still declining, the stock sits 44% below its 200-day SMA, and the actual 52-week low of $236.95 means we are at $285.83 with a 21% gap above the true floor, not \"embedded in the floor\" as the Aggressive Analyst claims. The 10-day EMA at $307 remains overhead resistance, so the path to any meaningful upside requires reclaiming multiple resistance zones without any evidence of an imminent catalyst.\n\nThe Neutral Analyst's refinement is the most disciplined execution of this tension: holding captures the asymmetry (potential relief rally from capitulation) while the defined risk triggers protect capital. Do not add at $285\u2014that offers no technical edge. Add only near $260\u2013$265 with volume support, or on a reclaim of the 10-day EMA, and exit decisively below $240\u2013$250 or if forward EPS estimates are cut below $22.44. This is not conviction in either direction; it is patiently positioned optionality on a fundamentally sound franchise at a historically discounted forward multiple, with clear lines in the sand against the value-trap scenario.\n\n**Price Target**: 307.0\n\n**Time Horizon**: 3 months"
+}

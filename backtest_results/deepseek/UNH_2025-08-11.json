@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-08-11",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-08-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.44,
+    "mean_max_drawdown_pct": -21.23,
+    "p95_worst_drawdown_pct": -42.24,
+    "p99_worst_drawdown_pct": -53.02,
+    "est_annualized_vol_pct": 48.3,
+    "spot_price": 245.79,
+    "expected_return_pct": 2.7,
+    "median_return_pct": 2.11,
+    "return_vol_pct": 23.71,
+    "risk_free_pct_horizon": 1.036,
+    "risk_free_available": true,
+    "return_over_risk": 0.07,
+    "expected_price": 252.42,
+    "price_p5": 160.55,
+    "price_p95": 352.22,
+    "prob_loss": 0.468,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a phased BUY into UNH with a modest initial tranche of 25% of the intended position size, targeting the $228\u2013$235 support zone. Set a hard stop-loss at $220 and scale in over 4\u20136 weeks only on confirmed technical stabilization (three consecutive closes above the 10-day EMA or holding $228 for two weeks). Position weighting up to 1.5\u20132x benchmark weight, with a 3-month evaluation horizon monitoring Q3 earnings for margin stabilization and forward EPS guidance confirmation.\n\n**Investment Thesis**: The debate converges on UNH being a deeply oversold, high-quality defensive asset with asymmetric upside, but with genuine unresolved risks that preclude a full Buy. The bullish case is anchored in concrete data: the stock trades ~43% below its 200-day SMA (~$434.64) at roughly $245, forward P/E of 18.47x versus a forward EPS estimate of $22.44, RSI recovering from an extreme oversold 24.4 reading to ~37.66, a low beta of 0.63, and a 2.24% dividend yield that provides carry while waiting for re-rating. The Aggressive Analyst correctly notes that the major negative catalysts\u2014the Change Healthcare cyberattack, Medicare Advantage headwinds, and PBM scrutiny\u2014are well-known and largely priced into the deeply discounted valuation. However, the Conservative and Neutral Analysts raise legitimate, un-dismissable concerns: the wide gap between TTM EPS of $13.26 and forward EPS of $22.44 represents a credibility risk\u2014if guidance is cut next quarter, the \"cheap\" valuation evaporates. The legal/regulatory overhangs are open processes, not closed chapters, and the stock sits below all major moving averages in a confirmed downtrend with no positive news flow driving new buyers. These factors favor the Research Manager's Overweight rating over a full Buy. The trader's phased entry with a 25% initial tranche in the $228\u2013$235 support zone, a hard stop at $220, and condition-based scale-ins over 4\u20136 weeks strikes the correct balance\u2014capturing the mean-reversion upside the Aggressive Analyst champions while respecting the downside risk the Conservative Analyst flags. The asymmetry (approximately 3:1 risk/reward from $235 toward $282+) justifies initiating now rather than waiting for full confirmation, at which point the opportunity would be fairly valued.\n\n**Price Target**: 375.0\n\n**Time Horizon**: 3 months"
+}

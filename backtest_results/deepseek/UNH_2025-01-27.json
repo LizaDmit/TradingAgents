@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-01-27",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-01-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.66,
+    "mean_max_drawdown_pct": -13.74,
+    "p95_worst_drawdown_pct": -25.83,
+    "p99_worst_drawdown_pct": -32.16,
+    "est_annualized_vol_pct": 28.0,
+    "spot_price": 523.38,
+    "expected_return_pct": 0.98,
+    "median_return_pct": 0.17,
+    "return_vol_pct": 14.11,
+    "risk_free_pct_horizon": 1.047,
+    "risk_free_available": true,
+    "return_over_risk": -0.005,
+    "expected_price": 528.48,
+    "price_p5": 414.56,
+    "price_p95": 655.77,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH positioning near $523 without adding or trimming. Set a tactical add trigger at a confirmed close above $526 on volume exceeding the 20-day average, and a de-risking stop at $515 (below the 200-day SMA) with a 50% trim on a close below that level. Monitor the upcoming earnings report as the single highest-information event to resolve the MCR and Optum margin debate.\n\n**Investment Thesis**: The analyst debate confirms a balanced, no-edge setup around UNH. The stock trades at $523.38, trapped in a sub-1.2% range between the 50-day SMA ($525.96) and the 200-day SMA ($519.72). The aggressive analyst's bullish thesis relies on the 200-day hold and a single high-volume session interpreted as accumulation, but the neutral analyst correctly notes that a one-day bounce after a 15% correction is just as consistent with distribution, and the 10-EMA stretched 2.9% above price can snap back to the mean. The conservative analyst's bearish view cites valid structural headwinds that are not purely \"priced in\": Medicare Advantage reimbursement pressure, rising medical loss ratios heading into 2025, and live, evolving PBM regulatory scrutiny on Optum Rx, all against a near-24x forward multiple with limited room for error. The sentiment report shows no institutional news, a neutral retail score of 5/10, and no directional catalysts, while the Fed leadership transition introduces macro uncertainty without a confirmed direction. With the long-term franchise quality intact (diversified UnitedHealthcare + Optum platform, fortress balance sheet, $400B+ revenue) but the medium-term technical structure unresolved and regulatory overhang real, the conviction on either side is insufficient. Neither the aggressive analyst's spring-to-540 scenario nor the conservative analyst's $500 breakdown scenario is the baseline. The correct posture is an active Hold: maintain current position, add tactically (capped at 25% of intended full size) only on a confirmed $526 close with above-average volume, and de-risk by trimming 50% on a close below $515 to protect against a gap-through breakdown while preserving exposure to the long-term uptrend.\n\n**Price Target**: 540.0\n\n**Time Horizon**: 3 months"
+}

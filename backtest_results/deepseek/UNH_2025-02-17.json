@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-02-17",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-02-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.51,
+    "mean_max_drawdown_pct": -13.66,
+    "p95_worst_drawdown_pct": -25.62,
+    "p99_worst_drawdown_pct": -31.9,
+    "est_annualized_vol_pct": 28.0,
+    "spot_price": 504.11,
+    "expected_return_pct": 1.1,
+    "median_return_pct": 0.47,
+    "return_vol_pct": 14.01,
+    "risk_free_pct_horizon": 1.053,
+    "risk_free_available": true,
+    "return_over_risk": 0.003,
+    "expected_price": 509.65,
+    "price_p5": 399.46,
+    "price_p95": 631.13,
+    "prob_loss": 0.487,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at existing sizing with no adds or trims. Establish disciplined entry/exit triggers: add incrementally only on confirmed technical stabilization (two consecutive closes above the 50 SMA near $509 with RSI crossing above 50), and trim ~25% of the position if price closes below ~$485 on elevated volume. Reassess on catalysts over the next 30-60 days including Q1 earnings, Medicare Advantage rate announcements, Fed guidance, and unemployment data.\n\n**Investment Thesis**: The debate converges on a Hold, and the evidence supports this as the disciplined midpoint. The Aggressive Analyst makes a credible long-term case: UNH is a diversified healthcare compounder with durable moats in risk-based insurance (UnitedHealthcare) and health tech/services (Optum), backed by a fortress balance sheet, a rising 200 SMA, and recurring double-digit earnings growth. However, the bearish technicals are real and cannot be dismissed: the stock trades below the 10 EMA, 50 SMA, and 200 SMA simultaneously, RSI at 44 confirms negative momentum with room to fall before capitulation, and the 50-below-200 configuration signals long-term bearish alignment. The Conservative Analyst correctly warns that the aggressive \"pounce at $490\" plan is speculative\u2014it bets on an unpredicted Q1 beat and ignores genuine macro overhangs: higher-for-longer rates pressure healthcare services valuations, Medicare Advantage rate-cut risk is a quantifiable margin threat to the largest premium segment, and a hawkish Fed slowing employment would directly shrink employer-sponsored insurance rolls, UNH's core commercial revenue driver. The Neutral Analyst provides the most balanced framework: the fundamentals have not deteriorated, merely been repriced, and low sentiment cuts both ways. Rather than all-in accumulation on weakness or defensive paralysis, the correct posture is to hold and trade the confirmed signals\u2014add only on technical stabilization above the 50 SMA with RSI recovering toward 50+, and reduce only on a break of the $485 support zone on high volume. This preserves participation in a high-quality compounder while capping tail risk from unresolved macro uncertainty.\n\n**Price Target**: 509.0\n\n**Time Horizon**: 3 months"
+}

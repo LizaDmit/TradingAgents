@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-04-20",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-04-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.51,
+    "mean_max_drawdown_pct": -21.0,
+    "p95_worst_drawdown_pct": -41.1,
+    "p99_worst_drawdown_pct": -50.82,
+    "est_annualized_vol_pct": 47.9,
+    "spot_price": 321.64,
+    "expected_return_pct": 2.75,
+    "median_return_pct": 1.16,
+    "return_vol_pct": 24.09,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.077,
+    "expected_price": 330.5,
+    "price_p5": 213.29,
+    "price_p95": 464.15,
+    "prob_loss": 0.482,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a 1.5% scout position in UNH at current levels (~$321) with a widened stop at $300 (below the 200-day SMA) to guard against gap risk into the earnings catalyst. Scale to 3% after earnings confirmation with price holding above $307, and toward a full 5% weight only upon a confirmed reclaim of the 50-day SMA at $345. Monitor the earnings print closely\u2014the $22.44 forward EPS estimate is the linchpin of the entire thesis.\n\n**Investment Thesis**: The three-way debate converges on the trader's directionally correct BUY case but reveals important execution adjustments. The Aggressive Analyst's call for full aggression is premature: the \"breakout\" above the 200-day SMA at $307 is only four trading days old with zero volume confirmation in the technical report, and the 12.9% gap above the 50-day SMA ($284.92) is a statistical outlier carrying mean-reversion risk. However, the Conservative Analyst's demand to wait for $327-plus AND earnings confirmation before buying amounts to paralysis\u2014by then the entry would be meaningfully worse. The middle path is most defensible. The forward P/E of 18.47x (versus 31.25x trailing, distorted by one-off 2025 charges) is reasonable for a defensive healthcare leader with a 0.633 beta and 2.24% dividend yield\u2014exactly the profile that gets bid during a Fed-chair transition (Kevin Warsh) and rising global inflation, per the World Affairs Report. The Neutral Sentiment score of 5.0/10 with low confidence is a genuine data vacuum, which argues for smaller initial size, not full conviction. The $22.44 forward EPS rests on medical cost ratio control, Medicare Advantage rate adequacy, and no new regulatory shocks; a miss would gap the stock through the $307 support (potentially to ~$295, per the Conservative Analyst's slippage math). Accordingly, size 1.5% now, widen the stop to $300, and scale upward only on demonstrated confirmation\u2014reclaiming $345 (the 50-day SMA) or a strong earnings print holding above $307. This participates in the asymmetric upside if the trend is real while capping portfolio downside at roughly 0.2% if the breakout fails. A full 5% position is only justified once the technical picture is confirmed and the earnings catalyst has been resolved.\n\n**Price Target**: 345.0\n\n**Time Horizon**: 3 months"
+}

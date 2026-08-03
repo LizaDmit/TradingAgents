@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-09-08",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-09-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.76,
+    "mean_max_drawdown_pct": -21.72,
+    "p95_worst_drawdown_pct": -43.21,
+    "p99_worst_drawdown_pct": -53.19,
+    "est_annualized_vol_pct": 50.1,
+    "spot_price": 311.9,
+    "expected_return_pct": 3.09,
+    "median_return_pct": 2.14,
+    "return_vol_pct": 24.8,
+    "risk_free_pct_horizon": 0.982,
+    "risk_free_available": true,
+    "return_over_risk": 0.085,
+    "expected_price": 321.52,
+    "price_p5": 200.54,
+    "price_p95": 454.82,
+    "prob_loss": 0.467,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH exposure at current levels with strict stop-loss discipline at $270, and adopt a two-tier risk management structure (reduce on a daily close below $290, exit fully below $270). For unpositioned investors, a starter position up to 25% of full intended size is acceptable only if price holds above $300 for five consecutive sessions; otherwise wait for October earnings as the primary catalyst. Time horizon is 3 months, with the earnings report as the key inflection point for re-evaluating direction.\n\n**Investment Thesis**: The analysts' debate converges on a genuinely balanced configuration where neither the bull's technical reversal story nor the bear's structural headwinds fully refute the other. The bull's evidence is real but timing-based: UNH trades 10.8% above a flattening/turning-up 50-day SMA after a 32% recovery from the $236 bottom, with the 10 EMA rising from $247 to $300 in under a month\u2014a genuine change in short-term supply/demand dynamics that institutions typically don't produce on bad news alone. The bear's evidence is equally substantive but largely realized: the stock sits 23.8% below the $409.44 200-day SMA, and the DOJ Medicare Advantage lawsuit, bipartisan PBM (Optum Rx) scrutiny, rising medical loss ratios, and a hawkish Fed transition under Warsh are structural, slow-moving headwinds that suppress multiple expansion. Critically, the bear case does not require new developments\u2014it is the current reality\u2014while the bull case requires the company to deliver at earnings. The key catalyst is the October earnings report: MLR trends, Medicare Advantage star rating progress, and PBM/DOJ commentary will determine whether the stock closes half the gap toward $360\u2013$380 or resumes its long-term downtrend. The sentiment vacuum (neutral 5.0 on missing data) is a warning against over-confident positioning, not bullish fuel. The correct posture is Hold with measured exposure, dynamic stop triggers ($290 reduced one-third, $270 full exit to address gap risk flagged by the neutral analyst), and a clear rule-based decision framework dependent on the earnings print. The 0.63 beta supports holding UNH as defensive portfolio ballast in a hawkish/risk-off macro environment\u2014arguing against aggressive reduction\u2014while the unresolved structural risks argue against aggressive accumulation. This staged approach preserves optionality in both directions and survives either outcome.\n\n**Price Target**: 360.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-08-04",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-08-04",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.38,
+    "mean_max_drawdown_pct": -21.22,
+    "p95_worst_drawdown_pct": -42.96,
+    "p99_worst_drawdown_pct": -52.04,
+    "est_annualized_vol_pct": 48.2,
+    "spot_price": 234.69,
+    "expected_return_pct": 2.66,
+    "median_return_pct": 1.84,
+    "return_vol_pct": 24.11,
+    "risk_free_pct_horizon": 1.038,
+    "risk_free_available": true,
+    "return_over_risk": 0.067,
+    "expected_price": 240.94,
+    "price_p5": 150.72,
+    "price_p95": 337.8,
+    "prob_loss": 0.469,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing UNH position at current sizing\u2014do not add fresh capital and do not exit. Enforce a disciplined stop-loss at $225 (approximately 4% below the $234.69 entry). Reassess on the next earnings release for validation of the $22.44 forward EPS estimate, and on any DOJ/Medicare Advantage regulatory developments. The 3-month horizon carries a Hold rating pending catalyst clarity.\n\n**Investment Thesis**: The risk analysts' debate converges on Hold despite divergent framings. The aggressive analyst correctly identifies compelling valuation support\u201418.5x forward P/E on $22.44 forward EPS versus a distorted 31x TTM multiple on depressed $13.26 earnings, a PEG of 1.34, an extreme RSI of 26.9, and a 47% dislocation below the 200 SMA that historically precedes snapback reversals. The conservative analyst correctly counters that the forward EPS estimate requires near-doubling of earnings that remains unvalidated, that an oversold RSI can persist in structural downtrends, that the full bearish moving-average alignment with a declining 50 SMA shows no reversal signal, and that unresolved DOJ vertical-integration scrutiny and Medicare Advantage rate pressures constitute live risks rather than fully priced-in outcomes. The neutral analyst correctly reconciles both: there are no fresh negative catalysts, but equally no positive catalyst to reverse momentum; the sentiment read is 5.0/10 with low confidence due to unavailable feeds. At $234.69, essentially the 52-week low, the valuation floor exists but has not proven a floor. The dividend yield of 2.24% and 0.63 beta provide carry and cushion while the structural questions resolve. Given the balanced evidence\u2014real valuation support against genuine regulatory and earnings-estimate risks\u2014maintaining the position with a defined stop is the appropriate stance. The decision hinge is the forward EPS validation: confirmation shifts toward Overweight; a cut toward $18\u201319 or adverse regulatory action triggers Underweight.\n\n**Price Target**: 255.63\n\n**Time Horizon**: 3 months"
+}

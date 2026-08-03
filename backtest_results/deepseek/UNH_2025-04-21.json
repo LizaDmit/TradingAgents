@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-04-21",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-04-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.99,
+    "mean_max_drawdown_pct": -16.98,
+    "p95_worst_drawdown_pct": -36.03,
+    "p99_worst_drawdown_pct": -45.98,
+    "est_annualized_vol_pct": 39.3,
+    "spot_price": 411.32,
+    "expected_return_pct": 2.07,
+    "median_return_pct": 2.13,
+    "return_vol_pct": 19.15,
+    "risk_free_pct_horizon": 1.053,
+    "risk_free_available": true,
+    "return_over_risk": 0.053,
+    "expected_price": 419.84,
+    "price_p5": 290.62,
+    "price_p95": 549.45,
+    "prob_loss": 0.454,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce UNH exposure by approximately 35% immediately at market, moving to a modest underweight stance. Maintain a hard stop-loss at $395 on the remaining core position, and escalate to a 50% total trim if price breaks below $400 on elevated volume. Do not initiate new longs; re-entry criteria are a reclaim of the 50-day SMA (~$493-509) on above-average volume or earnings confirmation of the $22.44 forward EPS estimate. Assessment window: 3 months.\n\n**Investment Thesis**: The technical breakdown is unambiguous and confirmed by all three analysts: UNH trades at $411.32, 22% below the 200-day SMA of $527.51, beneath the 10-day EMA ($508.84), the 50-day average ($493.30), and sporting an inverted moving-average stack \u2014 textbook bear-market phase. The forward P/E of 18.47x appears cheap only if the $22.44 forward EPS estimate (a 69% jump from TTM EPS of $13.26) is achievable, and the bear/aggressive cases correctly flag this as aggressive in a regulatory environment scrutinizing vertical integration (Optum + UnitedHealthcare) and Medicare pricing, compounded by a hawkish Fed transition under Warsh. However, the franchise quality argument prevents full capitulation: beta of 0.633, a 2.24% dividend supported by TTM EPS of $13.26, a $376B fortress balance sheet, and a genuine defensive bid in risk-off environments mean a full Sell locks in a 22% realized loss on speculative support guesses ($380-390) that the 52-week low of $236.95 suggests are unproven. The disciplined path is the trader's plan refined by the neutral analyst: trim 35% now (upper end of the 25-35% range given only ~4% to the stop), honor the $395 hard stop (capping incremental downside on the core at roughly 4%), and escalate to 50% on a $400-volume break. This respects the negative momentum and multiple-compression risk while retaining upside participation if the franchise stabilizes and forward estimates hold.\n\n**Price Target**: 395.0\n\n**Time Horizon**: 3 months"
+}

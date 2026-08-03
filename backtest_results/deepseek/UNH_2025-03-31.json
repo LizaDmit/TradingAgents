@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-03-31",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-03-31",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.35,
+    "mean_max_drawdown_pct": -14.49,
+    "p95_worst_drawdown_pct": -27.02,
+    "p99_worst_drawdown_pct": -33.02,
+    "est_annualized_vol_pct": 29.6,
+    "spot_price": 506.49,
+    "expected_return_pct": 1.1,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 14.81,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.004,
+    "expected_price": 512.07,
+    "price_p5": 396.79,
+    "price_p95": 641.31,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing UNH position at current sizing with a stop at $490 (just below the 50 SMA support). Treat the 200-day SMA at ~$523.59 as the decisive trigger: a sustained close above it on above-average volume (ideally with the 50 SMA inflecting upward) would warrant a shift toward Overweight, while a rejection or a breakdown through $490 confirms the bear's resistance thesis and necessitates trimming. The single most critical variable over the 3-month window is forward EPS guidance \u2014 the entire bull case rests on the $22.44 estimate holding; any cut is an immediate exit signal.\n\n**Investment Thesis**: The debate is genuinely balanced, and the evidence does not support aggressive commitment in either direction. The bull's case rests on real strengths: a forward P/E of 18.47x with a PEG of 1.34 for a defensive grower, momentum with price above the 10 EMA and 50 SMA, a 113% recovery off the panic low, ROE of 14.15%, and a low beta of 0.633 with a 2.24% yield. However, the bear and neutral analysts identify equally compelling risks that cap the conviction level. Price remains 17 points BELOW the 200 SMA at $523.59, and the 50 SMA is still declining (495.08 to 490.66) \u2014 a descending floor is a \"trapdoor,\" not firm support. The 69% forward EPS jump to $22.44 is a hockey-stick assumption carrying a razor-thin 3.14% profit margin, so a modest shortfall flips the \"cheap\" 18x forward multiple into an expensive 23-25x. Genuine, unresolved regulatory overhangs \u2014 PBM reform targeting Optum, Medicare Advantage reimbursement cuts, and DOJ scrutiny \u2014 threaten the entire EPS trajectory and can hit without warning. The social sentiment report is a void with zero data and low confidence, providing no catalyst-based tailwind, while a ~4% 10-year Treasury undercuts the 2.24% dividend as a defensive income claim. Because the risk-reward is symmetric \u2014 upside toward reclaiming $523 and rerating on validated earnings, downside from multiple compression if estimates crack or regulation bites \u2014 the correct action is to hold at current sizing, use the $490 stop to cap downside, and let forward EPS validation plus the 200 SMA reclaim (or failure) resolve the direction before committing more capital. This aligns with the prior plan: do not add until the 50 SMA turns up or price closes above the 200 SMA on volume; exit immediately on any guidance cut.\n\n**Price Target**: 523.59\n\n**Time Horizon**: 3 months"
+}

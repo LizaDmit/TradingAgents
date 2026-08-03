@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-03-30",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-03-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.98,
+    "mean_max_drawdown_pct": -22.87,
+    "p95_worst_drawdown_pct": -45.08,
+    "p99_worst_drawdown_pct": -54.97,
+    "est_annualized_vol_pct": 53.9,
+    "spot_price": 260.3,
+    "expected_return_pct": 3.4,
+    "median_return_pct": 1.72,
+    "return_vol_pct": 26.46,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.095,
+    "expected_price": 269.16,
+    "price_p5": 162.27,
+    "price_p95": 390.33,
+    "prob_loss": 0.472,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a UNH position with a reduced first tranche of ~0.5x benchmark weight near $260, rather than the full 1.25\u20131.5x proposed by the trader. Set a tighter initial stop at $250 (just above the $236.95 52-week low) to cap downside on the first tranche. Deploy a second 0.5x tranche only upon technical stabilization\u2014either a successful test of the $250\u2013$255 support zone with a close back above $260, or two consecutive closes above the declining 20-day SMA (~$269). Complete the position to 1.25x only on a confirmed break above the 50-day SMA at $286.56 with sustained volume. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts converge on valuation as the core supportive factor: UNH trades at 18.47x forward P/E versus a historical average in the low-to-mid 20s, with a PEG of 1.28. The TTM EPS of $13.26 is distorted by the one-time, non-cash goodwill impairment from Change Healthcare; the forward EPS estimate of $22.44 implies a 69% recovery that is plausible given the company's $450B+ revenue trajectory and Optum's vertical integration moat covering technology, pharmacy care, physician groups, and data on 150 million individuals. The 0.633 beta and 2.24% dividend yield provide defensive carry. However, the conservative and neutral analysts correctly flag that the stock is 15.3% below the 200-day SMA, in a death-cross configuration, with a 44% drawdown from highs (from $461.62 to $260.30), and faces genuine structural overhangs: Medicare Advantage rate cuts, potential FTC scrutiny of Optum's vertical integration, and an uncertain Fed transition under Kevin Warsh. The neutral analyst's critique of the trader's full 1.25\u20131.5x initial deployment is decisive\u2014deploying full weight into a confirmed downtrend without bottom confirmation is unnecessary risk. Conversely, the aggressive analyst's point that waiting for full technical confirmation risks paying 10\u201315% more is also valid. The balanced path is a tranched accumulation: start small (0.5x), tighten the stop to $250 (not $245) to sit just above the 52-week low, and scale up only on technical confirmation. The forward payout ratio of roughly 26% (based on $22.44 EPS) makes the dividend safe, and the PEG of 1.28 supports the valuation thesis. The risk-reward asymmetry (a ~4% initial downside to the stop versus 18% reversion to the 200-day SMA of $307 and 57% to the 50-day average of $410) favors gradual constructive accumulation over capitulation, but not over-commitment before price action validates a bottom.\n\n**Price Target**: 307.25\n\n**Time Horizon**: 3 months"
+}

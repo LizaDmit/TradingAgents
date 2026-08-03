@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-09-22",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-09-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.35,
+    "mean_max_drawdown_pct": -22.04,
+    "p95_worst_drawdown_pct": -43.49,
+    "p99_worst_drawdown_pct": -54.26,
+    "est_annualized_vol_pct": 50.9,
+    "spot_price": 334.49,
+    "expected_return_pct": 3.25,
+    "median_return_pct": 1.77,
+    "return_vol_pct": 25.74,
+    "risk_free_pct_horizon": 0.962,
+    "risk_free_available": true,
+    "return_over_risk": 0.089,
+    "expected_price": 345.36,
+    "price_p5": 214.53,
+    "price_p95": 493.77,
+    "prob_loss": 0.472,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a phased buy in UNH, starting with a one-third starter position at current levels (~$334). Protect this first tranche with a tighter stop near the 10 EMA (~$325-330) rather than the wide $288.85 stop, limiting downside to roughly 2-3% on the initial exposure. Reserve the remaining two-thirds of an Overweight allocation (capped at ~1.5x benchmark) to add on a pullback toward the $289-310 zone, or on a confirmed volume breakout above the $360-397 resistance cluster. Reassess on the next earnings print and on Medicare Advantage/PBM legislative developments.\n\n**Investment Thesis**: The debate converges on a constructive but measured stance. The bullish case is anchored in objectively favorable forward valuation: UNH trades near 14.9x forward earnings versus a 16-20x peer/historical norm, supported by a defensive 0.633 beta, a structurally advantaged two-platform (Optum + UnitedHealthcare) model, and a solid dividend. The TTM-to-forward PE spread (31.25x to 18.47x) signals meaningful earnings acceleration, with forward EPS consensus near $22.44. However, the bear and neutral analysts correctly flag that this EPS recovery is a projection contingent on unresolved Medicare Advantage rate pressure, medical cost ratios, and regulatory scrutiny\u2014not a certainty. The technicals confirm a stock in recovery phase but still 16% below the 200-day SMA ($397), with MACD deceleration and a stretched $45 extension above the 50-day SMA ($288.85). Given price is in a multi-month downtrend not yet confirmed reversed, aggressive full-weight entry is unwarranted. The neutral analyst's refinement is the strongest synthesis: buy a starter tranche now with a tighter stop at the 10 EMA (~$325-330) rather than the wide $288.85 stop, keep dry powder for either a pullback toward $289-310 or a confirmed volume breakout above $360-397, and cap total exposure at an Overweight but not aggressive 1.5x benchmark given verifiable policy uncertainty. This preserves upside participation while managing the real 13.5% downside scenario the conservative analyst flags.\n\n**Price Target**: 397.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-01-19",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-01-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.34,
+    "mean_max_drawdown_pct": -21.19,
+    "p95_worst_drawdown_pct": -42.41,
+    "p99_worst_drawdown_pct": -53.54,
+    "est_annualized_vol_pct": 49.2,
+    "spot_price": 326.6,
+    "expected_return_pct": 3.14,
+    "median_return_pct": 1.95,
+    "return_vol_pct": 24.65,
+    "risk_free_pct_horizon": 0.889,
+    "risk_free_available": true,
+    "return_over_risk": 0.091,
+    "expected_price": 336.87,
+    "price_p5": 210.95,
+    "price_p95": 476.8,
+    "prob_loss": 0.464,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a UNH position now at ~$326.60, but scale in rather than going full weight. Deploy an initial tranche of ~2-3% of the portfolio at current levels with a tighter stop near $310, and hold dry powder for a disciplined second tranche in the $300-310 zone contingent on technical stabilization (a couple of closes above the 10-EMA). Target a final allocation of 4-6% and reassess within a 3-month horizon as Q4 earnings, Medicare Advantage rate decisions, and PBM regulatory news resolve the key binary catalysts.\n\n**Investment Thesis**: The Overweight rating balances the strongest evidence from both sides of the debate. The bull case is genuinely supported by fundamentals: UNH trades at 18.47x forward earnings, nearly two full turns below the low end of its 20-22x historical range, offers a 2.24% dividend yield \u2014 the highest in years with institutional money treating it as an income floor \u2014 and carries a defensive 0.633 beta that will attract rotation during recession fears flagged in the world affairs context. The Optum vertical integration moat is unmatched and gives UNH a structural advantage in offsetting medical cost inflation, a point neither bear analyst contested. The 29% drawdown has been driven disproportionately by political sentiment and regulatory headlines rather than demonstrated deterioration in the core earnings engine, and forward EPS of $22.44 already embeds a strong recovery from $13.26. However, the bear and neutral analysts are correct that the technical picture is negative: price sits below the declining 10-EMA (~$332) and 200-SMA (~$331), the 50-SMA is sloping down, and the catalysts confirming the thesis \u2014 Q4 earnings, Medicare Advantage rates, PBM regulation \u2014 are unresolved with zero ticker-specific news to confirm the worst case is priced in. The sentiment score of 5.0 with low confidence confirms genuine uncertainty rather than a crowded contrarian signal. This argues against an aggressive full Buy at current levels, which would carry an 8% stop-to-entry distance below two key declining MAs. The decisive middle path is a scaled-in Overweight: a smaller 2-3% starter tranche now (firmly within the plan's 4-6% allocation range) with a tighter $310 stop, preserving dry powder for a $300-310 add only upon technical stabilization, and a hard reassessment if price breaks decisively below $300 on volume \u2014 which would validate the bear's trapdoor scenario and expose the next support well below current levels.\n\n**Price Target**: 360.0\n\n**Time Horizon**: 3 months"
+}

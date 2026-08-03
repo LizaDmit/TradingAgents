@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-02-09",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-02-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -22.14,
+    "mean_max_drawdown_pct": -23.21,
+    "p95_worst_drawdown_pct": -45.41,
+    "p99_worst_drawdown_pct": -56.84,
+    "est_annualized_vol_pct": 54.1,
+    "spot_price": 272.02,
+    "expected_return_pct": 3.24,
+    "median_return_pct": 2.08,
+    "return_vol_pct": 26.85,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": 0.087,
+    "expected_price": 280.84,
+    "price_p5": 168.47,
+    "price_p95": 409.43,
+    "prob_loss": 0.473,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce UNH exposure to roughly 60% of benchmark weighting via a phased execution rather than a single dump. Sell approximately one-third of the position at market (~$272), set a technical stop near $255 on the remaining core, and reserve a final tranche for discretionary exit. Re-entry only on demonstrated stabilization \u2014 a weekly close above the 10-day EMA (~$284) as a first signal, or reclaim of the 50-day SMA (~$320) on volume, or a quarter that validates the ~$22+ forward EPS trajectory. Do not initiate new longs at current levels.\n\n**Investment Thesis**: The debate converges on direction but diverges on mechanics, and the evidence supports a disciplined reduction rather than either full capitulation or passive hold. The bearish technicals are fact-based and severe: UNH is down 41% from its high, trading well below the 50-day (~$320) and 200-day SMAs with a confirmed death cross, and the 10-day EMA fell from $341 to $284 in two weeks \u2014 clear institutional distribution, not a shallow dip. The market has repudiated the $22.44 forward EPS (~69% growth off $13.26 TTM) via a post-earnings gap and continued bleed to $272, implying the compression from ~31x TTM to 18.47x forward reflects genuine earnings risk, not panic.\n\nHowever, the aggressive case overstates the probability of collapse: the 4-to-1 risk-reward math uses a heroic $425 target premised on a full multiple reversion that structural headwinds (CMS Medicare Advantage rate cuts, PBM/prior-authorization scrutiny on Optum Rx) make unlikely \u2014 if EPS is revised to ~$18, 19x yields $342, not $425. The conservative case correctly warns against selling at maximum pessimism only 12.8% above the 52-week low ($236.95) and into the worst liquidity, and notes a 41% drawdown in a 0.633-beta company with a 2.24% dividend is a margin reset, not an existential crisis. Yet the conservative framing underweights how much structural risk is already priced into the drawdown \u2014 this is not a single cyclical issue.\n\nThe synthesized path is Underweight: trim to ~60% of benchmark weighting in tiers, use a tighter ~$255 effective stop on the core (not the aggressive $240, which risks gap-fill slippage well below the technical floor), and require evidence-based re-entry (weekly close above the 10-day EMA at $284, or a 50-day reclaim on volume, or validated earnings) before redeploying. Absent confirmation, maintain the underweight stance with the stop trailed to ~$240-245 to cap longer-horizon downside toward the ~$220 bear target. This captures the distribution reality while preserving optionality on a high-quality franchise, avoiding both the recklessness of a one-shot dump and the complacency of holding at neutral.\n\n**Price Target**: 240.0\n\n**Time Horizon**: 3 months"
+}

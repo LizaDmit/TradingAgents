@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-03-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-03-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.64,
+    "mean_max_drawdown_pct": -22.72,
+    "p95_worst_drawdown_pct": -45.49,
+    "p99_worst_drawdown_pct": -56.3,
+    "est_annualized_vol_pct": 53.8,
+    "spot_price": 283.87,
+    "expected_return_pct": 3.83,
+    "median_return_pct": 2.38,
+    "return_vol_pct": 26.83,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": 0.109,
+    "expected_price": 294.73,
+    "price_p5": 177.16,
+    "price_p95": 426.65,
+    "prob_loss": 0.464,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at existing sizing\u2014no adds, no trims. Set a hard stop-loss at $265 (6.6% downside) as non-negotiable risk management, and establish a defined add trigger: a sustained daily close above the 50-day SMA at $299.54. Assess over a 3-month window, with the primary catalyst being either technical stabilization or confirmation of the forward EPS recovery in reported results. Reassess for a downgrade to Underweight if regulatory headlines (Medicare Advantage, PBM reform) or a more hawkish Fed path under Warsh materialize as confirmed catalysts.\n\n**Investment Thesis**: The analysts' debate leaves the evidence genuinely balanced, supporting a Hold. The bull case is anchored in real fundamentals: a forward P/E of 18.47x against a projected 69% EPS expansion, a PEG of 1.34, and a low beta of 0.633 that makes UNH a defensive anchor. However, these are projections, not confirmed results\u2014the market trading the stock at 18.47x those earnings while it sits 38% below its high signals legitimate skepticism about estimate durability. The bear's technical case is material and cannot be dismissed: price is below the 50-day SMA ($299.54), the 200-day SMA ($308.30), and the moving-average stack is in a death-cross configuration. The Warsh Fed transition represents an ongoing, not one-time, multiple-compression risk for long-duration defensive equities, especially given a 2.24% dividend yield that undercuts risk-free rates. The neutral analyst correctly synthesizes the tension: the 38% drawdown has priced in substantial fear (supporting the bull), yet the stock has no confirmed positive catalyst and the low-beta profile means UNH will lag in any recovery rally. The balanced resolution is to hold with disciplined guardrails. The 6.6% downside to the $265 stop (against the ~5.5% upside to the 50-day reclaim and ~23% upside to $350 if earnings confirm) creates a skewed risk-reward that argues against trimming, while the absence of a confirmed catalyst and the negative technical structure argue against adding. The exact guardrails define the action: respect the $265 stop as a hard exit, and only upgrade conviction to Overweight upon a sustained close above the 50-day SMA, which would be the first technical validation of the bull's base-building thesis.\n\n**Price Target**: 299.54\n\n**Time Horizon**: 3 months"
+}

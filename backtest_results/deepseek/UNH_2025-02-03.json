@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-02-03",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-02-03",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.65,
+    "mean_max_drawdown_pct": -13.81,
+    "p95_worst_drawdown_pct": -25.76,
+    "p99_worst_drawdown_pct": -32.13,
+    "est_annualized_vol_pct": 27.9,
+    "spot_price": 527.86,
+    "expected_return_pct": 0.86,
+    "median_return_pct": 0.06,
+    "return_vol_pct": 14.14,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.013,
+    "expected_price": 532.4,
+    "price_p5": 416.59,
+    "price_p95": 661.46,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a UNH position at current levels (~$527) but size the initial tranche at roughly 40-50% of the intended full position rather than the more aggressive 50-60%, preserving dry powder for the genuine regulatory overhang on PBMs. Employ a tiered accumulation plan with additions near $510-515 and ~$500, but only on confirmation of stabilization (a daily close back above the 10 EMA). Establish a hard stop at $503 on the initial tranche and monitor the $522 (200 SMA) level as a track stop in the absence of macro events. Reassess at the next earnings report when one-time charges roll off and clean year-over-year growth becomes apparent.\n\n**Investment Thesis**: UNH is the most diversified healthcare platform globally, with the UnitedHealthcare + Optum two-pillar model constituting a genuine competitive moat. The forward P/E of 18.47x against forward EPS of $22.44 (versus a TTM of $13.26 distorted by one-time charges) is a reasonable-to-modest valuation for a company of this quality, and the forward earnings yield of 5.4% plus a 2.24% dividend provides a floor of income while the thesis plays out. The technical picture is constructive but not confirmed: the stock trades above the 10 EMA ($518.34), 50 SMA ($520.82), and 200 SMA ($522.12), yet the 50 SMA remains below the 200 SMA\u2014meaning a golden cross has not yet completed. The aggressive analyst overstates the \"coiled spring\" case, while the conservative analyst's demand to wait for a $500 entry risks missing the upside if the trend completes; the neutral analyst correctly identifies the balanced path: buy now but with reduced initial sizing, tighter risk guardrails, and a time-conditioned accumulation plan. The principal unquantifiable risk is the PBM regulatory overhang\u2014bipartisan pressure for transparency mandating and potential structural separation of the largest PBM operator could produce idiosyncratic gap risk that historical low beta (0.633) does not hedge. However, the analyst consensus across the debate supports action now rather than paralysis, with the asymmetry moderately to the upside given the quality of the franchise and the clean earnings comparison due at the next report. Position sizing discipline\u2014starting at 40-50%, layering on confirmed weakness, and respecting the $500 guardrail\u2014reconciles the bull's conviction with the bear's valid tail-risk concerns. The recommended stance is Overweight: favorable long-term outlook with a gradual, disciplined accumulation into a genuinely unresolved regulatory landscape.\n\n**Price Target**: 560.0\n\n**Time Horizon**: 3 months"
+}

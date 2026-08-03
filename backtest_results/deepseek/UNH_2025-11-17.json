@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-11-17",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-11-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.22,
+    "mean_max_drawdown_pct": -21.95,
+    "p95_worst_drawdown_pct": -42.88,
+    "p99_worst_drawdown_pct": -53.27,
+    "est_annualized_vol_pct": 50.5,
+    "spot_price": 314.13,
+    "expected_return_pct": 3.23,
+    "median_return_pct": 1.45,
+    "return_vol_pct": 25.26,
+    "risk_free_pct_horizon": 0.943,
+    "risk_free_available": true,
+    "return_over_risk": 0.091,
+    "expected_price": 324.28,
+    "price_p5": 204.22,
+    "price_p95": 464.18,
+    "prob_loss": 0.48,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by approximately 25% now at ~$314, moving to an underweight stance relative to benchmark while retaining downside protection. Set a hard stop at $305 (allowing for intraday noise) and a confirmed-breakdown trigger (close below $305 on volume) that would justify accelerated reduction. Reassess the thesis if UNH reclaims the 10 EMA ($323) and closes above $322 for two consecutive sessions, or if management confirms the $22+ forward EPS path on the next earnings call. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a middle path that supports the trader's Underweight recommendation, though the neutral analyst correctly calibrates the execution. The technical picture is unambiguously bearish \u2014 price at $314.13 sits below the 10 EMA ($323.07), 50 SMA ($340.56), and 200 SMA ($364.19) in a perfect bearish alignment, representing a ~30% drawdown from the $461.62 high and a 20% gap below the 50-day. The aggressive analyst overstates certainty in extrapolating to $250, but the conservative analyst's \"hold and wait\" ignores that price closed near session lows on November 17 (bearish intraday signal) and that the 10 EMA has been widening below price all month. The structural headwinds \u2014 PBM antitrust, healthcare consolidation, rising medical cost ratios, and a hawkish Warsh Fed transition flagged as a potential shock event \u2014 are real and intensify the reliance on the aggressive $22.44 forward EPS estimate (a 70% growth projection that underpins the low 18.47x forward P/E). Meanwhile, the neutral analyst is correct that this is a quality $376B defensive franchise (2.24% dividend, beta 0.633) that a flight-to-quality could support. Net assessment: a 25% trim (midpoint of the 25-35% plan) at current prices captures downside protection without capitulating at the point of maximum pessimism, with a $305 stop that avoids the aggressive analyst's whipsaw-prone $310 while maintaining discipline below the conservative analyst's loose $300. The 5.0/10 low-confidence sentiment with no news or catalyst supports caution rather than conviction in either direction. This is a measured de-risking, not an exit \u2014 the long-term franchise quality is undisputed and would warrant reassessment toward neutral weight on technical confirmation or EPS guidance.\n\n**Price Target**: 305.0\n\n**Time Horizon**: 3 months"
+}

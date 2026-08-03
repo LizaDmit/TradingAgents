@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-07-14",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-07-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.68,
+    "mean_max_drawdown_pct": -20.62,
+    "p95_worst_drawdown_pct": -41.92,
+    "p99_worst_drawdown_pct": -51.45,
+    "est_annualized_vol_pct": 47.3,
+    "spot_price": 292.74,
+    "expected_return_pct": 2.23,
+    "median_return_pct": 1.5,
+    "return_vol_pct": 23.05,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": 0.051,
+    "expected_price": 299.26,
+    "price_p5": 191.43,
+    "price_p95": 414.92,
+    "prob_loss": 0.474,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current position in UNH at existing weight ahead of the Q2 earnings catalyst. Do not add or trim, but tighten risk management: set a downside review trigger near $275 (noting gap risk through the $260 level) and an upside confirm-trigger near $310 (the 50-day SMA). The Q2 report is the binary event that will resolve the directional thesis, so position sizing should stay neutral and disciplined until the outcome is confirmed.\n\n**Investment Thesis**: The UNH debate is genuinely balanced, and the evidence does not support a directional call at this juncture. The bull's case is anchored in a forward P/E of ~18.5x versus a trailing 31.3x, a PEG of 1.34, a low beta of 0.63, a 2.24% dividend yield, and recovery off the 52-week low (~$237) to the current ~$292 level. Optum's scale advantage and the defensive nature of healthcare spending represent real franchise durability. However, the bear's case is equally credible: UNH trades ~37% below its 200-day SMA, below both the 10 EMA (~$296) and 50 SMA (~$308), with an RSI of 42.68 that has room to decline before reaching oversold. The critical risk is not a routine miss\u2014it is active FTC structural scrutiny of PBM vertical integration, including Optum, which could permanently alter the company's composition and undermine the forward earnings power (~$22.44 EPS) underpinning the valuation. The static risk/reward (~$55 upside to resistance versus ~$170 downside to the low) is unappealing until resolved. The reasons to avoid Underweight/Sell: the stock is up ~24% off its low (not in freefall), valuation multiples are historically reasonable for a healthcare leader, defensive cash flow attracts institutional money in a macro environment with a new Fed chair and inflation concerns, and there is no evidence of capitulation or distribution. The reasons to avoid Buy/Overweight: a stock trading below every major moving average with active structural regulatory overhang does not warrant adding exposure ahead of a binary event, especially with an information vacuum (zero news flow) suggesting no bullish catalyst is teed up. The correct posture is Hold at current weight with tightened risk parameters\u2014stop/review near $275 (roughly 6% risk given gap-risk through $260), upside catalyst at $310 where a post-earnings reclaim would justify upgrading to Overweight. The Q2 report, with attention to Medicare Advantage rates, medical cost ratio trends, and FTC/PBM updates, is the deciding event.\n\n**Price Target**: 310.0\n\n**Time Horizon**: 3 months"
+}

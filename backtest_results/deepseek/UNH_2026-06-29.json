@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-06-29",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-06-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -16.08,
+    "mean_max_drawdown_pct": -18.29,
+    "p95_worst_drawdown_pct": -36.33,
+    "p99_worst_drawdown_pct": -45.89,
+    "est_annualized_vol_pct": 41.1,
+    "spot_price": 419.82,
+    "expected_return_pct": 2.07,
+    "median_return_pct": 0.71,
+    "return_vol_pct": 20.53,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": 0.056,
+    "expected_price": 428.53,
+    "price_p5": 295.99,
+    "price_p95": 577.1,
+    "prob_loss": 0.486,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain existing UNH position at current levels without adding new capital near $419.82, where the stock trades ~9.5% above its 50-day SMA ($383) and ~10% below the 52-week high ($461.62) with no near-term catalyst. Set a disciplined two-tier accumulation ladder\u2014small tranche at $405\u2013$411 (10-EMA support), larger tranche at $380\u2013$385 (50-day SMA zone)\u2014with a hard technical invalidation at $332 (200-day SMA). Reassess after the next earnings call and any Medicare Advantage rate commentary for 2026.\n\n**Investment Thesis**: The debate genuinely balances two strong but directionally opposed cases, and neither side clearly dominates. The bullish case rests on UNH's best-in-class Optum franchise with proprietary data and care-delivery infrastructure that pure-play competitors cannot replicate, a textbook bullish technical structure (price above 10 EMA, 50 SMA, and 200 SMA in golden-cross alignment, up ~26% off the 200-SMA), a low 0.63 beta making it a defensive haven in the Iran-war inflation / Fed-transition macro environment, and a 2.24% yield cushion. However, the bear case is equally compelling at this specific price: the stock is 9.5% above its 50-day SMA with a stretched 50/200 gap, offering only ~10% upside to the 52-week high versus ~9-21% downside to supports; the regulatory overhang on Medicare Advantage reimbursement and Optum vertical integration is live and politically charged (cuts already hit in each of the last two years); MLR risk under stagflationary medical-cost inflation is a genuine operational exposure; and sentiment data shows zero retail or news catalyst to drive a breakout. The conservative analyst correctly demolishes the aggressive 1.5x position-sizing and $400-411 add proposals by noting beta is backward-looking and did not prevent the 49% drawdown from $461 to $237 last year; buying at $411 flips reward/risk negative (19% downside to stop vs 12% upside to high). But the conservative insistence on waiting exclusively for $380 ignores that the rising 10-EMA at $411.78 can act as living support in a genuine uptrend, risking never getting filled. The neutral analyst's synthesis is the most defensible: hold the position, avoid chasing above $411, and structure a two-tier accumulation zone at $405\u2013$411 and $380\u2013$385, with the hard invalidation at $332. This respects both the franchise quality and the real near-term valuation/positioning asymmetry.\n\n**Price Target**: 460.0\n\n**Time Horizon**: 3 months"
+}

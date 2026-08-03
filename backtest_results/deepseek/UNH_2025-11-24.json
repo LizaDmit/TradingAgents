@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-11-24",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-11-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.2,
+    "mean_max_drawdown_pct": -21.91,
+    "p95_worst_drawdown_pct": -42.67,
+    "p99_worst_drawdown_pct": -52.59,
+    "est_annualized_vol_pct": 50.5,
+    "spot_price": 312.69,
+    "expected_return_pct": 3.26,
+    "median_return_pct": 1.63,
+    "return_vol_pct": 25.15,
+    "risk_free_pct_horizon": 0.933,
+    "risk_free_available": true,
+    "return_over_risk": 0.092,
+    "expected_price": 322.88,
+    "price_p5": 203.36,
+    "price_p95": 459.57,
+    "prob_loss": 0.474,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain UNH at neutral weight around the $312 level, deploying no more than a 25% starter position if fresh cash is available. Reserve 75% of intended sizing for either a confirmed break above the 50-day SMA ($335-340) on volume or a deeper pullback into the $280-295 support zone. Set a hard stop discipline at $280; a sustained break below that level invalidates the valuation floor and warrants trim to Underweight. Time horizon is 3 months, with the Q4 earnings print and Q1 2026 utilization data serving as the decisive catalysts for the $22.44 forward EPS question.\n\n**Investment Thesis**: The evidence supports a Hold because the risk is genuinely symmetric at the current $312 level. On the bullish side: Forward P/E of 18.47 vs TTM 31.25 implies a steep earnings ramp to $22.44 forward EPS, the stock trades 12.9% below its 200-day SMA (~$344), beta of 0.633 provides defensive characteristics, and the 2.24% dividend yield offers an income floor. The downside to the $280-295 support is roughly 6-8% while the upside to a 50-day SMA reclaim is 8-10%, creating a defensible asymmetry only if that support holds. On the bearish side: the death cross is confirmed with the 10 EMA ($314.32), 50 SMA ($337.29), and 200 SMA ($358.95) all sloping down and price below all three. The entire bull thesis rests on an unconfirmed 69% EPS jump that management has not guided to, and the DOJ scrutiny of Optum's vertical integration is a live structural tail-risk. Crucially, the sentiment feed returned empty\u2014there is no institutional confirmation of a positive catalyst. Both the Aggressive Analyst's assumption that the 32% drawdown means the worst is priced, and the Conservative Analyst's refusal to deploy any capital until $335 or $280 are overconfident in opposite directions. The staged-accumulation compromise\u201425% starter now, 75% reserved for either a confirmed trend break above $335-340 or a value add in the $280-295 zone, position capped at 3-4% of portfolio\u2014captures upside participation while respecting the confirmed downtrend. Cap total exposure at 3-4% given the unresolved regulatory overhang and the fragile forward-estimate credibility. The Q4 earnings print is the single most important catalyst: confirmation of the $22.44 trajectory upgrades the thesis, while a miss or ongoing utilization pressure risks a retest of $280 and demand a reassessment.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

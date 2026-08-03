@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-02-24",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-02-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.27,
+    "mean_max_drawdown_pct": -14.43,
+    "p95_worst_drawdown_pct": -27.17,
+    "p99_worst_drawdown_pct": -33.57,
+    "est_annualized_vol_pct": 29.4,
+    "spot_price": 444.41,
+    "expected_return_pct": 1.05,
+    "median_return_pct": 0.27,
+    "return_vol_pct": 14.87,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.0,
+    "expected_price": 449.06,
+    "price_p5": 346.46,
+    "price_p95": 564.46,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing UNH position at current levels (~$444) without adding aggressively or exiting into weakness. Keep the discipline-based stop near $410 (the 50 SMA); a sustained close above the 10 EMA (~$482) and 50 SMA (~$500) would warrant upgrading toward Overweight, while a breakdown and hold below $410 pressures the stance toward Underweight. For cash-heavy accounts, a starter position in the $430-450 range is acceptable only at half the intended final size, given the broken technical picture and hostile regulatory backdrop. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a genuinely balanced case that merits a maintenance stance rather than directional conviction. The bull's valuation case is real and compelling: UNH trades at ~18.5x forward earnings against an S&P 500 multiple of 22-23x, with $400B revenue growing 7.7% YoY, a 2.24% dividend yield, a 0.63 beta, and inelastic healthcare demand\u2014a legitimate defensive and asymmetric risk/reward (risk ~7.7% to $410 stop versus potential 8-25% upside on multiple normalization to 20-22x). However, the bear's structural concerns are equally material: the technical picture is genuinely broken with bearish MA alignment (Price < 10 EMA $482 < 50 SMA $500 < 200 SMA $524, all sloping down), price in steady decline, and RSI deeply oversold with no confirmed reversal. The regulatory environment is observably hostile\u2014Medicare Advantage reimbursement pressure, antitrust scrutiny on vertical integration, and a hawkish Fed transition under Chair Warsh\u2014and the forward EPS of $22.44 rests on assumptions about reimbursement stability, regulatory conditions, and cyberattack normalization that are not guaranteed. Critically, there is no specific, dated, identifiable catalyst within the 90-day window that any analyst could point to as a certain turn; sentiment is a neutral 5.0 with low confidence and no news flow, which is a vacuum, not a reprieve. Selling a franchise of UNH's quality into a depressed multiple risks missing the recovery, while adding into a falling knife with hostile headwinds risks catching downside not yet played out. The prudent path is to maintain the position with clear mechanical triggers: upgrade on a confirmed daily close above the 10 EMA ($482.45) on above-average volume, and trim on a close below $410. As the neutral analyst correctly noted, trimming preemptively at $430 would be a single bad session away and reactionary, while the aggressive scenario of \"no news is good news\" is unsupported speculation.\n\n**Price Target**: 449.0\n\n**Time Horizon**: 3 months"
+}

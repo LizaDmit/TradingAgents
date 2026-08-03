@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-05-11",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-05-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.72,
+    "mean_max_drawdown_pct": -21.21,
+    "p95_worst_drawdown_pct": -41.38,
+    "p99_worst_drawdown_pct": -51.77,
+    "est_annualized_vol_pct": 48.0,
+    "spot_price": 382.26,
+    "expected_return_pct": 2.53,
+    "median_return_pct": 0.96,
+    "return_vol_pct": 24.25,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": 0.067,
+    "expected_price": 391.93,
+    "price_p5": 250.48,
+    "price_p95": 552.24,
+    "prob_loss": 0.483,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain existing UNH positions at current sizing (~$382). Do not add at current levels given the stock trades 22% above its 200-day SMA into a news vacuum with unresolved PBM/FTC regulatory risk, Medicare Advantage rate uncertainty, and a hawkish Fed transition. Prepare to scale in on weakness toward the $310-330 (50-SMA) accumulation zone only if fundamentals remain intact, and use a two-tiered trim trigger ($367 then $340 with volume) rather than a hair-trigger stop at the 10-EMA. Horizon: 3 months.\n\n**Investment Thesis**: The debate across all three analysts converges on a Hold, and the evidence supports this. The Bull's case is grounded: forward P/E of 18.47x on $22.44 EPS, PEG of 1.28, dividend yield of 2.24%, beta of 0.633, and a 61% recovery off the 52-week low with higher highs/lower lows\u2014all genuine positives. However, the Bear and Neutral analysts correctly identify that this valuation is depressed for identifiable reasons, not market irrationality: an active FTC enforcement action targeting OptumRx's highest-margin PBM revenue stream, Medicare Advantage rate cut risk, and a new hawkish Fed chair (Warsh). The forward EPS of $22.44 assumes regulatory status quo; if FTC forces structural changes, that number\u2014and the bull case\u2014breaks. Critically, the 25% run in under a month occurred with zero corroborating news (per the sentiment report), meaning much of the move reflects short-covering and momentum rather than fundamental re-rating. The stock is 22% above the 200-day SMA and ~20% below its 52-week high, so the deep-value tailwind is largely exhausted while remaining upside carries regulatory and macro risk. Neither a knockout bull nor bear case exists. The balanced path: hold at current size, no adds at $382, scale in toward $310-330 only with confirmed fundamentals, and adopt the two-tiered trim discipline ($367 close then $340 with volume) that avoids being shaken out at a repeatedly-held support level while still capping downside if the momentum structure genuinely breaks.\n\n**Price Target**: 400.0\n\n**Time Horizon**: 3 months"
+}

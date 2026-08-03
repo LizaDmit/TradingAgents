@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-05-12",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-05-12",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -14.05,
+    "mean_max_drawdown_pct": -17.16,
+    "p95_worst_drawdown_pct": -36.61,
+    "p99_worst_drawdown_pct": -46.51,
+    "est_annualized_vol_pct": 39.5,
+    "spot_price": 366.27,
+    "expected_return_pct": 1.75,
+    "median_return_pct": 1.7,
+    "return_vol_pct": 19.33,
+    "risk_free_pct_horizon": 1.07,
+    "risk_free_available": true,
+    "return_over_risk": 0.035,
+    "expected_price": 372.67,
+    "price_p5": 257.69,
+    "price_p95": 488.98,
+    "prob_loss": 0.465,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim the UNH stake by roughly 20% toward an underweight allocation at the current ~$360-366 level, without adding fresh capital. Do not set a hard stop at $330; instead use a $345 technical trigger as a signal to trim an additional 5-10% if broken on high volume. Place the $320-330 zone on a watchlist for a staged re-entry, but only redeploy upon confirmation of price stabilization (a daily close above the declining 10 EMA) or credible evidence that the $22.44 forward EPS trajectory is achievable. Reassess quarterly.\n\n**Investment Thesis**: The debate converges on a clear risk/reward asymmetry that justifies a toward-underweight trim but not full exit. The single most important analytical anchor is the valuation disconnect: trailing P/E of 31.25x versus forward 18.47x, which implies forward EPS jumping from $13.26 to $22.44 \u2014 a nearly 70% step-up underwritten with no evidence of medical cost normalization, no margin expansion (profit margin 3.14%, operating margin 7.13%), and elevated leverage (debt-to-equity above 60%). All three analysts agree this forward estimate is unsupported, making the market's forward multiple a false comfort. The technicals reinforce the bearish case: price is below the 10 EMA ($386.19), 50 SMA ($466.42), and 200 SMA ($519.04) \u2014 a fully bearish moving-average pyramid, with the 10 EMA declining every single trading day since April 21. However, the Aggressive Analyst's sell-now/buy-back-at-$320-330 plan is rejected as dangerous market timing with no guarantee the support zone holds (the 200 SMA is falling, the 50 SMA is now resistance, and a regulatory gap could blow straight through $320 toward $280). The Conservative Analyst's tiered ladder is equally flawed because it would lock in losses at each step in what is demonstrably a straight-line downtrend. The Neutral Analyst's balanced midpoint \u2014 a 20% trim with a $345 technical trigger rather than a $330 hard stop \u2014 best reflects the evidence: it reduces exposure into weakness per the Underweight mandate while avoiding both capitulation at a bottom and the hubris of pretending to know exactly where the stock lands in 30 days. The franchise quality \u2014 $450B revenue, 14.15% ROE, 2.24% dividend, 0.633 beta, genuine Optum moat \u2014 argues against full exit, as does the fact that holding 100% exposure under a fully bearish pyramid with an unsupported forward estimate is the most negligent posture. The $320-330 zone, the 200-week moving average / long-term support flagged by the bear, is a legitimate re-entry target but only with confirmation (a close above the 10 EMA or stabilizing forward EPS). If regulatory headlines on Medicare Advantage reimbursement or PBM reform deteriorate, or financing/leverage concerns worsen, escalate to Sell.\n\n**Price Target**: 330.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-11-10",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-11-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.36,
+    "mean_max_drawdown_pct": -22.03,
+    "p95_worst_drawdown_pct": -43.54,
+    "p99_worst_drawdown_pct": -53.43,
+    "est_annualized_vol_pct": 50.4,
+    "spot_price": 315.17,
+    "expected_return_pct": 2.94,
+    "median_return_pct": 1.25,
+    "return_vol_pct": 25.47,
+    "risk_free_pct_horizon": 0.946,
+    "risk_free_available": true,
+    "return_over_risk": 0.078,
+    "expected_price": 324.43,
+    "price_p5": 201.61,
+    "price_p95": 466.54,
+    "prob_loss": 0.479,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain UNH at neutral portfolio weight as defensive ballast (0.63 beta, 2.24% yield) with strict operational triggers on both sides. Add to position only on confirmed upside signals\u2014reclaim of the 200-day SMA at ~$344.69 on above-average volume or a higher-low bottoming pattern with a reclaim of the 50-day SMA\u2014and reduce the position by at least half if UNH closes below $290, ahead of the $236.95 52-week low. Reassess decisively at the next earnings report, as medical cost normalization is the single unverified variable that both bull and bear cases hinge upon.\n\n**Investment Thesis**: The debate between the aggressive, conservative, and neutral analysts converges on a single unresolved variable: whether the $22.44 forward EPS estimate\u2014which assumes medical cost normalization\u2014will be confirmed. The aggressive analyst correctly identifies a compelling valuation setup (18.47x forward PE vs. market ~22x, PEG 1.34, 0.63 beta, 2.24% yield, ~23% discount to the 50-day SMA) and notes the virtual absence of negative headlines as supportive. However, the neutral analyst correctly neutralizes this: the 50-day SMA at $410 is a declining target, not a fixed magnet, and the empty news feed is data absence, not confirmation\u2014the next catalyst is binary. The conservative analyst rightly refuses to front-run an unverified earnings reversion, but the neutral analyst properly challenges that holding a full position through an active bearish stack (price below 10 EMA, 50 SMA, and 200 SMA) with 9.6 ATR daily volatility is itself active risk, not capital preservation. The trader's Hold is the correct foundation, but it must be operationalized rather than static. The bear case (Medicare Advantage regulatory pressure, DOJ scrutiny, rate-cut uncertainty under Fed leadership transition) and bull case (valuation support, defensive quality, mean-reversion potential) are genuinely balanced, with neither confirmed by data. A managed Hold\u2014neutral sizing, a $290 downside reduction trigger (8% below current levels, ahead of the undefined support until the $236.95 low), and a $344.69 200-day SMA reclaim upside trigger\u2014is the disciplined synthesis. Front-running confirmation as the aggressive analyst urges risks a 25%+ drawdown on an unverified thesis; passively holding without triggers as the conservative analyst implies exposes the portfolio to continued bleed in a confirmed downtrend. The next earnings report is the decisive catalyst, and defined triggers on both sides ensure we are positioned correctly whether it confirms or refutes the reversion thesis.\n\n**Price Target**: 344.69\n\n**Time Horizon**: 3 months"
+}

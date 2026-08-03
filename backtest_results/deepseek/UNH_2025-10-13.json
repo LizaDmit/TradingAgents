@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-10-13",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-10-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.49,
+    "mean_max_drawdown_pct": -22.19,
+    "p95_worst_drawdown_pct": -43.45,
+    "p99_worst_drawdown_pct": -53.68,
+    "est_annualized_vol_pct": 51.2,
+    "spot_price": 351.51,
+    "expected_return_pct": 3.46,
+    "median_return_pct": 1.61,
+    "return_vol_pct": 25.7,
+    "risk_free_pct_horizon": 0.963,
+    "risk_free_available": true,
+    "return_over_risk": 0.097,
+    "expected_price": 363.66,
+    "price_p5": 226.72,
+    "price_p95": 521.63,
+    "prob_loss": 0.477,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH exposure at a neutral/sector-neutral weight with no new adds at ~$351. If establishing a new position, use a starter size of roughly half a normal allocation. Set a hard stop-loss at $330 (~6% below current) while placing an alert at $345 for early review if fundamentals deteriorate. Monitor the three key triggers: margin inflection with MLR normalization in forward guidance, sustained reclaim of the 200-day SMA (~$344-345), and clarity on PBM regulatory outcomes.\n\n**Investment Thesis**: The analysts' debate confirms this is a genuinely balanced setup with no decisive winner. The bull case rests on a reasonable forward P/E of 18.47x against Wall Street's $22.44 forward EPS estimate (a ~70% expected growth vs TTM EPS of $13.26), a defensive franchise with $450B revenue, 150M+ members, beta of 0.633, and a 2.24% dividend yield. The technicals show price 12.7% above the rising 50-day SMA ($311.78) off a recovery from the $236.95 low. However, the bear case carries equal weight: net margin compression to 3.14% from historical 7-8% reflects real, ongoing cost pressures in an inflationary healthcare environment; the regulatory overhang on OptumRx/PBM practices is a legitimate structural risk that could commoditize the high-margin integration flywheel; and the stock remains 24% below its 52-week high of $461.62 and below the 200-day SMA, indicating the long-term trend has not yet flipped. The neutral analyst correctly identifies that the Conservative's proposed tight stop at $345 (~1.8% buffer) invites whipsaw in a beta-0.633 defensive name, while the Aggressive's \"coiled spring\" framing assumes a positive earnings catalyst that has no empirical confirmation. The stock is awaiting a binary earnings catalyst with unconfirmed margin inflection, unproven regulation outcomes, and a macro backdrop (Fed leadership transition with Kevin Warsh, ~4% inflation) that argues for measured exposure. This balance warrants maintaining rather than adding, with disciplined risk management.\n\n**Price Target**: 375.0\n\n**Time Horizon**: 3 months"
+}

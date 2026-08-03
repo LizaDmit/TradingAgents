@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-02-10",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-02-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.5,
+    "mean_max_drawdown_pct": -13.66,
+    "p95_worst_drawdown_pct": -25.56,
+    "p99_worst_drawdown_pct": -31.74,
+    "est_annualized_vol_pct": 27.9,
+    "spot_price": 513.6,
+    "expected_return_pct": 1.03,
+    "median_return_pct": 0.44,
+    "return_vol_pct": 13.93,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": -0.002,
+    "expected_price": 518.89,
+    "price_p5": 407.99,
+    "price_p95": 641.25,
+    "prob_loss": 0.486,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain a neutral position in UNH at current levels (~$515). Do not add until either the 50-day SMA support base ($510-$515) holds and price closes above $525 on volume, or quarterly earnings confirm the forward EPS trajectory toward $22.44. If establishing a starter position, size conservatively at 2-3% of portfolio with a stop near $475-$490 to account for headline-driven gap risk. Re-evaluate after earnings and any regulatory clarity on FTC scrutiny of Optum.\n\n**Investment Thesis**: The debate presents genuinely balanced evidence that supports a Hold rather than an active directional stance. The Bull's fundamental case is strong and cannot be dismissed: the forward P/E of 18.47x versus trailing 31.25x implies meaningful earnings expansion from $13.26 to $22.44 EPS, the PEG of 1.34 suggests reasonable valuation for that growth, and the 0.633 beta plus 2.24% dividend yield provide defensive characteristics that matter in an environment of Fed transition and sticky inflation. The Optum vertical integration is a legitimate structural moat, and the $376B market cap provides safe-haven status.\n\nHowever, the Bear's technical and regulatory concerns are equally compelling. The stock trades below the 200-day SMA at $523.33, the 50-day SMA has been in steady decline since late January (~$536 to ~$515), and the 10-day EMA has rolled over from $519.63 to $515.60 over five sessions\u2014indicating lower highs and lower lows, not a basing pattern. The sentiment score of 5.0 with zero institutional news flow is more likely market apathy than pent-up demand. Most critically, the FTC scrutiny of Optum is not headline risk but structural risk: it targets the vertical integration that underpins the moat, and a structural remedy could impair the earnings trajectory to $22.44, not just delay it. The forward EPS is a projection, not a delivered result, and the 18.47x multiple already reflects market expectations of that trajectory.\n\nThe stock has already nearly doubled off the $236.95 low, meaning the easy recovery trade has been banked. The Aggressive Analyst's 26% upside case ($650) assumes flawless delivery on forward EPS with no sensitivity to a potential 30% downside if regulatory or earnings risk materializes. The Neutral Analyst correctly identifies that a probability-weighted view shows EV of regulatory risk is unknown but partially priced\u2014the stock trades below its historical 20x forward multiple.\n\nA two-tranche approach best captures the reasonable elements of both arguments: a 2-3% starter tranche deployed if the $510-$515 support zone holds, and a second tranche added only on a confirmed close above $525 with volume. This gives the Bull partial exposure without abandoning the Bear's caution, and uses the 50-day SMA ($515) as the near-term reference rather than the binary 200-day level. The stop at $475-$490 (vs. the proposed $490) accounts for volatility clustering and gap risk in a headline-driven environment without capping total position loss at excessive levels. UNH is not a Sell\u2014earnings power, low beta, dividend yield, and dominant market position argue firmly against that\u2014but a full Buy/Overweight is not supported by the unresolved technical downtrend, the structural regulatory overhang, and the fact that meaningful upside has already been captured off the lows. The balanced evidence warrants maintaining current positioning while setting a clear, disciplined framework for adding exposure on confirmation.\n\n**Price Target**: 560.0\n\n**Time Horizon**: 3 months"
+}

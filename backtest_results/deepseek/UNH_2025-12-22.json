@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-12-22",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-12-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.43,
+    "mean_max_drawdown_pct": -21.32,
+    "p95_worst_drawdown_pct": -42.45,
+    "p99_worst_drawdown_pct": -53.62,
+    "est_annualized_vol_pct": 49.6,
+    "spot_price": 320.82,
+    "expected_return_pct": 3.51,
+    "median_return_pct": 2.31,
+    "return_vol_pct": 25.0,
+    "risk_free_pct_horizon": 0.882,
+    "risk_free_available": true,
+    "return_over_risk": 0.105,
+    "expected_price": 332.08,
+    "price_p5": 208.31,
+    "price_p95": 469.83,
+    "prob_loss": 0.463,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at neutral-weight allocation with no new longs and no aggressive adds. The stock trades at ~18.5x forward earnings (forward EPS of $22.44, PEG 1.34) with a 2.24% dividend yield and a 0.63 beta, making the downside cushioned, but the technical picture (price below the 10/50/200-day MAs, death cross) and execution risks (medical cost pressure, Medicare Advantage rate cuts, regulatory scrutiny) argue against adding. Hold for the next earnings report and the Medicare Advantage rate announcement cycle; act on the defined triggers \u2014 upgrade on sustained reclaim of the 50-day MA (~$330.50) with forward EPS \u2265$22, downgrade if guidance falls below $20 EPS or MLR visibly deteriorates. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a genuinely balanced risk/reward, and the neutral hold is the disciplined synthesis. The aggressive case rests on compelling forward fundamentals: a forward P/E of 18.47x versus trailing 31.25x implies the market expects a massive earnings recovery to $22.44 EPS (a ~70% jump from $13.26 trailing), supported by a PEG of 1.34, low beta of 0.63, a 2.24% dividend, and the secular Optum vertical-integration moat. The stock's 35% recovery off the $236.95 low to $320.82 suggests the worst panic pricing has partly abated. However, the conservative case lands critical punches that cannot be dismissed: the forward EPS is a projection, not a certainty, and rising medical costs, Medicare Advantage reimbursement pressure, regulatory scrutiny, and the post-assassination reputational overhang are active headwinds that already drove the stock from $461 to $320. The bear also correctly notes that if forward EPS slips to $20, the multiple expands from 18.5x to 22x with no technical support, since the stock trades below all key moving averages with a death cross and a declining 50- and 200-SMA. Crucially, UNH is arguably more of a price-taker than a price-setter given the large government-contract share of revenue, undermining the \"pricing power\" defense. The technical picture is decisively bearish \u2014 no meaningful reclaim of even the 10 EMA confirms that rallies are being sold. The neutral analyst correctly identifies the core tension: the downside is cushioned by the dividend and franchise quality (not a Sell), while the upside requires the earnings recovery to actually materialize (not yet a Buy). With no near-term fundamental catalyst \u2014 silent news wires, neutral social sentiment (5.0/10), a hawkish-leaning new Fed Chair (Kevin Warsh), sticky inflation, and Iran-related geopolitical tail risk \u2014 the asymmetry is roughly neutral. The market is already discounting substantial pessimism at under 19x forward earnings, but the lack of a confirmed uptrend means aggressive accumulation risks a further 10-15% drawdown if medical costs worsen. The disciplined position is to hold at neutral weight, collect the 2.24% dividend, and let the earnings-recovery debate resolve through actual reported results rather than projections. Upgrade to Overweight only on a sustained reclaim of the 50-day MA (~$330.50) with forward EPS guidance holding at or above $22 and confirmed earnings growth; downgrade to Underweight if guidance drops below $20 EPS or MLR deterioration becomes visible in reported results.\n\n**Price Target**: 340.0\n\n**Time Horizon**: 3 months"
+}

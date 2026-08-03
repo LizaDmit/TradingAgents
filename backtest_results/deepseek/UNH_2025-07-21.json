@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-07-21",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-07-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.4,
+    "mean_max_drawdown_pct": -20.4,
+    "p95_worst_drawdown_pct": -41.54,
+    "p99_worst_drawdown_pct": -52.26,
+    "est_annualized_vol_pct": 46.7,
+    "spot_price": 274.78,
+    "expected_return_pct": 2.36,
+    "median_return_pct": 1.71,
+    "return_vol_pct": 23.07,
+    "risk_free_pct_horizon": 1.056,
+    "risk_free_available": true,
+    "return_over_risk": 0.056,
+    "expected_price": 281.26,
+    "price_p5": 180.2,
+    "price_p95": 388.04,
+    "prob_loss": 0.473,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH position at benchmark weight with no additions and no liquidations. The valuation case (18.5x forward P/E near historical lows, PEG of 1.34, growing dividend) is balanced against a technically broken tape (price 40% below the 200 SMA, 50 SMA still falling 10.7% in a month, no basing pattern or accumulation signal). The binary catalyst is the next earnings report validating \u2014 or cutting \u2014 the forward EPS estimate of $22.44. Do not act until that confirmation arrives; set explicit tripwires for both the upgrade and downgrade paths over a 3-month horizon.\n\n**Investment Thesis**: The analysts' debate is genuinely balanced and neither side has conclusively resolved the central question: does the forward EPS estimate of $22.44 (a 69% jump over trailing EPS of $13.26) hold, or does the market's 40% repricing reflect structural deterioration in the earnings outlook?\n\nThe bullish case has merit. UNH trades at 18.5x forward earnings, near historical lows for a franchise with durable competitive moats, defensive healthcare exposure, and secular demographic tailwinds. The PEG of 1.34 supports the growth narrative, and the dividend provides a tangible cost of carry while waiting for the catalyst. The Aggressive analyst correctly notes that a 40% dislocation in a $376B mega-cap on no specific identifiable catalyst is characteristic of a sentiment vacuum rather than a fundamental thesis break \u2014 historically, such dislocations price in significant bad news ahead of the actual confirmation.\n\nHowever, the bearish case is equally compelling on the data alone. The technical report shows complete bearish stacking (10 EMA $285.35, 50 SMA $298.21, 200 SMA $457.53) with the 50 SMA still declining 10.7% in under a month \u2014 this is active momentum, not stabilization, and there is no base-building structure, higher low, or accumulation signal to support a contrarian mean-reversion call. More critically, the forward P/E math is fragile: 18.5x is built on a forward EPS that the market has had months to validate and has consistently marked down. If utilization cost pressures persist, that $22.44 estimate gets cut, and the \"cheap\" 18.5x forward multiple becomes an expensive 25x+ trailing multiple with no growth \u2014 removing the valuation floor entirely.\n\nThe Neutral analyst's synthesis is the most disciplined framing: this is not a binary buy/sell, it is a wait-for-confirmation scenario. Selling now locks in a loss at a point where the 40% decline has already absorbed substantial bad news and near-historical valuation lows provide cushioning. Buying now requires faith in an unconfirmed earnings estimate against a broken technical structure. The correct position is to maintain exposure, not add, not liquidate, and let the next earnings report \u2014 the single data point that breaks this tie \u2014 dictate the direction.\n\nThe Research Manager's plan and the Trader's proposal both correctly identify Hold as the appropriate stance. The strategic action must be precise: maintain benchmark weight; no new longs; no liquidations. Define clear trigger points: if earnings preserve or raise forward EPS and the stock stabilizes above the declining 50 SMA, upgrade toward Overweight and begin building in tranches. If forward EPS gets cut 10-15% or the stock fails to establish a technical floor, trim toward Underweight. The 50 SMA serves as the tactical reference for the mean-reversion thesis gaining or losing credibility. Patient capital, guided by earnings evidence rather than price momentum in either direction, is the prudent course.\n\n**Time Horizon**: 3 months"
+}

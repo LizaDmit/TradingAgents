@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-06-23",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-06-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.37,
+    "mean_max_drawdown_pct": -20.12,
+    "p95_worst_drawdown_pct": -40.65,
+    "p99_worst_drawdown_pct": -50.94,
+    "est_annualized_vol_pct": 46.9,
+    "spot_price": 292.84,
+    "expected_return_pct": 2.95,
+    "median_return_pct": 2.08,
+    "return_vol_pct": 22.9,
+    "risk_free_pct_horizon": 1.039,
+    "risk_free_available": true,
+    "return_over_risk": 0.084,
+    "expected_price": 301.49,
+    "price_p5": 196.41,
+    "price_p95": 415.14,
+    "prob_loss": 0.46,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce UNH exposure by 25-35% on a weighted basis, executed as a two-tier trim: sell 15-20% immediately at market (~$292.84) and place a limit order to sell an additional 10-15% near the 10 EMA ($298-300). Place a hard stop at $284.50 on the remaining position to cap downside to ~2.8% if the $285 support breaks toward the $250-260 zone. Do not initiate new longs; re-evaluate upon estimate stabilization, regulatory clarity, or a technical basing pattern that holds.\n\n**Investment Thesis**: The debate correctly identifies UNH's structurally broken technical picture (39.4% below the 200-day SMA at $482.92, 17.7% below the 50-day SMA at $356.02, and below the 10 EMA at $297.10), alongside a deteriorating regulatory backdrop for the most profitable segments (Medicare Advantage reimbursement cuts, PBM pressure) that calls into question the aggressive $22.44 forward EPS estimate (a ~69% jump from trailing $13.26). However, the conservative and neutral analysts make a decisive point on execution: the stock has held the $285 support for a month, and selling the full trim amount immediately at $292.84 sacrifices the entire 2.7% cushion versus simply waiting for a hard stop. The prudent middle path\u2014a two-tiered de-risking (sell 15-20% now, 10-15% on strength toward the 10 EMA) with a hard $284.50 stop on the remainder\u2014captures the Aggressive analyst's valid need to reduce risk ahead of a potential break to $250-260, while honoring the Conservative/Neutral analysts' discipline against selling into the bottom of a consolidation. This is not a Sell because UNH retains franchise value (0.63 beta, 2.24% dividend carry, dominant managed-care position) and much of the regulatory damage is already priced into the 39% drawdown; but it is not a Buy/Overweight because there is no positive catalyst, sentiment is neutral (5.0/10), and the asymmetry (10-12% downside if $285 breaks versus ~5% upside to the 10 EMA) does not favor holding full weight.\n\n**Price Target**: 250.0\n\n**Time Horizon**: 3 months"
+}

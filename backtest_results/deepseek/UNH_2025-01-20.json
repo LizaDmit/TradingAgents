@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-01-20",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-01-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.63,
+    "mean_max_drawdown_pct": -13.78,
+    "p95_worst_drawdown_pct": -25.81,
+    "p99_worst_drawdown_pct": -32.18,
+    "est_annualized_vol_pct": 28.2,
+    "spot_price": 490.87,
+    "expected_return_pct": 1.09,
+    "median_return_pct": 0.14,
+    "return_vol_pct": 14.27,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.003,
+    "expected_price": 496.23,
+    "price_p5": 387.97,
+    "price_p95": 618.0,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a UNH position at 0.5x\u20131.0x benchmark weighting as a starter tranche, entering via limit order at or below $490 (current price) with a stop at $465. Do not scale up beyond the initial tranche until the next earnings report provides clarity on forward EPS guidance ($22.44 consensus). If earnings confirm or raise that trajectory, add to reach 1.5\u20132.0x benchmark in tranches over the subsequent weeks; if guidance is cut or the PBM regulatory overhang hardens, hold at reduced weight and reassess. Time horizon: 3 months.\n\n**Investment Thesis**: The debate centers on UNH's asymmetric opportunity versus unresolved technical and regulatory risks. The aggressive case for an aggressive Buy rests on the forward P/E of 18.47x versus a trailing 31.25x, the 0.63 beta, 2.24% dividend, and the view that the December sell-off from ~$586 to a $467 low already prices in the PBM regulatory overhang given a zero-headline news vacuum. The conservative analyst correctly counters that the stock sits below the 10-day EMA ($502.50), 50-day SMA ($532.67), and 200-day SMA ($517.84), that the recent $523\u2192$490 reversal erased half the bounce in two sessions, that the $467.52 low is a single data point with no support until the $430s, and that a gap-through scenario on adverse legislation bypasses any stop. The neutral analyst provides the decisive synthesis: the valuation discount is real and worth acting on, but the risk is asymmetric unless the initial position is deliberately small and scaling is gated on a fundamental catalyst rather than price alone. I adopt the neutral framework\u2014the 0.5x starter at \u2264$490 with a $465 stop (just under the December low) limits downside to roughly 4-5% while preserving the upside to a re-test of $532 (50-day, ~8%) or $585 (December high, ~20%). The decision to add toward 1.5-2.0x benchmark is made conditional on earnings confirming the $22.44 forward EPS trajectory; this avoids both the aggressive analyst's falling-knife scaling below $467 and the conservative analyst's over-rigid wait for a technical reclaim that may never come before the re-rating. The PBM regulatory overhang is the single biggest swing factor and must be monitored closely as the catalyst timeline approaches.\n\n**Price Target**: 532.0\n\n**Time Horizon**: 3 months"
+}

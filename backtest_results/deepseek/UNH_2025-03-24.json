@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-03-24",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-03-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.3,
+    "mean_max_drawdown_pct": -14.57,
+    "p95_worst_drawdown_pct": -27.27,
+    "p99_worst_drawdown_pct": -33.96,
+    "est_annualized_vol_pct": 29.6,
+    "spot_price": 499.48,
+    "expected_return_pct": 1.0,
+    "median_return_pct": 0.17,
+    "return_vol_pct": 15.03,
+    "risk_free_pct_horizon": 1.046,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 504.46,
+    "price_p5": 388.42,
+    "price_p95": 635.05,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at existing weight with no additions at the $499 level, given the $500 psychological resistance and the absence of fresh catalysts. Keep the stop at $455 and set an alert at $475 for reassessment. Add 10-15% only on a confirmed close above $510 on volume of at least 15 million shares, and cut to Underweight if forward EPS guidance ($22.44) is revised downward. Time horizon is 3 months.\n\n**Investment Thesis**: The debate confirms a genuinely balanced risk-reward that warrants a Hold, not a conviction call in either direction. The bull case is anchored in real technicals: UNH has recovered 12.4% off the February low, remains above both the 10 EMA ($485.76) and 50 SMA ($491.84), and the forward PE of 18.47 versus a trailing 31.25 shows the market has discounted the guidance-induced decline. The 0.633 beta and $22.76B free cash flow provide defensive, fundamental backstops. However, the bear's concerns are equally legitimate and cannot be dismissed: the 3.14% profit margin is thin and highly sensitive to claims spikes or Medicare rate adjustments; the Current Ratio of 0.777 means current liabilities exceed current assets with no cushion in a stressed scenario; and the unresolved regulatory overhang on Optum's PBM business is a live downside option that no chart can price. The forward EPS expectation of $22.44 represents a 69% jump from the trailing $13.26 and is the linchpin\u2014management's February guidance miss triggered the crash, so this assumption carries material revision risk. The neutral analyst correctly identifies that the risk-reward is inverted asymmetry at current levels: upside to $515 is ~3%, while downside to the $455 stop is ~9% from entry, and the stock is stalling at $499.48 just below the $500 wall with zero volume confirmation and an empty news feed. The prior lesson from this debate is to respect both the technical recovery and the idiosyncratic regulatory/guidance risks. The correct posture is to hold the existing position, keep a $455 stop (not $465, which sits inside normal daily noise given the stock just swung from $444 to $499 in a month), set a $475 alert to trigger reassessment, add 10-15% only on a confirmed break above $510 with 15M+ volume, and immediately cut to Underweight if forward guidance is revised below $22.00 given the criticality of that number.\n\n**Price Target**: 515.0\n\n**Time Horizon**: 3 months"
+}

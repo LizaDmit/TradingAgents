@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-12-15",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-12-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.56,
+    "mean_max_drawdown_pct": -21.48,
+    "p95_worst_drawdown_pct": -42.93,
+    "p99_worst_drawdown_pct": -52.54,
+    "est_annualized_vol_pct": 49.9,
+    "spot_price": 336.55,
+    "expected_return_pct": 3.23,
+    "median_return_pct": 1.82,
+    "return_vol_pct": 25.18,
+    "risk_free_pct_horizon": 0.885,
+    "risk_free_available": true,
+    "return_over_risk": 0.093,
+    "expected_price": 347.41,
+    "price_p5": 217.95,
+    "price_p95": 494.52,
+    "prob_loss": 0.471,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure in a staged fashion\u2014reduce roughly 25% of the position over the next 1-2 weeks, beginning with an initial 10-15% tranche at current levels (~$336) to lock in downside protection, then selling additional tranches into strength toward the $345-355 zone (the declining 200-day SMA area). Set a tight risk stop on any remaining position at $330 (below the recent consolidation and just under the 50-day SMA) rather than the wider $315 proposed by the trader, limiting the worst-case drawdown to roughly 2% from current prices. Time horizon: 3 months.\n\n**Investment Thesis**: The Underweight rating is grounded in the asymmetric risk profile that emerged from the analysts' debate, while respecting the genuine merits of the conservative and neutral rebukes. The bearish case rests on concrete, near-term catalysts: the live DOJ investigation into Optum's physician acquisitions, persistent and accelerating margin compression (operating income falling from $9.12B in Q1 to $8.62B in Q2 to $8.39B in Q3\u2014an 8% sequential decline\u2014while net margin sits at just 3.14% and operating margin at 7.13%), and a declining 200-day SMA at $348.16 with the stock 18% below it at $336.55. The 11% rally off the November low is technical momentum (MACD bullish cross, RSI 58.78) without a confirming fundamental catalyst, which the aggressive analyst correctly identifies as creating a favorable window for sellers into the $345-355 resistance zone.\n\nHowever, the neutral analyst's critique of execution is persuasive and must shape the final plan. The trader's proposed sale only at $345-355 is flawed because the stock is at $336.55\u2014if that rally never materializes before a DOJ headline, the plan collapses into a lower-price exit. Conversely, the conservative's full-hold position with a $320 stop leaves full exposure to an unquantified binary event and too-wide downside. The balanced resolution is therefore a staged trim: an initial ~10-15% reduction now to hedge the regulatory downside, additional sells bracketing the $345-355 zone and the 200-day SMA, and a tighter stop at $330 to cap downside near 2% from current levels. The forward P/E of 18.47 versus trailing 31.25 does imply some cheapness and a genuinely dominant franchise, which prevents a full Sell\u2014but the market is explicitly discounting the $22.44 forward EPS because the near-term catalysts (DOJ, MLR pressure, hawkish Fed under Warsh) are more concrete than the upside scenario (operating leverage materialization). Reducing exposure now preserves capital while retaining upside optionality if the technical recovery confirms on a breakout of the 200-day SMA on strong volume.\n\n**Price Target**: 330.0\n\n**Time Horizon**: 3 months"
+}

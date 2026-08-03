@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-05-05",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-05-05",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -14.15,
+    "mean_max_drawdown_pct": -17.18,
+    "p95_worst_drawdown_pct": -36.66,
+    "p99_worst_drawdown_pct": -46.99,
+    "est_annualized_vol_pct": 39.4,
+    "spot_price": 391.47,
+    "expected_return_pct": 1.95,
+    "median_return_pct": 1.89,
+    "return_vol_pct": 19.36,
+    "risk_free_pct_horizon": 1.052,
+    "risk_free_available": true,
+    "return_over_risk": 0.046,
+    "expected_price": 399.11,
+    "price_p5": 274.7,
+    "price_p95": 523.08,
+    "prob_loss": 0.457,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at $391.47 with no new capital deployment and no aggressive trimming. Set a hard stop-loss near $370 (approximately 5.5% below current price) while acknowledging gap risk on idiosyncratic catalysts such as a DOJ escalation on Optum or a Medicare Advantage rate announcement. Reinvest dividends and wait for confirmation \u2014 either stabilization of forward EPS above $22, a technical reclaim of the 10-day EMA around $411 on volume, or a clean resolution of the regulatory overhang \u2014 before upgrading to Overweight or trimming to Underweight over the 3-month horizon.\n\n**Investment Thesis**: The debate between the Aggressive, Conservative, and Neutral analysts converges on a genuine standoff with no decisive edge for either side. On the bull side, UNH trades at an 18.47x forward P/E against a historical 20-22x range, carries a 2.24% dividend yield, a low beta of 0.63, and sits 25% below the 200-day SMA after a 26% drawdown with a stabilization between $386 and $398 suggesting some seller exhaustion. The valuation is constructive, and the absence of fresh negative news in the institutional feed over the past week removes immediate downside catalysts. However, the bear case remains compelling: the forward EPS of $22.44 implies a ~69% jump from TTM EPS of $13.26 with no fundamental evidence yet of medical loss ratio normalization, margin recovery, or a favorable resolution of the Optum regulatory scrutiny. The technical structure is unambiguously broken \u2014 price below the 10-, 50-, and 200-day moving averages with a death cross intact, and RSI near 28 without a confirmed reversal. Critically, the Conservative analyst's warning that the $370 stop could be gapped through in a single session by a DOJ or rate announcement is a legitimate risk that cannot be dismissed. The Neutral analyst correctly notes that neither adding on a 10-EMA reclaim (Aggressive) nor trimming into a bounce to the low-$400s (Conservative) is justified without fundamental confirmation. The forward estimates have not been revised upward, and there has been no dividend cut or guidance reduction \u2014 but there has also been no positive catalyst to re-rate the stock. With a 4:1 upside/downside skew contested against real binary regulatory and reimbursement risks, the evidence supports maintaining the position, collecting the dividend, and requiring confirmation before committing new capital or reducing exposure. The risk/reward is balanced but not extreme enough to justify action in either direction over the 3-month forward window.\n\n**Price Target**: 410.0\n\n**Time Horizon**: 3 months"
+}

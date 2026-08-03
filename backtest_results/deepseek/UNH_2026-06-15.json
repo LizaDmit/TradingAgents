@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-06-15",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-06-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -16.08,
+    "mean_max_drawdown_pct": -18.28,
+    "p95_worst_drawdown_pct": -36.1,
+    "p99_worst_drawdown_pct": -44.76,
+    "est_annualized_vol_pct": 40.9,
+    "spot_price": 411.04,
+    "expected_return_pct": 1.96,
+    "median_return_pct": 0.72,
+    "return_vol_pct": 20.32,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": 0.052,
+    "expected_price": 419.11,
+    "price_p5": 290.85,
+    "price_p95": 564.01,
+    "prob_loss": 0.486,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at ~$411.04 without adding or trimming. Respect the conditional buy trigger at $415.59 that requires confirmed above-average volume before any incremental accumulation. Use a $395 stop (below the 10 EMA at $400) to protect against breakdown, and reassess if the stock closes decisively below the 50 SMA (~$364) or if the forward EPS projection of $22.44 is revised downward. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on HOLD, but for disciplined rather than passive reasons. The Aggressive Analyst's case rests on the technical golden alignment (price > 10 EMA > 50 SMA > 200 SMA) and the proximity of price ($411.04) to the $415.59 breakout trigger, framing the setup as a coiled spring with asymmetric upside to the $461.62 high. However, the sentiment report shows a 5.0/10 neutral score with LOW confidence and zero fresh news catalyst\u2014as the Neutral Analyst correctly notes, there is no narrative driving accumulation, and volume on the push from $403 to $411 has been unremarkable, undermining the claim of institutional accumulation. The Conservative Analyst's warning about downside is valid in magnitude (a 10 EMA failure could cascade toward the 50 SMA at $364) but overstated in immediacy, as the Neutral Analyst points out that such a 12% gap requires a fundamental shock, not just technical failure. The forward EPS jump from $13.26 to $22.44 (~69%) remains unverified with no identifiable catalyst\u2014a genuine risk that argues against aggressive accumulation. The balanced conclusion: hold the full position with an explicit risk framework. Set the stop at $395 (below the 10 EMA, and a close below on above-average volume is a real signal rather than noise), do not chase any initial volume-confirmed break of $415.59 (wait for a pullback to $410 or the breakout level to add no more than 15% incrementally), and monitor the earnings report for confirmation of the EPS trajectory. A decisive break below the 50 SMA (~$364) would invalidate the bullish structure and warrant a reduction to Underweight. The 0.633 beta and 2.24% dividend yield provide defensive characteristics during the flagged macro volatility (Iran conflict, Fed transition), supporting the hold rather than an exit, but the unproven fundamentals and overbought RSI (70.24) in a name 11% below its high preclude adding ahead of confirmation.\n\n**Price Target**: 461.62\n\n**Time Horizon**: 3 months"
+}

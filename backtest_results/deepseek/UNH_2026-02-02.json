@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-02-02",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-02-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.83,
+    "mean_max_drawdown_pct": -22.83,
+    "p95_worst_drawdown_pct": -45.42,
+    "p99_worst_drawdown_pct": -55.25,
+    "est_annualized_vol_pct": 53.9,
+    "spot_price": 281.78,
+    "expected_return_pct": 3.82,
+    "median_return_pct": 2.03,
+    "return_vol_pct": 26.83,
+    "risk_free_pct_horizon": 0.895,
+    "risk_free_available": true,
+    "return_over_risk": 0.109,
+    "expected_price": 292.53,
+    "price_p5": 175.58,
+    "price_p95": 425.29,
+    "prob_loss": 0.471,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce UNH exposure by approximately 20\u201330% using staged limit orders into strength rather than dumping at current levels. Trim 10% near $290, another 10% near $300, and the final 10% near $310 if the bounce materializes; if the stock closes below the $278 stop, execute the full reduction regardless of price to protect capital against a move toward the $260\u2013$270 zone. Maintain the core position (70%+) to preserve franchise value, the 2.24% dividend yield, and upside if the Medicare Advantage regulatory overhang resolves more moderately than feared. Re-evaluate toward a constructive stance only if UNH reclaims and holds the 50-day SMA (~$320).\n\n**Investment Thesis**: The risk-analyst debate converges on the trader's Underweight thesis, anchored in specific evidence. The 19.6% single-day collapse from $346.95 to $278.93 is a genuine repricing event reflecting institutional de-risking around the Medicare Advantage reimbursement overhang\u2014regulatory scrutiny that directly threatens the $22.44 forward EPS estimate underpinning the seemingly cheap 18.47x forward multiple (versus 31.25x trailing). The technical regime is unambiguously bearish: price sits below the 10-day EMA ($305.16), 50-day SMA, and 200-day SMA with a failed reclaim attempt, and the stock is ~31% below its 50-day average and ~39% below its 52-week high. The macro backdrop (hawkish Fed transition under Warsh, inflation near 4%, recession chatter) does not favor a rapid recovery in a politically exposed healthcare name.\n\nHowever, the aggressive analyst's push for a 40% reduction and the conservative analyst's \"hold 80%\" stance both misread the evidence. The $22.44 forward EPS estimate still stands as of Feb 2, 2026; the forward P/E already embeds substantial pessimism. UNH retains a dominant franchise\u2014$376B market cap, 0.633 beta (37% less volatile than the market), 2.24% dividend yield, and an integrated Optum platform\u2014so a full exit would crystallize losses and forfeit income on a defensive asset at the worst possible moment. The conservative analyst's stop at $278 (1.3% below price) is unrealistic for a low-beta stock, while the aggressive analyst's downside target of $236 is worst-case extrapolation, not probability-weighted analysis.\n\nThe decisive path is the neutral analyst's staged 30% trim: place limit orders to reduce 10% at $290, 10% at $300, and 10% at $310 to de-risk into strength, with a hard rule to execute the full reduction if $278 breaks on a closing basis\u2014protecting against the $260\u2013$270 downside while preserving 70% of a quality franchise for the regulatory resolution. This honors bearish technicals without capitulation, and leaves dry powder if the stock falls further while retaining upside exposure if it stabilizes.\n\n**Price Target**: 310.0\n\n**Time Horizon**: 3 months"
+}

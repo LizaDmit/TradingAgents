@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-01-13",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-01-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.5,
+    "mean_max_drawdown_pct": -13.57,
+    "p95_worst_drawdown_pct": -25.06,
+    "p99_worst_drawdown_pct": -31.3,
+    "est_annualized_vol_pct": 27.7,
+    "spot_price": 521.08,
+    "expected_return_pct": 0.93,
+    "median_return_pct": 0.21,
+    "return_vol_pct": 13.74,
+    "risk_free_pct_horizon": 1.054,
+    "risk_free_available": true,
+    "return_over_risk": -0.009,
+    "expected_price": 525.92,
+    "price_p5": 415.68,
+    "price_p95": 650.29,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at market-weight (~2-3% of portfolio) through the Q4 earnings catalyst. Do not add before confirmation and do not trim into an 11% recovery at a reasonable ~18.5x forward multiple. Execute explicit conditional triggers: upgrade to Overweight on a sustained close above the 50-day SMA (~$535) on strong volume for 2-3 sessions, or on a Q4 beat-and-raise with stable medical loss ratio; downgrade to Underweight if the stock breaks below the December low (~$467) or on Medicare Advantage/MLR guidance disappointment. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate is genuinely balanced, and neither the bull nor the bear case decisively wins, which is exactly the circumstance where a disciplined Hold is warranted. The Aggressive Analyst's strongest points stand on legitimate evidence: the forward P/E of 18.47x (vs. a trailing 31.25x distorted by one-time cyberattack charges) implies a realistic recovery trajectory for a defensive healthcare compounder, the 11% recovery off the December low with a rising 10 EMA at ~$500 shows short-term constructive momentum, and UNH's 13-of-15 quarter earnings beat record is not irrelevant even under operational stress. However, the Aggressive call to go overweight at 5-6% before the Q4 catalyst is speculative \u2014 it requires buying before technical confirmation while the stock remains below a declining 50-day SMA (~$535), and it treats a 20% drawdown as proof the DOJ/antitrust overhang on Optum's vertical integration is \"priced in,\" when that drawdown could equally reflect repricing for slower growth under regulatory scrutiny. The Conservative Analyst correctly identifies that the DOJ overhang is a structural, persistent risk that could extend 18-24 months with any escalation (subpoenas, formal complaints), that an information vacuum in sentiment data is not a bullish signal but a neutral one where price follows the mixed technicals, and that a market-weight cap of 2-3% limits downside to roughly 0.3% of portfolio assets \u2014 a professionally managed loss versus a 0.6-0.7% hit at overweight. The Neutral Analyst's synthesis is the most rigorous: this is neither the time to flee (the franchise has fortress economics, dual growth engines in UnitedHealthcare and Optum, and the forward multiple is reasonable for the quality) nor the time to aggressively add (the Q4 print is the first real test of guidance through cyberattack recovery and possible MLR deterioration, under an active antitrust cloud and a potentially hawkish Fed leadership shift). The correct posture is a conditional hold at market weight with explicit triggers: upgrade above ~$535 on sustained volume (reclaiming the medium-term trend) or on a Q4 beat-and-raise with stable MLR and forward guidance confirming double-digit growth across both segments; downgrade below ~$467 or on Medicare Advantage funding/MLR deterioration. This respects the genuine asymmetry in the technical and catalyst risk space without sacrificing exposure to a high-quality compounder at a reasonable valuation.\n\n**Price Target**: 535.0\n\n**Time Horizon**: 3 months"
+}

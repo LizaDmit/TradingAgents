@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-04-28",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-04-28",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.88,
+    "mean_max_drawdown_pct": -17.0,
+    "p95_worst_drawdown_pct": -36.55,
+    "p99_worst_drawdown_pct": -47.1,
+    "est_annualized_vol_pct": 39.3,
+    "spot_price": 406.16,
+    "expected_return_pct": 1.81,
+    "median_return_pct": 2.0,
+    "return_vol_pct": 19.04,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.04,
+    "expected_price": 413.5,
+    "price_p5": 286.2,
+    "price_p95": 539.09,
+    "prob_loss": 0.458,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at or below strategic weight without adding new exposure or exiting. Hold through the current consolidation, keeping the stop tightened to approximately $390 to cap downside risk while awaiting a confirmed catalyst. Re-entry trigger remains a close above the 10 EMA (~$445) on volume of at least 20M shares or a favorable CMS 2026 rate announcement; a decisive break below $390 on a confirmed regulatory/CMS negative catalyst warrants trimming toward Underweight.\n\n**Investment Thesis**: The debate reinforces a balanced HOLD. The aggressive analyst correctly identifies UNH's durable moat: $450B revenue, $22.8B free cash flow, 2.24% dividend yield, and a forward P/E near 18x that reflects a one-time $8.31B charge rather than eroded earnings power. However, the bearish technical picture is decisive\u2014price sits 8.8% below the 10 EMA, 15.9% below the 50 SMA, and 22.8% below the 200 SMA following a 22.4% single-day crash on 29.1M shares (triple normal volume). That move represented informed institutional repricing of live PBM regulatory risk and CMS reimbursement uncertainty, not mere panic. The neutral analyst correctly cuts through both extremes: stabilization at $406 is not accumulation, low-confidence neutral sentiment (5.0) is an information vacuum rather than a contrarian buy signal, and there is no evidence of institutional buying since the crash. The aggressive case for buying at $406 with a $344 stop risks a 15% drawdown for limited near-term upside\u2014an unfavorable risk profile while price remains below all key moving averages in a bearish structure. Yet the conservative call for a full exit is equally unjustified given UNH's franchise quality, structural healthcare demand, and fundamental floor from FCF and dividend. The asymmetric exposure must be managed actively: maintain the position, tighten risk to roughly $390, and add only on volume-confirmed technical reclaim or a definitive favorable CMS outcome. This respects the technical breakdown while preserving optionality on a franchise-quality asset.\n\n**Price Target**: 445.0\n\n**Time Horizon**: 3 months"
+}

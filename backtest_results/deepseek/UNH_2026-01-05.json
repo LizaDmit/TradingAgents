@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-01-05",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-01-05",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.66,
+    "mean_max_drawdown_pct": -21.59,
+    "p95_worst_drawdown_pct": -43.32,
+    "p99_worst_drawdown_pct": -53.47,
+    "est_annualized_vol_pct": 49.6,
+    "spot_price": 337.45,
+    "expected_return_pct": 2.74,
+    "median_return_pct": 1.54,
+    "return_vol_pct": 24.93,
+    "risk_free_pct_horizon": 0.879,
+    "risk_free_available": true,
+    "return_over_risk": 0.074,
+    "expected_price": 346.68,
+    "price_p5": 215.73,
+    "price_p95": 490.84,
+    "prob_loss": 0.475,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a moderate tranche of UNH at current levels (~$337.45) with a disciplined scale-in approach, rather than a 50% upfront commitment. Start at roughly 30% of the intended position with a stop-loss just below the consolidation zone around $305, then add on either a confirmed sustained close above the 200-day SMA (~$338.86) or a pullback toward $310-$315 on declining volume. Time horizon is 3 months with a price target near $370.\n\n**Investment Thesis**: The analysts present a coherent debate, and the weight of evidence supports constructive but disciplined positioning rather than all-in aggression. The Bull case is grounded in undeniably compelling fundamentals: forward P/E of 18.47x on consensus forward EPS of $22.44 (a ~69% recovery from the $13.26 trough), a low beta of 0.633, a 2.24% dividend, and the durable Optum vertical-integration moat across care delivery, data, and pharmacy benefits. The stock has stabilized above the 10-day EMA ($328.57) and 50-day SMA ($326.33), is just $1.41 below a still-declining 200-day SMA, and holds a ~27% discount to its 52-week high. Both the neutral and conservative analysts correctly caution that the 200-day and 50-day SMAs remain downward-sloping, so the long-term trend is not yet confirmed \u2014 this argues against a 50% upfront tranche. However, the conservative analyst's demand to wait for the 200-day to flatten is excessive; as the neutral analyst notes, that lagging indicator would force entry well above current levels. The macro tailwind of defensive rotation into healthcare and the absence of any fresh UNH-specific negative catalyst in the Dec 15\u2013Jan 5 window support the constructive stance, while the unresolved DOJ/antitrust scrutiny of Optum and the unproven earnings-recovery assumption are the key risks that justify scaling in rather than buying aggressively. The conviction is Overweight: build exposure gradually, respecting that the earnings recovery toward ~$22 forward EPS and the multiple re-rating are the core thesis, but manage the still-hostile long-term technical and regulatory overhangs through disciplined position sizing and a defined stop.\n\n**Price Target**: 370.0\n\n**Time Horizon**: 3 months"
+}

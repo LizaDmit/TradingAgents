@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-06-09",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-06-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.14,
+    "mean_max_drawdown_pct": -20.11,
+    "p95_worst_drawdown_pct": -41.3,
+    "p99_worst_drawdown_pct": -51.48,
+    "est_annualized_vol_pct": 46.8,
+    "spot_price": 293.2,
+    "expected_return_pct": 2.83,
+    "median_return_pct": 2.3,
+    "return_vol_pct": 23.27,
+    "risk_free_pct_horizon": 1.06,
+    "risk_free_available": true,
+    "return_over_risk": 0.076,
+    "expected_price": 301.51,
+    "price_p5": 191.94,
+    "price_p95": 415.97,
+    "prob_loss": 0.462,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a scaled Buy into UNH at current levels (~$293), deploying at most 25% initially, with subsequent tranches on pullback toward $275\u2013280 and confirmed breakout above $300. Set a hard stop at $250 and stage profit-taking at $315\u2013320, $335\u2013340, and $350+ to capture the asymmetric recovery while protecting against binary regulatory risk. Target a 1.5\u20132.0x benchmark weight over a 3-month horizon.\n\n**Investment Thesis**: The debate centers on whether UNH's 36% drawdown from $461 to ~$293 represents a structural de-rating or a structural mispricing. The aggressive analyst correctly identifies a favorable asymmetry: forward P/E of 18.5, PEG of 1.34, a 2.24% dividend yield now competitive with 10-year Treasuries, and a 0.63 beta that offers defense in a hawkish Fed (Warsh) environment. The conservative analyst rightly warns that the PBM/regulatory overhang (FTC, state AGs, Congress on Optum) is unresolved and that the declining 50-SMA at $395 means momentum remains negative \u2014 a stop at $255 risks gapping through on a bad regulatory headline. The neutral analyst provides the most credible synthesis: the TTM P/E of 31.25 reflects depressed one-time charges and legal reserves, while the 18.47 forward multiple is anchored to management guidance and consensus, not fantasy. The flattening 10-EMA (from $296.69 to $293.19 with price at parity $293.20) suggests basing, but zero company-specific headlines and unavailable sentiment data mean there is no confirming catalyst. The realistic base case is a negotiated PBM settlement (10\u201315% margin hit) rather than binary dismantlement \u2014 a scenario not fully priced at $293. Adopting the neutral analyst's structure (25/30/45 scale-in, $250 stop, staged targets) delivers roughly 2.2:1 to 3:1 reward-to-risk while capping structural downside at ~15%, and the growing dividend provides carry while the thesis plays out over the 3-month horizon. This supports an Overweight rating \u2014 constructive and additive but not full conviction given unresolved binary regulatory risk.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

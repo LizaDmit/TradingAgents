@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-09-15",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-09-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.2,
+    "mean_max_drawdown_pct": -22.14,
+    "p95_worst_drawdown_pct": -43.63,
+    "p99_worst_drawdown_pct": -54.04,
+    "est_annualized_vol_pct": 50.9,
+    "spot_price": 340.95,
+    "expected_return_pct": 2.93,
+    "median_return_pct": 1.66,
+    "return_vol_pct": 25.14,
+    "risk_free_pct_horizon": 0.975,
+    "risk_free_available": true,
+    "return_over_risk": 0.078,
+    "expected_price": 350.93,
+    "price_p5": 218.39,
+    "price_p95": 498.59,
+    "prob_loss": 0.473,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a phased UNH position at ~$340, starting with 2% of the portfolio and a stop at $300. Add the remaining 1-2% either on a confirmed close above the 200-day SMA (~$345) on above-average volume or on a pullback to the $310-$315 zone with stabilization. Target $380-$410 over the 3-month horizon, with a hard reassessment trigger if price breaks below $300. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a disciplined buy that respects the genuine technical and fundamental tensions. The bull case is anchored in real data: the forward P/E of 18.47 versus trailing 31.25 implies forward EPS of $22.44 against $13.26 trailing, and the stock has decisively broken the 50-day SMA (~$285) and rallied 19% off the $236 low to ~$340 with a beta of 0.63 and a 2.24% dividend. The bear's concerns are also legitimate and specific: the stock remains below the 200-day SMA at $345 (institutional cost-basis overhead supply), RSI is overbought, and the forward EPS estimate of $22.44 is an assumption\u2014not a contract\u2014that could deteriorate if PBM reform (OptumRx), medical loss ratios, or utilization costs disappoint. However, the bear overstates the risk: much of the regulatory fear is already reflected in the 48% drawdown from $461, the world affairs backdrop includes a pro-deregulation Fed chair transition (a tailwind for managed care), and no new negative catalysts have emerged since the $236 capitulation low. The neutral analyst's phased-entry framework is the strongest synthesis: buy 2% now at $340 with a stop at $300 (just above the 50-day SMA, wide enough to avoid whipsaws), then add 1-2% on either a confirmed close above $345 on volume or a pullback toward $310-$315. This preserves participation in a defensive leader at a reasonable ~18.5x forward multiple while defining maximum downside to ~12% on a small initial position. Buying the full 3-5% into immediate overhead resistance at $345 is poor timing, but full avoidance forfeits a constructive setup in a quality compounder with clear technical momentum. The Overweight rating reflects a favorable outlook with gradual exposure increase, consistent with the phased approach over the 3-month window.\n\n**Price Target**: 380.0\n\n**Time Horizon**: 3 months"
+}

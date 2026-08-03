@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-05-04",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-05-04",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.72,
+    "mean_max_drawdown_pct": -21.09,
+    "p95_worst_drawdown_pct": -40.98,
+    "p99_worst_drawdown_pct": -50.52,
+    "est_annualized_vol_pct": 48.0,
+    "spot_price": 368.64,
+    "expected_return_pct": 2.73,
+    "median_return_pct": 1.01,
+    "return_vol_pct": 24.42,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": 0.075,
+    "expected_price": 378.7,
+    "price_p5": 244.29,
+    "price_p95": 535.11,
+    "prob_loss": 0.483,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH positions at ~$368.64. Do not add aggressively given the active DOJ Medicare Advantage investigation, hawkish Fed transition, and asymmetric risk/reward (8-10% upside to $400+ vs. 15-18% downside to $300 support). Underweight investors may begin a tiered starter position\u2014half at market, half on any pullback toward $330-340\u2014and set a volatility-adjusted stop at ~$345-356 (just below the 10 EMA at $355.99) rather than the wide $310 level. Reassess toward Overweight only if the stock breaks and holds above $410-420 on high volume or a DOJ settlement de-risks the forward EPS estimate.\n\n**Investment Thesis**: The evidence is genuinely balanced, and neither the Aggressive nor the Conservative analyst makes an overwhelming case for a full Buy or Sell. The Bull's case rests on a forward P/E of 18.47x, a PEG of 1.28, and confirmed bullish technical alignment (price $368.64 above the 10 EMA at $355.99, 50 SMA at $300.71, and 200 SMA at $310.61), plus the durable Optum moat and defensive low beta of 0.633. The Bear's case is equally valid: the DOJ investigation into Medicare Advantage billing is an active, open-ended liability that the research report itself says could impair forward EPS estimates of $22.44; the stock remains ~20% below its 52-week high of $461.62 while the market trades near highs\u2014a divergence the market is signaling; and a hawkish Fed under Warsh raises healthcare input cost inflation that directly pressures the medical loss ratio while compressing multi-asset valuations. The Neutral analyst correctly identifies that the 15% stop at $310 is too wide and that the honest market state is somewhere between a worst-case DOJ outcome and a clean settlement. The blended risk/reward is not favorable for adding aggressively: ~8-10% upside versus 15-18% downside. However, UNH is a quality franchise with a structurally growing Optum segment that lacks the same Medicare Advantage billing exposure, making it a reasonable defensive core holding. The appropriate posture is a disciplined Hold\u2014maintain positions, avoid aggressive adds above $350, and use a tighter invalidation level to protect capital while preserving participation in the genuine multi-timeframe uptrend. Key catalysts to monitor are DOJ resolution/updates, CMS final Medicare Advantage rate rules, and next-quarter medical loss ratio trends.\n\n**Price Target**: 400.0\n\n**Time Horizon**: 3 months"
+}

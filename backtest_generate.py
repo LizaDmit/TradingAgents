@@ -85,6 +85,6 @@ if __name__ == "__main__":
     # Multi-ticker extension (log 35). Run ONE ticker per invocation - three in a single
     # loop is ~7.5h unattended and will cross midnight, which triggers the cache-filename
     # rollover (34g) into a possibly rate-limited Yahoo. Commit between tickers.
-    generate("deepseek", start="2025-01-06", num_weeks=78, ticker="XOM")
-    # generate("deepseek", start="2025-01-06", num_weeks=78, ticker="UNH")
+    # generate("deepseek", start="2025-01-06", num_weeks=78, ticker="XOM")
+    generate("deepseek", start="2025-01-06", num_weeks=78, ticker="UNH")
     # generate("deepseek", start="2025-01-06", num_weeks=78, ticker="JPM")

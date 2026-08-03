@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-04-06",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-04-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.93,
+    "mean_max_drawdown_pct": -22.93,
+    "p95_worst_drawdown_pct": -45.57,
+    "p99_worst_drawdown_pct": -55.04,
+    "est_annualized_vol_pct": 53.9,
+    "spot_price": 279.76,
+    "expected_return_pct": 3.5,
+    "median_return_pct": 1.82,
+    "return_vol_pct": 26.78,
+    "risk_free_pct_horizon": 0.906,
+    "risk_free_available": true,
+    "return_over_risk": 0.097,
+    "expected_price": 289.56,
+    "price_p5": 175.59,
+    "price_p95": 419.38,
+    "prob_loss": 0.477,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH position at or below benchmark weight without adding fresh capital. The stock trades at $279.76, just below a declining 50-day SMA at $281.43 and well below the 200-day at $306.67. Use a confirmed close above $281.43 on meaningful volume as the trigger to upgrade toward Overweight, and a break below $257.55 as the signal to trim. Time horizon: 3 months.\n\n**Investment Thesis**: UNH presents a genuinely balanced risk-reward profile at the current price of $279.76, and the evidence from the analysts' debate supports maintaining current positioning rather than adding or trimming. On the bullish side, the valuation is compelling: forward P/E of 18.47x, PEG of 1.28, forward EPS of $22.44 vs. depressed TTM of $13.26, a 2.24% dividend yield that provides a total-return floor, and a 0.633 beta for defensive rotation. The 8.6% bounce off the $257.55 low, with price above the rising 10 EMA at $272.37, offers some short-term momentum confirmation. However, the bearish counterarguments are equally substantive and cannot be dismissed. The ~70% implied EPS growth from $13.26 to $22.44 embeds an aggressive margin-recovery assumption that has no confirmed evidence, as elevated medical loss ratios and healthcare inflation may not mean-revert. The DOJ vertical-integration investigation into Optum and Medicare Advantage funding uncertainty represent genuine tail risk that the neutral analyst correctly notes cannot be assumed fully priced in. The technical structure remains broken\u2014price sits below both declining moving averages, and the 200-day at $306.67 is ~9.6% above while the stop at $257.55 is ~8% below, creating roughly symmetric risk-reward. The neutral sentiment at 5.0/10 confirms no decisive capitulation or euphoria, and the hawkish Fed transition under Kevin Warsh pressures all equity multiples even for defensive names. The trader's defined framework is the most defensible: maintain the position collecting the 2.24% dividend with sub-1 beta downside protection, hold the trigger of $281.43 for potential upside reassessment, and honor the $257.55 stop to invalidate the bounce thesis. The aggressive analyst's $410 target requires a fundamental re-rating with no current supporting evidence, while the conservative analyst's demand for full regulatory clarity would keep capital sidelined indefinitely in a company with intact competitive positioning. Holding preserves optionality in every scenario except a prolonged tight range, and even then the dividend and low beta provide compensation.\n\n**Price Target**: 281.43\n\n**Time Horizon**: 3 months"
+}

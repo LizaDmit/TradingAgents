@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-06-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-06-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -15.85,
+    "mean_max_drawdown_pct": -18.16,
+    "p95_worst_drawdown_pct": -36.34,
+    "p99_worst_drawdown_pct": -45.49,
+    "est_annualized_vol_pct": 40.8,
+    "spot_price": 377.7,
+    "expected_return_pct": 1.94,
+    "median_return_pct": 0.61,
+    "return_vol_pct": 20.4,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": 0.051,
+    "expected_price": 385.02,
+    "price_p5": 265.39,
+    "price_p95": 517.87,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain a benchmark-weight position in UNH at current levels without adding or trimming aggressively. Add on dips toward the $335 zone for underweight investors, with a hard technical stop at a close below the 200-day SMA ($322). Trim into the $398-400 resistance if the stock recovers there. Re-evaluate after the next quarterly earnings print to confirm forward EPS guidance near $22+.\n\n**Investment Thesis**: The debate resolves to a Hold because neither the bull nor bear case conclusively wins on the evidence. The bull's case rests on a compelling 18.47x forward P/E against a projected $22.44 forward EPS, a golden cross structure with higher lows, a defensive beta of 0.633, and the Optum vertical-integration moat\u2014all legitimate structural advantages. However, the bear correctly flags that the stock trades 18% below its 52-week high, that the massive TTM EPS ($13.26) to forward EPS ($22.44) gap implies a 69% growth assumption the market is explicitly discounting (reflected in the 18.47x multiple itself), and that Medicare Advantage reimbursement pressure plus regulatory scrutiny of Optum are real structural headwinds. Technically, the stock is below the 10-day EMA ($380.43) with a bearish MACD crossover, yet it remains above both the 50-day and 200-day SMAs with a healthy RSI of 57.36, confirming the bifurcated picture. The asymmetry between the $398-400 resistance overhead (~5-6% upside) and the $322 200-day SMA downside (~15%) is real but tempered by the fact the stock is already 17% above that long-term support and recently traded at $410 per the 50-day average. With quarterly earnings and regulatory headlines both binary and unpredictable, and the 2.24% dividend providing carry, the honest position is to hold at benchmark weight with defined tactical levels until the market resolves the forward-EPS question.\n\n**Price Target**: 398.0\n\n**Time Horizon**: 3 months"
+}

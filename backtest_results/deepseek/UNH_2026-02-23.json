@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-02-23",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-02-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -22.18,
+    "mean_max_drawdown_pct": -22.93,
+    "p95_worst_drawdown_pct": -45.23,
+    "p99_worst_drawdown_pct": -55.94,
+    "est_annualized_vol_pct": 53.6,
+    "spot_price": 278.57,
+    "expected_return_pct": 3.26,
+    "median_return_pct": 1.47,
+    "return_vol_pct": 26.59,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": 0.089,
+    "expected_price": 287.65,
+    "price_p5": 174.75,
+    "price_p95": 415.14,
+    "prob_loss": 0.478,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim 25-35% of the existing UNH position and do not initiate new longs at ~$278. Monitor two key levels: a close below $260 with volume confirms the bear case and warrants further trimming (toward SELL), while a reclaim and hold above the 50-day SMA (~$312) should trigger a re-review toward Hold/Overweight. The Q1 earnings report is the pivotal catalyst\u2014validate forward estimates before adding exposure. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a clear balance-of-evidence conclusion despite divergent reasoning. The decisive facts: (1) the unexplained 19.5% single-day gap-down on January 27 remains unaddressed by any analyst\u2014the bull never identified the cause (Medicare Advantage rate cuts, utilization spike, or regulatory shock), making it prudent to respect the market's repricing rather than assume it was temporary; (2) the forward P/E of 18.47x rests on a $22.44 forward EPS estimate that is stale and unverified post-shock, while the TTM EPS of $13.26 (trailing P/E ~21x on the current price) offers no confirmation of that growth trajectory; (3) the technical structure is genuinely broken\u2014price sits below the 10-day EMA ($282.99), 50-day SMA ($312.76), and 200-day SMA ($310.52) with the 50-day still sloping down 3.6% over 3.5 weeks. The one-sided risk-reward (1.6-4.1% upside toward $283-$290 versus 6.5% downside to the $260 stop) argues decisively against new longs. However, the Conservative and Neutral analysts correctly restrain the call from a full SELL: the stock has held a $264-$290 range for nearly a month, UNH is a cash-generative franchise with a 2.24% dividend and a defensive 0.633 beta, and the regulatory overhang (bipartisan PBM reform targeting Optum, the largest PBM) is real but has no concrete legislative text yet. The Neutral Analyst's tiered approach is sound\u2014trim at the higher end (35%), set a hard tiered stop ($264 then $260 on high volume with a fundamental catalyst), and reassess on either a validated Q1 earnings beat or a reclaim of the 50-day SMA. The absence of a fundamental catalyst confirming structural decline, combined with genuine technical damage and stale estimates, justifies an Underweight\u2014reduce exposure meaningfully but preserve a core position in a fundamentally sound franchise. Additional macro risk from the Fed leadership transition (Warsh) on investment income reinforces caution, but does not support liquidation.\n\n**Price Target**: 260.0\n\n**Time Horizon**: 3 months"
+}

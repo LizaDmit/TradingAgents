@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-08-25",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-08-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.93,
+    "mean_max_drawdown_pct": -21.79,
+    "p95_worst_drawdown_pct": -43.51,
+    "p99_worst_drawdown_pct": -52.96,
+    "est_annualized_vol_pct": 50.0,
+    "spot_price": 296.91,
+    "expected_return_pct": 3.11,
+    "median_return_pct": 1.5,
+    "return_vol_pct": 25.1,
+    "risk_free_pct_horizon": 1.023,
+    "risk_free_available": true,
+    "return_over_risk": 0.083,
+    "expected_price": 306.13,
+    "price_p5": 190.91,
+    "price_p95": 432.23,
+    "prob_loss": 0.475,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH position at ~$296.91 with no new additions. Set a clear technical trigger: if UNH reclaims and holds above the 200-day SMA (~$421.89) for 3+ consecutive sessions, upgrade to Overweight with incremental buying. Set a stop-review level near $236.95; if breached, reassess for potential trimming. Monitor forward EPS revisions\u2014a 10%+ cut to consensus estimates would materially weaken the valuation case.\n\n**Investment Thesis**: The analysts' debate converges on a Hold, but with distinct frames. The aggressive analyst's \"aggressive hold\" is a contradiction\u2014holding is not aggressive, and dismissing the 200-day SMA as a \"historical artifact\" ignores that institutional capital allocation rules hinge on that benchmark. UNH trades ~30% below its 200-day SMA ($296.91 vs $421.89), and six sessions above the 10-day EMA is a technical bounce off oversold conditions, not a regime change. The conservative analyst rightly flags that the 70% forward EPS growth assumption ($13.26\u2192$22.44) is exposed to live regulatory threats on the PBM/Optum model (Medicare Advantage prior auth, drug pricing caps, PBM rebate scrutiny), and a 3.14% trailing margin is a structural reality, not a dial to turn up. However, the bear oversells the downside: a 20% stop-loss distance vs 42% to the SMA is a normal recovery path for a high-quality, defensively-oriented business (beta 0.63, 2.24% yield, $450B revenue), and the 18.47x forward PE is not priced for disaster but for moderate recovery. With no UNH-specific negative catalyst in the data window, the absence of a sell trigger justifies patience. The correct posture is a conditional hold: maintain exposure, respect the stop, and let price action near the 200-day SMA and forward EPS revision trends\u2014not emotional projections\u2014dictate the next move. Neither a Buy nor a Sell is justified given the genuinely split evidence.\n\n**Price Target**: 421.89\n\n**Time Horizon**: 3 months"
+}

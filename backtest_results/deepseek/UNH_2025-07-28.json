@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-07-28",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-07-28",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.89,
+    "mean_max_drawdown_pct": -20.57,
+    "p95_worst_drawdown_pct": -41.93,
+    "p99_worst_drawdown_pct": -51.43,
+    "est_annualized_vol_pct": 47.0,
+    "spot_price": 274.76,
+    "expected_return_pct": 2.4,
+    "median_return_pct": 1.34,
+    "return_vol_pct": 22.94,
+    "risk_free_pct_horizon": 1.059,
+    "risk_free_available": true,
+    "return_over_risk": 0.058,
+    "expected_price": 281.35,
+    "price_p5": 180.98,
+    "price_p95": 388.78,
+    "prob_loss": 0.477,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by approximately one-third to reduce drag from a confirmed downtrend while preserving upside participation in the event of a mean-reversion bounce. Do not initiate new longs. Set a defined stop at $260 (below the 10 EMA of $279.32) on the remaining two-thirds rather than the wide $230 level. Reassess after the next 1-2 quarterly earnings reports confirm whether reported EPS tracks toward the $22.44 forward guidance. Re-entry trigger: 10-day EMA crossing above the 50-day SMA AND reclaiming $300 on volume.\n\n**Investment Thesis**: The debate converges on a pragmatic middle path rather than either extreme. The Aggressive Analyst correctly identifies the confirmed downtrend\u201410 EMA ($279.32) below 50 SMA ($291.73) below the sharply falling 200-day SMA ($450.32, declining from $476), with all averages stacked above price. The stock trades 39% below that 200-day average, and the 50 SMA dropped from $328 to $291 in four weeks, confirming persistent downward momentum with no stabilization signal. Capital efficiency argues for reducing exposure rather than hoping for a recovery.\n\nHowever, the Conservative and Neutral Analysts validly counter that the market has already priced in the Change Healthcare cyber breach and write-down. The forward P/E is roughly 12x (forward EPS of $22.44 at $274.76), the stock carries a 2.24% dividend yield and a defensive 0.63 beta, and there is zero fresh negative news in the trailing seven days\u2014no new lawsuits, downgrades, or regulatory actions. Selling the entire position into this information vacuum risks locking in losses at a possible local bottom, particularly given the market-cap scale of $376B and the note that the TTM P/E of 31x is an artifact of a non-cash write-down.\n\nThe balanced resolution is a partial trim: one-third of the position, as the trader proposed, but with a tightened stop at $260 rather than $230. The $260 level sits just below the 10 EMA and above the 52-week low ($236.95), defining a ~5% risk on the remaining position instead of leaving a 16% drawdown open. This respects the unambiguous short-term downtrend while acknowledging the unresolved provider-trust issues and reliance on management guidance that has already shown execution failures (Change Healthcare). UNH does not yet merit a full exit given its durable Optum moat, scale, and cheap forward multiple, but buying or holding full exposure into a declining technical structure with compromised data quality is premature. The stance is Underweight: trim, tighten risk, and wait for either technical stabilization or reported (not guided) earnings confirmation.\n\n**Price Target**: 260.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-06-16",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-06-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.09,
+    "mean_max_drawdown_pct": -20.19,
+    "p95_worst_drawdown_pct": -41.8,
+    "p99_worst_drawdown_pct": -51.86,
+    "est_annualized_vol_pct": 46.9,
+    "spot_price": 299.64,
+    "expected_return_pct": 2.67,
+    "median_return_pct": 2.05,
+    "return_vol_pct": 22.94,
+    "risk_free_pct_horizon": 1.062,
+    "risk_free_available": true,
+    "return_over_risk": 0.07,
+    "expected_price": 307.65,
+    "price_p5": 199.28,
+    "price_p95": 423.98,
+    "prob_loss": 0.465,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH positions by 20-30% into relief rallies within the $312-318 zone over the next 2-4 weeks, executing methodically rather than dumping at current levels. Maintain no more than 50% of full intended weight, with a two-tier downside trigger: close below $295 on elevated volume warrants an additional 10% trim, and a close below $286 forces reduction to a minimal position. Re-entry is contingent on the stock reclaiming and holding the 50-day SMA (~$374) on strong volume or a concrete stabilization of Medicare Advantage reimbursement policy. Do not redeploy proceeds into unproven sectors; hold cash or short-term treasuries until a confirmed higher low emerges on the daily chart.\n\n**Investment Thesis**: The debate converges on three structural realities that justify a cautious Overweight-to-Underweight posture. First, the technical picture is unambiguously broken: UNH trades at $299.64, 38.5% below its 200-day SMA of $488.31, cannot reclaim its 50-day SMA (~$374, a 24% rally away), and the May crash from ~$366 to ~$265 was a regime change, not a dip. The widening SMA gap is a death-spiral pattern, and sentiment data shows zero institutional news flow with a neutral 5.0/10 score\u2014there is no bid stepping in. Second, the structural headwinds are genuine and not single-event noise: Medicare Advantage margin compression directly pressures the company's most profitable segment, the regulatory environment (FTC, Congress) is actively hostile to Optum's vertical integration model, and higher-for-longer rates compress the present value of forward earnings. The bear's concerns on net margin and the earnings picture carry more weight than the bull's forward P/E of 18.47x, which relies on estimates ($22.44 forward EPS) the market is explicitly discounting\u2014evidenced by the stock's 31.25x trailing P/E and failure to recover. Third, however, the franchise quality argument is not without force: a 0.633 beta provides genuine portfolio ballast (a 10% market drawdown maps to only 6.3% in UNH), the dividend yield of 2.24% is backed by a decade-plus of increases, book value of $115.36, and the 52-week low of $236.95 sits 21% below current prices and has held for over a month\u2014institutional buyers did step in there. The asymmetry argument cuts both ways: selling $310-325 for an 8% gain versus a stop at $286 (4.5% below current) is roughly 1:1 at current levels, making a single hard stop vulnerable to the $50 daily moves seen in May. The balanced execution\u2014trim 20-30% into strength, maintain 50% weight, use two-tier downside triggers rather than a single hard stop, and hold proceeds defensively until a catalyst emerges\u2014optimizes risk-adjusted outcome given that neither a rally to $350 nor a collapse to $250 in 60 days can be concretely proven. Prior lessons reinforce capital preservation and disciplined execution over conviction in either direction when technical damage is this severe and regulatory outcomes remain undefined.\n\n**Price Target**: 325.0\n\n**Time Horizon**: 3 months"
+}

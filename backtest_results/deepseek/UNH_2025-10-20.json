@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-10-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-10-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.33,
+    "mean_max_drawdown_pct": -22.08,
+    "p95_worst_drawdown_pct": -43.17,
+    "p99_worst_drawdown_pct": -53.97,
+    "est_annualized_vol_pct": 50.5,
+    "spot_price": 357.21,
+    "expected_return_pct": 2.72,
+    "median_return_pct": 1.11,
+    "return_vol_pct": 25.3,
+    "risk_free_pct_horizon": 0.95,
+    "risk_free_available": true,
+    "return_over_risk": 0.07,
+    "expected_price": 366.92,
+    "price_p5": 229.34,
+    "price_p95": 521.75,
+    "prob_loss": 0.482,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at target weight with no fresh capital deployment at $357. Establish two upgrade triggers: a confirmed close above the 200-day SMA near $381.58 on above-average volume, and next earnings delivering EPS at or above the high end of guidance (~$22.44 forward path). Define a hard risk threshold at the 50-day SMA support near $323; a break below on volume warrants reducing exposure. Time horizon is 3 months, with the earnings report and 200-day reclaim as the decisive catalysts.\n\n**Investment Thesis**: The risk analysts' debate converges on a balanced, genuinely narrow risk-reward asymmetry that does not justify either aggressive accumulation or defensive trimming. The Aggressive Analyst's case\u2014front-running a \"golden cross,\" treating the 69% forward EPS gap ($13.26 TTM to $22.44 forward) as normalization, and dismissing 10.6% overextension above the 50-day SMA ($323) as a healthy trend feature\u2014is premature. Critically, the golden cross is not close: the 50-day at $323 sits nearly $60 below the declining 200-day at $381.58, requiring a further ~16% rally or a rapid MA collapse before confirmation. The Conservative Analyst's call to trim into strength is equally flawed: it locks in a loss of upside participation in a defensively positioned (beta 0.633, 2.24% yield) sector leader ahead of an earnings event that could resolve the entire directional debate, and it underweights the fact that the 50-day has acted as a reliable floor with the stock already recovered over 50% from the $236.95 low. The Neutral Analyst most accurately characterizes the situation: the 18.47x forward P/E with a 1.34 PEG is a reasonable valuation for UNH's diversification and Optum secular growth, the 31.25x trailing multiple is largely a mechanical artifact of a trough in earnings rather than pure froth, and the declining 200-day is resistance that is coming toward price\u2014not an immovable wall. However, upside to a 200-day reclaim ($381.58) is ~7% while downside to the 50-day stop ($323) is ~9.5%\u2014a coin flip with a slight negative tilt. Macro headwinds (hawkish Fed under Warsh raising discount rates, medical cost inflation compressing the medical loss ratio, CMS Medicare rate risk) are partially priced in after the fall from $461, but they remain live threats to the credibility of the $22.44 forward estimate. With social sentiment neutral, news flow silent, and no institutional catalyst, there is no fresh confirmation to justify adding. The correct position is Hold: maintain current weight, tighten the mental stop to the 50-day, and require one of two confirmations (200-day reclaim on volume, or earnings delivery at high-end guidance) before deploying fresh capital. A break below $323 on volume flips the operative scenario to value-trap risk and warrants downgrading to Underweight.\n\n**Price Target**: 381.58\n\n**Time Horizon**: 3 months"
+}

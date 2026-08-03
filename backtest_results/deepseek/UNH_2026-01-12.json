@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-01-12",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-01-12",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.96,
+    "mean_max_drawdown_pct": -21.61,
+    "p95_worst_drawdown_pct": -42.92,
+    "p99_worst_drawdown_pct": -52.6,
+    "est_annualized_vol_pct": 49.6,
+    "spot_price": 335.96,
+    "expected_return_pct": 2.99,
+    "median_return_pct": 1.4,
+    "return_vol_pct": 24.94,
+    "risk_free_pct_horizon": 0.883,
+    "risk_free_available": true,
+    "return_over_risk": 0.084,
+    "expected_price": 346.0,
+    "price_p5": 216.95,
+    "price_p95": 491.94,
+    "prob_loss": 0.478,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a scaled buy in UNH at current levels with a disciplined, staged entry. Start with a 2% position via limit orders in the $326-330 zone (near the 50-day SMA support), set a protective stop at $310 (below the recent swing low), and add toward 3-4% only on confirmation of the bullish signal \u2014 a close above $345 (Bollinger upper band) or the 200-day SMA flattening/turning up. Target a 3-month price objective of $355-365 while accepting a realistic 1.5:1 to 2:1 reward-to-risk rather than the aggressive $460 target.\n\n**Investment Thesis**: The decisive technical signals support initiating a position rather than standing aside. UNH has reclaimed the 200-day SMA at $334.89 (confirmed January 8th), the 10-day EMA sits above the 50-day SMA with the spread widening from 2.0 to 10.5 over three weeks (a golden cross in formation), and price is trading above all three key moving averages simultaneously \u2014 a structure not seen since the stock traded near $410. RSI at 54.85 sits in a prime continuation zone, leaving room before overbought. The forward P/E of 18.47x versus trailing 31.25x prices in meaningful earnings growth to $22.44 EPS, and the defensive beta of 0.633 makes UNH a ballast in the current high-volatility macro regime (new Fed chair, geopolitical shocks). The conservative analyst's concerns are legitimate \u2014 the 200-day SMA still slopes down, the sentiment data is degraded (low confidence, near-empty news feed), and gaps can blow through the $310 stop \u2014 but none reflect company-specific fundamental deterioration; there are no earnings warnings, regulatory actions, or negative headlines. The neutral analyst's synthesis is the most balanced and actionable: initiate now but smaller than the aggressive plan, scale only on confirmation, and respect that a $460 target (6:1 reward-to-risk) is overly optimistic. A realistic $350-360 near-term objective yields a respectable 1.5:1 to 2:1 reward-to-risk from a $330 entry with the $310 stop. Execution discipline matters: use limit orders near $326-330 rather than chasing, acknowledge the stop is not gap-proof, and commit full 4% only on a confirmed close above $345 or a 200-day SMA that has flattened. This captures upside participation from a genuine technical recovery while limiting downside to a manageable sub-1% portfolio hit even on a gap-through in a 2% position.\n\n**Price Target**: 360.0\n\n**Time Horizon**: 3 months"
+}

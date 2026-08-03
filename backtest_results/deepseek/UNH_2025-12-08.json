@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-12-08",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-12-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.34,
+    "mean_max_drawdown_pct": -22.02,
+    "p95_worst_drawdown_pct": -43.43,
+    "p99_worst_drawdown_pct": -53.46,
+    "est_annualized_vol_pct": 50.5,
+    "spot_price": 319.3,
+    "expected_return_pct": 2.86,
+    "median_return_pct": 1.43,
+    "return_vol_pct": 24.95,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": 0.078,
+    "expected_price": 328.43,
+    "price_p5": 204.15,
+    "price_p95": 467.14,
+    "prob_loss": 0.475,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at ~5% portfolio weight with no additions at the current price (~$319). Scale into the position only via tiered limit orders at $285 and $290 (half the intended add at each level), which bring forward P/E near 16.5x and create a genuine margin of safety. Hold a $260 review/stop line for the full position\u2014a roughly 19% buffer that aligns with the 0.63 beta\u2014and reassess at the next earnings call for MLR/cost-trend data and PBM regulatory developments. Trim a small portion if UNH rallies to $335\u2013$340 on strong volume.\n\n**Investment Thesis**: Synthesizing the debate, the Hold is the correct risk-adjusted stance. The Aggressive Analyst correctly identifies real value: a forward P/E of ~18.5x on projected EPS of $22.44, a 22% discount to the 50-day average, a defensive 0.63 beta, and a 2.24% dividend yield that pays us to wait. However, the Conservative Analyst correctly counters that the TTM P/E of 31.25x reflects unresolved medical cost trend inflation\u2014if MLR runs hot, the $22.44 forward EPS is revised down and the \"cheap\" multiple expands on declining earnings. The regulatory overhang on PBM spread pricing (OptumRx) is bipartisan and structural, not a fleeting headline, and the technical picture remains broken with price below the 10 EMA, 50 SMA ($351.18), and 200 SMA, with neutral sentiment at 5.0 showing indecision rather than exhaustion. The Neutral Analyst's synthesis is the most defensible: both the V-shaped recovery and the persistent-downtrend forecasts are speculative extremes. The risk/reward is genuinely balanced at $319\u2014with a 52-week range of $236.95\u2013$461, downside to the low (~26%) is roughly symmetric to upside toward the 50-day average (~28%). A disciplined Hold that preserves optionality through tiered scale-in orders at $285/$290 (where forward P/E drops to ~16.5x and asymmetry flips), a $260 review line protecting against thesis-break (catastrophic MLR or regulatory shock), and a trim zone near $335\u2013$340 on confirmed strength is the optimal way to be positioned, capped at 5%, and ready to act on evidence rather than narrative. The market is asking us to pay for a promised\u2014not delivered\u2014recovery amid unresolved structural headwinds; patience and price discipline are the edge until earnings confirm the $22+ trajectory or PBM risk moderates.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

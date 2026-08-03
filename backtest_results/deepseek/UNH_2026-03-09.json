@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-03-09",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-03-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.93,
+    "mean_max_drawdown_pct": -23.0,
+    "p95_worst_drawdown_pct": -45.51,
+    "p99_worst_drawdown_pct": -55.54,
+    "est_annualized_vol_pct": 53.7,
+    "spot_price": 283.55,
+    "expected_return_pct": 3.15,
+    "median_return_pct": 2.15,
+    "return_vol_pct": 26.48,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": 0.085,
+    "expected_price": 292.47,
+    "price_p5": 175.88,
+    "price_p95": 423.72,
+    "prob_loss": 0.469,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at benchmark/target weight near $283.55. Do not add given the unresolved Medicare star ratings overhang and the unproven $15.35 forward EPS recovery, but do not exit a high-quality franchise trading at a 12% discount to its historical forward P/E. Set disciplined two-sided triggers: upgrade to Overweight if Q1 2026 earnings confirm the recovery and price reclaims the 50-day SMA near $304; cut to Underweight if price breaks and sustains below the $280 support zone on volume (with the neutral analyst's refinement toward $275-$278 to account for intraday noise). Time horizon: 3 months, with CMS and FTC policy developments and April earnings as the key catalysts.\n\n**Investment Thesis**: The analysts converge on a Hold for UNH, and the balance of evidence supports this. The aggressive analyst builds a compelling case around franchise quality, Optum's vertical integration, demographic tailwinds, and a ~12% discount to historical forward P/E, correctly noting the 10 EMA has stabilized at $284.37 and downside momentum has faded after two bounces off $280 support. However, the conservative analyst lands critical counterpoints that cannot be dismissed: the TTM EPS of $9.05 represents a ~40% miss versus consensus, directly undermining confidence in the $15.35 forward estimate; the Medicare star ratings issue is externally controlled by CMS and has no confirmed remediation timeline, making it an unresolved risk rather than a clean one-time charge; the sentiment data is a genuine vacuum (no news feed, no StockTwits, one low-engagement Reddit post) rather than evidence of accumulation; and the technicals are decisively bearish \u2014 price below both the 50-day (near $304) and 200-day (near $308) SMAs with a death cross in place. The neutral analyst correctly identifies the key analytical error on both sides: neither the story ratings issue is confirmed as structurally permanent, nor is the forward recovery a confirmed trend \u2014 both are unresolved variables. The \"news vacuum is a coiled spring\" framing is confirmation bias projected onto an absence of information, and the 7:1 reward-to-risk claim is overstated given gap risk and support-level deterioration (more realistically ~2:1 once slippage is accounted for). Notably, there is no near-term catalyst \u2014 no CMS rate hike, no star rating recovery, no regulatory clarity, no earnings beat \u2014 to trigger a re-rating. The franchise quality justifies maintaining exposure, but the unresolved overhang, dark sentiment, bearish technicals, and unproven recovery estimate do not justify adding capital, and nothing warrants an exit from a $376B vertically integrated healthcare leader operating in a demographic supercycle. Hold at target weight until one of the binary triggers \u2014 Q1 2026 earnings confirmation with a price reclaim of the 50-day SMA, or a decisive volume break below $280 \u2014 resolves the stalemate.\n\n**Price Target**: 304.0\n\n**Time Horizon**: 3 months"
+}

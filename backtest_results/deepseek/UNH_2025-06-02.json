@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-06-02",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-06-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.25,
+    "mean_max_drawdown_pct": -20.18,
+    "p95_worst_drawdown_pct": -41.27,
+    "p99_worst_drawdown_pct": -50.86,
+    "est_annualized_vol_pct": 46.9,
+    "spot_price": 294.68,
+    "expected_return_pct": 2.81,
+    "median_return_pct": 2.11,
+    "return_vol_pct": 23.0,
+    "risk_free_pct_horizon": 1.058,
+    "risk_free_available": true,
+    "return_over_risk": 0.076,
+    "expected_price": 302.96,
+    "price_p5": 194.86,
+    "price_p95": 417.37,
+    "prob_loss": 0.463,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain UNH at current positioning with no net additions. If establishing a fresh position, limit initial exposure to a starter-size (25-35% of intended full position) around $294.68, use a mental stop at $236.95 (the 52-week low), and collect the 2.24% dividend as compensation while awaiting confirmation. Do not deploy full capital before a confirmed bottom signal \u2014 either a fundamental beat validating the ~$22.44 forward EPS trajectory, a sustained weekly close above the 50-day SMA (~$416), or stabilization of Medicare Advantage reimbursement rates. Evaluate over a 3-month horizon.\n\n**Investment Thesis**: The risk analysts' debate lands with genuinely balanced, non-asymmetric evidence, making a decisive Buy or Sell over-committed. The bull's case for asymmetry rests on attractive optics \u2014 ~13-18x forward earnings, $22.76B free cash flow, 2.24% dividend yield, beta of 0.633, aging demographic tailwind, and the differentiated Optum asset \u2014 but the Aggressive Analyst's 2:1 and 3.6:1 reward-to-risk claims are mathematically flawed per the Neutral Analyst: they assign an unsupported 50% probability to a 41% bounce to the 50-day SMA while the technical report confirms no bottom signal and a firmly bearish medium-term structure. The bear's counter is equally compelling: the $22.44 forward EPS implies ~70% YoY growth that remains unproven, the May breakdown was company-specific (policy fears, utilization), the stock trades below the 10-day EMA, 50-day and 200-day SMAs, and the macro backdrop (Fed transition, Iran conflict, inflation) is deteriorating. Critically, the sentiment data is a genuine void (empty news/StockTwits feeds) rather than a constructive signal, so the Aggressive Analyst's \"vacuum\" thesis lacks empirical support. The Neutral Analyst's synthesis is the right call: hold current positions, allow a fractional starter for fresh capital with a tight entry ladder (25% now, add only on verified signals), set the $236.95 stop as a circuit breaker \u2014 not a target \u2014 and upgrade only on a confirmed fundamental beat, a weekly close above the 50-day SMA, or stabilizing Medicare Advantage rates. Current risk-reward does not compensate for deploying full capital into a falling knife, but franchise quality and valuation argue against outright avoidance.\n\n**Price Target**: 416.0\n\n**Time Horizon**: 3 months"
+}

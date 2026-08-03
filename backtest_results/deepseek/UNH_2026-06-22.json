@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-06-22",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-06-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -16.34,
+    "mean_max_drawdown_pct": -18.46,
+    "p95_worst_drawdown_pct": -36.65,
+    "p99_worst_drawdown_pct": -45.56,
+    "est_annualized_vol_pct": 40.9,
+    "spot_price": 406.68,
+    "expected_return_pct": 1.53,
+    "median_return_pct": 0.16,
+    "return_vol_pct": 20.44,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": 0.03,
+    "expected_price": 412.92,
+    "price_p5": 285.78,
+    "price_p95": 558.24,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a long position in UNH with a moderate initial tranche of 40-50% of the intended full position, entered via a limit order in the $395-400 range (below the recent June 17 swing low of $399.53) to secure a genuine discount rather than chasing at the 10 EMA. Set an initial structural stop near $360-370 (below the 50 SMA zone but not wide enough to constitute a 18% capital destruction event), and add the next tranche on confirmed strength above the 10 EMA or on a deeper pullback with sustained fundamentals. Time horizon: 3 months.\n\n**Investment Thesis**: The analysis converges on a constructive but disciplined stance for UNH. The technical structure is genuinely bullish\u2014price at $406.68 sits above the 10 EMA ($402.20), 50 SMA ($372), and 200 SMA ($330), with RSI of 63 showing strength without overbought conditions and a defensive beta of 0.63 providing macro shelter. The forward P/E of 18.47x versus TTM 31.25x reflects a market pricing an earnings recovery (from $13.26 TTM to $22.44 forward, ~69% growth), which is legitimate but not guaranteed\u2014if medical cost inflation or regulatory compression undermines that forward figure, the \"value\" multiple reverts. The Conservative analyst correctly identifies that the negative MACD histogram indicates cooling momentum now, not a breakout setup, and that the 60-70% initial position sizing is a heavyweight bet in a zero-news, regulatory-overhang environment. The Aggressive analyst rightly notes this is not a chase\u2014the cyberattack-driven 52-week low of $236.95 was event-driven, and the recovery above all major MAs reflects genuine buying support. The Neutral analyst provides the most defensible synthesis: enter at a 40-50% initial tranche with a limit order at $397 (below the swing low, above the 50 SMA) for a real buffer, with a stop at $360 that respects the trend while avoiding both a destructive 18% stop and a whipsaw-prone $370. PBM regulatory overhang is genuine bipartisan risk not fully priced, and the empty news/StockTwits feed means no confirmation of institutional bid\u2014this argues against aggressive sizing but not against ownership. The investment thesis: quality compounder at a fair forward valuation with intact trend, tempered by unresolved regulatory and earnings-recovery risk; build position patiently rather than chase.\n\n**Price Target**: 440.0\n\n**Time Horizon**: 3 months"
+}

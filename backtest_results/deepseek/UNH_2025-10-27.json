@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-10-27",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-10-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.13,
+    "mean_max_drawdown_pct": -22.0,
+    "p95_worst_drawdown_pct": -43.18,
+    "p99_worst_drawdown_pct": -53.63,
+    "est_annualized_vol_pct": 50.5,
+    "spot_price": 358.68,
+    "expected_return_pct": 2.79,
+    "median_return_pct": 1.58,
+    "return_vol_pct": 24.85,
+    "risk_free_pct_horizon": 0.929,
+    "risk_free_available": true,
+    "return_over_risk": 0.075,
+    "expected_price": 368.7,
+    "price_p5": 229.9,
+    "price_p95": 525.06,
+    "prob_loss": 0.476,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a UNH position in disciplined tranches, starting with a smaller initial unit (~1-1.5% of portfolio) at current levels near $358.68, with a tight initial stop at $330. Scale in further toward the $345-$350 pullback zone or on a confirmed close above the 200-day SMA at ~$378 on meaningful volume. Target a full 3-5% allocation only on technical confirmation, with a 3-month evaluation horizon and a realistic near-term target of reclaiming $378 before extending toward $410.\n\n**Investment Thesis**: The bull case is anchored in real valuation support: a forward P/E of 18.47x and PEG of 1.34 indicate reasonable pricing relative to expected growth, and the low beta of 0.633 offers defensive characteristics amid Fed Chair Warsh-driven macro volatility. The 50%+ recovery from $236.95 to $358.68 confirms genuine earnings resilience and the dual-engine model (UnitedHealthcare + Optum) provides a durable structural moat. However, the bear's concerns cannot be dismissed: the stock remains ~5% below a declining 200-day SMA at $378.10, the trailing P/E of 31.25x shows charges that may recur, regulatory overhang on PBMs is unresolved, and zero news flow means no confirmed near-term catalyst. The risk-reward at $358.68 with a $315 stop is roughly 1.17:1 on the initial unit, which is inadequate for a full immediate allocation. The Neutral Analyst's refinement is the correct synthesis: take a smaller starter position now with a tighter stop at $330 (just below the rising 50-day SMA at $332), reserve the larger allocation for either a pullback into the $345-$350 support zone or a confirmed close above the 200-day SMA, and extend targets only after reclaiming $378. This staged approach captures participation in the earnings-backed recovery while respecting the unresolved regulatory and technical overhang\u2014constructive but disciplined, consistent with an Overweight rather than a full Buy.\n\n**Price Target**: 378.0\n\n**Time Horizon**: 3 months"
+}

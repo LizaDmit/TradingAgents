@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-03-17",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-03-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.35,
+    "mean_max_drawdown_pct": -14.55,
+    "p95_worst_drawdown_pct": -27.11,
+    "p99_worst_drawdown_pct": -33.76,
+    "est_annualized_vol_pct": 29.5,
+    "spot_price": 482.58,
+    "expected_return_pct": 0.96,
+    "median_return_pct": 0.09,
+    "return_vol_pct": 14.96,
+    "risk_free_pct_horizon": 1.047,
+    "risk_free_available": true,
+    "return_over_risk": -0.006,
+    "expected_price": 487.22,
+    "price_p5": 377.26,
+    "price_p95": 613.63,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain UNH at a neutral/benchmark weight (capped at 5% of the portfolio) with a defined risk framework: keep the position as-is at current levels, set a modestly tightened stop at $468 (below the 10-day EMA but above recent intraday lows), and require either a close above the 50-day SMA at ~$492 on above-average volume or a definitive fundamental catalyst (earnings, Medicare Advantage reimbursement clarity, DOJ/FTC resolution) before upgrading or downgrading. Set a four-week review window tied to the upcoming earnings catalyst. Time horizon: 3 months.\n\n**Investment Thesis**: The debate genuinely balances technical caution against fundamental resilience, and neither side carries enough conviction to justify a directional change. The Bear/Conservative case is technically sound: UNH sits 1.9% below the 50-day SMA ($491.98) and 7.6% below the 200-day SMA ($522.31), with both averages sloping downward\u2014a structural downtrend, not a dip. The RSI recovery from 26 to 53 and rising 10-day EMA are mean-reversion signals within that downtrend, not confirmation of a trend reversal, and the absence of a positive catalyst (neutral sentiment score of 5.0/10, no negative headlines but also no positive driver) leaves the technical bounce unanchored. The Bull/aggressive case, however, overstates the re-rating opportunity: the forward P/E of 18.47 reflects a market already discounting an earnings recovery to ~$22.44/share, yet that recovery assumes no further Medicare Advantage reimbursement cuts, no expansion of DOJ scrutiny, and no FTC action on Optum's PBM business\u2014all live, unpredictable regulatory processes. The Neutral analyst correctly synthesized the trade: a 24x forward multiple and 31% upside to fair value are hope, not analysis, just as the Bear's fear of a gap through $465 is manageable at a 5% position given a 0.633 beta (a 10% gap = ~0.5% portfolio impact). The evidence\u2014mixed valuation (expensive 31x trailing, reasonable 18.5x forward), uncertain macro (Warsh Fed transition), bearish-to-neutral technicals, no definitive catalyst in either direction\u2014warrants maintaining the position with defined risk. The decision to Hold is not passivity; it is a calibrated wait with a defined breakout trigger at $492 (bullish confirmation, upgrade path) and a tightened stop at $468, with a four-week reassessment aligned to the earnings catalyst. Prior lesson applied: do not chase upside without confirmation the earnings recovery is materializing, and do not gut a fundamentally sound, cash-generating market leader purely on trend-line arguments.\n\n**Price Target**: 492.0\n\n**Time Horizon**: 3 months"
+}

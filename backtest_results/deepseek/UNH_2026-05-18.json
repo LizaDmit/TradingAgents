@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-05-18",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-05-18",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -16.58,
+    "mean_max_drawdown_pct": -18.68,
+    "p95_worst_drawdown_pct": -36.88,
+    "p99_worst_drawdown_pct": -46.52,
+    "est_annualized_vol_pct": 41.9,
+    "spot_price": 388.91,
+    "expected_return_pct": 2.0,
+    "median_return_pct": 0.92,
+    "return_vol_pct": 21.02,
+    "risk_free_pct_horizon": 0.892,
+    "risk_free_available": true,
+    "return_over_risk": 0.053,
+    "expected_price": 396.68,
+    "price_p5": 271.95,
+    "price_p95": 536.1,
+    "prob_loss": 0.483,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at ~$389 (3-5% of equity portfolio) without adding new capital after a 51% run in under two months. Do not chase the rally; instead, establish a disciplined tranche-based add ladder at $360-370, $340-350, and near the 50 SMA at ~$320, where risk/reward becomes favorable. Keep the stop loss at $320 as a structural technical invalidation point, and reassess to Underweight only if price closes below $320 on high volume with deteriorating fundamentals. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a Hold, and the evidence supports it from multiple angles. The bull case is real: UNH trades at 18.47x forward PE with a PEG of 1.28, a 2.24% dividend yield, $376B market cap, and secular Medicare Advantage demographic tailwinds, with a moat built on scale, data analytics, and vertical integration through Optum. However, the bear's technical and risk arguments are equally compelling: the stock is up 51% in under two months, RSI is deeply overbought, the distance between price and the 50 SMA (~$320) is historically extreme at roughly 21%, and UNH's historical correction pattern at these extremes is 20-25%. The risk/reward is genuinely skewed at current levels: downside to the $320 SMA zone is roughly -17.5% versus only +15.7% upside to the bull's $450 one-year target. The neutral analyst correctly notes that the sentiment reading of 5.0 is based on a near-complete absence of signals\u2014not balanced bullish/bearish forces\u2014with broken data feeds and low confidence, meaning the 51% move was technically/momentum-driven rather than fundamentally re-rated on new information, making the move inherently fragile. The DOJ investigation into Medicare Advantage billing is a live regulatory overhang, though it is not generating fresh headlines and appears largely priced in. The optimal execution is disciplined: hold the core 3-5% position, do not chase at $389, add in tranches at $360-370 (5-7% pullback, recent consolidation zone), $340-350 (prior breakout), and $320 (50 SMA confluence with the rising 200 SMA at $316), with the stop at $320 as a legitimate structural invalidation point rather than an arbitrary cap. This captures upside if the structural uptrend resumes while respecting the overbought technical condition and regulatory tail-risk.\n\n**Price Target**: 440.0\n\n**Time Horizon**: 3 months"
+}

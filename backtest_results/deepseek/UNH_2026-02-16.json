@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-02-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-02-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -22.2,
+    "mean_max_drawdown_pct": -23.32,
+    "p95_worst_drawdown_pct": -45.89,
+    "p99_worst_drawdown_pct": -57.02,
+    "est_annualized_vol_pct": 54.3,
+    "spot_price": 289.28,
+    "expected_return_pct": 3.28,
+    "median_return_pct": 1.56,
+    "return_vol_pct": 27.22,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": 0.088,
+    "expected_price": 298.77,
+    "price_p5": 177.71,
+    "price_p95": 435.06,
+    "prob_loss": 0.477,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position without adding or trimming. New entries, if any, should be capped at half the target weight. Keep the stop-loss at the $236.95 area and do not add to the position until UNH reclaims and holds the 50-day SMA (~$316) on volume, or until next earnings confirms stable medical cost ratios. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a Hold because the evidence genuinely pulls in competing directions without a decisive catalyst. The bull case is real: UNH is a $376B diversified healthcare franchise with forward P/E of 18.47x (well below its historical mid-20s multiple), a compounder growing revenue from $324B (2021) to ~$470B (2025), Optum's vertical integration moat (PBM, care delivery, data analytics), a 2.24% growing dividend, and low beta (0.633). The aggressive analyst correctly notes the sentiment report found zero negative headlines or analyst downgrades, meaning the 25% crash was flow-driven rather than news-driven, and the rebound from $262 to $289 with price above the 10 EMA signals some stabilization.\n\nHowever, the bear case cannot be dismissed. A 25% drop in eight days on a defensive megacap\u2014without a market-wide crash\u2014typically signals institutions discounting specific risks (Medicare Advantage utilization, PBM regulation, legal headwinds). The 31.25x TTM P/E versus 18.47x forward P/E embeds an expected earnings decline; if forward estimates get revised down, the \"cheap\" multiple quickly expands and the discount evaporates. Technically, price sits below both the 50-day ($316) and 200-day ($313) SMAs with a death cross imminent. The risk-reward is objectively unfavorable: stop at $236.95 (18% downside) versus upside reclaim of $316 (9% gain) is roughly 2:1 against the position, and a stop does not protect against gap risk given the January 27 one-day crash precedent. The macro backdrop under incoming Fed leadership (Kevin Warsh) is genuinely uncertain and cuts both ways.\n\nThe middle path is the most defensible. Holding preserves capital and optionality\u2014the position participates in any rip to $350 without the incremental downside of a full-weight add at $289. Neither the all-in buy (a bet on a specific outcome, not a risk-managed decision) nor a full retreat (which forfeits participation and buys back at higher levels) is justified by the data. Concrete, verifiable triggers for adding exist (reclaim of 50-day SMA on volume, or earnings confirming stable medical cost ratios), and none have been met. The absence of a catalyst that resolves the fundamental/technical tension is precisely why Hold\u2014not Buy, not Sell\u2014is the honest, disciplined call over a 3-month horizon.\n\n**Price Target**: 316.0\n\n**Time Horizon**: 3 months"
+}

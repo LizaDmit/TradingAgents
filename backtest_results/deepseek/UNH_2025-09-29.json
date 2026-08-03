@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-09-29",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-09-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.51,
+    "mean_max_drawdown_pct": -22.14,
+    "p95_worst_drawdown_pct": -43.68,
+    "p99_worst_drawdown_pct": -53.62,
+    "est_annualized_vol_pct": 51.0,
+    "spot_price": 338.3,
+    "expected_return_pct": 2.96,
+    "median_return_pct": 1.24,
+    "return_vol_pct": 25.3,
+    "risk_free_pct_horizon": 0.966,
+    "risk_free_available": true,
+    "return_over_risk": 0.079,
+    "expected_price": 348.32,
+    "price_p5": 216.68,
+    "price_p95": 495.69,
+    "prob_loss": 0.478,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing UNH position at current weight without adding or trimming. The stock sits at the top of its $328\u2013$345 range at $338.30 with a confirmed medium-term uptrend (10 EMA above 50 SMA, RSI 63.5) but remains 14% below the 200-day SMA ($392) and faces unresolved regulatory, policy, and macro overhangs. Respect the trading band: trim below $328, upgrade to Overweight only on a confirmed close above $345 on above-average volume. Revisit after the next earnings print and clarity on the Fed transition and PBM/antitrust rulings.\n\n**Investment Thesis**: The debate presents genuinely balanced evidence, which makes Hold the disciplined call. The bull case is anchored in real, data-backed positives: a forward P/E of 18.47x on forward EPS of $22.44 (vs. TTM EPS of $13.26 depressed by one-time charges), a beta of 0.63 providing defensive characteristics, a 2.24% dividend yield, and a confirmed medium-term uptrend with the 10 EMA above the 50 SMA since early September and RSI at 63.51 (supportive, not overbought). The 46% recovery off the August panic low underscores genuine momentum. However, the bear case carries commensurate weight: price is still 14% below the 200-day SMA at $392, the long-term trend remains down, the stock has stalled for two weeks at the upper boundary of a defined range without a volume-confirmed breakout, and structural risks remain unresolved \u2014 a new Fed chair (Warsh) threatening volatility, higher-for-longer rates pressuring medical loss ratios and interest expense on Optum's debt, and DOJ/FTC antitrust scrutiny on PBMs and vertical integration that could gap the stock down 15\u201320% beyond the $328 stop. The sentiment data void (zero news, zero StockTwits) is genuinely ambiguous \u2014 the neutral analyst correctly notes it can justify neither the aggressive \"institutional accumulation\" narrative nor the conservative \"distribution\" fear. The TTM P/E of 31.25x is distorted by one-time charges, making the forward P/E the more relevant metric, but the forward estimate assumes flawless earnings normalization by late 2026 that is at risk. With no fundamental catalyst (earnings, policy clarity, regulatory resolution), buying at the top of the range is not justified, and selling a confirmed recovery prematurely is equally unjustified. The trader's rules-based framework \u2014 hold within the band, trim below $328 support, add only above $345 with volume confirmation \u2014 is the correct risk management posture. The most attractive re-entry would be a retest of the $300\u2013$315 support zone where risk-reward shifts meaningfully in favor of accumulation.\n\n**Price Target**: 345.0\n\n**Time Horizon**: 3 months"
+}

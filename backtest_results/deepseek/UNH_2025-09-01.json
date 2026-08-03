@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-09-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-09-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.12,
+    "mean_max_drawdown_pct": -21.94,
+    "p95_worst_drawdown_pct": -43.59,
+    "p99_worst_drawdown_pct": -53.48,
+    "est_annualized_vol_pct": 50.1,
+    "spot_price": 301.79,
+    "expected_return_pct": 2.86,
+    "median_return_pct": 1.54,
+    "return_vol_pct": 25.27,
+    "risk_free_pct_horizon": 1.011,
+    "risk_free_available": true,
+    "return_over_risk": 0.073,
+    "expected_price": 310.42,
+    "price_p5": 191.22,
+    "price_p95": 442.26,
+    "prob_loss": 0.476,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current UNH positions without trimming or adding meaningfully. Keep dry powder reserved for entries near the $270-$280 support zone, and deploy new capital only in tranches. The primary bullish confirmation trigger is a daily close above the 200 SMA (~$416); the primary fundamental confirmation is MLR stabilization at the next earnings print. Given the elevated ATR (~9), position sizing should remain moderate with a 3-month evaluation window.\n\n**Investment Thesis**: The analysts' debate presents a genuinely balanced picture with no knockout case on either side. The Aggressive analyst makes a legitimate point that the MACD golden cross, RSI at 62.79, and the 27% bounce from $236 to $301 signal improving technical momentum, and the forward P/E of 18.47x on $22.44 forward EPS offers reasonable valuation with a defensive 2.24% yield and 0.633 beta. However, the Conservative analyst correctly identifies that UNH remains ~33% below its 200 SMA (~$416), creating massive overhead supply from trapped buyers in the $400s, and that the TTM-to-forward P/E spread (31x vs 18.47x) signals the market's genuine skepticism about achievable forward estimates under PBM regulatory pressure on Optum Rx. The Neutral analyst's synthesis is most persuasive: the macro fear (Fed transition, 4% inflation) is already substantially priced into a stock down 40% from highs, but the structural risks (PBM legislation, MLR/utilization pressure) are real and not fully resolved. The stock's failure to behave defensively during its 40% drawdown undercuts the flight-to-safety narrative. With no earnings confirmation on MLR stabilization and no decisive break above the 200 SMA, adding heavily now would mean chasing a 27% rally near short-term resistance with incomplete data. Conversely, the fundamentals do not justify exiting \u2014 UNH remains the largest diversified healthcare entity with real competitive moats, earnings power intact enough to justify holding, and the market has already repriced much of the downside risk. The disciplined path is to hold, preserve dry powder, and act decisively only when either the technical confirmation (200 SMA reclaim) or fundamental confirmation (MLR stabilization) arrives. This balances the Aggressive analyst's upside asymmetry against the Conservative analyst's capital-preservation mandate in a data-poor environment where the cost of being wrong is asymmetric.\n\n**Price Target**: 340.0\n\n**Time Horizon**: 3 months"
+}

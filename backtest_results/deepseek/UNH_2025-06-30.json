@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-06-30",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-06-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -18.42,
+    "mean_max_drawdown_pct": -20.41,
+    "p95_worst_drawdown_pct": -41.96,
+    "p99_worst_drawdown_pct": -51.7,
+    "est_annualized_vol_pct": 47.0,
+    "spot_price": 303.83,
+    "expected_return_pct": 2.5,
+    "median_return_pct": 2.26,
+    "return_vol_pct": 23.16,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.063,
+    "expected_price": 311.44,
+    "price_p5": 196.44,
+    "price_p95": 428.89,
+    "prob_loss": 0.46,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH by 25\u201335% of any existing position, holding a core stake given the defensive profile (2.2% yield, beta 0.633, forward P/E 18.47) while reducing exposure to unresolved downside risks. Do not initiate new longs. Set a re-entry/upgrade trigger at a reclaim of the 50-day SMA (~$328) on above-average volume, and maintain a protective stop at $280. Evaluation horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on Underweight despite divergent narratives. The bear case anchors on hard technicals: price at $303.83 sits 7.6% below the 50-day SMA ($328.80) and 36% below the 200-day SMA ($476.09), with RSI at 46.94 (below the 50 neutral mark, signaling the bounce has stalled) and zero volume accumulation anywhere in the data set. Critically, the forward EPS of $22.44 vs. TTM EPS of $13.26 represents a 69% gap that the market is implicitly dismissing\u2014it pays 31.25x trailing earnings but only 18.47x forward, indicating skepticism on the normalization thesis. The absence of any catalyst (no analyst upgrades, no positive news flow, empty sentiment at 5.0/10 with low confidence) means there is no trigger for a re-rating. The neutral analyst correctly identifies the structural floor: UNH is a $376B defensive healthcare giant with a 2.2% yield, 0.633 beta, and forward P/E below historical average, so a full exit is unwarranted\u2014regulatory risk on Optum is asymmetric in both directions, and a favorable resolution could spark a violent rally from washed-out sentiment. A 25\u201335% trim reduces exposure to a binary regulatory event while retaining participation in any earnings normalization, respecting both the Aggressive analyst's point about not selling a high-quality asset at maximum pessimism and the Conservative analyst's point about the falling-knife risk. Without evidence of earnings acceleration or price reclaiming the 50-day SMA, the correct stance is a risk-management reduction, not a directional bet in either direction.\n\n**Price Target**: 303.83\n\n**Time Horizon**: 3 months"
+}

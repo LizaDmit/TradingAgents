@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-03-03",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-03-03",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.2,
+    "mean_max_drawdown_pct": -14.37,
+    "p95_worst_drawdown_pct": -26.75,
+    "p99_worst_drawdown_pct": -33.62,
+    "est_annualized_vol_pct": 29.4,
+    "spot_price": 449.74,
+    "expected_return_pct": 1.24,
+    "median_return_pct": 0.29,
+    "return_vol_pct": 14.99,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": 0.013,
+    "expected_price": 455.32,
+    "price_p5": 351.42,
+    "price_p95": 573.01,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain UNH at benchmark or slightly underweight weight. Do not add at current levels (~$449) given negative asymmetry (9% downside to $410 stop vs. ~6% upside to $475 reclaim) and unresolved company-specific catalysts behind the 14% five-week drawdown. Execute on defined triggers: accumulate in tranches toward the $400\u2013415 accumulation zone, trim toward Underweight below ~$410 on sustained volume with deteriorating guidance, and reassess upward on a reclaimed $475\u2013485 zone. Horizon: 3 months.\n\n**Investment Thesis**: The debate surfaces a genuine but unresolved tension. The bull's forward-valuation case is real: ~18.5x forward earnings, PEG of 1.34, a 2.24% yield, and a 0.633 beta against the S&P 500's ~22\u201323x multiple \u2014 for a dominant Optum-driven defensive compounder benefiting from aging demographics. However, the bear's core objection holds: UNH fell 14% in five weeks versus a ~3\u20134% market decline, a 3\u20134x underperformance that a low-beta name should not produce on macro/Fed-transition fear alone. That signals company-specific concerns (medical cost trends, Medicare Advantage regulatory outcomes, forward-EPS integrity of the $22.44 estimate) that are not yet resolved. The neutral analyst correctly identifies the flawed asymmetry of adding now: from $449, the stop at ~$410 is ~9% downside while the $475 reclaim is only ~6% upside \u2014 negative risk/reward. The forward EPs estimate is a projection, not a guarantee, and if utilization spikes or regulators tighten, the attractive 18.5x forward multiple quickly becomes ~22x on revised estimates. This favors patience and strict trigger-based execution over conviction in either direction. The stock is not a Buy here given unresolved fundamentals and negative trade asymmetry, and not a Sell given the compelling discount for a defensive compounder with a real $410\u2013415 support cushion. Hold maintains optionality: accumulate with margin of safety at $400\u2013415, cut below $410 on sustained volume plus deteriorating guidance, and reclaim toward Overweight on a decisive $475\u2013485 breakout.\n\n**Price Target**: 450.0\n\n**Time Horizon**: 3 months"
+}

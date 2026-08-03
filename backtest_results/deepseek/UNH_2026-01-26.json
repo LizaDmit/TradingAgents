@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-01-26",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-01-26",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.24,
+    "mean_max_drawdown_pct": -21.02,
+    "p95_worst_drawdown_pct": -42.17,
+    "p99_worst_drawdown_pct": -51.89,
+    "est_annualized_vol_pct": 49.2,
+    "spot_price": 346.95,
+    "expected_return_pct": 3.34,
+    "median_return_pct": 1.94,
+    "return_vol_pct": 24.74,
+    "risk_free_pct_horizon": 0.894,
+    "risk_free_available": true,
+    "return_over_risk": 0.099,
+    "expected_price": 358.53,
+    "price_p5": 225.94,
+    "price_p95": 505.51,
+    "prob_loss": 0.468,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain UNH at neutral weight (~1.0x benchmark) with disciplined triggers rather than a directional bet. Do not initiate new capital at $346.95 given the unconfirmed 69% forward-EPS recovery and thin sentiment. Initiate phased accumulation (one-third per month over three months) only on a confirmed break and hold above $360 with volume; execute a one-third reduction on a break below $320, and reassess on any break below $327. Time horizon: 3 months, with the regulatory calendar as the primary binary catalyst.\n\n**Investment Thesis**: The debate reconciles into a balanced risk/reward that favors patience over conviction in either direction. The bull case is genuine: UNH trades at ~18.5x forward earnings versus ~22x for the S&P 500, with $22.76B free cash flow, a 2.24% dividend yield, and a 0.633 beta offering defensive ballast; the V-shaped recovery from $302.93 to $346.95 and the 50/200 SMA golden cross (triggered January 26) show improving technical structure. The bear case is equally substantive: the golden cross is a weak 0.25-point spread that is statistically indistinguishable from noise; the stock remains 25% below its 52-week high and 15% below its 50-day average ($410.16), leaving the $360-$410 zone as an unproven wall of overhead supply from trapped buyers; and the forward EPS of $22.44 implies a 69% recovery against a 10-12% historical growth rate with no confirmed fundamental catalyst. The neutral analyst correctly identifies that the conservative's wait-for-capitulation-at-$300 risks catching a falling knife into a news vacuum, while the aggressive's buy-now-at-$346.95 risks a 7.7% drawdown with no confirmation of supply absorption. The risk/reward is asymmetric against premature entry: ~-13.5% downside to $300 support versus 21-30% upside predicated on earnings estimates the market already partially discounts. The correct course is to hold neutral weight, first-deploy only on a confirmed break and hold above $360 (paying a modest ~3.8% premium for evidence of absorption), maintain a hard $320 stop (reducing by one-third on a break, never adding), and treat the unresolved regulatory picture (Medicare Advantage rate decisions, DOJ consolidation actions, Fed leadership transition) as a binary catalyst requiring immediate position review.\n\n**Price Target**: 360.0\n\n**Time Horizon**: 3 months"
+}

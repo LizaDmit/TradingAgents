@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-03-23",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-03-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -21.88,
+    "mean_max_drawdown_pct": -22.88,
+    "p95_worst_drawdown_pct": -45.5,
+    "p99_worst_drawdown_pct": -55.87,
+    "est_annualized_vol_pct": 53.7,
+    "spot_price": 268.01,
+    "expected_return_pct": 3.49,
+    "median_return_pct": 1.87,
+    "return_vol_pct": 26.99,
+    "risk_free_pct_horizon": 0.903,
+    "risk_free_available": true,
+    "return_over_risk": 0.096,
+    "expected_price": 277.37,
+    "price_p5": 166.75,
+    "price_p95": 402.28,
+    "prob_loss": 0.472,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce UNH exposure to 50-60% of benchmark weight, but do not sell into the current panic at the $268 close. Execute trimming on a technical bounce toward the 10-day EMA (~$278) rather than at the lows, while maintaining a hard stop at $250-255. If price breaks below $250 on elevated volume, exit further or fully. Rebuild toward Overweight only on confirmed guidance (late April), a reclaim of the 50-day SMA on expanding volume, or measurable regulatory clarity. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a shared conclusion despite differing rationale: the technical damage is real and unambiguously bearish\u2014price closed at $268.01 below the 10-day ($278.37), 50-day ($293.47), and 200-day ($307.96) moving averages on 2.7x average volume at the lows. All three analysts acknowledge the wide TTM-to-forward EPS spread ($13.26 vs $22.44, a ~41% implied jump) carries credible near-term estimate-revision risk, and structural Medicare Advantage reimbursement headwinds amplify in a deficit-hawk Fed transition under Kevin Warsh. The neutral analyst provides the decisive synthesis: the vacuum of news/social sentiment provides no fundamental catalyst in either direction, so the correct posture is disciplined technical execution, not conviction selling at maximum pessimism nor passive holding against a deteriorating chart. The conservative analyst correctly warns against locking in losses at $268 after a 7.9% three-week decline with no company-specific negative news, citing a forward P/E of 18.47, PEG of 1.28, and a 2.24% dividend as evidence the franchise is not broken. However, the bearish technical signal, zero positive catalysts on the calendar through late April, and the real possibility of downward earnings revisions outweigh the valuation support for trimming\u2014not liquidating. The Underweight rating captures: partial de-risking via a limit at ~$278 (not market-selling at the low), a defined $250-255 structural-support stop, and clear re-entry criteria. Full Sell is inappropriate because the fortress balance sheet, cash generation, and reasonable forward multiple cap downside and preserve a high-quality core holding.\n\n**Price Target**: 278.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-08-18",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-08-18",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -19.84,
+    "mean_max_drawdown_pct": -21.71,
+    "p95_worst_drawdown_pct": -43.25,
+    "p99_worst_drawdown_pct": -54.02,
+    "est_annualized_vol_pct": 50.0,
+    "spot_price": 300.44,
+    "expected_return_pct": 3.11,
+    "median_return_pct": 1.84,
+    "return_vol_pct": 24.96,
+    "risk_free_pct_horizon": 1.031,
+    "risk_free_available": true,
+    "return_over_risk": 0.083,
+    "expected_price": 309.78,
+    "price_p5": 193.25,
+    "price_p95": 440.14,
+    "prob_loss": 0.469,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim UNH exposure by ~20-25% into the current overbought bounce near the upper Bollinger Band (~$300.44), selling into resistance while retaining a meaningful residual position given the franchise's defensive quality. Replace a single tight stop with a trailing stop ~8% below the highest close since entry (currently ~$276), and consider a small protective put (strike ~$270, 60-day) to hedge regulatory tail risk. The 3-month view carries negative catalyst asymmetry\u2014absent news flow, declining 50-day SMA, and live Medicare Advantage/PBM regulatory overhangs argue for reduced exposure despite the reasonable 18.47x forward multiple.\n\n**Investment Thesis**: The analysts' debate converges on direction (trim) but diverges on magnitude, and the weight of evidence supports reducing\u2014not abandoning\u2014the position. The Aggressive analyst is correct that the 30% eleven-session rally into $300.44, sitting directly on the $300.48 upper Bollinger Band with a still-declining 50-day SMA (~$281), is an overbought bounce into confirmed resistance rather than a reversal\u2014a textbook poor entry/holding zone. The zero-news sentiment void (no Yahoo, StockTwits, or Reddit coverage for a $376B company under regulatory scrutiny) means there is no positive catalyst to drive accumulation, and the DOJ's scrutiny of Optum's PBM vertical integration plus Medicare Advantage reimbursement compression are live, unresolved policy risks capable of moving the stock 5-10% on a single headline. The Conservative analyst's counterpoints\u2014reasonable 18.47x forward P/E, 1.34 PEG, 0.633 beta, growing 2.24% dividend, and the stock reclaiming the 50-day SMA\u2014are legitimate and justify NOT going to a full SELL; a full liquidation forfeits participation in a quality franchise that has absorbed macro shocks without idiosyncratic headlines. However, the Conservative's proposal to limit action to a token 10% trim is operationally equivalent to doing nothing after a 30% bounce into resistance, which is hope rather than strategy. The Neutral analyst best reconciles the tug-of-war: the downside to the $231 panic low is not a realistic live target (that was an August 1 oversold panic print), but the realistic $281-285 pullback zone and the absence of any confirmed trend reversal still create negative near-term asymmetry. The disciplined answer is a staged trim of roughly 20-25% into the overbought strength\u2014meaningfully reducing exposure on risk-reward terms while retaining a residual position to capture any genuine recovery above the 200-day SMA trajectory. The stop-loss discipline (trailing ~8%, currently ~$276) protects against the exact regulatory-gap scenario the Conservative fears, and a small put hedge adds convexity to the downside without sacrificing the residual upside. This is not capitulation\u2014it is pricing in the probability of both outcomes rather than betting on one, as the mixed data (overbought technicals, declining 50-day, absent catalysts versus low beta, reasonable multiple, defensive franchise) genuinely warrants.\n\n**Price Target**: 281.0\n\n**Time Horizon**: 3 months"
+}

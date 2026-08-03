@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-12-01",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-12-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -20.16,
+    "mean_max_drawdown_pct": -21.93,
+    "p95_worst_drawdown_pct": -43.38,
+    "p99_worst_drawdown_pct": -52.83,
+    "est_annualized_vol_pct": 50.5,
+    "spot_price": 316.77,
+    "expected_return_pct": 3.15,
+    "median_return_pct": 2.07,
+    "return_vol_pct": 25.17,
+    "risk_free_pct_horizon": 0.923,
+    "risk_free_available": true,
+    "return_over_risk": 0.089,
+    "expected_price": 326.76,
+    "price_p5": 203.74,
+    "price_p95": 465.86,
+    "prob_loss": 0.469,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduce UNH exposure by approximately 25% at current market levels (near $316-320), not waiting for the unrealistic $340 fill proposed by the trader. Place the reduce order with a limit at $319-320 (just above the 10 EMA), with a hard stop discipline at $305 \u2014 below the recent $302 low \u2014 to avoid being shaken out on noise while still protecting against a confirmed breakdown toward $280. Maintain a core defensive position given UNH's low beta (0.633) and 2.24% dividend yield, and re-engage only if the 10 EMA crosses above the 50 SMA or Q4 earnings confirm the recovery trajectory toward the $22.44 forward EPS.\n\n**Investment Thesis**: The debate resolves to Underweight, favoring the neutral analyst's calibrated middle path over both the aggressive analyst's flawed $340 limit sell and the conservative analyst's dangerously small 10-15% trim. The technical picture is unambiguously bearish: full bearish stack (10 EMA $317.70 < 50 SMA ~$410 < 200 SMA), price 23% below the 50-day average, and trapped holders near the $410 cost basis create overhead supply. However, selling at the trader's proposed $340 (a 7% gap above the $316.77 close) is a phantom order that may never fill, and a stop at $316 (essentially current price) guarantees a forced liquidation at the lows. The neutral path \u2014 a 25% trim executed at market near $319-320 with a stop at $305 \u2014 balances the real risks: the massive TTM-to-forward EPS gap ($13.26 to $22.44, a ~70% expected jump) embeds execution risk ahead of Q4 earnings, and unresolved regulatory overhangs (PBM antitrust probes, cyberattack fallout, DOJ investigations) are structural, not transient. Yet UNH's defensive franchise, low beta, pricing power, and reasonable 18.47x forward P/E argue against full exit. The position is trimmed to reduce exposure to the Q4 earnings event and continued downside pressure while preserving a core defensive anchor for re-engagement upon technical or fundamental confirmation.\n\n**Price Target**: 305.0\n\n**Time Horizon**: 3 months"
+}

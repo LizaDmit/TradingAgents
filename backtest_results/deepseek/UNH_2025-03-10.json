@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2025-03-10",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2025-03-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -13.37,
+    "mean_max_drawdown_pct": -14.53,
+    "p95_worst_drawdown_pct": -27.31,
+    "p99_worst_drawdown_pct": -33.93,
+    "est_annualized_vol_pct": 29.5,
+    "spot_price": 464.4,
+    "expected_return_pct": 1.04,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 14.75,
+    "risk_free_pct_horizon": 1.046,
+    "risk_free_available": true,
+    "return_over_risk": -0.0,
+    "expected_price": 469.23,
+    "price_p5": 362.78,
+    "price_p95": 588.46,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current UNH position at existing weight with no material additions or trims. Set conditional triggers: upgrade to Overweight if UNH reclaims the 50-day SMA (~$494) on above-average volume and holds for 5+ sessions, or if quarterly earnings confirm the $22+ forward EPS trajectory. Trim 20-25% if price breaks below the $430 support zone or if forward EPS estimates get revised downward on regulatory/antitrust developments. Re-evaluate at next earnings.\n\n**Investment Thesis**: The debate across all three analysts converges on HOLD, and the evidence supports this. The bull case rests on UNH's forward P/E of 18.47, a reasonable PEG of 1.34, the Optum vertical-integration moat across 152 million lives, a defensive beta of 0.633, and a growing 2.24% dividend. However, these positives are undercut by three material concerns: (1) the forward EPS of $22.44 implies a ~70% jump from TTM EPS of $13.26 with zero institutional news, earnings revisions, or guidance to validate that acceleration \u2014 it remains an unproven assumption; (2) the sentiment data is a genuine vacuum, showing no news flow, no retail volume, and no institutional accumulation, which the Neutral Analyst correctly identifies as indifference rather than a hidden catalyst; and (3) the macro regime \u2014 a new Fed chair with rate uncertainty \u2014 pressures defensive yield names disproportionate to what the bull acknowledges, especially given the stock sits 6% below its 50-day SMA ($493.79) and 11% below its 200-day SMA ($522.77). The technical picture is a clear downtrend without capitulation, but the stock held the $430 support through recent tariff and Fed-chair turmoil, providing a defensible floor. The risk/reward is neither decisively skewed bullish nor bearish at this juncture: $30 upside to resistance versus $35 to the support floor, with undefined downside below $430. The honest conclusion is that no validated catalyst exists in either direction, and the market is genuinely undecided. Holding with condition-based triggers respects both the quality franchise (Optum, UnitedHealthcare's durable moat) and the unresolved fundamental questions (unvalidated EPS trajectory, regulatory scrutiny, macro rate uncertainty). The conservative approach of protecting capital while collecting the dividend and waiting for confirmed signals \u2014 not hope \u2014 is the disciplined edge in this environment.\n\n**Price Target**: 494.0\n\n**Time Horizon**: 3 months"
+}

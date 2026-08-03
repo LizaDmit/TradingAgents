@@ -1,0 +1,32 @@
+{
+  "ticker": "UNH",
+  "date": "2026-06-08",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "UNH",
+    "as_of": "2026-06-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -15.93,
+    "mean_max_drawdown_pct": -18.27,
+    "p95_worst_drawdown_pct": -36.5,
+    "p99_worst_drawdown_pct": -45.87,
+    "est_annualized_vol_pct": 41.0,
+    "spot_price": 404.26,
+    "expected_return_pct": 1.99,
+    "median_return_pct": 0.88,
+    "return_vol_pct": 20.76,
+    "risk_free_pct_horizon": 0.907,
+    "risk_free_available": true,
+    "return_over_risk": 0.052,
+    "expected_price": 412.31,
+    "price_p5": 283.61,
+    "price_p95": 557.84,
+    "prob_loss": 0.483,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate an Overweight position in UNH at ~4% of the portfolio, deployed in three tranches. Deploy the first tranche only at/near current levels (~$395\u2013$404) or on a confirmed breakout above $420; commit the second tranche on a genuine test of the 50-day SMA (~$350\u2013$360); and add the final tranche on a 5\u20138% correction or a fresh earnings beat. Replace the fixed $310 stop with a structural stop below the 50-day SMA (~$345\u2013$350) to limit worst-case portfolio impact to ~1%, and reassess after the next two quarterly earnings reports. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on a defensible Buy-the-direction thesis, but the middle path is the correct execution. The bull case is structurally sound: UNH trades at ~18.5x forward P/E on a projected EPS of $22.44, carries a 0.63 beta and 2.24% dividend yield, features a golden-stack technical setup, and benefits from the vertical integration of UnitedHealthcare and Optum\u2014a moat few peers can replicate. The bear case correctly flags that the TTM-to-forward EPS gap ($13.26 \u2192 $22.44, a ~69% jump) is an unverified forecast, not audited reality, and that the 31.25x trailing multiple will re-rate violently if forward estimates disappoint. The neutral analyst's synthesis is the most actionable: the entry price of $365 is inconsistent with a market at $404 (you cannot get filled there without fracturing the technical setup), and the $310 stop implies a 23% drawdown from current prices, which is too wide for a defensive name. The correct construction is a 4% position entered at realistic levels, a structural stop below the 50-day SMA (~$350) rather than a fixed percentage, and deployment contingent on either a modest pullback toward $395 or a confirmed breakout above $420. Regulatory PBM risk and Fed policy uncertainty under Chair Warsh are real but are headline overhangs that have historically been survivable at UNH's scale; these should gate the pace of deployment, not the direction. The low beta and defensive profile argue for slight over-allocation versus other single names, justifying Overweight rather than a neutral Hold, but the unproven earnings trajectory and policy tail risks argue against a full Buy until forward estimates are confirmed by at least one quarterly beat.\n\n**Price Target**: 450.0\n\n**Time Horizon**: 3 months"
+}

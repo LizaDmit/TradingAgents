@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-03-02",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-03-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.07,
+    "mean_max_drawdown_pct": -13.08,
+    "p95_worst_drawdown_pct": -24.4,
+    "p99_worst_drawdown_pct": -30.07,
+    "est_annualized_vol_pct": 26.2,
+    "spot_price": 294.72,
+    "expected_return_pct": 0.88,
+    "median_return_pct": 0.11,
+    "return_vol_pct": 13.21,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.001,
+    "expected_price": 297.32,
+    "price_p5": 236.58,
+    "price_p95": 364.8,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a partial JPM position now at the $294 zone (200-day SMA support) at half of the target weight, with the second half reserved for confirmed technical strength \u2014 a decisive close above the 50-day SMA near $309 on increased volume. Tighten the risk stop to $287 (below the $279 52-week low but above a catastrophic gap scenario), capping first-tranche risk near 2.4%. Assess over a 3-month horizon; a hawkish-but-orderly Fed transition and confirmation of the ~$94B NII guidance are the key catalysts.\n\n**Investment Thesis**: The bull case rests on exceptionally strong fundamentals \u2014 record 2025 net income of $64.2B, 16.2% ROTCE, 15.8% CET1, and a 14.19x forward P/E against $24.80 forward EPS \u2014 a quality franchise trading below its five-year average multiple with a 15.09x trailing P/E versus the broader market at 22x. The bear case is technically grounded: the stock sits exactly on its 200-day SMA after a 7.7% drawdown from $319, with the real first resistance at $309 (50-day SMA) offering only ~5% upside against a realistic downside of 6.5% to the $275 stop \u2014 near-symmetric, not asymmetric risk. The neutral analyst correctly identifies the structural flaw in the trader's plan: reserving the second tranche for either a breakout OR a further dip creates a \"buy regardless\" trap \u2014 averaging down into a falling trend. The disciplined synthesis is to own the constructive fundamentally-driven rating (Overweight) but implement it with the neutral analyst's optionality: buy half now at the 200-day SMA with a tighter $287 stop (2.4% risk on first tranche, ~2:1 reward-to-risk to $309), and add the second half only on confirmed strength (close above $309 on volume), not on further weakness. The fortress balance sheet, sub-25% payout ratio with 1.71% dividend yield, and JPM's proven ability to monetize volatility provide a meaningful downside cushion that conservatively analyst acknowledges; rising provisions (22% YoY) reflect normalization from historically low levels with charge-offs still below 1% of loans, not a deteriorating credit cycle. With the broader market at ~22x and JPM's PEG at 1.72, the stock is fairly but not cheaply valued \u2014 warranting gradual accumulation rather than aggressive full-weight entry. A stop below $279 with volume, or a confirmed fundamental impairment signal in Q1 2026 earnings, would invalidate the thesis and warrant a downgrade to Underweight.\n\n**Price Target**: 320.0\n\n**Time Horizon**: 3 months"
+}

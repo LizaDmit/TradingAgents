@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-06-01",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-06-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.09,
+    "mean_max_drawdown_pct": -10.92,
+    "p95_worst_drawdown_pct": -20.13,
+    "p99_worst_drawdown_pct": -25.1,
+    "est_annualized_vol_pct": 21.5,
+    "spot_price": 295.25,
+    "expected_return_pct": 0.77,
+    "median_return_pct": 0.24,
+    "return_vol_pct": 10.7,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": -0.012,
+    "expected_price": 297.53,
+    "price_p5": 248.41,
+    "price_p95": 351.79,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a measured accumulation of JPM as a core holding at roughly 2% of portfolio weight initially (entry near $287.5), with a widened stop at $274.0 to survive Fed-transition volatility, and scale toward 3-4% on a confirmed 200 SMA reclaim (\u2248$302) or a stabilizing retest of the 279-282 zone. Dividend carry (1.71% yield, 3.5x coverage) supports holding through the technical and macro uncertainty. Review the thesis if price breaks below $274 on volume.\n\n**Investment Thesis**: This decision synthesizes the strongest evidence from each analyst rather than adopting any one extreme. The aggressive analyst correctly identifies JPM's elite fundamentals \u2014 17.79% ROE, $63.6B net income, 50.39% operating margin, and a forward P/E of 14.17x (below the 15.13x TTM) \u2014 which justify treating this as a quality-franchise dislocation, not a deterioration. The conservative analyst correctly warns that the triple-stack bearish alignment (price below the 10 EMA at 298.99, 50 SMA at 301.33, and 200 SMA at 302.25) plus a binary Fed-transition catalyst (Warsh) elevates tail risk, and that a 279.0 stop could be gapped through in a disorderly meeting. The neutral analyst bridges these: the proposed 2% starter at $287.5 with a widened stop to $274.0 balances upside participation against a genuine binary event while avoiding both the aggressive 3-4% full early entry and the conservative wait-until-$302 (a 5% worse entry). The risk/reward is asymmetric in the risk-managed version: roughly 4.7% downside on a 2% starter is ~0.09% portfolio impact, while a recovery to the 50 SMA (301.33) or April high (309.69) offers +4.8% to +7.7%. The 1.71% dividend with 3.5x coverage provides carry while awaiting technical confirmation, and the price sits only ~2.4% below the still-uptrending 200 SMA \u2014 a shallow breakdown, not structural collapse. This is Overweight rather than Buy because the unresolved macro binary and broken short-term technicals argue for gradual, disciplined accumulation with defined risk, not a full-position swoop.\n\n**Price Target**: 302.0\n\n**Time Horizon**: 3 months"
+}

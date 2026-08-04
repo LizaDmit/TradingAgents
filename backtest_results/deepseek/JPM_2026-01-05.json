@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-01-05",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-01-05",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.37,
+    "mean_max_drawdown_pct": -12.45,
+    "p95_worst_drawdown_pct": -23.58,
+    "p99_worst_drawdown_pct": -29.73,
+    "est_annualized_vol_pct": 25.1,
+    "spot_price": 329.36,
+    "expected_return_pct": 0.72,
+    "median_return_pct": 0.23,
+    "return_vol_pct": 12.52,
+    "risk_free_pct_horizon": 0.879,
+    "risk_free_available": true,
+    "return_over_risk": -0.013,
+    "expected_price": 331.74,
+    "price_p5": 267.03,
+    "price_p95": 402.41,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at neutral-to-target weight without aggressive additions. The stock's technical uptrend and best-in-class franchise quality are offset by a stretched valuation (2.64x book, PEG 1.72, 17% above the 200-day SMA) and unresolved macro risk around the Warsh-led Fed transition. Tactically, add a small tranche on a pullback to the ~$320 area (10 EMA) with a hard stop below the 50-day SMA at $307, and trim a modest position into the $350-$360 all-time-high zone. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate is genuinely balanced, and the evidence supports maintaining the position rather than either aggressive accumulation or defensive trimming. The bull case rests on JPM's dominant, diversified franchise \u2014 the largest US bank with a fortress balance sheet, a reasonable 14.19x forward P/E on $24.80 EPS, and textbook bullish technical alignment (Price > 10 EMA > 50 SMA > 200 SMA with the 10 EMA accelerating from $310 to $320 in under a month). The potential for a deregulation-friendly Warsh Fed is a real, if unproven, catalyst for the entire banking complex.\n\nHowever, the bear case carries equal weight. JPM trades at 2.64x book value with a PEG of 1.72 \u2014 a premium that leaves little margin for error if the Fed transition triggers multiple compression across the sector. The stock sits 17% above its 200-day SMA with only ~8% runway to the $359.30 52-week high, creating asymmetric mean-reversion risk. The world affairs report explicitly warns Warsh's first meeting \"could slam the stock market,\" and a 0.98 beta provides no protection in a disorderly Fed-induced selloff. Geopolitical escalation and the unresolved 2% inflation-target debate compound this uncertainty.\n\nThe neutral analyst's synthesis is the most defensible: neither the aggressive analyst's $395 \"freight train\" thesis nor the conservative's near-paralysis is fully supported. The social sentiment score of 5.0 is genuinely neutral \u2014 no crowd, no catalyst either way. The appropriate response is not indecision but disciplined active management: hold at target weight, add a measured 10-15% tranche on a pullback to the 10 EMA near $320 (not $310, which may not arrive), trim a similar tranche into $350-$360 strength, respect closing-basis stop discipline at $307, and avoid exceeding target weight or falling below core-holding level. This respects the confirmed uptrend while acknowledging that a 17% extension above the 200-day SMA makes a pullback statistically more likely than a clean breakout through resistance.\n\n**Price Target**: 345.0\n\n**Time Horizon**: 3 months"
+}

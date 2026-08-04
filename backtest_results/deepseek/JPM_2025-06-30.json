@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-06-30",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-06-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.42,
+    "mean_max_drawdown_pct": -13.58,
+    "p95_worst_drawdown_pct": -25.38,
+    "p99_worst_drawdown_pct": -31.81,
+    "est_annualized_vol_pct": 28.1,
+    "spot_price": 283.1,
+    "expected_return_pct": 0.82,
+    "median_return_pct": -0.18,
+    "return_vol_pct": 14.38,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.016,
+    "expected_price": 285.44,
+    "price_p5": 225.07,
+    "price_p95": 357.28,
+    "prob_loss": 0.506,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at its current 3-5% neutral allocation band. Do not add new capital at RSI 77.55 with the stock 19.2% extended above its 200-day SMA. Establish a two-sided trigger: add on a pullback toward the 10 EMA (~$274.61) or RSI reset below 60, or upgrade to Overweight on a confirmed breakout above the 52-week high of $359.30 with expanding volume. Time horizon: 3 months.\n\n**Investment Thesis**: Synthesizing the debate, neither the Aggressive nor the Conservative Analyst delivers a knockout case, and the data supports maintaining conviction-neutral exposure. The Aggressive Analyst correctly highlights a compelling setup: forward P/E of 14.19 on forward EPS of $24.80, a $133.01 book value floor, a 1.71% dividend, and a textbook bullish moving-average stack (10 EMA $274.61, 50 SMA $255.20, 200 SMA $237.45) with the stock 19.2% above its 200-day. The toll-booth model does genuinely benefit from higher-for-longer rates under a hawkish Kevin Warsh Fed transition, and the empty sentiment data (5.0/10, low confidence) can reasonably be read as uninstitutionalized upside.\n\nHowever, the Conservative Analyst's asymmetry warning is materially grounded and cannot be dismissed. RSI at 77.55 is objectively overbought; the stock sits 21% below its 52-week high of $359.30, meaning the prior push to new highs was rejected\u2014this is a recovery within a range, not a confirmed breakout. The 50-day average discrepancy ($327.69 in fundamentals vs. $255.20 in technicals) signals a significant recent drawdown that introduces data-consistency risk, and a 10% pullback to the 50 SMA (~$28/share) is a real tail risk in an overbought, extended tape. The hawkish Fed is genuinely two-sided: it expands NIM near-term but also raises credit-cycle, loan-loss, and equity-de-rating risks, and JPM's 0.982 beta means it will not act as a safe haven in a broad sell-off. The 2.64x book valuation is not cheap, and the Neutral Analyst's point that empty sentiment in a mega-cap often means the re-rating has already occurred (not that it is imminent) is the more prudent read of a data vacuum.\n\nThe risk/reward at RSI 77 with a recovery (not breakout) pattern and a genuinely two-sided macro is balanced, not skewed. The correct decision is to hold at current weight, preserve optionality, and deploy capital only on either a de-risked entry (pullback to ~$274.61 or RSI < 60) or a confirmed high-volume breakout above $359.30, which would validate the Aggressive Analyst's thesis and justify an upgrade.\n\n**Price Target**: 359.3\n\n**Time Horizon**: 3 months"
+}

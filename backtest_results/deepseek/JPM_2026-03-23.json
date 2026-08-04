@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-03-23",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-03-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.46,
+    "mean_max_drawdown_pct": -12.43,
+    "p95_worst_drawdown_pct": -23.12,
+    "p99_worst_drawdown_pct": -29.12,
+    "est_annualized_vol_pct": 25.2,
+    "spot_price": 287.14,
+    "expected_return_pct": 0.83,
+    "median_return_pct": 0.28,
+    "return_vol_pct": 12.54,
+    "risk_free_pct_horizon": 0.903,
+    "risk_free_available": true,
+    "return_over_risk": -0.006,
+    "expected_price": 289.53,
+    "price_p5": 234.26,
+    "price_p95": 351.83,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a JPM core position but scale in with discipline given the confirmed downtrend and imminent death cross. Initiate at roughly 25-30% of intended size near $287, with a tight review threshold at $280 (the multi-month low) rather than the trader's $275 stop, to avoid gap risk. Add tranches only on confirmation: a hold-and-bounce at $280, or a reclaim of $290/$299 on volume. Cap total at 3-4% until price reclaims the 50-day SMA, graduating toward the 5-7% core target only once the trend confirms. Horizon: 3 months.\n\n**Investment Thesis**: The fundamental case for JPM is compelling and wins the debate: ~15x trailing EPS ($23.32) with 6.3% forward EPS growth to $24.80, 2.64x price-to-book versus peers at 3-4x with lower ROE, 1.71% dividend yield, and fortress capital with buyback support. Quarterly revenue has been remarkably stable at $44.9-46.4B through 2025, and there is no data indicating deteriorating credit quality. The aggressive analyst correctly argues that a 10% de-rating of a best-in-class franchise with intact earnings power offers attractive value, and that JPM's trading and NII businesses benefit from the higher-rate/higher-volatility macro.\n\nHowever, the conservative and neutral analysts raise valid technical concerns that cap conviction and justify a measured entry rather than maximum-conviction Buy. Price sits below both the 50-day ($299.54) and 200-day ($296.85) SMAs, a death cross is imminent with the 50-day falling 3.6% monthly, the stock is only 2.5% above the $280.19 multi-month low, and revenue was flat-to-slightly-declining QoQ ($45.8B Q4 vs $46.43B Q3). There is no confirmed reversal or accumulation evidence. The neutral analyst's refinement is the strongest synthesis: buy a starter position to capture upside, but size it small (25-30%), cut at $280 before the gap-risk air pocket below $275, and scale in only on price confirmation rather than averaging down into failing support. Macro unknowns (Warsh Fed transition, inflation toward 4%, geopolitical oil risk) are two-sided and argue for patience in deployment.\n\nThe blended verdict: the bull thesis wins on fundamentals and valuation, but the technical picture and absence of a confirmed catalyst argue against maximum-conviction Buy and against the trader's initial 40-50% fill. Overweight captures the favorable long-term case while disciplined scaling respects the downside risk and avoids the risk of averaging down to a $275 entry while price trades at $260. A 3-month horizon aligns with the thesis that economic normalization and potential trend reclaim (toward the $300-$330 range) can occur, while tight stops protect capital in the interim.\n\n**Price Target**: 300.0\n\n**Time Horizon**: 3 months"
+}

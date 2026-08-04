@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-06-15",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-06-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.15,
+    "mean_max_drawdown_pct": -11.18,
+    "p95_worst_drawdown_pct": -20.87,
+    "p99_worst_drawdown_pct": -25.78,
+    "est_annualized_vol_pct": 21.8,
+    "spot_price": 317.97,
+    "expected_return_pct": 0.67,
+    "median_return_pct": 0.15,
+    "return_vol_pct": 11.02,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": -0.021,
+    "expected_price": 320.11,
+    "price_p5": 264.77,
+    "price_p95": 380.62,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim ~25% of existing JPM exposure at current levels around $318 (no new longs), establishing an underweight stance ahead of the binary Kevin Warsh Fed transition and deteriorating consumer credit signals. Maintain a hard stop / re-evaluation trigger at $303 (below the 200-day SMA) on the residual position, with a re-entry zone in the $280-295 area and a bullish re-engagement trigger on a reclaim of the 50-day SMA (~$327). Time horizon: 3 months.\n\n**Investment Thesis**: Synthesizing the analysts' debate, the evidence favors a measured reduction rather than a full exit or a complacent hold. The aggressive analyst correctly identifies that price sits BELOW the 50-day SMA (the fundamental report places it near $327; the more current technical read at $305.71 is contradicted by the fundamental data), and that the hawkish Warsh Fed transition, 4% inflation, and rising card delinquencies skew the near-term risk/reward to the downside\u2014approximately 12% to $279 support versus ~13% to the $359 high, with asymmetric probability weighting. The conservative analyst rightly counters that JPM is a fortress-grade, market-anchoring franchise (beta ~0.977, 1.71% dividend, 15.1x TTM P/E) that investors flee TO during volatility, and that the market has already repriced hawkishness from $359 to $318. However, his reliance on the $305.71 50-day figure is unreliable given the conflicting $327.69 reading, and a mental stop is not a real hedge against gap risk on a defined binary catalyst. The neutral analyst reconciles these views most convincingly: a ~25% trim (midpoint of the 20-30% range) meaningfully reduces probability-weighted downside while retaining 75% of upside optionality; it harvests liquidity at a defensible price above the 200-day SMA ($303) and 10-day EMA ($310.80); and it enforces discipline with a hard, actionable $303 stop rather than a mental one. The PEG of 1.72 on only ~6.7% projected EPS growth is elevated for a decelerating cyclical bank, and a flattening/inverted curve under Warsh directly pressures JPM's core NII engine. This is not a Sell\u2014JPM is too high quality and its current price is above key supports\u2014and not a Hold\u2014the catalysts clearly favor caution and the technicals are not as clean as the bull claims. Underweight best reflects the asymmetric, probability-weighted downside while preserving participation in the franchise's long-term compounding.\n\n**Price Target**: 295.0\n\n**Time Horizon**: 3 months"
+}

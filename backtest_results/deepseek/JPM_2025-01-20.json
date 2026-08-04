@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-01-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-01-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.45,
+    "mean_max_drawdown_pct": -11.43,
+    "p95_worst_drawdown_pct": -21.51,
+    "p99_worst_drawdown_pct": -26.91,
+    "est_annualized_vol_pct": 23.6,
+    "spot_price": 251.53,
+    "expected_return_pct": 0.68,
+    "median_return_pct": -0.17,
+    "return_vol_pct": 11.92,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.031,
+    "expected_price": 253.24,
+    "price_p5": 207.59,
+    "price_p95": 306.5,
+    "prob_loss": 0.506,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain existing JPM positions at a 2-3% core weight without adding at current stretched levels. For new capital, implement a limit-order ladder at $245, $235, and a breakout trigger above $260 with volume confirmation. Trim only if JPM closes below the 50-day SMA (~$235) on elevated volume, which would signal trend-integrity failure. Time horizon: 3 months.\n\n**Investment Thesis**: The analyst debate converges on a Hold, and the evidence supports this stance. The bull case rests on genuine institutional strength: price sits above the 10 EMA, 50 SMA ($234.67), and 200 SMA ($206.61) with a 21.7% gap above the long-term anchor, while a forward P/E of 14.19x and trailing P/E of 15.09x are reasonable for the largest U.S. bank by assets. However, the bear case is equally grounded in measurable risk: RSI at 73.31, a 4.3% premium above the 10 EMA, and a 21.7% extension above the 200-day SMA indicate a vertically accelerated move with meaningful reversion probability toward the 50-day SMA (~$235, a 6.5% downside). The sentiment vacuum (zero institutional headlines, no retail chatter) is a genuine data gap\u2014neither the aggressive analyst's \"gift\" framing nor the conservative analyst's \"red flag\" framing is fully supported; it simply means there is no froth supporting the price and no clear catalyst. The Fed rate-cut headwind on net interest income is real, though JPM's diversified revenue (IB, trading, asset management) partially buffers NII compression, and the forward EPS estimate of $24.80 already embeds some rate expectations. Both the aggressive call to \"ride momentum\" at $251 and the conservative call to stand by entirely until $235 are overly rigid; the neutral analyst's laddered entry is the most disciplined execution. The 2-3% core weight keeps a 10% drawdown to roughly 20-30 basis points of portfolio impact\u2014uncompensated risk is avoided while preserving participation in an intact uptrend. This is a balanced case where the franchise quality argues against selling, but the technical stretch and macro headwinds argue against fresh outflowing capital at current levels.\n\n**Price Target**: 260.0\n\n**Time Horizon**: 3 months"
+}

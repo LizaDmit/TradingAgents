@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-03-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-03-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.34,
+    "mean_max_drawdown_pct": -12.41,
+    "p95_worst_drawdown_pct": -23.6,
+    "p99_worst_drawdown_pct": -29.29,
+    "est_annualized_vol_pct": 25.2,
+    "spot_price": 283.43,
+    "expected_return_pct": 1.06,
+    "median_return_pct": 0.35,
+    "return_vol_pct": 12.67,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": 0.013,
+    "expected_price": 286.43,
+    "price_p5": 231.3,
+    "price_p95": 348.39,
+    "prob_loss": 0.489,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at current market-weight positioning with no aggressive additions or trims. The stock trades at $283.43, just 1.5% above the 52-week low of $279.10, with price below both the 50-day and 200-day SMAs and a potential death cross approaching\u2014yet valuation at 14.2x forward earnings with 2.64x P/B against high-teens to low-20s ROTCE provides a genuine floor. Establish conditional triggers: trim one-third only on a confirmed breakdown (close below 200-day SMA by >3% on decisive volume), and accumulate in tranches on a 10-day EMA reclaim or an earnings confirmation of ~$24.80 EPS with in-line credit guidance. Time horizon: 3 months.\n\n**Investment Thesis**: The debate lands on Hold because both the bull and bear cases carry genuine weight, but neither is decisively wrong\u2014and the data confirms this balance. The bull case rests on concrete valuation support: 15.1x trailing / 14.2x forward earnings, 2.64x price-to-book against high-teens to low-20s ROTCE, and a 1.71% dividend with conservative payout on the highest-quality systemically important US bank. This is not a distressed asset; it is a fortress franchise trading near its 52-week low with 28% upside to the $359.30 high. However, the bear's technical and macro concerns are equally grounded. Price has been below the 50-day SMA since February 24 with the gap widening from 16 to over 20 points, crossed below the 200-day on March 10 without reclaiming, and the 10-day EMA sits below both longer-term averages. The narrowing death-cross spread is a real algorithmic selling trigger, not a \"coiled spring.\" Sticky 4% inflation with a challenged flat-to-inverted yield curve compresses JPM's NIM on the spread, and elevated consumer credit risk in Consumer & Community Banking (JPM's largest earnings engine) threatens charge-off normalization above consensus. The Neutral Analyst's discipline is the correct synthesis: the aggressive case overweights franchise value while ignoring technical and credit risks; the conservative case overweights technical risk while ignoring valuation support. Both the Research Manager's plan and the Trader's proposal converge on Hold, and the Aggressive Analyst's demand to \"double down\" at $279.10 ignores gap-through-stops risk, while the Conservative Analyst's preemptive trim sacrifices compounding at the moment risk/reward is improving. Therefore, maintain the position, but manage it actively with confirmation-based triggers rather than passive or reactive execution.\n\n**Price Target**: 305.0\n\n**Time Horizon**: 3 months"
+}

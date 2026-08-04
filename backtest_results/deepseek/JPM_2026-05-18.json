@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-05-18",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-05-18",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.07,
+    "mean_max_drawdown_pct": -10.95,
+    "p95_worst_drawdown_pct": -20.36,
+    "p99_worst_drawdown_pct": -25.29,
+    "est_annualized_vol_pct": 21.3,
+    "spot_price": 299.38,
+    "expected_return_pct": 0.59,
+    "median_return_pct": 0.33,
+    "return_vol_pct": 10.6,
+    "risk_free_pct_horizon": 0.892,
+    "risk_free_available": true,
+    "return_over_risk": -0.028,
+    "expected_price": 301.15,
+    "price_p5": 250.65,
+    "price_p95": 355.03,
+    "prob_loss": 0.488,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at benchmark weight over a 3-month horizon. Do not add ahead of the upcoming earnings report (6-8 weeks out); instead, implement the neutral analyst's layered triggers: initiate the first accumulation tranche on a two-session close back above the 200 SMA (~$301.61) with regulatory-easing confirmation, keep the $270-$280 deep-value band as a secondary entry, and trim to underweight on a high-volume close below $295 or a break below the $279.10 52-week low. The next earnings report resolves the current directional vacuum.\n\n**Investment Thesis**: The debate is genuinely balanced and the evidence does not support conviction in either direction. On the bull side, JPM trades at ~14.26x forward earnings versus the S&P 500's ~22x, backed by a fortress balance sheet, ~15% ROE, and diversified revenue streams; the Warsh-led Fed transition carries a potentially material regulatory tailwind for capital relief and buyback capacity. However, the bear case is equally substantive: a 2.66x price-to-book (highest in large-cap banking) leaves little margin of error, a PEG of 1.72 shows the market has already priced modest growth, over 60% interest-rate sensitivity creates a quantifiable NIM headwind from an anticipated rate-cutting cycle, and the technical setup is deteriorating\u2014price ($299.38) sits below the 200 SMA ($301.61) with a declining 10 EMA, and a credible death-cross pattern is forming. Critically, the sentiment report shows a neutral 5.0/10 score with zero news flow, zero Reddit, and zero StockTwits data\u2014evidence of a genuine directional vacuum where the next move will be policy- or earnings-driven rather than institutionally driven. The aggressive analyst's 70/30 upside claim is unsupported by any data, and his proposed buy-at-$295/stop-$278 structure accepts 5.8% downside against an undated policy catalyst, while the conservative analyst's exclusive reliance on the $270-$280 band risks missing a policy-driven gap-up (e.g., to $315) that would nullify the entire entry edge. The neutral analyst's synthesis is the correct resolution: hold at benchmark weight, scale in on technical-plus-fundamental confirmation (two-session hold above $301.61 with regulatory confirmation), retain the deep-value band as a secondary trigger, and use the earnings report as the binary decision point. The stock is neither strong enough to overweight nor weak enough to underweight\u2014it sits within 2% of the 50 SMA, 1% below the 200 SMA, and 10% below the 52-week high, squarely in balanced territory.\n\n**Time Horizon**: 3 months"
+}

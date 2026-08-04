@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-07-14",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-07-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.4,
+    "mean_max_drawdown_pct": -13.52,
+    "p95_worst_drawdown_pct": -25.09,
+    "p99_worst_drawdown_pct": -31.79,
+    "est_annualized_vol_pct": 28.3,
+    "spot_price": 283.28,
+    "expected_return_pct": 1.05,
+    "median_return_pct": 0.05,
+    "return_vol_pct": 14.42,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": -0.001,
+    "expected_price": 286.25,
+    "price_p5": 224.95,
+    "price_p95": 356.8,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing JPM position at its current weight without adding or trimming. The $241 (200-day SMA) level serves as the mental stop; a decisive close below it on high volume upgrades the thesis to Underweight. Hold through the two pending catalysts\u2014earnings and the Fed leadership transition to Kevin Warsh\u2014before committing capital in either direction. For overweight holders, trim into any rally toward the $290-300 zone to reduce elevated valuation risk; add only on a confirmed pullback to the ~$264 area with reconciled technical data.\n\n**Investment Thesis**: The debate resolves to a balanced, genuinely close call where neither the bull nor the bear decisively carries the argument, and that symmetry dictates the Hold. The bull wins on quality: JPM's 17.79% ROE and 1.36% ROA are best-in-class, the forward PE of 14.19 is not egregious for this franchise, and the longer-term trend remains intact with price 17.4% above the 200-day SMA and a golden moving-average alignment. The bear wins on valuation and macro: a PEG of roughly 1.7-1.9 on decelerating ~6.3% EPS growth at 2.64x book means the market is paying a premium for moderation, and the Fed transition to Kevin Warsh is a genuine NIM-compression catalyst risk that the World Affairs Report flags as a major risk event. The severe 24% disagreement between analysts on the 50-day SMA baseline ($264.02 vs $327.69) undercuts technical conviction in either direction, and the degraded/empty sentiment data means we lack directional signal rather than possessing resilience signal. The Neutral analyst's synthesis is the most defensible: this is an inflection point with conflicting data and binary macro outcomes, where pre-catalyst adding to a premium multiple and pre-catalyst trimming of a high-quality compounder are both premature. The 21% drawdown from the $359 high confirms this is not a frothy breakout, but it also refutes the aggressive claim of textbook bullish continuation. With the 52-week low just 1.5% below entry, downside protection matters. The $241 stop is a real risk threshold with genuine gap risk in a policy vacuum, which argues against the aggressive 15%-downside/30%-upside collar framing. Hold is the honest call: quality argues against selling, valuation and unresolved macro overhang argue against buying at these levels, and both major catalysts are pending resolution within the 3-month horizon.\n\n**Price Target**: 290.0\n\n**Time Horizon**: 3 months"
+}

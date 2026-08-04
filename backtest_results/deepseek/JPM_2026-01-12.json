@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-01-12",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-01-12",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.39,
+    "mean_max_drawdown_pct": -12.48,
+    "p95_worst_drawdown_pct": -23.44,
+    "p99_worst_drawdown_pct": -29.73,
+    "est_annualized_vol_pct": 25.1,
+    "spot_price": 321.39,
+    "expected_return_pct": 0.81,
+    "median_return_pct": 0.18,
+    "return_vol_pct": 12.6,
+    "risk_free_pct_horizon": 0.883,
+    "risk_free_available": true,
+    "return_over_risk": -0.006,
+    "expected_price": 324.0,
+    "price_p5": 261.45,
+    "price_p95": 393.49,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing JPM position at current sizing (~$321). Do not add aggressively into a fading short-term trend ahead of a binary earnings catalyst, and do not exit a stock still trading above all major moving averages. Set a mental stop near $305 (not the too-tight $310) and trim 10\u201315% only if price closes below $318. Add only on a confirmed stabilization at the 50-day SMA ($310\u2013312) or on a post-earnings breakout above $335. Horizon: 3 months.\n\n**Investment Thesis**: Synthesizing the debate, the balance of evidence supports a disciplined Hold rather than a directional bet. The bull's case is anchored in genuine quality: a 17.79% ROE and 1.36% ROA are best-in-class, the forward P/E of 14.19x is moderate versus the broad market, and price remains above both the 50-day and 200-day SMAs with the stock 13.5% above its 200-day \u2014 a durable bullish structural setup. However, the bear's counterpoints prevent conviction: 2.64x book value is historically rich for a bank, the PEG of 1.72 signals the market has already priced in earnings deceleration, and the technical report shows waning momentum (deteriorating RSI, 10 EMA at $323.36 sitting above price at $321.39 after a five-session slide from $329.36). The macro picture is genuinely two-sided: a hawkish Fed transition under Warsh could widen NII, but the same regime raises consumer credit stress (JPM's card and loan books are directly exposed) and risks compressing sector multiples \u2014 not the clean asymmetric upside the aggressive analyst claims, since it requires three independent assumptions (benign Fed, contained credit, earnings beat) to work. With no fresh catalyst and an imminent earnings print creating a wide-variance, coin-flip event (a beat on NII could still miss on credit provisions), the risk-reward at current levels is balanced, not skewed. As the neutral analyst correctly framed, the prudent path is to hold current sizing, use a $305 mental stop rather than the $310 the trader proposed (which would whipsaw on daily noise), trim 10\u201315% only on a closing break of $318, and wait for either a stabilized retest of the 50-day SMA or a confirmed post-earnings breakout above $335 to justify adding. This respects the franchise quality while refusing to pay up for uncertainty ahead of a binary event.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

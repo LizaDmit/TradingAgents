@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-11-03",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-11-03",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.74,
+    "mean_max_drawdown_pct": -12.79,
+    "p95_worst_drawdown_pct": -24.0,
+    "p99_worst_drawdown_pct": -29.8,
+    "est_annualized_vol_pct": 26.7,
+    "spot_price": 305.02,
+    "expected_return_pct": 0.67,
+    "median_return_pct": -0.41,
+    "return_vol_pct": 13.52,
+    "risk_free_pct_horizon": 0.946,
+    "risk_free_available": true,
+    "return_over_risk": -0.02,
+    "expected_price": 307.08,
+    "price_p5": 245.29,
+    "price_p95": 380.15,
+    "prob_loss": 0.511,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current JPM positions at existing weightings. Do not add new capital above $300 given the 1.7% buffer to the 50-day SMA, the 2.64x price-to-book premium, and neutral sentiment with no fresh catalyst. Scale in tiered tranches as price approaches support\u2014initial tranche at $295-300 only on a confirmed hold of the 50-day SMA, followed by larger tranches at $280-285 and $270-275\u2014with a hard stop loss at $269 (200-day SMA). Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on a Hold, and the evidence supports maintaining discipline over aggression. The bull case is legitimate: JPM is a fortress franchise with $4.56T in assets, Q3 revenue of $46.43B versus $44.88B in Q2 (sequential acceleration), NII climbing to $23.97B, EPS growing 3.5% y/y, and forward EPS of $24.80. However, the bear and neutral counterpoints carry decisive weight at the current price. The stock sits at ~$305, barely 1.7% above its 50-day SMA ($299.97) and roughly 12% above the 200-day SMA ($269), indicating a stretched near-term position rather than a breakout. The 2.64x price-to-book leaves no margin of safety, and the 1.71% dividend yield trails risk-free alternatives, undermining the income argument. Sentiment is neutral (5.0/10) with low confidence and a genuine data vacuum\u2014there is no accumulation signal in the tape. The Aggressive Analyst's proposal to add at $300 with a $289 stop is rejected: a stock with a beta near 1.0 facing an unpredictable Fed leadership transition can gap through that tight stop on a single hawkish headline, realizing losses just before the actual accumulation zone arrives. The Conservative Analyst's math is sound\u2014at $305, risk/reward is ~1:1 (downside to $289 is 5%, upside to $330 is 8%), while at $275 it becomes genuinely favorable (downside to $269 is 2%, upside to $310 is 13%). The Neutral Analyst's tiered approach offers the best synthesis: maintain the $269 stop, scale in smaller tranches as price approaches support rather than insisting on a single $270-280 level that may never print, and keep the position cap intact. If price breaks below the 200-day SMA on volume, the thesis is invalidated and trimming is warranted. If earnings acceleration or Fed clarity justifies the multiple, re-rate with an upgrade path toward $310-330.\n\n**Price Target**: 330.0\n\n**Time Horizon**: 3 months"
+}

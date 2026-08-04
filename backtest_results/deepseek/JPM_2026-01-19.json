@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-01-19",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-01-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.44,
+    "mean_max_drawdown_pct": -12.52,
+    "p95_worst_drawdown_pct": -23.76,
+    "p99_worst_drawdown_pct": -29.68,
+    "est_annualized_vol_pct": 25.4,
+    "spot_price": 309.48,
+    "expected_return_pct": 1.02,
+    "median_return_pct": 0.37,
+    "return_vol_pct": 12.87,
+    "risk_free_pct_horizon": 0.889,
+    "risk_free_available": true,
+    "return_over_risk": 0.01,
+    "expected_price": 312.63,
+    "price_p5": 250.8,
+    "price_p95": 380.53,
+    "prob_loss": 0.489,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim JPM holdings by ~20% at current levels near $312, with a tightened stop at $290 rather than the wider $284 level. Do not initiate new positions. Re-enter or upgrade only on a decisive reclaim and hold above the 50-day SMA (~$327) or on a stabilization near the 200-day SMA ($284-285) on value terms. Reassess at the next quarterly earnings report for clarity on NIM trajectory and credit quality.\n\n**Investment Thesis**: The analysts' debate converges on a cautious stance despite divergent views on magnitude. The aggressive analyst correctly identifies the bearish short-term technical alignment\u2014price is below both the 10-day EMA ($314.52) and 50-day SMA ($310.84)\u2014with rising volatility and no near-term catalyst. The neutral analyst's balanced framing is the most analytically sound: the stock is 8.7% above the 200-day SMA ($284.62), confirming a pullback rather than a structural breakdown, but the momentum shift is real and should not be dismissed as noise. The valuation concern raised by the bear is legitimate\u20142.64x P/B represents a 164% premium to tangible book for a regulated, mature bank, and the 1.72x PEG indicates growth is fully priced. However, the forward P/E of 14.19x on a fortress-quality, diversified franchise prevents an extreme Sell. The Fed transition introduces genuine NIM compression and Basel III capital uncertainty, but these are known, partly discounted themes for a bank with multiple offsetting revenue levers. The aggressive analyst's 25-35% trim overtrades a ~0.4% deviation from the 50-day SMA; the conservative analyst's 10-15% trim is a meaningless half-measure. The sustainable path is a ~15-20% trim that takes meaningful risk off the table while preserving the long-term core position. Tightening the stop from $284 to $290 is coherent\u2014a break of $290 likely opens a path to the 200-day SMA with reduced institutional support. This is a risk-management decision, not a thesis reversal: the franchise quality and buffer to the 200-day SMA justify maintaining the core, while the technical deterioration, valuation premium, and macro uncertainty justify reducing exposure now.\n\n**Price Target**: 290.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-01-27",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-01-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.3,
+    "mean_max_drawdown_pct": -11.29,
+    "p95_worst_drawdown_pct": -21.23,
+    "p99_worst_drawdown_pct": -27.04,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 258.02,
+    "expected_return_pct": 0.64,
+    "median_return_pct": -0.12,
+    "return_vol_pct": 11.98,
+    "risk_free_pct_horizon": 1.047,
+    "risk_free_available": true,
+    "return_over_risk": -0.034,
+    "expected_price": 259.68,
+    "price_p5": 213.01,
+    "price_p95": 313.14,
+    "prob_loss": 0.505,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a scaled position in JPM at 2-3% of portfolio over three tranches: 1% via a limit order at $255-256 (just below the 10 EMA at $251.17), 1% on a pullback to the $245-248 zone (between 10 EMA and 50 SMA), and the final 1% only on a confirmed breakout above $265 on volume or a successful hold of the 50-day SMA near $237. Set a hard stop below $232 rather than the wide $208 level. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a disciplined, scaled BUY rather than either extreme. The bull's structural case is compelling and data-backed: JPM trades at 14.19x forward earnings versus the S&P 500's 22-24x\u2014a meaningful discount even after accounting for the risk premium inherent in a regulated, capital-intensive cyclical. The clean moving-average stack (10 EMA above 50 SMA above 200 SMA), higher lows/higher highs since January 10th, positive MACD above its signal line, and $23.32 TTM EPS with a fortress balance sheet ($4 trillion assets) confirm institutional accumulation and franchise quality. However, the bear and neutral correctly neutralize the aggressive risk profile: RSI at 76 following a ~10% run in 30 days has historically preceded a 5%+ pullback within three weeks for JPM, the PEG of 1.72 means growth is fully priced, and neutral sentiment (5.0/10, low confidence) with no fresh catalyst suggests the recent momentum is partly passive flows and short-covering\u2014fragile support. The neutral's synthesis is the most defensible: enter now but at a slight concession (limit $255-256), scale the remainder into the 10-50 EMA zone ($245-248), and require breakout confirmation or a 50-day SMA hold for the final tranche. A 10% stop at $232 (below 50 SMA, above 200 SMA) caps portfolio risk at ~0.30% on a 3% position versus the aggressive's reckless 19% stop at $208. Rate cuts are a genuine double-edged sword\u2014NIM compression against a tailwind for trading, IB fees, and AWM inflows\u2014and JPM's diversification makes the net effect historically positive. With the Research Manager recommending Overweight and the trader proposing a scaled Buy, Overweight is the correct final rating: build exposure gradually, respect the overbought technicals, and rely on diversification and M&A/IPO pipeline catalysts over the quarter rather than chasing at $258.\n\n**Price Target**: 280.0\n\n**Time Horizon**: 3 months"
+}

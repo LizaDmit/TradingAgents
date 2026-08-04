@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-02-24",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-02-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.67,
+    "mean_max_drawdown_pct": -11.61,
+    "p95_worst_drawdown_pct": -21.82,
+    "p99_worst_drawdown_pct": -27.02,
+    "est_annualized_vol_pct": 24.1,
+    "spot_price": 253.64,
+    "expected_return_pct": 0.76,
+    "median_return_pct": -0.22,
+    "return_vol_pct": 12.32,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.023,
+    "expected_price": 255.57,
+    "price_p5": 208.88,
+    "price_p95": 310.39,
+    "prob_loss": 0.509,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at current levels (~$253\u2013254) without adding or trimming. The medium-term trend remains constructive (price above the 50-day SMA at $247.55 and 200-day SMA at $216.17) and the franchise quality is unimpeachable, but the broken short-term structure (price below the 10-day EMA at $262.10, four consecutive down days, RSI at 43.43) and an uncertain macro backdrop with a potentially hawkish Fed transition argue against aggressive accumulation now. Set disciplined triggers: modest add on stabilization in the $240\u2013$247 range with rising volume, hard risk exit on a daily close below $247.55 on heavy volume, and aggressive buys only on confirmed dovish pivot signals.\n\n**Investment Thesis**: The debate converges on a Hold, and the evidence supports this balanced conclusion. The bull case is anchored in genuine fundamental strength: $24.80 forward EPS, a 14.19x forward P/E trading at a meaningful discount to the broader market, a fortress balance sheet at 2.64x price-to-book with a $935B market cap, a dominant #1 franchise position across banking verticals, and price still above both the 50-day SMA ($247.55) and 200-day SMA ($216.17), indicating intact medium- and long-term trends. The bear case carries equal weight on near-term timing and valuation discipline: the 6.6% slide from the $271.70 high broke short-term structure with price below the 10-day EMA ($262.10) on four consecutive down days, the RSI at 43.43 shows momentum leaving, the 1.72 PEG is not cheap for a bank growing at only 6.3%, zero retail conviction provides no floor of support, and a hawkish Kevin Warsh Fed transition introduces genuine macro risk to NII and consumer lending\u2014JPM's core earnings engine. The key refinement from the neutral analyst is that the trader's original plan gets the baseline right but the conservative analyst's hard stop at $247.55 (on a daily close basis, not the looser $216.17) is the correct risk control\u2014a 2.4% risk from current levels. The aggressive analyst's plan to \"load up with maximum leverage at $216\" is rejected as hope-based trading into a potential credit-cycle turn. With beta near 1.0, JPM will participate fully in any market-wide correction, so the disciplined posture is to hold, tighten risk controls, and accumulate only on data-driven entry points with rising volume confirmation\u2014not on conviction. The medium-term trend, franchise quality, and fortress balance sheet argue against selling, while the broken short-term technicals, stretched bank valuation, and uncertain macro argue against buying. This is the textbook Hold the analysts converge on.\n\n**Price Target**: 262.0\n\n**Time Horizon**: 3 months"
+}

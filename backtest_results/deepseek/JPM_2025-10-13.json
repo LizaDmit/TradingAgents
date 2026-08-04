@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-10-13",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-10-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.65,
+    "mean_max_drawdown_pct": -12.73,
+    "p95_worst_drawdown_pct": -23.95,
+    "p99_worst_drawdown_pct": -29.51,
+    "est_annualized_vol_pct": 26.7,
+    "spot_price": 303.66,
+    "expected_return_pct": 0.93,
+    "median_return_pct": -0.09,
+    "return_vol_pct": 13.62,
+    "risk_free_pct_horizon": 0.963,
+    "risk_free_available": true,
+    "return_over_risk": -0.002,
+    "expected_price": 306.49,
+    "price_p5": 244.09,
+    "price_p95": 379.15,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a 2.5% half-position in JPM at current levels near $303, with a tightened stop at $290 (below the 50-day SMA and the $290 psychological level) rather than the wider $264 stop proposed in the original plan. Scale the position to a maximum 4% only on a confirmed close above $312 on above-average volume, which would signal a genuine breakout above the upper Bollinger Band. Time horizon is 3 months, with Q3 earnings as the primary catalyst; a failure that gaps through $290 caps downside at roughly 4-5% while leaving upside open to the $312-359 range.\n\n**Investment Thesis**: The decision synthesizes the strongest elements of each analyst's position while avoiding their respective extremes. The aggressive analyst is correct that JPM's fundamentals are unimpeachable\u201414.2x forward P/E on $24.80 forward EPS, 17.79% ROE, 50.39% operating margin, and a $4.56T fortress balance sheet make this the highest-quality large-cap U.S. bank. The conservative analyst's warning about gap risk ahead of earnings is legitimate: a $264 stop implies 12-13% risk that could execute far worse if the Q3 report disappoints and the stock gaps through that level. The neutral analyst offers the soundest synthesis: buy the half-position now to participate in the earnings catalyst, but tighten the stop to $290 (below the 50-day SMA at $296.30), capping defined risk at roughly 4.3% instead of 12.9%. This addresses the conservative's gap-risk concern while honoring the aggressive's point that waiting for a perfect entry risks missing a beat-driven move. The add-on trigger should likewise follow the neutral analyst's framework\u2014only add to 4% on a sustained close above $312 (upper Bollinger Band breakout), not on phantom dips to $290-296 that are too close to entry to improve risk-reward. The valuation is not stretched for a bank of this quality, the macro Fed-transition narrative is a two-sided coin, and the technical setup is neutral-to-positive with price above a rising 200-day SMA. Given the 3-month horizon, a measured Overweight with disciplined risk parameters is the appropriate conviction level\u2014stronger than Hold given the fundamental quality, but not a full Buy because near-term price action is unresolved and entry sits just below October resistance at $305.13.\n\n**Price Target**: 340.0\n\n**Time Horizon**: 3 months"
+}

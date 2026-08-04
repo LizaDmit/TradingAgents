@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-01-26",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-01-26",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.71,
+    "mean_max_drawdown_pct": -12.76,
+    "p95_worst_drawdown_pct": -24.02,
+    "p99_worst_drawdown_pct": -29.63,
+    "est_annualized_vol_pct": 25.6,
+    "spot_price": 298.16,
+    "expected_return_pct": 0.63,
+    "median_return_pct": 0.19,
+    "return_vol_pct": 12.68,
+    "risk_free_pct_horizon": 0.894,
+    "risk_free_available": true,
+    "return_over_risk": -0.021,
+    "expected_price": 300.05,
+    "price_p5": 240.6,
+    "price_p95": 364.46,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish or add a JPM position with disciplined scale-in tranches: an initial tranche of 2-3% at ~$298, followed by tranches at ~$290 and ~$280 only if the 200 SMA (~$286.65) holds on a closing basis. Set a stop-loss at ~$285 (just below the 200 SMA and 52-week low zone) to protect against structural breakdown while giving the position room to breathe. Total position sizing toward 5-7% over time, contingent on confirmation \u2014 a two-week hold above $305 validates momentum and warrants scaling to full weight. Monitor the Fed leadership transition, Q1 earnings guidance, and capital-return news as catalysts. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a nuanced but actionable Overweight. The Aggressive Analyst correctly identifies JPM as the highest-quality, most diversified US bank \u2014 a AAA-rated institution with $4.42 trillion in assets, a 15.09x trailing and 14.19x forward P/E, and a 1.71% dividend yield that provides a real income floor. At $298.16, the stock sits ~4% above its 200 SMA ($286.65), confirming the secular uptrend remains intact despite short-term technical weakness (price below the 10 EMA at $304.22 and 50 SMA at $309.70). The 15% drawdown from the 52-week high has created valuation breathing room that did not exist during the AI-driven rally, and the forward EPS estimate of $24.80 supports continued earnings growth. The Conservative Analyst's caution is legitimate \u2014 buying below both the 10 EMA and 50 SMA carries real momentum risk, and the Fed leadership transition plus inflation concerns create near-term headwinds for NIMs and credit costs. However, the Conservative's overcorrection (waiting for a retest of the 50 SMA at ~$310 before buying) would mean paying 4% more and likely missing the bottom of the range; the Lehman analogy is inapt for an institution that bought Bear Stearns in 2008. The Neutral Analyst offers the most balanced synthesis: the zero news flow and neutral sentiment indicate a lack of crowding rather than a deteriorating franchise, and JPM's trading and asset-management book actually benefits from the volatility the macro environment presents. The key synthesis: the fundamental bull case is compelling enough to warrant active accumulation, but the negative momentum and absence of near-term catalysts justify scaled entry rather than aggressive full deployment. The strategy is anchored on asymmetric upside \u2014 if the thesis is wrong and the long-term trend breaks below the 200 SMA on a closing basis, the ~$285 stop limits damage; if the thesis is right, the tranched scale-in at 3 attractive levels builds a meaningful position ahead of the next catalyst. This is not buying a falling knife recklessly, nor is it sitting on the sidelines; it is managed conviction with hard risk rules in place.\n\n**Price Target**: 315.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-06-22",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-06-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.4,
+    "mean_max_drawdown_pct": -11.43,
+    "p95_worst_drawdown_pct": -21.11,
+    "p99_worst_drawdown_pct": -26.26,
+    "est_annualized_vol_pct": 22.2,
+    "spot_price": 329.99,
+    "expected_return_pct": 0.56,
+    "median_return_pct": 0.08,
+    "return_vol_pct": 11.2,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": -0.032,
+    "expected_price": 331.85,
+    "price_p5": 274.24,
+    "price_p95": 395.28,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at benchmark-neutral weight with no new buying at $329.99 (within 2% of resistance at $333.90/$336.26, RSI 65.92). Establish a tiered action plan: add a modest 1-2% overweight on a controlled pullback to $317-$320 without breaking the 10 EMA, or on a confirmed volume breakout above $336.26 with RSI below 75. Respect the hard exit at $304 (200 SMA) as the trend-failure line. Monitor the Fed transition to Kevin Warsh and Q2 earnings as the two primary catalysts over the 3-month horizon.\n\n**Investment Thesis**: The debate resolves to a Hold, not because either extreme wins, but because the balanced evidence does not justify conviction on either side at this price point. The bull case is real: JPM trades at 15.14x trailing / 14.18x forward P/E with a 17.5% ROE, a fortress $133 book value per share, a $938B market cap, and confirmed bullish technicals (price above the 10 EMA at $320.67, 50 SMA at $307.90, and 200 SMA at $304.00, with a recent golden cross). The Aggressive analyst correctly notes that in rising-rate scenarios JPM's asset sensitivity can expand NII, and that the 13-point 10-EMA/50-SMA spread can resolve through time-based consolidation rather than a price crash. However, the Conservative analyst's caution is equally validated: RSI at 65.92 with the stock within 2% of resistance ($333.90 Bollinger upper band, $336.26 June high) means we are paying for the optimistic case, and a binary Fed transition to Warsh plus the unresolved Iran/Hormuz oil crisis introduces genuine gap-down risk through $320 toward the $304 support. The Neutral moderator delivers the most decisive synthesis, exposing the internal contradiction in the aggressive position (arguing Hold yet eager to buy a pullback proves current levels are unattractive) and the self-defeating rigidity of the conservative one (demanding a breakout above $336 WITH RSI below 60 is a nearly impossible precondition, and insisting on $307-$310 entry risks missing a continuation to $359). The honest equilibrium: JPM is a high-quality compounder at fair value with real near-term uncertainties. A P/B of 2.65x is at the high end of the historical band, but with book value growing toward $140-145, the multiple self-compresses over time even without price appreciation. The tiered plan\u2014hold at benchmark weight, add modestly on a $317-$320 dip (10 EMA intact) or a confirmed $336.26 breakout, hard exit at $304\u2014captures upside in both scenarios while capping downside to under 8%. At $329.99 with a pending binary Fed catalyst, neither aggressive buying nor selling is justified; disciplined holding with defined triggers is the correct, evidence-grounded decision.\n\n**Price Target**: 336.26\n\n**Time Horizon**: 3 months"
+}

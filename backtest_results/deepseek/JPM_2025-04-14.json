@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-04-14",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-04-14",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.54,
+    "mean_max_drawdown_pct": -13.63,
+    "p95_worst_drawdown_pct": -25.54,
+    "p99_worst_drawdown_pct": -31.67,
+    "est_annualized_vol_pct": 28.3,
+    "spot_price": 229.21,
+    "expected_return_pct": 0.82,
+    "median_return_pct": 0.03,
+    "return_vol_pct": 14.29,
+    "risk_free_pct_horizon": 1.049,
+    "risk_free_available": true,
+    "return_over_risk": -0.016,
+    "expected_price": 231.09,
+    "price_p5": 181.51,
+    "price_p95": 288.31,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position without adding or trimming. Set a stop-loss at $222, just below the 200-day SMA (~$224), to protect against a long-term trend breakdown while avoiding intraday noise stops. Add up to 25% to the position only on a confirmed close above the declining 50-day SMA (~$242) on elevated volume. Resolve the ~40% price data discrepancy between the technical report ($229 price, $242 50-day SMA) and the fundamentals report ($327 50-day average, $359 52-week high) within two trading sessions; if unresolved, reduce the position by half. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts converge on HOLD but with materially different risk lenses. The Aggressive analyst correctly points out JPM remains above a rising 200-day SMA ($223.92, up from $219.70 a month ago) with a fortress balance sheet, a cheap 14.19x forward P/E, 6.3% forward EPS growth ($23.32 to $24.80), and a 1.71% dividend yield paying holders to wait. However, his 57% upside-to-$359 and 25:1 risk/reward math is probabilistically meaningless\u2014both analysts correctly note the probability of touching $224 far exceeds reaching $359 given the price sits 5.5% below a declining 50-day SMA with rallies sold into. The Conservative analyst is right that a $224 stop is only a 2.3% buffer susceptible to gap risk into earnings, and that the Warsh-led Fed transition creates genuine dual risk (multiple compression AND earnings estimate cuts from slower loan growth and higher credit provisions) rather than the pure NIM tailwind the Aggressive analyst claims. The Neutral analyst provides the most calibrated synthesis: the 200-day SMA is a structural support, higher rates are nuanced for JPM's deposit franchise (biggest in the country), and the empty sentiment data is a data-collection artifact telling us nothing about positioning. The single most important concern is the unresolved ~40% price data discrepancy\u2014both the Aggressive (dismissing it as a \"metadata glitch\") and the Conservative (treating it as fatal) overreach; it is a legitimate reason to suppress conviction and demand verification before any directional escalation. With the long-term trend intact but medium-term momentum negative, the macro backdrop uncertain around a Fed transition, an earnings catalyst with no sentiment read, and unverifiable price history, the only disciplined action is to hold with tight risk parameters, a confirmation-based add trigger, and a hard deadline for resolving the data issue. The HOLD stands, but with conditions\u2014protecting capital while retaining optionality for the confirmed breakout the Aggressive analyst seeks.\n\n**Price Target**: 242.0\n\n**Time Horizon**: 3 months"
+}

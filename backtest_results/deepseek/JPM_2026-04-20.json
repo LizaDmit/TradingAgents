@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-04-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-04-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.06,
+    "mean_max_drawdown_pct": -10.95,
+    "p95_worst_drawdown_pct": -20.33,
+    "p99_worst_drawdown_pct": -25.47,
+    "est_annualized_vol_pct": 21.4,
+    "spot_price": 315.57,
+    "expected_return_pct": 0.65,
+    "median_return_pct": 0.04,
+    "return_vol_pct": 10.81,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": -0.023,
+    "expected_price": 317.62,
+    "price_p5": 264.33,
+    "price_p95": 375.74,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at benchmark weight (~5% cap) without adding or trimming at the current $315 level. Set a downside trigger at $296-300 (a decisive break below confirms bearish medium-term trend and warrants downgrade to Underweight), and upside triggers at a sustained break above $327 on volume (upgrade to Overweight) or a pullback to $288-292 (improved risk/reward entry). Re-evaluate the position weekly around the Kevin Warsh Fed confirmation, consumer delinquency trends, and CRE refinancing data over the 3-month horizon.\n\n**Investment Thesis**: The debate resolves to Hold because neither the aggressive nor the conservative case decisively wins. The aggressive analyst makes a legitimate point that the technical picture has improved\u2014the golden cross on April 13 and a 12.6% rally off the March low suggest constructive momentum, and JPM's franchise quality at ~15x trailing / ~14x forward earnings with fortress capital is not expensive. However, the aggressive case is undercut by the fact that price at $315 is still BELOW the 50-day average of $327.69\u2014the stock stalled in a transition zone rather than confirming a breakout, and the sentiment data provides no confirming signal (empty stocktwits feed, no news catalyst, no retail froth either way). The conservative analyst correctly flags the Warsh Fed transition as a genuine binary macro event that could compress NIMs, plus rising consumer delinquencies (the 12-24 month lag from rate hikes suggests we are entering the deterioration window) and unresolved CRE exposure. Yet the conservative case overstates the downside: the $280 gap scenario is a tail risk, not a base case, and selling a best-in-class bank at 14x forward earnings simply to avoid uncertainty is not compelling. The neutral analyst's framing is the most rigorous: at $315, the risk/reward is genuinely ambiguous, and forcing a decision before the market resolves direction is not disciplined\u2014it is guessing. The correct professional response is to hold at benchmark weight, respect clearly defined triggers on both sides (downgrade below $296-300, upgrade on confirmed $327 break or $288-292 pullback), and let the market's resolution dictate action. The primary bull catalyst remains sustained IB recovery, which is not yet reflected in forward estimates of only 6.3% EPS growth; the primary bear risks are Warsh hawkish surprise and accelerating consumer credit deterioration, neither of which has yet crystallized to the point of warranting a sell.\n\n**Price Target**: 327.0\n\n**Time Horizon**: 3 months"
+}

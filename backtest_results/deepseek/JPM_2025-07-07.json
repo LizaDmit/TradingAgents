@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-07-07",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-07-07",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.41,
+    "mean_max_drawdown_pct": -13.47,
+    "p95_worst_drawdown_pct": -24.97,
+    "p99_worst_drawdown_pct": -31.01,
+    "est_annualized_vol_pct": 28.1,
+    "spot_price": 286.49,
+    "expected_return_pct": 0.93,
+    "median_return_pct": -0.23,
+    "return_vol_pct": 14.07,
+    "risk_free_pct_horizon": 1.061,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 289.14,
+    "price_p5": 228.61,
+    "price_p95": 359.6,
+    "prob_loss": 0.506,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at existing allocation ahead of the Q2 earnings catalyst. Do not add at $286.49 (approximately 20% above the 200-day SMA) given the asymmetric near-term risk/reward\u2014downside to $260 is ~10% vs. upside to $300 of only ~5%. Any addition should be reserved for a pullback toward the $265\u2013$270 zone near the 50-day SMA (~$260), and the $260 stop-loss remains the protection level. Re-assess after earnings clarify NII guidance and the direction of the rate-cut cycle.\n\n**Investment Thesis**: The neutral analyst's synthesis is the most analytically sound: this is a binary asymmetric-information event where transacting now\u2014either adding or trimming\u2014has lower expected value than standing pat. The aggressive analyst's bullish case rests on real strengths: a 15x P/E (14.19x forward), 17.79% ROE, ~50% operating margins, price above all key moving averages, and diversified revenue that could offset NII compression if the Fed cuts. However, his $315\u2013$320 upside target is invented and unsupported by any research datapoint, and his claim that silent sentiment data is a \"contrarian bullish signal\" is confirmation bias\u2014the report itself carries low confidence and a neutral 5.0/10 score. The conservative analyst correctly flags that the stock is 19.8% above its 200-day SMA after a 10.7% run in 3.5 weeks into a binary catalyst where positive news is largely priced in, and that the current 50.4% operating margin is partly a function of the existing rate cycle, not a permanent technology-like recurring margin. The Basel III Endgame, while softened, still raises capital requirements and remains a genuine overhang on buybacks. The HOLD is not paralysis\u2014it allows the established position to participate in any upside (with a $260 stop protecting against a 10% drawdown) while deferring the entry-price debate until the earnings print resolves NII guidance and macro direction. JPM's fortress balance sheet and 17.79% ROE support long-term constructive ownership, but the near-term risk/reward at these stretched levels does not justify adding size.\n\n**Price Target**: 300.0\n\n**Time Horizon**: 3 months"
+}

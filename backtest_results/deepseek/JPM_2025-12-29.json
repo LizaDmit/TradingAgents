@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-12-29",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-12-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.3,
+    "mean_max_drawdown_pct": -12.36,
+    "p95_worst_drawdown_pct": -23.26,
+    "p99_worst_drawdown_pct": -29.5,
+    "est_annualized_vol_pct": 24.9,
+    "spot_price": 319.22,
+    "expected_return_pct": 0.76,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 12.42,
+    "risk_free_pct_horizon": 0.885,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 321.64,
+    "price_p5": 259.74,
+    "price_p95": 389.58,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at current weight with no new capital allocated at $319. This is a fortress-quality franchise trading at a fair-but-not-cheap valuation (14.19x forward P/E, 1.72 PEG) with confirmed overhead resistance at the 50-day SMA ($327.69) that has already rejected price once (Dec 24 failure at $324.56). Risk/reward is genuinely symmetric (~12.5% upside to the $359.30 high vs ~12.7% downside to the 200-SMA at $279), and the Fed transition under Warsh is a binary event with two tails. Deploy capital only on defined triggers: a clean volume break above $327.69 to turn constructive, or a pullback into the $296\u2013$305 support zone for a partial starter position. Set a hard stop comfortably outside the December low for existing exposure and reassess at the next earnings print.\n\n**Investment Thesis**: The analysts' debate ultimately converges on Hold, and the evidence supports that verdict rather than the Aggressive Analyst's Buy or the Conservative Analyst's overly restrictive wait-for-$296 stance. The bull case is real but incomplete: JPM's forward EPS of $24.80 (6.3% growth off TTM) supports a forward P/E of 14.19x, and the technical structure is genuinely constructive \u2014 the close at $319.22 sits above the 10 EMA ($317.31) and 14.3% above the 200-SMA ($279.19), with a golden cross (10 EMA > 50 SMA > 200 SMA) intact and momentum off the Dec 9 low of $296.30 (~9.5% rebound to $324.56). However, the Aggressive Analyst's \"skewed heavily to the upside\" claim is demonstrably wrong: the stock already failed at $324.56 on Dec 24, below the 50-day SMA at $327.69, confirming overhead supply rather than a \"speed bump.\" The Neutral Analyst correctly dismantles the Conservative Analyst's \"lower high structure\" claim \u2014 the broader trend shows rising lows and highs from the October-November period \u2014 but is equally correct that a PEG of 1.72 is moderately rich for a mature mega-cap with single-digit growth, and the \"cheap\" label is overstated. The Fed transition under Warsh is genuinely binary: a hawkish pivot expands net interest margins (JPM's core earnings driver) but simultaneously raises credit risk on the consumer and commercial books \u2014 and the world affairs report explicitly documented \"Fed Day Turmoil\" in the same week JPM pulled back ~9.5% to $296. Sentiment data returned \"no usable data\" across all three sources, meaning no edge exists to justify speculation either way. The decisive synthesis: JPM is a high-quality, defensively positioned franchise (beta 0.982, $935B market cap, diversified revenue across consumer, IB, and wealth) at a fair valuation with symmetric risk/reward and no near-term catalyst to break the impasse. This is the textbook definition of Hold \u2014 do not add aggressively at $319 against confirmed resistance, but do not exit a fortress balance sheet over a 1.72 PEG. Position capital for a measured entry at $296\u2013$305 (where the stock has already demonstrated support twice) or on a confirmed volume break above $327.69, rather than chasing strength that has already failed once.\n\n**Price Target**: 305.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-09-01",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-09-01",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.85,
+    "mean_max_drawdown_pct": -12.99,
+    "p95_worst_drawdown_pct": -24.45,
+    "p99_worst_drawdown_pct": -30.6,
+    "est_annualized_vol_pct": 27.4,
+    "spot_price": 295.76,
+    "expected_return_pct": 1.07,
+    "median_return_pct": 0.2,
+    "return_vol_pct": 14.03,
+    "risk_free_pct_horizon": 1.011,
+    "risk_free_available": true,
+    "return_over_risk": 0.004,
+    "expected_price": 298.91,
+    "price_p5": 236.34,
+    "price_p95": 372.04,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at the 4-5% portfolio cap with no new lump-sum additions near $295.76. Deploy new capital strictly in tranches\u2014only on a pullback to the $283-288 support zone (50-day SMA) or a confirmed breakout above $305 with volume\u2014and tighten the stop to $278 to avoid intraday wicking around Fed events. Reassess on the next card-delinquency data, Fed September language, and Q3 trading-revenue results before any upgrade to Overweight or downgrade to Underweight.\n\n**Investment Thesis**: The three-way debate fails to produce a decisive edge. The aggressive case for a \"clearance sale\" and bullish moving-average alignment (10/50/200-day SMA stacked) is tempered by the neutral analyst's correct observation that the 22% drawdown from $359.30 reflects genuine headwinds\u2014rising card delinquencies, potential 2026 Fed cuts compressing NII, and a $935B company needing ever-increasing capital markets activity\u2014not just sentiment. The conservative case for trimming into strength near $300-310 is premature and over-weights consumer credit risk: JPM has conservative provisioning, loss-absorption capacity as the largest US card issuer, and a forward P/E of 14.19x below its five-year average, with ROTE at decade-plus highs. Fundamental analysis concludes HOLD; technicals are mixed (RSI 64.17 approaching overbought, distance from highs) but show higher lows through August; sentiment is a neutral 5.0/10 with no near-term catalyst scheduled. The PEG of 1.72 is a function of mature mega-cap growth expectations rather than a red flag, and the market has been pricing consumer strain for a year without the stock breaking below $280. Neither the bull's \"launchpad\" nor the bear's \"ledge\" fits a stock consolidating in the $283-295 base. Prior lessons reinforce disciplined, catalyst-gated deployment rather than conviction-driven lump sums at a two-sided macro juncture (rates support NII but pressure credit; Fed transition/Warsh adds uncertainty). Hold at current weight, act only on defined tranche triggers or confirmed credit/earnings catalysts.\n\n**Price Target**: 305.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-08-25",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-08-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.01,
+    "mean_max_drawdown_pct": -13.13,
+    "p95_worst_drawdown_pct": -24.5,
+    "p99_worst_drawdown_pct": -31.0,
+    "est_annualized_vol_pct": 27.4,
+    "spot_price": 289.36,
+    "expected_return_pct": 0.9,
+    "median_return_pct": 0.0,
+    "return_vol_pct": 14.0,
+    "risk_free_pct_horizon": 1.023,
+    "risk_free_available": true,
+    "return_over_risk": -0.009,
+    "expected_price": 291.97,
+    "price_p5": 230.17,
+    "price_p95": 362.2,
+    "prob_loss": 0.5,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a starter position of 25-30% at the current market range ($285-289), respecting the medium-term uptrend and proximity to the 50-day SMA at $283.02. Add on pullbacks into the $270-280 zone, and maintain a hard stop at $255 (just below the 200-day SMA at $252.79) to cap initial-tranche downside to roughly 10-11%. Do not add above $295 without a confirmed catalyst. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a cautious Overweight rather than an aggressive Buy or a defensive Hold. JPM trades at $289.36, roughly 14.19x forward earnings on an EPS estimate of $24.80, with a fortress balance sheet and the most diversified revenue base in US banking \u2014 the bull case for owning this franchise during a 19% drawdown from highs is legitimate. However, the bear's technical and macro objections carry real weight and must temper position sizing. First, the trader's proposed entry at $280 is below the current price of $289.36, meaning a limit at that level may never fill; the Neutral Analyst correctly identifies this structural flaw. Second, the 10 EMA is narrowing against the 50 SMA ($283.02), indicating fading upside momentum, and the PEG of 1.72 mathematically reflects decelerating ~6% EPS growth \u2014 a mature-bank multiple that is not obviously cheap. Third, the absence of sentiment data (zero news, Reddit, or StockTwits flows) leaves the short-term path genuinely ambiguous, favoring a process-driven, scaled-in approach over a one-shot 50-60% deployment. Fourth, higher-for-longer rates under a potentially hawkish Fed (Warsh) cut both ways: JPM's sticky deposit base benefits, but NII compression and elevated consumer/CRE credit risk remain live threats. The balanced execution is a 25-30% starter tranche now, disciplined adds at $270-280 where risk/reward improves materially, a hard stop at $255 (capping initial-tranche downside near 10-11% rather than the trader's wider 14%), and no additions above $295 absent a confirmed catalyst such as upward NII guidance or favorable credit-provision revisions at the next earnings print.\n\n**Price Target**: 320.0\n\n**Time Horizon**: 3 months"
+}

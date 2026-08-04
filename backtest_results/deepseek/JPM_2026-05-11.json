@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-05-11",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-05-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.04,
+    "mean_max_drawdown_pct": -10.98,
+    "p95_worst_drawdown_pct": -20.63,
+    "p99_worst_drawdown_pct": -25.64,
+    "est_annualized_vol_pct": 21.3,
+    "spot_price": 298.65,
+    "expected_return_pct": 0.56,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 10.78,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": -0.031,
+    "expected_price": 300.34,
+    "price_p5": 248.5,
+    "price_p95": 355.36,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim JPM exposure by 20-30% at current levels near $298.65. Maintain a core position given fortress fundamentals (17.79% ROE, 50.39% operating margin), but respect the fragile technical setup\u2014price sits below the 200-day SMA ($301.44), just 0.67 points above a flat 50-day SMA ($297.98), and ~9% below the 50-session average. Establish a hard stop at the 52-week low of $279.10; if confirmed broken, trim another 15-20% toward a full exit. Reassess to a Hold/Overweight posture only if price reclaims and holds above the 200-day SMA with the 50-day turning up.\n\n**Investment Thesis**: The analysts converge on the trader's original plan, and I agree with that synthesis. The Aggressive Analyst correctly identifies the technical fragility: price closed at $298.65, below the 200-day SMA of $301.44 and testing a flat 50-day SMA at $297.98, roughly 9% below the 50-session average. This is a failing trend that must not be ignored. However, the Conservative Analyst is equally correct that the 50-day SMA is flat (not declining) and that JPM's fortress quality\u201417.79% ROE, 50.39% operating margin, 2.66x book value with a 1.71% dividend floor\u2014provides real downside protection and argues against a full exit. The Neutral Analyst offers the decisive synthesis: neither a full sell into uncertainty (the Aggressive thesis rests on an unconfirmed cascade to $265) nor a full hold (a stop-loss caps drawdowns but does not prevent them) is optimal. Instead, proactive de-risking of 20-30% respects the information vacuum (zero news, failed StockTwits data), the front-loaded uncertainty around Kevin Warsh's hawkish Fed transition as a binary event for yields and the curve, and the credit-cycle concern that forward EPS growth of ~6.3% sits at risk of downward revision. The reward-to-risk is a modest ~1.46-to-1 (9.5% upside to the 50-day EMA vs. 6.5% downside to the stop), which does not justify new entry or aggressive accumulation. Underweight is the disciplined posture: trim exposure, keep a quality core, define downside with the $279.10 stop, and let confirmed technical or fundamental signals\u2014a break below the low, or a reclaim of the 200-day SMA with a turning 50-day\u2014dictate the next move. This is not a Sell because JPM's capital-generation capacity buffers it through any credit-cycle downturn and makes it a mean-reversion candidate if the Fed transition resolves benignly.\n\n**Price Target**: 279.1\n\n**Time Horizon**: 3 months"
+}

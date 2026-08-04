@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-02-02",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-02-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.64,
+    "mean_max_drawdown_pct": -12.74,
+    "p95_worst_drawdown_pct": -24.1,
+    "p99_worst_drawdown_pct": -30.19,
+    "est_annualized_vol_pct": 25.6,
+    "spot_price": 305.2,
+    "expected_return_pct": 0.84,
+    "median_return_pct": 0.11,
+    "return_vol_pct": 12.9,
+    "risk_free_pct_horizon": 0.895,
+    "risk_free_available": true,
+    "return_over_risk": -0.004,
+    "expected_price": 307.75,
+    "price_p5": 247.22,
+    "price_p95": 377.0,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Maintain and gradually build the JPM position on a scaled-entry basis. Do not chase the full additive tranche at $305; deploy an initial 30-40% now only if price holds above $300, reserve the balance for the $290-295 test (near the 200-day SMA support at ~$288.50) or a confirmed 50-day SMA reclaim at ~$310 on volume. Tighten the initial stop to $293 (~3% risk) rather than $288.50, and target/allow total exposure to grow toward 1.25-1.5x benchmark only after technical confirmation. The time horizon for this rating is 3 months.\n\n**Investment Thesis**: The debate converges on a single coherent picture: JPM is a best-in-class franchise (high-teens ROTCE, 14.19x forward P/E on 6.3% EPS growth to $24.80, fortress balance sheet, 1.71% dividend) sitting below its 50-day SMA (~$327.69) but still 5.8% above an intact 200-day SMA (~$288.50). The Aggressive Analyst correctly argues that the 11% correction from $331 was a shakeout, that RSI has reset from oversold (34.75 to 47.51), that a hawkish Warsh Fed may actually expand NII, and that the risk-reward to the 52-week high (~$359) is favorable \u2014 but his 4:1 ratio assumes a straight-line move and dismisses the overhead supply created by buyers now underwater. The Conservative Analyst correctly flags that a neutral RSI in a downtrend is a pause, not a reversal; that 14x on 6.3% growth carries no margin of safety; that a tight stop at $288.50 is a tripwire given slippage in a fast market; and that waiting for confirmation protects capital. The Neutral Analyst, whose synthesis I adopt, notes that the 10 EMA reclaim has whipsawed before and that the sentiment vacuum is indecision, not a catalyst. The disciplined resolution is Overweight with scaled entry: partial deployment now only above $300, a tighter $293 stop on the first tranche, dry powder reserved for the $290-295 support test or a confirmed $310 reclaim, and full 1.25-1.5x sizing only after technical confirmation. This respects the bull's fundamental quality argument, the bear's timing/valuation discipline, and the neutral's tail-risk management.\n\n**Price Target**: 340.0\n\n**Time Horizon**: 3 months"
+}

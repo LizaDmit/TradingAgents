@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-04-21",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-04-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.52,
+    "mean_max_drawdown_pct": -13.6,
+    "p95_worst_drawdown_pct": -25.26,
+    "p99_worst_drawdown_pct": -31.54,
+    "est_annualized_vol_pct": 28.4,
+    "spot_price": 223.61,
+    "expected_return_pct": 1.07,
+    "median_return_pct": -0.06,
+    "return_vol_pct": 14.44,
+    "risk_free_pct_horizon": 1.053,
+    "risk_free_available": true,
+    "return_over_risk": 0.001,
+    "expected_price": 226.0,
+    "price_p5": 177.77,
+    "price_p95": 282.69,
+    "prob_loss": 0.502,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at current levels near $223.61 without adding or trimming. Keep the stop loss at $210 as a hard floor, but implement pre-defined monitoring triggers: trim 25% if the 50-day SMA crosses below the 200-day SMA (death cross) AND price closes below $224.50 on above-average volume; upgrade to an Overweight/Buy if price reclaims and holds above the 50-day SMA (~$239.65) on volume for two consecutive closes. Time horizon is 3 months; position sizing stays moderate given the unresolved technical picture.\n\n**Investment Thesis**: The analysts' debate confirms a genuinely balanced setup, and the evidence on both sides supports patience with guardrails rather than a decisive directional bet. The bull case is anchored in real, verifiable fundamentals: JPM trades at 15.09x trailing and 14.19x forward earnings with a 2.64x P/B, a fortress balance sheet (12% CET1, $4.36 trillion in assets), a 1.71% dividend yield, and record EPS of $23.32. The bear's case is equally substantive on technicals and macro: price sits at $223.61, below the declining 50-day SMA ($239.65) and 10-day EMA ($225.48), at parity with the 200-day SMA ($224.54), with a potential death cross forming and zero social sentiment data indicating no retail bid. The yield curve inversion is a genuine NII margin headwind, and consumer delinquency trends could pressure credit costs. Neither thesis decisively defeats the other \u2014 the fundamental quality argues against a sell, but the technical breakdown risk and the possibility of a slide toward the $200\u2013$210 support zone argue against aggressive accumulation. The Neutral Analyst correctly identified flaws on both extremes: the Aggressive Analyst's risk-reward math was overstated (closer to 1:1.9 than the claimed 1:2.5), while the Conservative Analyst's proposal to tighten the stop to $219.50 would likely trigger stop-outs on normal daily volatility. The prudent path is a Hold with a $210 hard floor and pre-defined adaptive triggers: a confirmed death cross with a close below $224.50 on volume warrants a 25% trim (not the full 50% the conservative suggested, given the fortress balance sheet protects against a systemic break), while a reclaim and hold of the 50-day SMA (~$239.65) on volume warrants upgrading to a moderate Buy. This maintains optionality in both directions while avoiding the emotional extremes of \"pouncing\" or \"running.\"\n\n**Price Target**: 240.0\n\n**Time Horizon**: 3 months"
+}

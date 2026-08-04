@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-01-13",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-01-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.34,
+    "mean_max_drawdown_pct": -11.31,
+    "p95_worst_drawdown_pct": -21.33,
+    "p99_worst_drawdown_pct": -26.77,
+    "est_annualized_vol_pct": 23.5,
+    "spot_price": 237.02,
+    "expected_return_pct": 0.63,
+    "median_return_pct": -0.25,
+    "return_vol_pct": 12.01,
+    "risk_free_pct_horizon": 1.054,
+    "risk_free_available": true,
+    "return_over_risk": -0.035,
+    "expected_price": 238.51,
+    "price_p5": 196.06,
+    "price_p95": 288.78,
+    "prob_loss": 0.51,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate or add to JPM on dips toward the $232\u2013234 support zone (50 SMA / 10 EMA convergence), sizing at 30\u201335% of sector weight to balance conviction with macro uncertainty. Set a stop at $215\u2014just below the recent consolidation area\u2014limiting downside to roughly 7\u20138% from entry rather than the wider $205 stop. Monitor the Fed transition and upcoming earnings for NII guidance and credit trends; a decisive break below $205 or a downward NII guide triggers reassessment to Underweight. Target the position for a 3-month horizon with upside toward prior resistance levels if the trend holds.\n\n**Investment Thesis**: The buy thesis rests on genuinely exceptional franchise economics: JPM delivers a 17.79% ROE, ~50% operating margin (extraordinary for a bank), and trades at only ~15x trailing / ~14x forward earnings\u2014reasonable for a best-in-class compounder. The technical structure is objectively constructive: price at $237.02 sits above the 50 SMA ($232.17) and far above the 200 SMA ($205.48), with a confirmed golden cross supporting trend continuation. The conservative analyst's bearish price action narrative relies on an unreconciled data discrepancy between the fundamental report's 52-week range and the technical snapshot; while this warrants caution on data integrity, the technical evidence as presented supports an uptrend, not a crash from $359 to $237. The bull's 4:1 risk-reward framing overstates the base case by anchoring to the 52-week high, and the 2.64x price-to-book does embed elevated expectations, so a full Buy is not warranted. However, the bear's case for outright avoidance is undermined by cherry-picking inconsistent data points and over-weighting macro tail risks that are already known and partially priced. The compromise position\u2014buying the dip at $232\u2013234 with a $215 stop and 30\u201335% sector sizing\u2014captures the quality compounder at a reasonable price while capping downside to ~7\u20138%. Key risks to monitor: Fed transition volatility (first Warsh FOMC meeting), rising card delinquencies and CRE exposure in a tightening credit cycle, and the binary nature of the upcoming earnings print given neutral sentiment data offers no cushion either way.\n\n**Price Target**: 260.0\n\n**Time Horizon**: 3 months"
+}

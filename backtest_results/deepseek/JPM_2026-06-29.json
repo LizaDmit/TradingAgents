@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-06-29",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-06-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.47,
+    "mean_max_drawdown_pct": -11.37,
+    "p95_worst_drawdown_pct": -20.82,
+    "p99_worst_drawdown_pct": -25.83,
+    "est_annualized_vol_pct": 22.2,
+    "spot_price": 327.91,
+    "expected_return_pct": 0.58,
+    "median_return_pct": -0.16,
+    "return_vol_pct": 11.15,
+    "risk_free_pct_horizon": 0.92,
+    "risk_free_available": true,
+    "return_over_risk": -0.031,
+    "expected_price": 329.81,
+    "price_p5": 273.16,
+    "price_p95": 393.08,
+    "prob_loss": 0.504,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a core JPM position of 2.5-3% of the portfolio near $327, respecting the uptrend and reasonable 14.2x forward P/E while acknowledging the near-term macro uncertainty around the Fed chair transition and imminent earnings. Do not scale to 5-6% on a breakout; cap total exposure at 4.5% with a tight stop on any incremental tranche. Use a $290 stop on the core position (below the May consolidation trough) and keep the time horizon at 3 months.\n\n**Investment Thesis**: The debate converges on a modified buy rather than an aggressive all-in. The bull's core case is sound: JPM trades at a reasonable 14.22x forward P/E (Forward EPS $24.89) with a fortress balance sheet ($4.42T assets), price sitting constructively above the 10 EMA ($326.69), 50 SMA ($310.10), and 200 SMA ($304.96) with a confirmed golden cross. However, the conservative and neutral analysts correctly identify material downside risks that preclude a full Buy: the market sits at a 52-week-high proximate level (~$327 vs $359.30 resistance), the Kevin Warsh Fed transition is a binary event, Iran/Hormuz geopolitical headlines create gap risk that could blow through a stop, and sentiment data is a non-confirmatory vacuum (5/10 neutral, low confidence, zero news). Critically, the aggressive plan's scaling flaw is genuine\u2014buying more at $359 on a breakout would raise blended cost and leave an 18% drawdown runway to the single $295 stop. The middle path is a disciplined core position: initiate at 2.5-3%, cap total exposure at 4.5% (not 6%), require a tighter stop (~4-5% below entry) on any breakout tranche added above $359, and treat a pullback to the 50-day SMA near $310 as a more advantageous add point. The reasonable valuation and quality franchise support owning the name over a 3-month horizon, but the elevated macro uncertainty and absence of near-term JPM-specific catalysts argue for gradual accumulation rather than aggressive size.\n\n**Price Target**: 359.0\n\n**Time Horizon**: 3 months"
+}

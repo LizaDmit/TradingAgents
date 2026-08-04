@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-07-21",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-07-21",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.28,
+    "mean_max_drawdown_pct": -13.36,
+    "p95_worst_drawdown_pct": -24.95,
+    "p99_worst_drawdown_pct": -30.64,
+    "est_annualized_vol_pct": 27.9,
+    "spot_price": 285.51,
+    "expected_return_pct": 0.81,
+    "median_return_pct": -0.3,
+    "return_vol_pct": 14.03,
+    "risk_free_pct_horizon": 1.056,
+    "risk_free_available": true,
+    "return_over_risk": -0.018,
+    "expected_price": 287.81,
+    "price_p5": 227.68,
+    "price_p95": 358.35,
+    "prob_loss": 0.51,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at target weight with no addition or trimming at $285. Establish a staged accumulation trigger on a pullback into the $270\u2013$275 zone (near the 50-day SMA at $267.95) contingent on Fed transition clarity, and implement options-based downside protection (protective put or collar) given the binary Fed leadership event and disorderly long-end volatility tail risk. Reassess toward underweight only on a decisive breakdown below the 50-day SMA on elevated volume or a disorderly long-end repricing that stresses JPM's fixed-income book. Time horizon: 3 months.\n\n**Investment Thesis**: The debate resolves to a Hold on balance, and the reasoning is anchored in specific evidence from all three analysts. The Aggressive Analyst's case\u2014that JPM's trading desk monetizes volatility, that the bullish stack (price above 10 EMA at $282.99, 50 SMA at $267.95, 200 SMA at $243.22) warrants buying now at $285.51, and that 14.19x forward earnings understates deregulation upside\u2014is compelling on franchise quality but overstates the asymmetry. The Conservative Analyst correctly counters that disorderly long-end volatility cuts both ways: mark-to-market risk on JPM's massive fixed-income book is a real downside that the \"chaos = trading revenue\" framing ignores, RSI ran to 82 just three weeks ago and produced a 4.5% drawdown, and the 2.64x price-to-book with a PEG of 1.72 is not a distressed entry. The Neutral Analyst's synthesis is the decisive voice: the 20% drawdown from the $359 52-week high vs. the $285 current context reveals a repriced, not coiled, setup; the absence of social sentiment data provides no directional fast-signal in either direction; and the pullback to $270\u2013$275 near the 50-day SMA is a realistic high-probability accumulation trigger rather than a speculative wait. The Hold reflects that JPM remains a best-in-class compounder (industry-leading ROTCE, fortress balance sheet) that should be owned, but the near-term risk/reward at $285\u2014six percent above the 50-day, one week from earnings, and one Fed leadership decision from a potential disorderly long-end event\u2014does not justify aggressive accumulation, while the quality and growth profile do not justify trimming. Staged accumulation on weakness, hedging for tail risk, and trigger-based reassessment is the disciplined synthesis of both sides.\n\n**Time Horizon**: 3 months"
+}

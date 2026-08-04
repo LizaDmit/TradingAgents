@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-02-23",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-02-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.8,
+    "mean_max_drawdown_pct": -12.96,
+    "p95_worst_drawdown_pct": -24.09,
+    "p99_worst_drawdown_pct": -30.79,
+    "est_annualized_vol_pct": 26.2,
+    "spot_price": 294.83,
+    "expected_return_pct": 1.04,
+    "median_return_pct": 0.51,
+    "return_vol_pct": 13.28,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": 0.011,
+    "expected_price": 297.9,
+    "price_p5": 236.64,
+    "price_p95": 365.11,
+    "prob_loss": 0.485,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at current neutral allocation. Do not add or trim at this time. Set a disciplined catalyst calendar: if JPM closes decisively below the 200-day SMA (~$293.50) on elevated volume, reassess to Underweight with a 25-30% trim; if the 50-day SMA (~$311) is reclaimed on volume with RSI above 50, add toward Overweight. Time horizon: 3 months.\n\n**Investment Thesis**: The debate between the Aggressive and Conservative Analysts presents genuinely balanced evidence, and the prudential assessment favors a Hold. The Aggressive Analyst's 4:1 reward-to-risk framing is flawed because it measures upside to the 52-week high of $359, a level that required a fundamentally different macro regime (rising 10 EMA, 50 SMA well above price, RSI in the 60s-70s) that no longer exists. The current reality is that JPM trades at $294.83, just $1.32 (0.4%) above the 200-day SMA at $293.51, below both the 10 EMA ($304.39) and 50 SMA ($311.10), with a confirmed death cross and RSI at 39.5. The downside to the stop loss at $279 is ~5.4% and carries asymmetric probability weight given the bearish technical configuration. The Conservative Analyst's concerns about a potential break of the 200 SMA leading to the 52-week low at $279.10 (~10% downside from entry) are legitimate, yet the stock has not yet broken that critical support, and the 15.09x trailing P/E with a 14.19x forward P/E for a systemically important, best-in-class franchise argues against abandoning the position. The neutral assessment is correct: neither the aggressive \"launchpad\" add nor the conservative trim is justified without confirmation. The catalyst calendar provides clear, disciplined triggers\u2014a decisive close below $293.50 on volume signals institutional distribution and warrants a trim toward Underweight; a reclaim of $311 on volume with RSI recovery above 50 signals a reversal and supports adding toward Overweight. The Fed leadership transition to Kevin Warsh introduces policy uncertainty that cuts both ways: higher-for-longer rates could expand NIM and boost trading revenues (JPM's lifeblood), but hawkish guidance could compress equity valuations sector-wide. Until the market resolves this inflection, maintaining neutral weight is the capital-preserving and intellectually honest position.\n\n**Price Target**: 311.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-12-22",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-12-22",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.29,
+    "mean_max_drawdown_pct": -12.39,
+    "p95_worst_drawdown_pct": -23.77,
+    "p99_worst_drawdown_pct": -29.27,
+    "est_annualized_vol_pct": 25.0,
+    "spot_price": 318.57,
+    "expected_return_pct": 0.85,
+    "median_return_pct": 0.32,
+    "return_vol_pct": 12.65,
+    "risk_free_pct_horizon": 0.882,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 321.27,
+    "price_p5": 258.25,
+    "price_p95": 390.77,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish JPM at an overweight allocation relative to benchmark, but execute through a disciplined limit order at the 50-day SMA zone rather than chasing the current $318.57 price. Initiate at benchmark-to-moderately-overweight sizing ($303.82 limit, $290 stop), scaling toward the 30-50% overweight target only after the Fed transition under Kevin Warsh clarifies over the next 2-4 weeks. Time horizon: 3 months.\n\n**Investment Thesis**: The debate centers on a genuine tension between strong technicals and unresolved macro risks. The bull case is defensible on hard data: JPM trades at $318.57, above the 10-day EMA ($311.66), 50-day SMA ($303.82), and 200-day SMA ($277.19), with a positive MACD (3.02) and RSI at 60.84 leaving room before overbought\u2014a textbook uptrend configuration off a 7.5% bounce from the December 9 low of $296.30. The $935B fortress balance sheet and diversified franchise (CCB, IB, commercial, wealth) genuinely make JPM the preferred quality haven within financials during market dislocation, and the aggressive analyst is correct that capital rotation out of de-risking AI trades favors this name.\n\nHowever, the conservative analyst's macro concerns are legitimate and not fully priced: the Fed transition to known-hawk Kevin Warsh creates regime-change tail risk, the World Affairs Report flags \"bond market dislocation not seen in nearly 20 years,\" and a stock with market beta will be marked down alongside the S&P on any hawkish surprise regardless of JPM's trading revenues. The neutral analyst exposes the plan's critical execution flaw that both camps missed\u2014the limit entry at $303.82 sits 4.9% below the current $318.57 price, meaning the order only fills on a pullback that, if it occurs, signals a narrative shift we must respect rather than blindly celebrate.\n\nThis is Overweight, not Buy, for three reasons: (1) the entry mechanism built into the trader's plan is a limit at support, not a marketable buy, so disciplined accumulation on pullback is the correct posture; (2) a 30-50% overweight single-name bet into an unresolved Fed regime change and 20-year bond dislocation is imprudent without confirmation\u2014initial benchmark-to-moderate sizing with scaling is more appropriate; and (3) the sentiment data is a genuine vacuum (5.0/10 neutral, zero headlines, StockTwits error), which neither bullish contrarian nor bearish paralysis can justify overriding the technical signal, but it does argue against maximum conviction. The stop at $290 (below the December $296.30 low) provides defined downside of ~4.5% from the entry, converting the macro tail risks into a bounded loss. Buy the pullback to the 50-day SMA, scale toward overweight only after Warsh's first policy signals, and step down to Hold if credit deterioration or NIM compression begins to materialize in earnings.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

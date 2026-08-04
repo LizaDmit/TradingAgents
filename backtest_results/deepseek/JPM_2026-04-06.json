@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-04-06",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-04-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.07,
+    "mean_max_drawdown_pct": -12.05,
+    "p95_worst_drawdown_pct": -22.65,
+    "p99_worst_drawdown_pct": -29.05,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 294.12,
+    "expected_return_pct": 0.83,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 12.28,
+    "risk_free_pct_horizon": 0.906,
+    "risk_free_available": true,
+    "return_over_risk": -0.006,
+    "expected_price": 296.57,
+    "price_p5": 240.55,
+    "price_p95": 358.96,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim JPM positions by 10-15% (bringing portfolio weight from ~4% toward 2-3%) and do not add new capital at current levels near $294. Maintain a hard stop at $279 but actively monitor the 10 EMA (~$289) as an early warning signal. Hold partial exposure to preserve upside if the stock reclaims the 50-day SMA at ~$296 on volume, with a potential upgrade trigger above $300.\n\n**Investment Thesis**: Synthesizing the analysts' debate, the Underweight stance from the Research Manager is the correct decision over both a full Sell and a full Hold. The Aggressive Analyst's push for a complete liquidation overweights a speculative re-entry at $260 that has no technical or fundamental support\u2014that is market timing, not discipline. The Conservative Analyst's push to hold nearly the full position anchors to the $359 high and dismisses the genuine macro overhang from a hawkish Fed transition (Chair Warsh) and geopolitical tensions, which directly pressure JPM's NIM and capital markets revenue. The Neutral Analyst correctly identifies the operative truth: price at $294 sits below both the 50-day SMA ($296) and 200-day SMA ($298) with a declining 50-day, constituting a consolidation inside a downtrend rather than confirmed recovery. The rising 10 EMA ($286\u2192$289) shows short-term stabilization but is not yet a reversal signal, and sentiment is notably absent\u2014no news flow, no upgrades, no insider accumulation\u2014meaning there is no catalyst for the bull's multiple re-rating thesis (15x TTM, 14.2x forward, PEG 1.72). The risk-reward at current levels is asymmetric to the downside (5% to the $279 low, with a credible path to break it on hawkish surprises or credit deterioration) versus requiring a catalyst to reclaim the SMAs. However, this is not a Sell: JPM is a systemically important franchise with a fortress balance sheet ($3T+ assets, $935B market cap), reasonable valuations, growing forward EPS ($24.80 vs $23.32 TTM), and a 1.71% dividend floor. Trimming 10-15% with a hard stop at $279 and dry powder reserved for a technical confirmation above $296/$300 balances downside protection against the very real possibility of a mean-reversion rally. Underweight is the disciplined, evidence-based stance: reduce exposure now, respect the technicals, and re-engage only on confirmation or a fundamental catalyst.\n\n**Price Target**: 279.0\n\n**Time Horizon**: 3 months"
+}

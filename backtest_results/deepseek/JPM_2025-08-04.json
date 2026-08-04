@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-08-04",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-08-04",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.22,
+    "mean_max_drawdown_pct": -13.32,
+    "p95_worst_drawdown_pct": -24.99,
+    "p99_worst_drawdown_pct": -31.09,
+    "est_annualized_vol_pct": 27.9,
+    "spot_price": 288.74,
+    "expected_return_pct": 0.9,
+    "median_return_pct": -0.12,
+    "return_vol_pct": 14.17,
+    "risk_free_pct_horizon": 1.038,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 291.33,
+    "price_p5": 228.83,
+    "price_p95": 361.81,
+    "prob_loss": 0.503,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Initiate a JPM position with a disciplined 3-tranche scale-in: 30% now at ~$288-290, 20% on a retest of the $274-279 zone (only if price holds above $276 on volume), and the final 30% on a confirmed close above $294. Set a hard stop at $270 and target $320-330 over the next 3 months, recognizing the position as a core quality holding in a diversified mega-cap bank.\n\n**Investment Thesis**: The analysts' debate converges on a Buy, though with a refined entry structure. The Aggressive Analyst's case for a strong medium-term uptrend is data-backed: JPM trades well above its 50-day ($274) and 200-day SMA ($248), closed at $288.74 on Aug 4 reclaiming the 10-day EMA, and is an AA- rated, $935B diversified franchise trading at 15x trailing / 14.2x forward earnings with a 1.71% dividend. The Neutral Analyst correctly tempers the Aggressive's overconfidence: the 5.0/10 neutral sentiment score with low confidence is a data void, not a bullish signal, and the flat 10-day EMA plus price sitting 1.8% below the $294 resistance point to a grind, not a breakout. The Conservative Analyst's caution on a hawkish Fed transition (Warsh) and multiple contraction risk under a beta near 1.0 is legitimate\u2014JPM's diversified model protects earnings but not the stock's multiple in a market-wide selloff. However, the Conservative's 25% starter with a $279 stop is too timid and risks buying at $294-299 on a breakout chase. The optimal path is the Neutral's structure: 30% starter, 20% add on a $274-279 retest that holds above $276 with volume, and 30% on a confirmed close above $294, with a clear invalidation rule\u2014if the breakout above $294 fails (pushing above then closing back below within three sessions), halt all adds. Risky support sits at $270 (stop) below the $274-279 support zone; upside to $320 is plausible on a $294 breakout with the 52-week high at $359.30 providing tailroom. This structure captures the Aggressive's upside while honoring the Conservative's capital-preservation discipline\u2014buying at ~$283 average cost on the dip scenario, with total risk capped near 3.5% of intended position.\n\n**Price Target**: 320.0\n\n**Time Horizon**: 3 months"
+}

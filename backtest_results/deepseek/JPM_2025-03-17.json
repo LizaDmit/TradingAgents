@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-03-17",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-03-17",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.3,
+    "mean_max_drawdown_pct": -12.26,
+    "p95_worst_drawdown_pct": -22.82,
+    "p99_worst_drawdown_pct": -28.39,
+    "est_annualized_vol_pct": 25.3,
+    "spot_price": 227.04,
+    "expected_return_pct": 0.68,
+    "median_return_pct": -0.31,
+    "return_vol_pct": 12.79,
+    "risk_free_pct_horizon": 1.047,
+    "risk_free_available": true,
+    "return_over_risk": -0.029,
+    "expected_price": 228.59,
+    "price_p5": 184.63,
+    "price_p95": 279.97,
+    "prob_loss": 0.509,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current JPM position without adding capital. Hold through near-term volatility while the stock trades just above the 200 SMA (~$219.75) at ~$227. Do not scale in until a stabilization signal appears\u2014specifically a daily close back above the 10 EMA (~$230.73) on above-average volume\u2014at which point deploy no more than 25% of intended additional size. Keep stop-loss discipline around $212-215. Reassess toward Underweight only on a decisive, volume-confirmed break below the 200 SMA. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate yields a genuinely balanced picture that supports a HOLD, but with a more disciplined execution framework than the trader's original proposal. The bull case rests on legitimate fundamentals: 15x trailing earnings on $23.32 EPS, a forward P/E of 14.19x, a fortress balance sheet that has survived multiple crises, and the 200 SMA at $219.75 still holding with price at ~$227.04. The bear case, however, is equally compelling on the technicals: the 10 EMA has declined 13.6% since mid-February, price sits 9% below the 50 SMA (~$249), a death cross has formed, and the stock remains 36% below its 52-week high\u2014evidence of persistent institutional selling, not noise. The Fed leadership transition to Kevin Warsh introduces genuine macro uncertainty (hawkish repricing could compress credit spreads and trigger downward earnings revisions), and the sentiment report's data vacuum provides no positive near-term catalyst. The conservative analyst correctly cautions that the 200 SMA is only ~$7 below price\u2014a thin line of defense, not a \"hard floor\"\u2014and that buying into a declining trend on hope of a bounce is knife-catching. The neutral analyst's refinement is the most sensible synthesis: hold the position, but require a concrete stabilization signal (daily close above the 10 EMA on above-average volume) before any addition, cap additions at 25% of intended size, and widen the stop to ~$212 to avoid whipsaw. A 15x P/E with $24.80 forward EPS provides a valuation floor that makes a Sell unjustified, but the lack of positive catalysts and confirmed technical damage makes aggressive buying premature. The 0.982 beta means JPM offers no defensive hedge\u2014position sizing must reflect market-wide risk exposure. This is the disciplined middle path: capital preserved, stakes maintained, and a conditional plan to act on either confirmation of stabilization or confirmation of breakdown.\n\n**Price Target**: 249.0\n\n**Time Horizon**: 3 months"
+}

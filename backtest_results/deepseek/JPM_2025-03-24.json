@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-03-24",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-03-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.24,
+    "mean_max_drawdown_pct": -12.24,
+    "p95_worst_drawdown_pct": -22.8,
+    "p99_worst_drawdown_pct": -28.31,
+    "est_annualized_vol_pct": 25.4,
+    "spot_price": 240.75,
+    "expected_return_pct": 0.75,
+    "median_return_pct": -0.22,
+    "return_vol_pct": 12.77,
+    "risk_free_pct_horizon": 1.046,
+    "risk_free_available": true,
+    "return_over_risk": -0.023,
+    "expected_price": 242.56,
+    "price_p5": 196.56,
+    "price_p95": 296.4,
+    "prob_loss": 0.508,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain a benchmark-weight position in JPM with no additions or trims. The stock is a genuine tug-of-war: short-term momentum is improving (10-day EMA climbing from 221 to 233) while the medium-term 50-day SMA at ~$249 is descending, capping upside. Enter only on a decisive, volume-confirmed break above $250 with the 50-day SMA flattening, and exit discipline if price breaks below the $217 March low (which opens the path to the $200 handle). Time horizon: 3 months.\n\n**Investment Thesis**: The debate is genuinely balanced and does not justify conviction in either direction. The Bull's strongest points: JPM is the most profitable bank in American history with $169.4B revenue, a fortress balance sheet, best-in-class ROTCE, reasonable multiples (15.09x trailing / 14.19x forward), price holding 9% above the 200-day SMA at $220.81, and a rising 10-day EMA indicating re-engaged short-term momentum. The Bear's strongest points: the 39% drawdown from $359 to the $217 low represents genuine repricing of peak-cycle earnings, the 50-day SMA descending from 262 to 249 acts as overhead supply rather than support, 2.64x tangible book and a 1.72x PEG indicate the market is pricing in mean reversion rather than growth, and NII compression risk plus Warsh Fed transition uncertainty creates real macro ambiguity. The Conservative and Neutral analysts correctly expose flaws in both extreme cases: the Bull's \"scarcity premium\" and contrarian news-void arguments are not catalysts, while the Bear's certainty of a breakdown ignores that the 200-day SMA held by only a few dollars and that short-term momentum has turned up. With the 1.71% yield providing modest compensation to wait and no decisive technical break in either direction, maintaining the current position with clearly defined triggers ($250 breakout to upgrade, $217 breakdown to downgrade) is the disciplined, risk-appropriate course. The Neutral analyst's framing is decisive: hold at benchmark weight, keep triggers clear, and let the market provide information rather than predicting direction.\n\n**Price Target**: 250.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-03-30",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-03-30",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.43,
+    "mean_max_drawdown_pct": -12.44,
+    "p95_worst_drawdown_pct": -23.43,
+    "p99_worst_drawdown_pct": -29.47,
+    "est_annualized_vol_pct": 25.2,
+    "spot_price": 281.06,
+    "expected_return_pct": 0.87,
+    "median_return_pct": 0.26,
+    "return_vol_pct": 12.57,
+    "risk_free_pct_horizon": 0.9,
+    "risk_free_available": true,
+    "return_over_risk": -0.002,
+    "expected_price": 283.51,
+    "price_p5": 228.2,
+    "price_p95": 343.59,
+    "prob_loss": 0.491,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current JPM positions at existing weightings without trimming. For new capital, initiate only a small starter position of 2-3% of portfolio with a hard stop at $264, scaling in further only on a confirmed reclaim of the 10-day EMA (~$285) on strong volume, then the 50-day SMA (~$297) for full weight. Time horizon is 3 months; the position rests between strong valuation support (14.2x forward earnings, $133 book value, 19-20% ROE) and a technically broken chart just 0.7% above the 52-week low.\n\n**Investment Thesis**: The debate converges on a Hold, but with asymmetric discipline favoring patience over aggression on the downside while refusing capitulation at current levels. The Conservative Analyst is right that JPM sits below all major moving averages with a fresh death cross (50-day below 200-day) and zero technical confirmation of a reversal\u2014the trend is descriptively down, and the 10-day EMA at $285 has not been reclaimed. The Aggressive Analyst correctly notes the fundamental quality is pristine: 19-20% ROE, $133 book value per share, fortress balance sheet, and a 14.19x forward P/E with a 1.71% dividend yield; he also makes a fair point that the 22% drawdown has removed most selling pressure and that a hawkish Fed under Warsh can support NIM even as it pressures the broader loan book. However, his 40% upside-to-$397 scenario assumes an unproven re-rating to 16x, and the Neutral Analyst rightly flags that the stock is within 0.7% of its 52-week low ($279.10) \u2014 a zone where trimming established positions would be capitulation risk, not risk management. The balanced path: hold current positions at weight (no trims), deploy a modest 2-3% starter with a hard $264 stop (roughly 0.18% portfolio risk), and add only on confirmed technical stabilization. This preserves the optionality of the substantial bull case while capping near-term downside in a stock whose technical damage ($281 vs. $297.51 200-day SMA) requires roughly a 6% rally just to reach neutral territory.\n\n**Price Target**: 285.0\n\n**Time Horizon**: 3 months"
+}

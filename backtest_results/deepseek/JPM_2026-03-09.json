@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-03-09",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-03-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.76,
+    "mean_max_drawdown_pct": -12.83,
+    "p95_worst_drawdown_pct": -24.22,
+    "p99_worst_drawdown_pct": -30.25,
+    "est_annualized_vol_pct": 25.8,
+    "spot_price": 287.15,
+    "expected_return_pct": 0.86,
+    "median_return_pct": 0.2,
+    "return_vol_pct": 13.11,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 289.61,
+    "price_p5": 231.87,
+    "price_p95": 353.78,
+    "prob_loss": 0.494,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a starter position in JPM at ~$287 (2-3% of portfolio), scaled in over 3-4 tranches rather than a lump sum. Set the initial stop/review trigger at $260 to respect the lack of technical support below the $279.10 52-week low, and add on either a test of $270-275 with stabilization or a daily close above the 200 SMA at $295.51 on above-average volume. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on a disciplined middle path, and I'm aligning with the neutral analyst's structured approach while tilting toward the fundamental strength the aggressive analyst rightly emphasizes. The bull case is anchored in hard numbers: JPM trades at ~15x trailing / 14.2x forward earnings with a forward EPS of $24.80, a 1.71% dividend yield providing an income floor, a growing book value of $133.01 (2.64x price-to-book), and a fortress balance sheet that has consistently gained market share in prior crises. The stock is down ~20% from the 52-week high of $359, and at $287 it sits only 2.8% above the $279.10 52-week low\u2014meaning much of the negative macro narrative (new Fed Chair Warsh, 4% inflation, geopolitical tensions) is already priced in.\n\nHowever, the conservative and neutral analysts correctly flag that price sits below the 10 EMA ($294.09), 50 SMA ($307.45), and 200 SMA ($295.51)\u2014a full bearish MA stack forming a resistance ceiling. There is no confirmed positive catalyst: sentiment is neutral at 5.0/10 with low confidence, retail flow data (StockTwits/Reddit) is unavailable, and short interest data is not confirmed, so the \"short-covering rally\" thesis is speculative rather than evidenced. The risk between $287 and the $265 stop proposed by the trader is roughly symmetric (7% upside to $307 vs. 7.7% downside to $265), with no technical support between the current price and $265. This argues against a full 5-7% deployment at current levels and for a smaller starter tranche with a wider stop.\n\nThe decision: Overweight, not Buy. We are constructive on the franchise and valuation over a 3-month horizon, but we respect the technical downtrend and macro uncertainty by scaling in gradually. An initial 2-3% tranche at ~$287 provides fundamental exposure without overcommitting into a bearish chart. The widened stop at $260 (9.4% below entry) accounts for the possibility of a break of the $279.10 52-week low triggering a cascade, while the add-ladder (either $270-275 stabilization or a close above $295.51 on volume) gives two evidence-based paths to build toward the 5-7% target allocation. This is neither the aggressive analyst's full conviction dip-buy nor the conservative analyst's wait-for-perfect-confirmation hold\u2014it is the disciplined compromise that the data supports.\n\n**Price Target**: 307.0\n\n**Time Horizon**: 3 months"
+}

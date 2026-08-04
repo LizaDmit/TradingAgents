@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-06-23",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-06-23",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.34,
+    "mean_max_drawdown_pct": -13.5,
+    "p95_worst_drawdown_pct": -25.24,
+    "p99_worst_drawdown_pct": -31.28,
+    "est_annualized_vol_pct": 28.1,
+    "spot_price": 271.74,
+    "expected_return_pct": 0.9,
+    "median_return_pct": -0.22,
+    "return_vol_pct": 14.39,
+    "risk_free_pct_horizon": 1.039,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 274.19,
+    "price_p5": 215.35,
+    "price_p95": 343.28,
+    "prob_loss": 0.507,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Buy JPM at current levels with a 4% position size split into two tranches: deploy 2% immediately at ~$271.74 and add the remaining 2% on a pullback toward the $264-$258 zone (10 EMA / prior breakout). Manage risk with an initial stop at $258 that trails upward with the 10 EMA, replacing the overly wide $235.60 and overly tight $264 alternatives. This captures the confirmed uptrend while protecting against the elevated RSI (71.48) and the credible risk of a 5-8% normalizing pullback.\n\n**Investment Thesis**: The balance of evidence supports a Buy. The Aggressive Analyst correctly identifies the core opportunity: JPM trades at 15.09x trailing and 14.19x forward earnings with a PEG of 1.72, below the S&P 500's 20-22x multiple, while representing the highest-quality diversified U.S. bank backed by a $935B market cap, near-1.0 beta (0.982), and an active buyback (1.33B treasury shares). The technical structure is genuinely bullish\u2014price at $271.74 sits above the 10 EMA ($264.86), 50 SMA ($249.92), and 200 SMA ($235.60), with the 50/200 spread widening at 6% and a fresh break above $270 resistance\u2014consistent with a structural uptrend rather than a mere spike. The Conservative Analyst's macro cautions (no company-specific news catalyst, uncertain credit cycle, NII sensitivity) are valid cyclical risks but do not undermine the diversified earnings engine (CCB, CIB, CB, AWM) or the durable competitive moat in technology spend and capital strength. The key refinement comes from the Neutral Analyst's synthesis: the RSI at 71.48 does elevate near-term pullback risk, and the data confirms a historical tendency for 5-8% retracements following such readings, so full immediate deployment is imprudent. The recommended structure\u20142% immediate, 2% on pullback to $264-$258, trailing stop from $258\u2014rejects the Aggressive Analyst's wide $235.60 stop (too easily whipsawed in a 13% correction within an uptrend) and the Conservative Analyst's tight $264 stop (guaranteed loss on routine 3% daily noise). The $258 level properly represents genuine breakout invalidation with roughly 5% downside, capping full-position risk near 0.4% of the portfolio. This balanced entry captures the upside of a re-rating while controlling downside.\n\n**Price Target**: 290.0\n\n**Time Horizon**: 3 months"
+}

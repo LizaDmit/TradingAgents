@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-10-20",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-10-20",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.65,
+    "mean_max_drawdown_pct": -12.7,
+    "p95_worst_drawdown_pct": -23.86,
+    "p99_worst_drawdown_pct": -29.53,
+    "est_annualized_vol_pct": 26.7,
+    "spot_price": 298.13,
+    "expected_return_pct": 0.91,
+    "median_return_pct": -0.05,
+    "return_vol_pct": 13.54,
+    "risk_free_pct_horizon": 0.95,
+    "risk_free_available": true,
+    "return_over_risk": -0.003,
+    "expected_price": 300.84,
+    "price_p5": 240.17,
+    "price_p95": 371.64,
+    "prob_loss": 0.503,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at ~$298 with no adds or trims at this level. Pre-plan two conditional actions: add size on a pullback into the $265\u2013$280 accumulation zone near the rising 200-day SMA ($265.85), or add on a decisive reclaim of $310+/the 50-day SMA with volume and confirmation. Set a tactical stop/risk-management trigger at $290; a volume break below that level is a tactical de-risking move, not a thesis reversal\u2014the thesis is only invalidated below the rising 200-day SMA. Keep position size moderate (at/below core overweight) given genuine two-sided Fed-transition and CRE macro risk. Time horizon: 3 months.\n\n**Investment Thesis**: The debate converges on HOLD, and the evidence supports maintaining rather than adding or trimming. The bullish case is anchored in franchise-grade fundamentals: JPM trades at 15.1x trailing and 14.2x forward earnings with $24.80 forward EPS, sits 12% above a rising 200-day SMA at $265.85, is above the current 50-day SMA ($297.49), and pays a well-covered 1.71% dividend yield with fortress CET1 capital. This argues against any full exit or short. However, the bearish near-term picture is equally real: the stock is 13% below its 52-week high, displays a confirmed lower-high pattern after failing above $310 (the market has rejected $320\u2013$350 all year), and faces unresolved macro overhangs\u2014a dovish Fed pivot compressing NII, potential higher capital buffers pressuring ROE/buybacks, rising oil from Iran geopolitical risk feeding inflation, and un-repriced CRE stress. The Neutral analyst correctly flags that the conservative analyst's \"10% below the 50-day\" framing relied on a stale $327.69 data point versus the current $297.49 50-SMA, and that the downside math to the 200-SMA assumes worst case as base case. At $298, upside to a dovish-pivot steepening scenario ($327, or $359 long-term) roughly offsets downside to the $290 stop/$265\u2013$280 accumulation zone, producing balanced asymmetry that favors inaction over forcing a sub-optimal entry or a premature exit. The disciplined framework\u2014hold, add only on confirmations or cheap entries, stop for risk control rather than thesis reversal\u2014is the correct asymmetric response to genuine two-sided macro risk on a systemically important, structurally strong franchise.\n\n**Price Target**: 327.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-03-31",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-03-31",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.29,
+    "mean_max_drawdown_pct": -12.35,
+    "p95_worst_drawdown_pct": -23.25,
+    "p99_worst_drawdown_pct": -29.21,
+    "est_annualized_vol_pct": 25.4,
+    "spot_price": 238.07,
+    "expected_return_pct": 0.91,
+    "median_return_pct": 0.09,
+    "return_vol_pct": 13.21,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 240.24,
+    "price_p5": 193.01,
+    "price_p95": 294.6,
+    "prob_loss": 0.497,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a phased entry into JPM starting with a 2% starter position at current levels (~$238), with the objective of building toward a mid-single-digit allocation over 4-8 weeks. Add on either a confirmed close above the 50-day SMA (~$249) on above-average volume or a volume-confirmed, holding test of the $228-232 support zone. Maintain a stop at $220 (below the 200-day SMA at $222), and cap the position at 4% until JPM reclaims its medium-term trend or delivers a confirming catalyst. Evaluation horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on JPM's exceptional franchise quality\u2014fortress balance sheet, industry-leading ROTCE, dominant deposit base, and market-making revenue that monetizes volatility\u2014as the anchor of the bull case. Valuation at 15.09x trailing and 14.19x forward earnings is reasonable for the largest US bank, and price remains 7.2% above the 200-day SMA at $222, confirming the structural uptrend despite the 19% drawdown and 8.9% recovery. However, the bears' legitimate cyclical concerns (price below the 50-day SMA at $249.39, neutral RSI at 48, absent sentiment data, macro headwinds from Fed transition and inflation) warrant a disciplined phased approach rather than aggressive all-at-once deployment. The neutral analyst's refinement of the trader's plan is the most defensible synthesis: a 2% starter tranche now, adding only on confirmation (either a reclaim of the 50-day SMA or a volume-confirmed hold of the $228-232 zone), with a $220 stop and a 4% cap until trend re-confirmation. This respects the conservative's capital preservation while capturing the aggressive analyst's valid point that JPM is a high-quality compounder at fair (not stretched) valuation, with the dividend plus buyback providing shareholder yield while waiting for the medium-term momentum to repair. The risk-reward is asymmetric to the upside given the 200-day demand zone support and the 0.15% portfolio hit from a worst-case stop-out on the starter position.\n\n**Price Target**: 255.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-06-09",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-06-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.5,
+    "mean_max_drawdown_pct": -13.51,
+    "p95_worst_drawdown_pct": -25.48,
+    "p99_worst_drawdown_pct": -30.88,
+    "est_annualized_vol_pct": 28.2,
+    "spot_price": 260.48,
+    "expected_return_pct": 1.0,
+    "median_return_pct": 0.02,
+    "return_vol_pct": 14.41,
+    "risk_free_pct_horizon": 1.06,
+    "risk_free_available": true,
+    "return_over_risk": -0.004,
+    "expected_price": 263.08,
+    "price_p5": 206.13,
+    "price_p95": 328.38,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing JPM core position at current weight around $260 with no material additions or trims. Establish a buy-the-dip trigger in the $242\u2013$245 zone on the 50-day SMA, and an add signal only on a confirmed close above $270\u2013$275 on volume exceeding the 20-day average by at least 30%. Hold for a 3-month horizon while the Warsh Fed transition and yield-curve direction clarify.\n\n**Investment Thesis**: The three risk analysts converge on Hold, and the evidence supports a balanced stance rather than conviction on either side. The Aggressive Analyst correctly identifies the durable bull case: JPM trades at ~14.2x forward earnings with a sub-30% payout ratio, a 1.71% dividend yield providing a floor, price above both the 50-SMA ($242.85) and 200-SMA, and an intact golden cross \u2014 a high-quality $935B franchise in an uptrend. However, the Conservative Analyst's caution on momentum is also well-founded: the MACD has crossed below its signal line (a leading indicator of fading momentum), the $254\u2013$261 range shows buyer exhaustion at current levels, and RSI near 62 leaves limited immediate upside thrust. The macro setup under the new Fed chair (Warsh) is genuinely two-way \u2014 a hawkish path could steepen the curve (NIM tailwind) but could also slow capital markets activity and deteriorate consumer credit quality given JPM is the largest U.S. card issuer. The Neutral Analyst correctly resolved the data discrepancy in the fundamentals report (which suggested the stock was below its 52-week low) in favor of the technical report's structure \u2014 the stock is in a high-level consolidation within a broader uptrend, not a downtrend. The reward/risk at $260 is roughly 4\u20136% upside to $270\u2013$275 resistance versus ~6\u20138% downside to the $242\u2013$245 dip zone, with undefined tail risk under a hawkish Fed surprise \u2014 this is not asymmetric in our favor at current prices. The asymmetry only emerges at the trigger levels: a pullback to $242\u2013$245 (12% upside to $275 vs ~2\u20133% downside to $235) or a confirmed breakout above $270\u2013$275 on volume (which would justify incremental accumulation). Absent either trigger, maintaining the existing weight is the disciplined action \u2014 don't trim a fundamentally sound core holding, and don't add into a stock with rolling momentum, an uncertain Fed transition, and no positive near-term catalyst. Adopt the Neutral Analyst's refinements: tighten the dip trigger to $242\u2013$245 (near the 50-SMA at $242.85) and require a volume-confirmed close above $270\u2013$275 (volume >20-day average by 30%) before adding.\n\n**Price Target**: 268.0\n\n**Time Horizon**: 3 months"
+}

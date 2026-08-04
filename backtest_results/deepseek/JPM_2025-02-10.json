@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-02-10",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-02-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.41,
+    "mean_max_drawdown_pct": -11.37,
+    "p95_worst_drawdown_pct": -21.4,
+    "p99_worst_drawdown_pct": -26.49,
+    "est_annualized_vol_pct": 23.6,
+    "spot_price": 263.06,
+    "expected_return_pct": 0.76,
+    "median_return_pct": -0.16,
+    "return_vol_pct": 11.95,
+    "risk_free_pct_horizon": 1.057,
+    "risk_free_available": true,
+    "return_over_risk": -0.025,
+    "expected_price": 265.06,
+    "price_p5": 218.57,
+    "price_p95": 320.68,
+    "prob_loss": 0.505,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Maintain an Overweight stance on JPM with disciplined tranche-based accumulation. Initiate a partial position (approximately 60% of the target overweight) at current levels around $263, with limit orders for the remainder near $250 and $243. Set a stop loss at $235 on the first tranche to cap initial risk at 7-8%, while keeping dry powder to add on a 5-8% market-wide correction. Do not chase above $270-275. Target position of 115-120% of benchmark initially, scaling toward 130% only on confirmation from technical pullbacks or continued NII stability at next earnings.\n\n**Investment Thesis**: The analysts' debate converges on a constructive but disciplined view of JPM. The bull case is anchored in exceptional 2024 execution: $58.5B net income (+18%), 17.8% ROE, 21.7% EPS growth, $169.4B revenue (+9.3%), and a 50.4% operating margin. The Golden Cross is intact with price at $263 trading 8.3% above the 50-day SMA and 23.8% above the 200-day SMA, confirming a strong uptrend. Forward P/E of 14.19 against double-digit earnings growth is reasonable for the highest-quality large-cap bank. The bear case legitimately flags valuation risk: 2.64x P/B versus historical 1.2-1.6x, NII growth decelerating to just 3.7% while interest expense surged 24.6%, and reliance on reserve releases to flatter earnings. The Neutral analyst's synthesis is the most actionable: start a partial position now to avoid missing continued momentum, keep tranches for lower entries near $250 and $243, and tighten the initial stop to $235 to manage drawdown risk on the first tranche. The stock's beta of 0.98 means near-market risk, not outsized risk, but the 24% extension above the 200-day SMA argues against aggressive full-position buying at current levels. The plan respects both the quality of the franchise and the discipline required by an extended technical setup, particularly with Fed leadership transition and potential rate-cut compression of NII as forward risks. Re-evaluate on any NII guidance downgrade in Q3/Q4, acceleration in consumer credit deterioration, or a shift from reserve releases to provision builds.\n\n**Price Target**: 290.0\n\n**Time Horizon**: 3 months"
+}

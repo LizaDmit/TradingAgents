@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-04-13",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-04-13",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.2,
+    "mean_max_drawdown_pct": -11.1,
+    "p95_worst_drawdown_pct": -20.42,
+    "p99_worst_drawdown_pct": -25.39,
+    "est_annualized_vol_pct": 21.6,
+    "spot_price": 312.27,
+    "expected_return_pct": 0.58,
+    "median_return_pct": 0.1,
+    "return_vol_pct": 10.87,
+    "risk_free_pct_horizon": 0.901,
+    "risk_free_available": true,
+    "return_over_risk": -0.029,
+    "expected_price": 314.09,
+    "price_p5": 261.75,
+    "price_p95": 372.96,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a JPM position on a scale-in basis: first tranche at current levels (~$312) at approximately 10\u201315% above benchmark weight, with a second tranche triggered either on a confirmed breakout above $327\u2013$330 on strong volume (validating the upside) or on a pullback into the $295\u2013$300 accumulation zone. The technical stop at $279 protects the downside (~10% from entry), with a weekly close below $285 serving as the warning level to reassess the full position. Target price is $330 near-term, extending to $359 on a confirmed breakout, evaluated over a 3-month horizon.\n\n**Investment Thesis**: The debate resolves to a constructive but disciplined Overweight. The bull's case rests on real, verifiable data: forward P/E of ~14.2x is in line with the five-year median (per the neutral analyst's correction), the 10-EMA has crossed above the 200-SMA, price closed at $312.27, up 6.2% over five sessions, and holds above both the 50-SMA and 200-SMA. JPM's fortress balance sheet and four diversified segments provide genuine downside protection, and a higher-for-longer regime benefits NII. However, the conservative and neutral analysts correctly flag that the medium-term trend is not confirmed\u2014the 50-SMA only bottomed on April 6 and is just flattening, overhead supply sits at $320\u2013$330 where a month of buyers are underwater, and the 22% drawdown from $359.30 to $279.10 argues against treating a one-week Golden Cross as a done deal. The PEG of 1.72 and the Fed transition under Kevin Warsh (whose hawkish tilt could tighten financial conditions faster than expected) add genuine uncertainty that justifies not going to a full Buy or the aggressive 25\u201335% over-weight. The balanced path\u2014echoing the neutral analyst\u2014is to build gradually: start at 10\u201315% above benchmark, staged in two tranches (current ~$312, then either a breakout through $327\u2013330 on volume or a $295\u2013300 pullback), with a $279 stop capped at ~10% risk. This captures the quality-compounder upside while respecting the overhead resistance, macro uncertainty, and lack of institutional/retail confirmation noted in the debate.\n\n**Price Target**: 330.0\n\n**Time Horizon**: 3 months"
+}

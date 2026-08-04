@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-08-11",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-08-11",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.96,
+    "mean_max_drawdown_pct": -13.09,
+    "p95_worst_drawdown_pct": -24.5,
+    "p99_worst_drawdown_pct": -30.73,
+    "est_annualized_vol_pct": 27.4,
+    "spot_price": 284.12,
+    "expected_return_pct": 0.75,
+    "median_return_pct": -0.24,
+    "return_vol_pct": 13.83,
+    "risk_free_pct_horizon": 1.036,
+    "risk_free_available": true,
+    "return_over_risk": -0.02,
+    "expected_price": 286.27,
+    "price_p5": 226.95,
+    "price_p95": 355.04,
+    "prob_loss": 0.507,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current JPM positioning without adding new capital. The position is a quality mega-cap franchise (2.64x P/B, 14.19x forward P/E) caught between a confirmed Golden Cross (50-day SMA $277.54 above 200-day SMA $249.21) and a short-term momentum stall (10-day EMA $285.74 above the $284.12 close). Enforce a hard stop: if JPM closes below the 50-day SMA (~$277.50), reassess position size and the golden-cross thesis. Wait for either a stabilization signal at support or a decisive volume-backed close above $285.74 before considering any add. Time horizon: 3 months.\n\n**Investment Thesis**: Synthesizing the analysts' debate, the evidence points to a balanced risk/reward that argues for patience rather than action in either direction. The bull case is anchored in real structural strength: JPM's $4.55 trillion asset base, diversified revenue across CCB, CIB, CB, and AWM, a confirmed Golden Cross, and a reasonable 14.19x forward P/E for the highest-quality US bank. The aggressive analyst is correct that volatility (\"Fed Day Turmoil\") is a tailwind for CIB trading revenue and that the franchise quality justifies a premium to book. However, the aggressive analyst's central premise\u2014a 19% run to an implied $340 price\u2014is a tautological artifact of dividing market cap by share count, not a genuine valuation target, and it should be discarded.\n\nThe bear case carries equal weight. The 10-day EMA ($285.74) sitting above the $284.12 close is a genuine, if modest, short-term momentum stall (0.5%), not merely \"noise.\" The stock is still 14% above the 200-day SMA after a 40%+ run, and the 2.64x P/B is stretched for a bank entering an uncertain credit cycle under a new Fed chair (Warsh). The PEG of 1.72 signals earnings growth (~6%) that does not accelerate. A break below the 50-day SMA at $277.54 could open a mean-reversion path toward the $270s and beyond.\n\nCritically, the sentiment data is neutral (5.0/10, low confidence) with no retail chatter\u2014this provides no edge in either direction and should not be interpreted as a hidden bullish signal. The probability-weighted range is modest: upside to ~$300 resistance (~5.5%) on a close above $285.74, downside to support (~5%) on a break below $277.50. That is a balanced, defined range for a mega-cap financial caught between a solid long-term trend and a messy macro transition. Nothing here justifies deploying new capital at $284.12 (a gamble without a catalyst), and nothing justifies aggressively trimming a quality franchise still well above its long-term trend. The disciplined response to genuine uncertainty is a Hold with clear, non-negotiable technical triggers.\n\n**Price Target**: 300.0\n\n**Time Horizon**: 3 months"
+}

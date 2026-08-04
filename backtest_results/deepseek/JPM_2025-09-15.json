@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-09-15",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-09-15",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.62,
+    "mean_max_drawdown_pct": -12.73,
+    "p95_worst_drawdown_pct": -23.75,
+    "p99_worst_drawdown_pct": -29.47,
+    "est_annualized_vol_pct": 26.9,
+    "spot_price": 303.1,
+    "expected_return_pct": 1.15,
+    "median_return_pct": 0.2,
+    "return_vol_pct": 13.67,
+    "risk_free_pct_horizon": 0.975,
+    "risk_free_available": true,
+    "return_over_risk": 0.013,
+    "expected_price": 306.6,
+    "price_p5": 244.22,
+    "price_p95": 377.73,
+    "prob_loss": 0.493,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM allocation without adding at $303. Set a conditional accumulation zone at $285-290 that only activates on a confirmed daily close back above the 50-day SMA (referenced at ~$288.63 in the technical report) within three sessions of touching the zone. Respect $279 as the key risk-management trigger \u2014 if broken on a closing basis, cut the existing position by 50% rather than riding it down. Review after the next Fed meeting and ahead of the next earnings print, upgrading to Overweight only if JPM holds above $295 on a closing basis post-Fed and breaks above the $327-330 resistance zone on volume.\n\n**Investment Thesis**: The debate balances around a high-quality franchise trading at a genuine discount (15x earnings vs. S&P 500 at 22-24x forward) against stretched technicals and macro uncertainty. The bull correctly highlights JPM's fortress balance sheet (~$935B market cap, diversified across consumer, IB, and wealth), a golden technical configuration (10 EMA > 50 SMA > 200 SMA), and a 1.71% dividend yield with low payout \u2014 all supporting long-term ownership. However, the bear's points carry equal weight for the near term: the stock is 15% below its $359 high, RSI sits near 65, price is ~18% above the 200-day SMA (a deviation the technical report itself flags as a pullback precursor), and sentiment data is a genuine vacuum, not a bullish signal. Most importantly, the Fed leadership transition (Warsh, hawkish lean) creates real credit-cycle risk for a consumer lending book \u2014 a 4% inflation tolerance path would raise loan loss provisions even if the balance sheet absorbs it. The neutral analyst's most actionable observations are the data inconsistency (50-day SMA cited at $327.69 in fundamentals vs. $288.63 in technicals) and the absence of a clear catalyst. With no decisive edge either way and a defined downside trigger at $279, the asymmetrically correct action is to hold at current sizing, pre-position for a confirmed pullback near the rising 50-day SMA, and let the Fed meeting and next earnings be the catalysts that resolve the thesis.\n\n**Price Target**: 327.0\n\n**Time Horizon**: 3 months"
+}

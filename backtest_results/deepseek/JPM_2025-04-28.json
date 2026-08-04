@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-04-28",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-04-28",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.62,
+    "mean_max_drawdown_pct": -13.66,
+    "p95_worst_drawdown_pct": -25.64,
+    "p99_worst_drawdown_pct": -31.43,
+    "est_annualized_vol_pct": 28.5,
+    "spot_price": 237.51,
+    "expected_return_pct": 1.03,
+    "median_return_pct": -0.05,
+    "return_vol_pct": 14.57,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.001,
+    "expected_price": 239.95,
+    "price_p5": 187.67,
+    "price_p95": 300.29,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Initiate a phased accumulation position in JPM, scaling in with 1/6 now at ~$237, a 1/6 limit near $228, a conditional 1/3 only on a confirmed hold of the 200-SMA at ~$225 with volume confirmation, and 1/3 on a decisive close above $243. Place a firm stop at $222.50 (just below the 200-SMA) and cap initial allocation at 2% of the financials sleeve, scaling toward 4% only on breakout confirmation. Target $270 over a 3-month horizon.\n\n**Investment Thesis**: The buy thesis survives the analysts' debate, but only with disciplined execution modifications. JPM's fundamental case is genuinely strong: 15.09x TTM earnings and ~14x forward P/E for the highest-quality, most consistently profitable diversified US bank, with 20%+ ROTCE leadership, a fortress balance sheet, Q1 2025 revenue of $45.33B, EPS of $4.56, and diversifying fee-based revenue (CIB, AWM) that offsets NIM sensitivity. Long-term uptrend structure is intact with price at $237.51 above the 200-SMA at $225.48 and consensus targets near $270 (10-15% upside). However, the aggressive analyst overstates the near-term case: the golden cross is unconfirmed, the 50-SMA is flat-to-declining, the stock already rallied 15% off the April low, and consensus targets face downward revision risk amid the Fed leadership transition to Kevin Warsh \u2014 an unknown that could compress NIM-sensitive earnings estimates. The conservative analyst's fear of missing the move is valid against a wait-for-clearance approach, but buying here at an uncertain inflection demands the neutral analyst's tighter execution: splitting the first tranche, conditionality on the 200-SMA hold, a decisive-close trigger above $243 rather than chasing wicks, and a stop at $222.50 that limits pre-stop gap exposure versus the original $215 level (which leaves 12% downside if a gap through the SMA occurs on Iran/oil volatility). The asymmetry\u201410-15% consensus upside versus ~6% capped downside\u2014is favorable but not the aggressive 2:1 case presented; it requires the phased, size-capped approach rather than full deployment. Near-term chop and macro uncertainty are headwinds, not structural negatives, and JPM has historically grown earnings across rate environments. Position for the medium-term structural quality compounder with disciplined entry.\n\n**Price Target**: 270.0\n\n**Time Horizon**: 3 months"
+}

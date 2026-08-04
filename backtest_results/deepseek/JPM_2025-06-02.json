@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-06-02",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-06-02",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.36,
+    "mean_max_drawdown_pct": -13.48,
+    "p95_worst_drawdown_pct": -24.98,
+    "p99_worst_drawdown_pct": -30.84,
+    "est_annualized_vol_pct": 28.2,
+    "spot_price": 258.45,
+    "expected_return_pct": 1.06,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 14.27,
+    "risk_free_pct_horizon": 1.058,
+    "risk_free_available": true,
+    "return_over_risk": 0.0,
+    "expected_price": 261.2,
+    "price_p5": 205.9,
+    "price_p95": 326.85,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain current JPM position at current weighting with no adds or trims. Set defined technical triggers: add 1-2% on a confirmed weekly close above $261.28-$262 on strong volume, and trim 1-2% on a close below the 50 SMA at $241. Maintain a tighter intermediate risk stop near the 10 EMA at $256.97. Time horizon: 3 months, reassess after Q1 earnings clarify forward NIM trajectory under the new Fed leadership.\n\n**Investment Thesis**: The analyst debate confirms a genuinely balanced risk/reward profile for JPM that warrants patience rather than aggressive action. The technicals are constructive but not conclusive: price sits above all three major moving averages (10 EMA $256.97, 50 SMA $241, 200 SMA $231.84) with a golden cross intact and a +16.8% rally off the April $223.61 lows. However, the stock is still 28% below its 52-week high, and the last several sessions have been confined to a narrow $257.30-$259.06 range with the 10 EMA only $1.48 below price\u2014the neutral analyst correctly characterizes this as a coiled spring with no directional bias, not a confirmed breakout. On valuation, 15.09x trailing and 14.19x forward P/E is fair but not a bargain; the PEG of 1.72 is modestly rich given only ~6% expected forward EPS growth. The macro overlay is the dominant uncertainty: the Powell-to-Warsh Fed transition is flagged as the highest-impact event on JPM's horizon, and while the aggressive analyst argues it is already priced in, the conservative analyst correctly counters that a hawkish first move could reprice risk premia in waves\u2014banks being the first to feel it. The aggressive side's strongest point is that waiting for a confirmed breakout above $262 risks paying a worse price when the move turns violent, but the conservative and neutral analysts properly balance this with the asymmetric downside risk. Given that JPM is the best-capitalized diversified bank with a fortress balance sheet, $23.32 trailing EPS, and a 1.71% dividend yield cushioning the wait, maintaining current positioning with clear, objective triggers on both sides is the disciplined choice. There is not enough margin of safety to justify a Buy nor enough deterioration to warrant a Sell; the evidence is genuinely mixed and the appropriate posture is Hold with defined risk management.\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-04-27",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-04-27",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.09,
+    "mean_max_drawdown_pct": -10.92,
+    "p95_worst_drawdown_pct": -20.33,
+    "p99_worst_drawdown_pct": -24.94,
+    "est_annualized_vol_pct": 21.1,
+    "spot_price": 310.23,
+    "expected_return_pct": 0.45,
+    "median_return_pct": -0.12,
+    "return_vol_pct": 10.55,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.043,
+    "expected_price": 311.62,
+    "price_p5": 260.78,
+    "price_p95": 367.15,
+    "prob_loss": 0.505,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate JPM at ~$310 with a 50-60% core allocation now, reserving the remainder for adds only on confirmed signals: a retest of $296-300 support holding for two consecutive closes, or a clean break above $325 on volume. Defend the position with a stop at $285 (above the $280.14 March low but below recent consolidation), targeting $340-345 over a 3-month horizon. This captures the constructive technical structure and franchise quality while respecting the unresolved macro headwinds from the Fed transition and inflation concerns.\n\n**Investment Thesis**: The debate resolves to a balanced constructive stance. The bull case is structurally sound: JPM trades at a reasonable 14.19x forward P/E with accelerating quarterly EPS ($4.22 \u2192 $5.07), a fortress balance sheet, diversified revenue streams, and a constructive technical picture\u2014price has reclaimed the 50-day SMA ($296.78), 200-day SMA ($300.32), and 10-EMA ($308.74), with the March low at $280 holding through Fed transition, Iran headlines, and the tech/AI risk-off. That support held under extreme stress gives it technical credibility. However, the bear raises valid near-term macro risks that cannot be dismissed: Kevin Warsh's Fed transition creates genuine policy uncertainty, the World Affairs report flags 4% inflation as a possible base case with prospects of rate hikes\u2014a direct threat to JPM's largest earnings driver, net interest income\u2014and the 2.64x P/B with a 1.72x PEG suggests growth is already largely priced in rather than deeply discounted. The aggressive 60-75% immediate deployment is too large given an unresolved Fed path and a 1:1 risk-reward at current levels; the neutral analyst's moderate sizing best balances opportunity cost against tail risk. A 50% initial tranche at $310 with a $285 stop and data-driven scaling (not automatic dip-buying) offers ~1.5:1 risk-reward to the $340-345 target while capping downside at roughly 8% on the deployed tranche. This respects both the confirmed technical strength and the genuine macro uncertainty, making Overweight\u2014a gradual, disciplined accumulation\u2014the correct rating rather than an all-in Buy or a HOLD that foregoes the clear asymmetry.\n\n**Price Target**: 342.5\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-12-08",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-12-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.89,
+    "mean_max_drawdown_pct": -12.09,
+    "p95_worst_drawdown_pct": -23.12,
+    "p99_worst_drawdown_pct": -29.0,
+    "est_annualized_vol_pct": 24.4,
+    "spot_price": 310.8,
+    "expected_return_pct": 0.78,
+    "median_return_pct": 0.3,
+    "return_vol_pct": 12.25,
+    "risk_free_pct_horizon": 0.905,
+    "risk_free_available": true,
+    "return_over_risk": -0.01,
+    "expected_price": 313.22,
+    "price_p5": 252.83,
+    "price_p95": 378.7,
+    "prob_loss": 0.49,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish an Overweight position in JPM with disciplined, staged accumulation rather than a full-size chase. Deploy approximately 20% of full weight immediately at current levels (~$310), place a second limit tranche at the $302\u2013304 support zone (50 SMA), and reserve the third tranche for a confirmed close above $318 with volume expansion. Set the initial stop at $300 for the first tranche, widen to $290 for the pullback tranche, and manage the position over a 3-month horizon targeting $340\u2013350. If JPM closes below $290, reduce the position to core holding and reassess the thesis.\n\n**Investment Thesis**: The evidence overweights the constructive case. At $310.80, JPM trades above its 10 EMA ($306.67) and 50 SMA ($302.42) with a 13.4% buffer above the 200 SMA ($274.04), confirming a durable medium-term uptrend. Valuation is reasonable at 15.09x trailing and 14.19x forward earnings for the largest, most diversified U.S. bank \u2014 a meaningful discount to the S&P 500's ~22x multiple. P/B of 2.64x is elevated but justified by JPM's industry-leading return on tangible common equity, and the 1.71% yield plus fortress balance sheet provide downside protection. The Neutral Analyst's synthesis is the most persuasive: it correctly rejects the Aggressive Analyst's dismissal of the Warsh Fed-transition risk, while also rejecting the Conservative Analyst's refusal to buy at all. The silent sentiment data cannot be read as either bullish (silence as positive) or bearish (silence as warning) \u2014 it simply reflects a market awaiting Fed confirmation. This argues for staged entry at reduced size rather than full commitment or no commitment. The Conservative Analyst's gap-risk and asymmetry concerns are legitimate: the stock has already given back 13.5% from its $359 high, and a hawkish Warsh surprise could compress NII and pressure credit. However, waiting entirely for clarity risks chasing a 10% gap higher as the Neutral Analyst correctly warns. The resolution is Overweight with disciplined scaling \u2014 buy one-half of the first tranche at market to establish a base, second half at $302\u2013304, confirm the second tranche only on a volume-backed close above $318, and reserve the third tranche for a post-breakout pullback to $310\u2013315. Reward-to-risk remains favorable at roughly 3:1 on the initial entry given the $300 stop, and the $340\u2013350 upside objective approaches prior highs. The primary risk to manage is the Warsh policy path and any degradation in consumer/commercial credit, both of which will be monitored closely.\n\n**Price Target**: 350.0\n\n**Time Horizon**: 3 months"
+}

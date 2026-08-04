@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-06-08",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-06-08",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.27,
+    "mean_max_drawdown_pct": -11.23,
+    "p95_worst_drawdown_pct": -20.91,
+    "p99_worst_drawdown_pct": -25.79,
+    "est_annualized_vol_pct": 21.7,
+    "spot_price": 309.71,
+    "expected_return_pct": 0.51,
+    "median_return_pct": 0.13,
+    "return_vol_pct": 10.9,
+    "risk_free_pct_horizon": 0.907,
+    "risk_free_available": true,
+    "return_over_risk": -0.036,
+    "expected_price": 311.3,
+    "price_p5": 258.41,
+    "price_p95": 368.84,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at neutral portfolio weight (5-6%) with no new entries at the current ~$309 level. Set limit orders to accumulate in tranches on weakness: first at $295-300, second at $280-285, with a stop-loss at $280 (adjusted to $270 if the 52-week low of $279.10 breaks). Upgrade to Overweight only on a sustained close above the 50-day SMA (~$327) on rising volume, or on a more dovish-than-expected Kevin Warsh Fed path. Time horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on a Hold, and the evidence supports this calibrated stance. The bull case rests on genuine franchise quality\u2014$4.9 trillion balance sheet, 17.79% ROE, 34.92% profit margin, and forward EPS of $24.89 at a reasonable 14.13x forward P/E\u2014which argues against selling a fortress balance sheet into a 14% drawdown. However, the bear case carries equal weight: the 2.64x price-to-book is a premium for a bank growing only 6.7% (PEG 1.72), the stock already fell 14% from the 52-week high, and the Kevin Warsh Fed transition introduces real NIM-compression and credit-cycle risk on a $4.9 trillion book. Technically, the June 8 close at $309.71 sits just above the 50-day SMA ($303.08) and 200-day SMA ($302.74), but the single-day bounce above these MAs is not confirmed uptrend\u2014the 50-day SMA at ~$327 remains unbroken resistance. The asymmetry of ~5.6% upside to $327 versus ~4.7% downside to $295 (with a hard stop at $280) is not sufficiently favorable to justify adding at current levels, and the sentiment vacuum (zero institutional/news coverage for a mega-cap) argues against chasing. Neither the aggressive momentum thesis nor the conservative collapse scenario is supported by the data\u2014JPM is a high-quality franchise consolidating after a pullback, awaiting clarity on rates. The disciplined approach is to hold neutral weight, accumulate only at better-defined support zones, and revisit on either a confirmed breakout above $327 or a more dovish Fed path. The trader's defined tranches ($295-300 and $280-285) and stop structure are appropriate, with a modest adjustment to place the stop at $270 if the $279.10 52-week low fails.\n\n**Price Target**: 327.0\n\n**Time Horizon**: 3 months"
+}

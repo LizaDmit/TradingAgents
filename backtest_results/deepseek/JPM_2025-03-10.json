@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-03-10",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-03-10",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.27,
+    "mean_max_drawdown_pct": -12.19,
+    "p95_worst_drawdown_pct": -22.58,
+    "p99_worst_drawdown_pct": -27.82,
+    "est_annualized_vol_pct": 25.1,
+    "spot_price": 225.38,
+    "expected_return_pct": 0.64,
+    "median_return_pct": -0.41,
+    "return_vol_pct": 12.54,
+    "risk_free_pct_horizon": 1.046,
+    "risk_free_available": true,
+    "return_over_risk": -0.032,
+    "expected_price": 226.82,
+    "price_p5": 184.13,
+    "price_p95": 276.35,
+    "prob_loss": 0.513,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at existing sizing. Place a hard risk-management trigger at the 200-day SMA ($218.92): if price closes decisively below this level, reduce exposure by 25-30%; do not add back until two consecutive daily closes above the 10-day EMA (~$243.14) confirm momentum has stalled. Re-evaluate at the April 2025 earnings report and whenever the Fed leadership transition narrative resolves. Horizon: 3 months.\n\n**Investment Thesis**: This decision is anchored in the risk analysts' collective recognition that JPM sits at a genuine crossroads dominated by a single binary macro catalyst rather than company-specific deterioration. The bear/Conservative case wins the short-term technical argument: a 17% three-week decline, the 10-day EMA decisively crossing below the 50-day SMA, RSI at 24.78, and price only 2.9% above the 200-day SMA all signal sustained downward momentum with a thin buffer to a physically significant long-term support line. The World Affairs Report's explicit warning that a hawkish Kevin Warsh first meeting could \"slam the stock market\" validates the concern that this drawdown could extend\u2014particularly if forward earnings estimates get revised down in a credit-tightening scenario.\n\nHowever, the bull/Aggressive case wins the medium-to-long-term fundamental argument that cannot be dismissed. JPM's fortress capital ratios, dominant deposit franchise, #1 global investment bank position, and $15B+ annual technology spend constitute a genuine competitive moat that a Fed chair change does not erode. A forward P/E of 14.19x on $24.80 forward EPS is historically cheap for this quality of franchise, and the total absence of company-specific negative news or social narrative confirms this is macro-driven systematic selling, not fundamental deterioration. The Neutral analyst's synthesis is decisive: this is not a coin to bet on heads or tails\u2014the responsible action is to hold the position with defined risk while the market resolves the uncertainty.\n\nI incorporate the Neutral analyst's key refinement over the trader's looser plan: rather than adding back on a weak RSI-above-30 signal (vulnerable to a dead-cat bounce), the add-back trigger should require two consecutive daily closes above the 10-day EMA (~$243.14), a concrete measure that downward momentum has genuinely stalled. This disciplined asymmetry\u2014triggers on both sides, no speculative prediction of the Fed outcome\u2014is what distinguishes risk management from gambling. Selling a 14x forward-earnings JPM on macro fear has historically been a mistake, but ignoring the velocity of the decline and the binary policy catalyst would equally be overconfidence. Hold is the honest, evidence-grounded call across the full 3-month evaluation window.\n\n**Time Horizon**: 3 months"
+}

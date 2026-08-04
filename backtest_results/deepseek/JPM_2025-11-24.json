@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-11-24",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-11-24",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.11,
+    "mean_max_drawdown_pct": -12.09,
+    "p95_worst_drawdown_pct": -22.75,
+    "p99_worst_drawdown_pct": -29.11,
+    "est_annualized_vol_pct": 24.3,
+    "spot_price": 293.83,
+    "expected_return_pct": 0.67,
+    "median_return_pct": 0.07,
+    "return_vol_pct": 12.17,
+    "risk_free_pct_horizon": 0.933,
+    "risk_free_available": true,
+    "return_over_risk": -0.022,
+    "expected_price": 295.79,
+    "price_p5": 239.68,
+    "price_p95": 357.72,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at existing weight with a stop loss at $272 (200-day SMA). Do not deploy incremental capital into the falling knife while price sits below both the 10-day and 50-day moving averages with cascading RSI and weakening MACD. The signal to add is a confirmed reclaim of the $298-$300 zone (50-day SMA) on rising volume; the signal to trim is a break and hold below $272 paired with continued QoQ earnings decline. Horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on a balanced picture that justifies a Hold. The Aggressive Analyst correctly anchors the bullish case in JPM's franchise quality: $46.43B quarterly revenue (up sequentially from $44.88B), a fortress balance sheet with $4.56T in assets and $360B in equity, a 15.09 TTM P/E, dividend yield of 1.71%, and a beta below 1. The stock remains roughly 8% above its rising 200-day SMA at $272.20, which is a legitimate longer-term floor. However, the Conservative and Neutral Analysts expose the near-term risks that temper aggressive accumulation: price is below both the 10-day EMA ($298.49) and the 50-day SMA after a sharp 7% decline over 8 sessions, RSI at 40.53 is still cascading (not oversold), and MACD is deteriorating with no positive JPM-specific catalysts (news feed empty). The 3.2% sequential EPS decline ($5.24 to $5.07) amid Q2-to-Q3 net income contraction ($14.99B to $14.39B) shows the revenue growth is not translating cleanly to the bottom line. Macro headwinds\u20144% inflation, the hawkish-leaning Kevin Warsh Fed transition capping net interest margin, and tighter liquidity\u2014create genuine downside skew that the Aggressive Analyst underweights. Yet the Conservative Analyst's proposed tighter stop at $285 would risk being shaken out in normal volatility for a beta-0.982 name, confirming that a broader $272 invalidation level is the correct trigger. The risk/reward is roughly symmetric near-term: ~$14 downside to the 200-day SMA against ~$20 upside to $315 is only marginally favorable and not enough to justify aggressive adds into unresolved technicals, nor is the fundamental deterioration sufficient to warrant exiting a premier franchise at a reasonable 15x multiple. Hold is the disciplined decision: preserve optionality, respect the still-intact long-term uptrend, and let the market provide a definitive technical signal before adjusting exposure.\n\n**Price Target**: 300.0\n\n**Time Horizon**: 3 months"
+}

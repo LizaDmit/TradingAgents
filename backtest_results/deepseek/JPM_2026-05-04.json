@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-05-04",
+  "model_tag": "deepseek",
+  "signal": "Underweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-05-04",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -9.87,
+    "mean_max_drawdown_pct": -10.83,
+    "p95_worst_drawdown_pct": -20.4,
+    "p99_worst_drawdown_pct": -25.21,
+    "est_annualized_vol_pct": 21.1,
+    "spot_price": 306.27,
+    "expected_return_pct": 0.57,
+    "median_return_pct": 0.12,
+    "return_vol_pct": 10.63,
+    "risk_free_pct_horizon": 0.897,
+    "risk_free_available": true,
+    "return_over_risk": -0.031,
+    "expected_price": 308.01,
+    "price_p5": 256.19,
+    "price_p95": 364.18,
+    "prob_loss": 0.496,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Underweight\n\n**Executive Summary**: Trim JPM holdings by 15% over the next 1\u20132 weeks, maintaining 70\u201380% of a typical full position. Place a hard stop at the 50-day SMA ($297.27); on a daily close below that level, execute a further trim of 25\u201330% of the remaining position targeting the $279 zone. Re-enter toward full/overweight only on a daily close above the reclaimed 50-day MA (~$327.69) on above-average volume. Time horizon: 3 months.\n\n**Investment Thesis**: The neutral analyst's calibrated middle path is the most defensible synthesis of this debate. The aggressive analyst's full \"offensive\" sell overstates certainty around a binary political catalyst and ignores that the \"news vacuum\" is explicitly ambiguous per the sentiment report (no institutional framing signal, possibly a data gap). The conservative analyst's refusal to act underweights the objective technical deterioration: JPM closed at $306.27 on May 4, down 1.54%, trading below the 10-day EMA ($309.03), below the 200-day SMA, having made lower highs since the April peak of $315.57, and ~15% off the $359.30 high. Critically, the 50-day SMA ($297.27) sits BELOW the 200-day SMA ($301.01) \u2014 a bearish crossover that makes the 50-day a tripwire rather than a springboard. However, the conservative analyst correctly demonstrates the re-entry penalty: selling at $306.27 requires a 7% rally to re-enter at $327.69, risking 7% opportunity cost to save 3% downside \u2014 so a full aggressive sell is negative expected value. The fundamentals argue against exiting: 15.09x P/E, 17.79% ROE, 50.39% operating margin, and forward EPS of $24.80 (up from $23.32) are elite, and a hawkish Fed that steepens the curve could actually expand JPM's net interest margin. Given the asymmetric information environment (no JPM news, no retail sentiment, pending Warsh FOMC that \"could\" slam markets), a 15% trim at the low end of the range, a hard stop at $297.27, and a disciplined volume-confirmed re-entry condition appropriately balances the skewed near-term downside risk against the franchise's long-term quality. This is defensive portfolio hygiene, not an exit from a best-in-class G-SIB.\n\n**Price Target**: 327.69\n\n**Time Horizon**: 3 months"
+}

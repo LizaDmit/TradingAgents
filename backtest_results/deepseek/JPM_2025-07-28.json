@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-07-28",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-07-28",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.31,
+    "mean_max_drawdown_pct": -13.4,
+    "p95_worst_drawdown_pct": -25.04,
+    "p99_worst_drawdown_pct": -30.67,
+    "est_annualized_vol_pct": 28.0,
+    "spot_price": 292.68,
+    "expected_return_pct": 0.86,
+    "median_return_pct": -0.16,
+    "return_vol_pct": 14.12,
+    "risk_free_pct_horizon": 1.059,
+    "risk_free_available": true,
+    "return_over_risk": -0.014,
+    "expected_price": 295.19,
+    "price_p5": 232.48,
+    "price_p95": 366.73,
+    "prob_loss": 0.506,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain existing JPM positions at current levels without aggressive accumulation. The unresolved technical discrepancy (50-day MA cited at both $271.73 and $327.69 across data sources) and the double-barreled macro risk (Fed leadership transition plus potential Hormuz oil supply shock) justify patience. Re-enter or add only on a confirmed reclaim of the 50-day MA on above-average volume near $327-330, or on a disciplined pullback into the $245-270 support zone, with stop discipline at $279 on a closing basis. Time horizon: 3 months.\n\n**Investment Thesis**: Synthesizing the analysts' debate, JPM remains a best-in-class franchise\u201418.6% ROE, 15.3% CET1 fortress capital, record revenues, and a modest 12.6x forward P/E\u2014which supports downside protection and argues firmly against a Sell. However, the aggressive analyst's bullish technical thesis rests on moving-average data ($288.28 10-EMA, $271.73 50-SMA, $245.48 200-SMA) that directly conflicts with the fundamentals report's figures ($327.69 50-day, $311.85 200-day)\u2014a ~$56 discrepancy on a key indicator that both the conservative and neutral analysts correctly flag as un-resolvable from current data. This makes confident technical entry impossible. Forward EPS growth decelerating from 26% trailing to ~6% forward (per the conservative/neutral case) caps near-term upside, while the Fed leadership vacuum and Hormuz oil supply shock create genuine binary macro outcomes that a 3-month horizon cannot discount. The aggressive analyst's point that JPM is the natural flight-to-quality beneficiary and that valuation is reasonable is valid, but the timing argument fails because the stock sits 18.5% below its 52-week high near $292.68 and we cannot verify which moving-average picture is accurate. The neutral analyst's refinement is the most actionable: hold current position, add only on volume-confirmed reclaim of the 50-day near $327-330 OR a deep pullback into $245-270, use a closing-basis stop at $279 to avoid gap-through whipsaw, and respect the deceleration cap on near-term upside. This balances the aggressive's valid franchise-quality/value argument against the conservative's legitimate data-integrity and macro-binary concerns.\n\n**Price Target**: 327.0\n\n**Time Horizon**: 3 months"
+}

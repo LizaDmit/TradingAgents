@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-05-25",
+  "model_tag": "deepseek",
+  "signal": "Buy",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-05-25",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.09,
+    "mean_max_drawdown_pct": -11.02,
+    "p95_worst_drawdown_pct": -20.41,
+    "p99_worst_drawdown_pct": -25.14,
+    "est_annualized_vol_pct": 21.3,
+    "spot_price": 305.01,
+    "expected_return_pct": 0.51,
+    "median_return_pct": 0.06,
+    "return_vol_pct": 10.65,
+    "risk_free_pct_horizon": 0.896,
+    "risk_free_available": true,
+    "return_over_risk": -0.036,
+    "expected_price": 306.57,
+    "price_p5": 255.25,
+    "price_p95": 362.19,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Buy\n\n**Executive Summary**: Initiate a Buy on JPM with a laddered tranche approach: deploy ~35% of the intended full position at current levels (~$305), with a disciplined stop-loss at $285 to protect against a breakdown below the $290 support zone. Add on confirmation\u2014either a hold of the 50-day SMA ($299.86) over two weeks, a dip toward $290, or a decisive volume break above $315. Target time horizon of 3 months, with price recovery toward the $327 (50-day SMA) and eventual $359 (52-week high) levels contingent on the AI/IPO pipeline and NII tailwind materializing.\n\n**Investment Thesis**: The bull case rests on JPM's exceptional franchise quality: an 18% ROE, a fortress balance sheet, and a mid-teens earnings multiple (15.12x trailing, 14.17x forward) that is significantly cheaper than the S&P 500's ~20-22x. Higher-for-longer rates under a hawkish Fed (\"4% becoming the new 2%\") provide a direct NII tailwind to JPM's massive deposit and loan franchise, while the ~$4 trillion AI/IPO pipeline (OpenAI, Anthropic, SpaceX) flows through CIB underwriting fees and AWM wealth management at near-incremental margins. The bear's concerns\u2014a historically rich 2.65x price-to-book, modest ~6.7% EPS growth (PEG 1.72), a 15% drawdown from the $359 high, and a weak technical consolidation (10-day EMA below 200-day SMA, neutral-to-slightly-bearish momentum)\u2014are legitimate and argue against aggressive full-position entry at $305. However, the trader's tranche strategy directly addresses this tension: an initial 35% tranche with a $285 stop (roughly 6.5% downside) limits capital risk while preserving asymmetric upside (~7% to $327 50-day SMA, ~18% to $359 high). The neutral analyst's refinement\u2014initiating at 35% rather than 30-40%, and setting the stop at $285 rather than $280 to avoid noise\u2014is the most disciplined synthesis, weighting the sound fundamentals over weak-but-not-broken technicals. Credit risk in a higher-for-longer regime and the speculative nature of the IPO pipeline are monitored via charge-off data and NII guidance in the next earnings release.\n\n**Price Target**: 335.0\n\n**Time Horizon**: 3 months"
+}

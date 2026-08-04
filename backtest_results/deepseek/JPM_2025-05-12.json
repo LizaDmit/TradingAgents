@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-05-12",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-05-12",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.5,
+    "mean_max_drawdown_pct": -13.68,
+    "p95_worst_drawdown_pct": -25.5,
+    "p99_worst_drawdown_pct": -31.63,
+    "est_annualized_vol_pct": 28.7,
+    "spot_price": 253.95,
+    "expected_return_pct": 0.94,
+    "median_return_pct": -0.05,
+    "return_vol_pct": 14.33,
+    "risk_free_pct_horizon": 1.07,
+    "risk_free_available": true,
+    "return_over_risk": -0.009,
+    "expected_price": 256.33,
+    "price_p5": 201.91,
+    "price_p95": 320.15,
+    "prob_loss": 0.501,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a JPM position at current levels (~$253.95) with a 50% initial allocation of the desired final position, capped at 4% of portfolio to respect concentration risk. Set a stop at $230, just below the $235-240 support zone but above the 200-day SMA, and add the remaining exposure only on a confirmed breakout above $265 on above-average volume rather than chasing a pullback that may not arrive. Re-evaluate quarterly around earnings for any credit deterioration or NII compression.\n\n**Investment Thesis**: The debate converges on a constructive but disciplined stance. The bull case is grounded in concrete, defensible evidence: JPM trades at 14.19x forward earnings, which is fair-to-attractive for the preeminent diversified U.S. bank with a fortress balance sheet, four revenue engines, and a consistent earnings-beat track record. The technical picture confirms long-term improvement \u2014 rising 200-day SMA, price at the top of the window at $253.95. However, the conservative and neutral analysts raise valid execution concerns that must temper aggression. Valuation is not cheap (P/B 2.64x, PEG 1.72), and JPM carries meaningful systematic beta given its ~$935B market cap and heavy index weighting. The April crash to $205 \u2014 a 23-24% drawdown in weeks \u2014 demonstrates this name can gap violently on macro shocks, making a wide 11% stop at $225 vulnerable to gap-through risk (a point the neutral analyst correctly notes is not guaranteed to fill). The sentiment data vacuum means the single-day 2.7% surge lacks volume confirmation, so buying the top-of-window at full size is imprudent. The balanced path \u2014 50% initial position, $230 stop, add only on confirmed breakout above $265 \u2014 captures the constructive fundamental/technical setup while limiting worst-case portfolio damage to roughly 0.19% of equity. This aligns with the Research Manager's Overweight call and the trader's constructive BUY lean, refined by the neutral analyst's superior execution framework and the conservative analyst's correct emphasis on capital preservation against tail risk.\n\n**Price Target**: 267.0\n\n**Time Horizon**: 3 months"
+}

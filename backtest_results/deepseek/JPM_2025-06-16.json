@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-06-16",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-06-16",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.27,
+    "mean_max_drawdown_pct": -13.41,
+    "p95_worst_drawdown_pct": -25.02,
+    "p99_worst_drawdown_pct": -31.08,
+    "est_annualized_vol_pct": 28.1,
+    "spot_price": 264.01,
+    "expected_return_pct": 0.93,
+    "median_return_pct": -0.47,
+    "return_vol_pct": 14.29,
+    "risk_free_pct_horizon": 1.062,
+    "risk_free_available": true,
+    "return_over_risk": -0.009,
+    "expected_price": 266.46,
+    "price_p5": 210.85,
+    "price_p95": 333.22,
+    "prob_loss": 0.513,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain JPM at target portfolio weight with no new capital deployment. The stock trades at $264.01, a 3-month high above all key moving averages (10 EMA $260.49, 50 SMA $245.61, 200 SMA $234.51), which supports continued participation, but negative MACD histogram momentum, rising credit card delinquencies, and Fed leadership transition uncertainty argue against aggressive adding ahead of Q2 earnings. Execute adds on a pullback to the $245\u2013$250 zone (50 SMA) or on a confirmed volume-backed breakout above $270. Reassess after earnings clarity on loan loss provisions and NII trajectory. Horizon: 3 months.\n\n**Investment Thesis**: The analysts' debate converges on a balanced picture that supports maintaining current positioning rather than deviating. The Aggressive Analyst makes a valid technical case: JPM is at a 3-month high of $264.01, above all key moving averages in a perfect bullish stack, with RSI at 63.78 (strong but not overbought), following a 34% recovery off the April lows. The valuation (P/E 15.09x, forward P/E 14.19x, P/B 2.64x) is reasonable for JPM's quality, and the diversified business model provides earnings resilience across macro scenarios. However, the aggressive call to go immediately overweight is undercut by three factors the Neutral and Conservative Analysts correctly identified: (1) negative MACD histogram at the highs signals decelerating momentum, (2) rising credit card delinquencies and CRE pressure create real downside risk to loan loss provisions at Q2 earnings\u2014downside of 7% to the 50 SMA versus only ~2% upside to a $270 breakout makes the near-term risk-reward unattractive at current levels, and (3) the Fed leadership transition to Warsh introduces unquantified policy risk. The Conservative Analyst's concern about chasing after a steep run and the Neutral's framing of \"the most dangerous zone right before earnings\" both underscore that committing new capital ahead of the single most material information event (Q2 provisions and NII guidance) is speculative. JPM has beaten on provisions for six consecutive quarters, supporting the bullish base case, but extrapolating that streak into a period of acknowledged macro uncertainty is fragile. The Hold rating captures the correct posture: full participation in continued upside, dividend carry (~1.71%), defined re-entry triggers at $245\u2013$250 and above $270, and no exposure to a 7\u201310% drawdown if earnings disappoint. Neither the aggressive overweight case nor a reduction to underweight is justified by the evidence. The balanced technicals, mixed fundamentals, and macro uncertainty demand patience until earnings delivers clarity.\n\n**Price Target**: 280.0\n\n**Time Horizon**: 3 months"
+}

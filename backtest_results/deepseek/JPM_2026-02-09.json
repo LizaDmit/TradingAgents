@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2026-02-09",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2026-02-09",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.76,
+    "mean_max_drawdown_pct": -12.87,
+    "p95_worst_drawdown_pct": -24.33,
+    "p99_worst_drawdown_pct": -30.43,
+    "est_annualized_vol_pct": 26.0,
+    "spot_price": 319.02,
+    "expected_return_pct": 0.93,
+    "median_return_pct": 0.25,
+    "return_vol_pct": 13.11,
+    "risk_free_pct_horizon": 0.898,
+    "risk_free_available": true,
+    "return_over_risk": 0.003,
+    "expected_price": 321.99,
+    "price_p5": 256.43,
+    "price_p95": 394.37,
+    "prob_loss": 0.492,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Establish a core position in JPM at current levels (~$319) with a small starter tranche (1% of portfolio), then layer in additional 2-3% across the $305-$312 support zone on pullbacks. Maintain a hard stop at $295 (weekly close basis) and target a total position size of 3-4% of the portfolio. Do not chase strength above $320; await either a confirmed break above $325-330 with volume or a retest of support before adding aggressively. Time horizon: 3 months, with the upcoming quarterly earnings as the key catalyst.\n\n**Investment Thesis**: The analysts' debate converges on a constructive but disciplined stance. The Aggressive Analyst correctly identifies JPM's unmatched fundamentals \u2014 14.19x forward earnings for the highest ROE in the industry, a fortress CET1 ratio, and a structural moat spanning consumer deposits, wholesale banking, and global trading. With a 52-week high of $359.30 versus a current $319.02 close, the stock sits 12%+ below its high offering asymmetric upside. However, the Conservative Analyst's concerns about incomplete technical confirmation are valid and cannot be dismissed: the 50-day SMA at $311.44 is effectively flat (moving only ~$0.60 over a month), the stock remains 11% below its 52-week high, and sentiment data is a void due to API failures. The derived-price discrepancy between the fundamental ($347) and technical ($319) reports warrants caution, though it likely reflects vendor data timing rather than market inefficiency. The Neutral Analyst provides the most balanced path: a scaled Buy that respects both the fortress fundamentals and the incomplete technicals. NIM benefits from higher-for-longer rates, and a Fed leadership transition could spur trading volume \u2014 both tailwinds for JPM. The plan to add tranches on pullbacks toward $305-$312 with a $295 stop creates a defined ~4-6% downside against a 12-15% upside to the 52-week high, a favorable but not reckless asymmetry. The gap-risk concern raised by the Conservative Analyst is real, which is why position building should be scaled rather than all-in, and the 200-day SMA at $290.66 serves as the ultimate thesis invalidation level.\n\n**Price Target**: 345.0\n\n**Time Horizon**: 3 months"
+}

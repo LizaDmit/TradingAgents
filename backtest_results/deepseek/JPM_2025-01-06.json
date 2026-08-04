@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-01-06",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-01-06",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -10.22,
+    "mean_max_drawdown_pct": -11.17,
+    "p95_worst_drawdown_pct": -20.87,
+    "p99_worst_drawdown_pct": -26.15,
+    "est_annualized_vol_pct": 23.4,
+    "spot_price": 233.76,
+    "expected_return_pct": 0.72,
+    "median_return_pct": 0.02,
+    "return_vol_pct": 11.63,
+    "risk_free_pct_horizon": 1.048,
+    "risk_free_available": true,
+    "return_over_risk": -0.028,
+    "expected_price": 235.43,
+    "price_p5": 193.9,
+    "price_p95": 282.5,
+    "prob_loss": 0.499,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the current JPM position at current levels\u2014no adds, no trims. Execute the trader's trigger plan: upgrade to Overweight on a confirmed breakout above ~$241 with volume and MACD histogram expansion (add 20\u201330%), and trim 20\u201325% on a daily close below ~$230 (50-day SMA) on above-average volume. The $204.50 stop serves as the catastrophic floor below the 200-day SMA, not the first line of defense; the active risk reduction happens at $230. The primary catalyst is Q4 earnings for NII guidance, IB pipeline validation, and expense guidance. Time horizon: 3 months.\n\n**Investment Thesis**: The debate across all three risk analysts converges on HOLD, and the evidence supports this as the correct equilibrium. The bull case is substantively strong: JPM's fortress balance sheet, dominant investment banking franchise, flight-to-quality status, and a stock trading above both the 50-day ($230.64) and 200-day ($204.50) SMAs in a long-term uptrend. The MACD just printed a bullish crossover (histogram +0.07) and price closed at $233.76, above the 50-day SMA. However, the bear's counterpoints are equally compelling: NII compression risk as Fed cuts materialize, the stock is range-bound below the 10-day EMA, RSI (~53) and MACD histogram (0.07) are non-conviction signals, and the valuation premium is real. The neutral analyst correctly dismantles both extremes\u2014the Aggressive Analyst's proposal to add at $230\u2013$232 directly contradicts the trader's trim trigger at that same zone and yields objectively negative expectancy ($25 downside to the stop vs. $11 upside to the trigger from $230), while the Conservative Analyst's stop at $220 sits in the middle of a support zone and would practically guarantee a stop-out given an ATR of 4.18. The sentiment report shows no news, no retail flow, and low confidence\u2014this is not a market that has decisively priced in either scenario. With Fed policy confusion as the dominant macro overhang and Q4 earnings as the binary catalyst, the risk/reward is genuinely balanced. The disciplined path is to hold, let the market prove direction at the defined trigger levels, and let Q4 earnings arbitrate between the bull's IB backlog/conversion thesis and the bear's NII recompression risk. Both the 15\u201320% correction scenario and the explosive upside scenario are plausible; neither is defensible enough at this juncture to justify deviating from a hold.\n\n**Price Target**: 241.0\n\n**Time Horizon**: 3 months"
+}

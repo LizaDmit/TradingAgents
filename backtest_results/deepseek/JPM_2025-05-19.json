@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-05-19",
+  "model_tag": "deepseek",
+  "signal": "Hold",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-05-19",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -12.53,
+    "mean_max_drawdown_pct": -13.71,
+    "p95_worst_drawdown_pct": -25.61,
+    "p99_worst_drawdown_pct": -31.85,
+    "est_annualized_vol_pct": 28.7,
+    "spot_price": 258.66,
+    "expected_return_pct": 1.13,
+    "median_return_pct": 0.16,
+    "return_vol_pct": 14.55,
+    "risk_free_pct_horizon": 1.06,
+    "risk_free_available": true,
+    "return_over_risk": 0.005,
+    "expected_price": 261.58,
+    "price_p5": 204.71,
+    "price_p95": 327.52,
+    "prob_loss": 0.495,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Hold\n\n**Executive Summary**: Maintain the existing JPM position at current levels (~$258.66) with a disciplined stop at $254. Do not add aggressively given unresolved macro risk from the Fed leadership transition (Warsh) and the stock trading below its prior 52-week low range. Keep sizing modest. Reassess on either a volume-backed breakout above $263 toward $280+, or a pullback to the 50 SMA near $235 for a higher-conviction entry.\n\n**Investment Thesis**: The analysts' debate settles on Hold because both the bull and bear cases carry genuine merit, yet neither is conclusive enough to warrant aggressive action. On the bullish side: JPM trades at 14.2x forward earnings ($24.80 EPS), the golden cross and positive, rising MACD signal near-term momentum, RSI at 67.5 is strong but not overbought, and the stock sits above the 10 EMA ($254.24), 50 SMA ($235.40), and 200 SMA ($229.03). The fortress balance sheet and cheap deposit funding provide structural downside protection. On the bearish side: the stock is 28% off its 52-week high and currently trades below its prior 52-week low of $279.10, indicating a regime breakdown rather than a simple consolidation. A PEG of 1.72 reflects mature (not explosive) growth, and the Warsh-led hawkish Fed transition is a real two-sided risk\u2014while it may support NIMs, it also compresses credit demand and raises default risk across JPM's credit card, CRE, and IB books. The critical flaw in the aggressive case is treating zero news/social volume as a positive catalyst; silence is not a driver. The critical flaw in the conservative case is treating that same silence as definitive bearish evidence and being overly rigid awaiting a $229 entry that a rising 50 SMA may never deliver. The near-term risk-reward is roughly symmetric: ~8-15% upside to $280-300 requires a breakout above the twice-failed $260-263 resistance (ideally with volume), while a break below the $254 stop opens a path to $235 and potentially $229. With no fundamental catalyst beyond the Fed transition and no volume confirmation of a breakout, the disciplined action is to hold, protect capital at $254, and let either a volume-backed move above $263 or a pullback to the rising 50 SMA provide the next higher-conviction decision point.\n\n**Price Target**: 280.0\n\n**Time Horizon**: 3 months"
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "JPM",
+  "date": "2025-09-29",
+  "model_tag": "deepseek",
+  "signal": "Overweight",
+  "trader_decision": null,
+  "drawdown_forecast": {
+    "symbol": "JPM",
+    "as_of": "2025-09-29",
+    "horizon_days": 63,
+    "method": "bootstrap",
+    "use_drift": false,
+    "expected_max_drawdown_pct": -11.65,
+    "mean_max_drawdown_pct": -12.72,
+    "p95_worst_drawdown_pct": -23.8,
+    "p99_worst_drawdown_pct": -30.11,
+    "est_annualized_vol_pct": 26.8,
+    "spot_price": 309.76,
+    "expected_return_pct": 0.88,
+    "median_return_pct": 0.05,
+    "return_vol_pct": 13.53,
+    "risk_free_pct_horizon": 0.966,
+    "risk_free_available": true,
+    "return_over_risk": -0.006,
+    "expected_price": 312.49,
+    "price_p5": 248.82,
+    "price_p95": 385.56,
+    "prob_loss": 0.498,
+    "n_sims": 10000
+  },
+  "final_trade_decision": "**Rating**: Overweight\n\n**Executive Summary**: Initiate a scaled JPM position now rather than waiting for a perfect entry. Deploy an initial tranche of ~30% at current levels (~$348) with a tighter stop near $315, then ladder additional accumulations at the 50-day SMA (~$327) and toward $310-$327 zone as price provides them. Target ~60-75% of the full desired position over the 3-month horizon, with the final tranche reserved until Q3 earnings and Fed leadership clarity. Monitor the Warsh Fed transition as the primary catalyst/risk event.\n\n**Investment Thesis**: The neutral analyst's compromise is the most defensible synthesis of this debate. The aggressive thesis is directionally correct \u2014 JPM's forward P/E (~14x) with projected EPS of ~$24.80, a fortress balance sheet, beta of 0.98, and diversified franchise spanning Consumer, IB, Commercial, and Asset Management make the fundamental quality undeniable. Price sits above the 10-day EMA, 50-day SMA, and 200-day SMA with the 50-day rising \u2014 a genuinely constructive technical setup. However, the aggressive analyst's 25% drawdown risk (stop at $262) for a 9% upside move to $380 creates an unacceptable ~0.36:1 reward-to-risk ratio, exactly as the conservative analyst calculated. Meanwhile, the conservative stance of waiting exclusively for $327 risks missing the move entirely if the Warsh Fed transition resolves orderly and the stock gaps through the $359.30 high (only 3.3% above current price). The RSI stalling in the 66-71 range for six sessions and the stock being below its 50-day MA per the fundamental report temper any claim of perfect bullish alignment, while the absence of sentiment/news data precludes treating quiet as confirmed institutional accumulation. The balanced path: establish a foothold now at reduced size with a tighter $315 stop (below the 50-day SMA, above the 200-day SMA at ~$260), ladder additions at $327 and toward $310, and hold dry powder for post-earnings/Fed-clarity confirmation. This respects the technical strength, prices in binary Fed-transition policy risk, and keeps downside manageable without abandoning participation.\n\n**Price Target**: 380.0\n\n**Time Horizon**: 3 months"
+}

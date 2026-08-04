@@ -224,3 +224,4 @@ reports/
 .DS_Store
 backtest_results/*/.mem/
 .DS_Store
+noisefloor_results/

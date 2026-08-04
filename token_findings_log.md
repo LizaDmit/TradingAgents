@@ -1159,10 +1159,259 @@ Proceed if XOM/UNH/JPM are each below ~0.4 vs NVDA. Swap out anything above ~0.6
 Fix the ticker list BEFORE running. Adding tickers to widen the test is sound; adding tickers
 until one shows an edge is not. Report every ticker run, not a subset.
 
+MEASURED (2025-01-01 to 2026-07-01 daily returns, actual not estimated):
+    NVDA-XOM 0.05   NVDA-UNH 0.02   NVDA-JPM 0.38
+XOM and UNH are close to uncorrelated with NVDA - better than the 35c estimate. JPM matches
+the estimate. Average pairwise correlation in the 4-ticker basket ~0.14, revising N_eff from
+the estimated ~13 (35b) to ~17. Ticker list CONFIRMED, proceeding as planned.
+
 ### 35g. Code changes required
-- backtest_generate.py: TICKER is a module constant; needs to become a loop parameter, with
-  results written per ticker (backtest_results/<model>/<ticker>/...).
+- backtest_generate.py: TICKER is a module constant; needs to become a loop parameter.
+  CORRECTION (implemented): results stay FLAT in backtest_results/<model_tag>/ - filenames are
+  already ticker-prefixed so they coexist without collision. Per-ticker SUBDIRECTORIES would
+  have broken the out_path.exists() resume skip and silently regenerated all 78 NVDA runs.
 - backtest_score.py: same hardcoded TICKER.
 - Signal test needs a real change, not just a loop: pool each ticker's excess return over ITS
   OWN buy-and-hold, not raw returns. Pooling raw returns would measure which ticker rose most,
   not whether the signals carried information.
+
+## 36. Four-ticker scoring: the p95 calibration claim does not survive
+
+### 36a. Headline: what looked calibrated on one ticker fails on four
+All four tickers complete at 78 weeks each, 70 scoreable per ticker (280 rows).
+
+| ticker | p95 breach rate | price inside p5-p95 | realized worse than median |
+|---|---|---|---|
+| NVDA | 0/70 = 0%  | 96% | 20% |
+| XOM  | 0/70 = 0%  | 83% | 41% |
+| JPM  | 7/70 = 10% | 97% | 37% |
+| UNH  | 14/70 = 20% | 74% | 60% |
+| POOLED | 21/280 = 8% | 88% | 40% |
+
+The single-ticker result in §34 (0/69 breaches on NVDA) was NOT evidence that the forecast
+bounds tail risk. It was evidence that NVDA experienced no idiosyncratic collapse in this
+window. One ticker cannot distinguish those two explanations; four can. This is the clearest
+justification for the multi-ticker extension and should be reported as such.
+
+### 36b. The UNH failure is severe, not marginal
+Worst case 2025-03-17: realized max drawdown -54.23% against a p95 forecast of -27.11%. The
+forecast was wrong by a factor of ~2 on the single quantity it exists to bound. 14 breaches
+clustered in Jan-May 2025, i.e. one sustained event repeatedly re-measured by overlapping
+windows (§34c), not 14 independent failures. UNH price also fell outside the p5-p95 band on
+18 of 70 weeks (74% coverage vs 90% expected) - the only ticker where the price interval
+also failed.
+
+### 36c. Why it failed - structural, not a bug
+forecast_max_drawdown fits sigma from the trailing 252 trading days and, in bootstrap mode,
+resamples only from returns observed in that window. UNH was quiet before it collapsed, so
+the estimation window contained no move of the magnitude that followed. A bootstrap cannot
+generate a shock absent from its sample; a Gaussian fit to a calm window cannot either.
+This is the known limitation of historical-window risk estimation, now DEMONSTRATED on this
+project's own data rather than cited. That is a stronger result than the original calibration
+claim would have been.
+
+### 36d. Reporting rule that follows
+Report the per-ticker table, not the pooled figure. Pooling averages one total failure with
+three passes into 8%, which reads as "close to 5%" and conceals the finding. The pooled row
+is retained above only to make that concealment visible.
+Correct claim: the forecast bounded realized drawdown on three of four tickers and failed
+substantially on the fourth, in the one case featuring a large idiosyncratic decline.
+Superseded: §34's "no evidence of miscalibration" - there is now direct evidence of
+miscalibration under idiosyncratic stress.
+
+### 36e. Overlap check on the independent subset
+Breaches on the six non-overlapping windows (2025-01-06, 2025-04-07, 2025-07-07, 2025-10-06,
+2026-01-05, 2026-04-06) across all four tickers: 2 of 24 = 8%, matching the naive pooled rate.
+So overlap did not distort the breach RATE here. It does distort the count - the 14 UNH
+breaches are ~1-2 independent events. Rate alone is also insufficient: a breach by a factor of
+2 is not equivalent to a marginal one, and the current metric does not capture magnitude.
+
+### 36f. Signal test: still no clear edge, and the tiers are not ordered
+Per-ticker buy-and-hold baselines over the 90-day forward horizon:
+JPM +5.3%, NVDA +10.9%, UNH +0.2%, XOM +6.9%. Excess returns pooled across tickers (n=280):
+
+| signal | n | mean | median |
+|---|---|---|---|
+| Buy | 18 | +3.4% | +1.2% |
+| Overweight | 61 | +0.3% | -2.6% |
+| Hold | 166 | -0.9% | -1.7% |
+| Underweight | 35 | +2.2% | -3.3% |
+
+bullish (Buy/Overweight) +1.0% vs cautious (Hold/Under/Sell) -0.4%; spread +1.4 pp.
+The spread is positive but the tier ordering is broken: Underweight has the SECOND-HIGHEST
+mean and the LOWEST median, i.e. a small number of wrong calls preceded large rallies and
+drag the mean up. On medians the ordering is Buy > Hold > Overweight > Underweight - still not
+monotonic, since Overweight sits below Hold.
+Buy is the only tier where mean and median agree in sign (+3.4% / +1.2%, n=18).
+Interpretation: at ~17 effective observations this is consistent with noise. The honest claim
+remains "no edge demonstrated", now with a modestly positive point estimate rather than the
+exactly-zero spread of the single-ticker test.
+
+### 36g. Signal distribution differs sharply by ticker - RESOLVED: directionally right, but lagging
+NVDA skewed bullish (long Overweight/Buy runs), UNH skewed bearish (frequent Underweight),
+JPM skewed bullish, XOM was almost entirely Hold. Hold is 166 of 280 rows overall.
+The open question was whether those per-ticker skews tracked each ticker's actual direction.
+Checked against the real event timeline for both extreme cases:
+
+UNH. The decline was earnings-driven. The Q1 2025 report (mid-April 2025) revealed a severely
+deteriorated medical care ratio and full-year adjusted EPS guidance was cut from ~$30 to
+~$16; the stock fell from ~$600 to ~$260 by August 2025. A second leg followed a weak 2026
+revenue guide reported 2026-01-27 (~-19% in one session).
+Signal timing: Hold throughout Jan-Mar 2025, i.e. up to and through the crash. The first
+sustained Underweight cluster begins 2025-04-14 - AFTER the report that caused the drop. The
+same pattern repeats: the second Underweight cluster appears early Feb 2026, after the
+January guidance shock was public.
+
+NVDA. Bottomed around April 2025 in the tariff-driven correction. Signal was Underweight/Hold
+through the decline, flipping to Overweight on 2025-04-28, roughly three weeks after the low -
+faster than the UNH reaction, plausibly because price and technical inputs update daily
+whereas the UNH shock only became visible through a quarterly report.
+
+FINDING: the signal is not random. It moved in the correct direction on both tickers. But it
+moved AFTER the information became public, not before. That is the expected behaviour of a
+system reading contemporaneous public fundamentals, news and price data: it cannot see a
+guidance cut before the guidance is issued.
+This refines the §36f result. The precise claim is not "no edge" but "directionally responsive,
+consistently lagging" - the pipeline classifies the current state of a stock rather than
+forecasting its next 90 days, and a 90-day forward-return test measures the latter.
+CAVEAT: this is eyeballed timing against a public event timeline, not a statistical test. It
+is a qualitative observation and must be labelled as such. A formal version would regress the
+signal on contemporaneous vs lagged returns to separate reaction from anticipation.
+
+### 36h. Run completeness
+XOM required two passes (45 -> 53 -> 78); UNH failed 3 dates and JPM 4, all "Connection error"
+from the DeepSeek endpoint, all recovered on rerun. time.sleep(20) eliminated the Yahoo rate
+limiting entirely - zero "no rows" failures across all three new tickers, versus 18 on the
+first NVDA attempt. §34e's preventive fix is now VALIDATED.
+Note: print statements gained the ticker prefix mid-XOM-run; a running Python process does not
+reload edited source, so early XOM failures logged in the old format without a ticker and were
+briefly mistaken for NVDA failures.
+
+## Appendix: Financial Concepts and Methods Used
+
+Separate from the numbered chronological log above. This section collects the financial and
+quantitative concepts used anywhere in the project in one place, for reference, rather than
+scattered across the dated entries where they first appeared.
+
+This section separates (i) standard theory, (ii) the specific implementation choices made here,
+and (iii) what this project's own data actually showed. Only (iii) is a result; (i) and (ii) are
+context.
+
+### FM-a. Monte Carlo simulation - what it is and why it was used
+Monte Carlo estimates the distribution of an outcome by simulating many possible futures and
+reading the statistics off the resulting sample, rather than solving for the answer
+analytically. It is used when the quantity of interest has no closed form.
+
+Maximum drawdown is exactly such a quantity. Drawdown is PATH-DEPENDENT: it is the largest
+peak-to-trough decline along a price path, so it depends on the ORDER in which returns arrive,
+not just the start and end points. Two paths with identical 63-day returns can have completely
+different maximum drawdowns. There is no simple formula for the distribution of the maximum
+drawdown of a random walk over a finite horizon, so simulation is the practical route.
+
+Implementation here: 10,000 simulated paths over a 63-trading-day horizon, parameters fitted
+from a 252-day trailing window, seeded (seed=42) so results are reproducible and identical
+across models. The whole computation is deterministic numpy - no LLM, no tokens. This is why
+model choice cannot affect it (§32).
+
+### FM-b. GBM vs bootstrap - the two methods implemented, and why both exist
+GEOMETRIC BROWNIAN MOTION (gbm): daily log returns are drawn from a Normal(mu, sigma) fitted
+to the estimation window. This is the textbook model underlying Black-Scholes. Its assumption
+is that log returns are normally distributed and independent.
+Known weakness: real equity returns are FAT-TAILED. Extreme moves occur far more often than a
+normal distribution predicts. A Gaussian model therefore systematically understates tail risk.
+
+BOOTSTRAP: daily log returns are resampled WITH REPLACEMENT from the actual historical returns
+in the window. This makes no distributional assumption - whatever skew and fat tails the real
+data contains are carried into the simulation automatically. Chosen as the default here for
+that reason.
+
+The critical shared limitation, and the one this project demonstrated: the bootstrap can only
+resample moves that ALREADY OCCURRED in its window. It cannot generate a shock larger than the
+largest historical observation. GBM can in principle produce an arbitrarily large move, but
+only with the vanishing probability a normal distribution assigns to it. Both methods therefore
+inherit the assumption that the future resembles the estimation window.
+
+### FM-c. Drift, and why it was set to zero (see §34a)
+The drift term is the average daily return in the estimation window, which compounds across the
+simulated horizon and makes paths lean in the direction the asset recently moved.
+Setting use_drift=False subtracts the sample mean from the return pool before drawing, so the
+distribution keeps its full shape and volatility but centres on zero.
+Theoretical justification: at a ~3-month horizon the standard error on an estimated mean return
+is large relative to the mean itself - the drift estimate is dominated by noise. Extrapolating
+it is a directional forecast disguised as a parameter.
+Honest counterpoint: zero drift is also a claim, and it is wrong over long horizons, since the
+equity risk premium is real and positive. The defensible statement is narrow - at a 3-month
+horizon, the drift estimate is noisier than the quantity it adds.
+Demonstrated cost of the choice (§34): with drift off, expected_price sits ~4% above spot
+(lognormal convexity only) and systematically UNDER-predicted realized price during rallies.
+The same setting that made the drawdown forecast trustworthy biased the price forecast low.
+That trade-off is inherent, not a defect.
+
+### FM-d. Drawdown as a risk measure
+Maximum drawdown answers "what is the worst peak-to-trough loss to expect", which is closer to
+the question an investor actually asks than variance is. Variance penalises upside and downside
+symmetrically; drawdown is purely downside and path-dependent.
+Reported as a distribution rather than a point estimate:
+- expected_max_drawdown_pct = MEDIAN across paths (typical case)
+- p95 / p99 = conservative tail estimates ("95% of paths were no worse than this")
+The p95 is the quantity that matters for risk management, and the one §36 shows failed on UNH.
+
+### FM-e. Return-over-risk ratio
+Computed as (R_mean - r_horizon) / s_ret, where R_mean is the mean simulated horizon return,
+r_horizon is the risk-free rate scaled to the horizon, and s_ret the standard deviation of
+simulated returns. This is a Sharpe-ratio construction: excess return per unit of risk.
+The risk-free rate is taken from the 13-week T-bill yield (^IRX), filtered to <= curr_date to
+preserve look-ahead safety, and scaled by horizon_days/252.
+Design decision worth noting: when the rate fetch fails the function returns 0.0 together with
+a risk_free_available=False flag rather than silently substituting zero. A failed rate and a
+genuinely zero rate must not be indistinguishable in the output.
+Note the interaction with 37c: with drift off, R_mean is near zero by construction, so this
+ratio is small by design. It measures the risk-adjusted return of a driftless process, not a
+forecast of the asset's Sharpe ratio.
+
+### FM-f. Look-ahead bias, and the structural guard against it
+A backtest is worthless if the model can see data from after the prediction date. The guard
+here is structural rather than procedural: load_ohlcv filters every price series to
+<= curr_date, so any function built on it inherits the constraint. risk_free_annual applies the
+same filter to the T-bill series.
+This is the reason compute_max_drawdown, which looks BACKWARD, is used for SCORING by calling it
+with curr_date = prediction_date + 90 days: the realized window is then genuinely in the past
+relative to that call, and no separate un-filtered data path was needed (§34b).
+
+### FM-g. Overlapping windows and effective sample size (see §34c, §35b)
+Standard statistical tests assume independent observations. Scoring windows 90 days long that
+step forward 7 days share 83 days of data, so consecutive observations are near-duplicates.
+Independence requires non-overlapping windows, i.e. 13 weeks of separation, so 78 weekly dates
+yield ~6 independent observations regardless of the ticker.
+Pooling across tickers only helps to the extent the tickers are uncorrelated:
+    N_eff ~= (tickers x windows) / (1 + (tickers-1) x avg_correlation)
+Measured average pairwise correlation across NVDA/XOM/UNH/JPM was ~0.14, giving N_eff ~17 from
+280 raw rows. The gap between 280 and 17 is the single most important caveat on every number in
+§36.
+
+### FM-h. What this project demonstrated - the actual contribution
+The limitations above are textbook. What is not textbook is that they were demonstrated here
+on this project's own data, in a form that shows exactly how the failure occurs:
+1. A historical-window risk model produced 0/70 p95 breaches on NVDA and 0/70 on XOM, which in
+   isolation reads as a well-calibrated or conservative model.
+2. The SAME model, unchanged, produced 14/70 breaches on UNH, with a worst case wrong by a
+   factor of ~2 (-54.23% realized vs -27.11% forecast p95).
+3. The difference is not model quality but sample composition: UNH experienced a large
+   idiosyncratic decline that its estimation window contained no precedent for.
+CONCLUSION: a single-asset calibration result cannot distinguish "the model bounds tail risk"
+from "this asset had no tail event". Only cross-sectional testing separates them. This is the
+project's strongest methodological finding and it generalises beyond this codebase.
+This is also the standard practitioner rationale for STRESS TESTING as a complement to
+simulation-based risk measures rather than a substitute: prescribed adverse scenarios exist
+precisely because a model fitted to history cannot generate a shock history has not shown.
+
+### FM-i. Context: where these methods are used in practice
+Recorded for framing, not as a project result.
+- Banks: Monte Carlo VaR and expected shortfall; pricing of path-dependent and exotic
+  derivatives where no closed-form solution exists.
+- Insurers: catastrophe modelling and regulatory capital.
+- Asset managers and pension funds: asset-liability modelling, funding-ratio projection.
+- Retail planning tools: "probability the portfolio lasts N years" projections.
+The known industry failure mode matches 37h: models calibrated on recent history understate
+risk when the regime changes. This is why supervisory frameworks mandate stress scenarios
+alongside historically-fitted risk measures.

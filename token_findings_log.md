@@ -1415,3 +1415,96 @@ Recorded for framing, not as a project result.
 The known industry failure mode matches 37h: models calibrated on recent history understate
 risk when the regime changes. This is why supervisory frameworks mandate stress scenarios
 alongside historically-fitted risk measures.
+
+## 37. Run-to-run noise floor, and fork vs upstream comparison
+
+### 37a. HEADLINE: the pipeline spans three to four tiers with no code change at all
+Twenty runs of the fork on a single fixed date (NVDA 2025-04-28), identical config,
+isolated memory per run, provider-default temperature:
+    15 Hold, 4 Buy, 1 Overweight
+Twenty runs of upstream on the same date, same conditions:
+    9 Hold, 6 Overweight, 3 Buy, 2 Underweight
+Three distinct tiers from the fork, four from upstream, both from unchanged code.
+This is the baseline that every earlier before/after claim in this log was missing.
+Date chosen because §36g recorded a flip to Overweight there, three weeks after the
+April 2025 low - a non-Hold surrounded by Holds, so a discriminating case rather
+than a default.
+NOTE the fork's n=5 pilot gave 3 OW / 2 Hold, which the n=20 sample does not
+reproduce (1 OW / 20). Five runs is not enough to characterise this distribution;
+the pilot figure should not be quoted.
+
+### 37b. Fork vs upstream: no difference in central tendency at n=20 per side
+Scoring Sell=1, Underweight=2, Hold=3, Overweight=4, Buy=5:
+
+| tier | fork | upstream |
+|---|---|---|
+| Buy | 4 | 3 |
+| Overweight | 1 | 6 |
+| Hold | 15 | 9 |
+| Underweight | 0 | 2 |
+| Sell | 0 | 0 |
+| MEAN | 3.45 | 3.50 |
+
+Mann-Whitney U = 185.5, z = -0.39, p ~ 0.70. NOT significant.
+CLAIM AVAILABLE: the fork's changes did not shift the direction of the 5-tier signal.
+Means differ by 0.05 of a tier. At n=20 per side there was reasonable power against a
+one-tier shift, so this is a substantially stronger null than the n=5 pilot supported.
+
+### 37c. Post-hoc observation on distribution SHAPE - hypothesis, not finding
+The two samples differ in spread rather than centre. The fork returned Hold on 15 of
+20 (75%); upstream on 9 of 20 (45%), spread across four tiers including two
+Underweight, which the fork never produced.
+Two-proportion test on the Hold rate: z = 1.94, p ~ 0.053.
+THIS IS POST-HOC. The comparison was selected after seeing the data, which inflates
+the false-positive rate; the p-value above is not valid as reported. Recording it as
+a hypothesis for a future pre-registered test, NOT as a result.
+If real, the direction would be that the fork's changes narrowed the output
+distribution rather than biasing it - more Hold, fewer extremes. The candidate
+mechanism is in §37e: five prompt nodes each changed by exactly 9 lines.
+Testing it properly requires fresh runs with the comparison fixed in advance.
+
+### 37d. CONSEQUENCE: single-run before/after claims elsewhere in this log are void
+Any finding of the form "the rating changed after this edit, therefore the edit
+caused it" is uninterpretable against a floor this wide. Affected in principle: the
+schema "3-6 months" horizon anchor result, and any other section where a rating
+shift was observed once before and once after a change.
+This does not touch findings established over many records. §36's per-ticker breach
+rates (280 rows) and §36g's Underweight CLUSTERS average over this noise. What it
+does touch is §36g's precise flip DATES - an individual flip has a substantial
+chance of reading differently on rerun. The clusters survive; the exact dates do not.
+Re-run any single-run comparison at n>=20 per side before restating it as causal.
+n=5 is explicitly insufficient, per 37a.
+
+### 37e. Method notes worth keeping
+- Upstream cloned at the MERGE-BASE (04f434e), not upstream HEAD. Upstream is 53
+  commits ahead of the fork point; cloning HEAD would have folded 53 commits of
+  third-party work into a measurement whose purpose is isolating 20 local ones.
+- Fork diff vs merge-base, scoped to tradingagents/: 8 real files. Five of them
+  (bull, bear, and three risk debators) changed by exactly 9 lines each - one
+  systematic edit applied five times, all on LLM-prompt nodes feeding the signal.
+  This is the candidate mechanism for 37c if that hypothesis is ever confirmed.
+- PACKAGE RESOLUTION IS A REAL HAZARD. A non-editable tradingagents v0.2.5 sits in
+  site-packages and is the silent fallback whenever CWD is not a repo root. Both
+  harnesses abort on an import-path guard before any API call, because the wrong
+  package produces plausible results with no error.
+- The out_path.exists() resume skip (§35g) inverts on a repeat-the-same-date design:
+  without run-indexed filenames it returns one record and four no-ops.
+- .env does not follow the clone. load_dotenv uses find_dotenv(usecwd=True), which
+  searches upward from CWD only, so the clone needs its own copy.
+- TRADINGAGENTS_TEMPERATURE is commented out in .env, so both sides ran at provider
+  default. The noise floor therefore describes the same conditions all 312 backtest
+  records were generated under, which is the relevant condition to measure.
+
+### 37f. Two failure modes recorded during these runs
+1. VARIANT constant left at "upstream" in noisefloor_fork.py after adapting the file
+   for the upstream twin. Twenty runs of FORK code were written to the upstream
+   results directory, and their run1-5 overwrote the earlier fork pilot files. Data
+   was valid and recoverable by relabelling; the pilot's five records were lost.
+   Cause was a commented-out alternate value sitting next to the live one. Do not
+   keep commented-out config alternates in a file that gets copied.
+2. DeepSeek returned 402 Insufficient Balance mid-run; runs 10-20 failed instantly
+   with no API call made. The harness's try/except fails open on billing exactly as
+   it does on connection errors, so this appears as a run of FAIL lines rather than
+   a crash. Worth knowing during a long backtest, where silent credit exhaustion
+   would be easy to misread as an API or network fault. Resolved by topping up and
+   rerunning; existing files skip, so only the failed indices regenerated.

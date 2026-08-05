@@ -29,7 +29,7 @@ RESULTS_ROOT = Path("noisefloor_results")
 
 TICKER    = "NVDA"
 DATE      = "2025-04-28"   # fork rated Overweight here (log 36g); just after the April 2025 bottom
-N_RUNS    = 5
+N_RUNS    = 20
 VARIANT   = "fork"
 
 
@@ -63,7 +63,7 @@ def run_noise_floor():
         mem_path.parent.mkdir(parents=True, exist_ok=True)
         mem_path.unlink(missing_ok=True)   # stale .mem contaminates the next run
         run_cfg["memory_log_path"] = str(mem_path.resolve())
-        run_cfg["use_drift"] = False       # fork-only key; dropped in the upstream twin
+        # run_cfg["use_drift"] = False       # fork-only key; dropped in the upstream twin
 
         graph = TradingAgentsGraph(config=run_cfg)
         try:
@@ -75,7 +75,7 @@ def run_noise_floor():
                 "date": DATE,
                 "signal": signal,
                 "trader_decision": final_state.get("trader_investment_decision"),
-                "drawdown_forecast": final_state["drawdown_forecast"],   # fork-only
+                # "drawdown_forecast": final_state["drawdown_forecast"],   # fork-only
                 "final_trade_decision": final_state["final_trade_decision"],
                 "run_started_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
             }
